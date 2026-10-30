@@ -1,0 +1,559 @@
+@MOVE | A | Engage | 64 GB or 59.6 GB? Two honest numbers for one machine
+@LEAD | A phone is advertised with 64 GB of storage. The same phone, connected to a computer, reports 59.6 GB. Neither number is a lie. Understanding why is the first step towards understanding powers.
+@P | Storage is counted in two different ways. Manufacturers count in powers of ten: 1 GB means $1{,}000 \\times 1{,}000 \\times 1{,}000$ bytes. The computer's operating system counts in powers of two: 1 GiB means $1{,}024 \\times 1{,}024 \\times 1{,}024$ bytes. The same physical memory, described on two scales.
+@TABLE | Figure 2.1 The same storage, two scales
+Description ; Advertised (powers of ten) ; Reported by the computer (powers of two)
+Bytes in one “GB” ; $1{,}000^{3} = 1{,}000{,}000{,}000$ ; $1{,}024^{3} \\approx 1{,}074{,}000{,}000$
+64 units ; 64,000,000,000 bytes ; about 59.6 GiB
+@P | The discrepancy is about 7%. It comes entirely from the choice of base. A number written as a power compresses a multiplication into two small symbols, and the two symbols must be read precisely: the base tells you what is being multiplied, and the exponent tells you how many times.
+@P | The same compression appears everywhere. A square of side 8 cm has area $8^{2} = 64$ cm². A cube of side 3 cm has volume $3^{3} = 27$ cm³. A sheet of paper folded ten times would be $2^{10} = 1{,}024$ layers thick — about the height of a thick book, from a single sheet.
+@MINI | Notice and wonder
+@LISTU
+- Why does the exponent count factors rather than tell you what to multiply by?
+- Which is larger: $2^{10}$ or $10^{3}$? How could you decide without a calculator?
+- A phone advertises 128 GB and reports 119.2 GB. Is the difference the same as for 64 GB? Why?
+- What would $10^{0}$ mean, if the pattern is $10^{3} = 1{,}000$, $10^{2} = 100$, $10^{1} = 10$?
+@CALLOUT | Keep this question open: when does a shorter notation make a quantity clearer, and when does it hide the very difference that matters?
+@H2 | The second puzzle: which operation comes first?
+@P | Two students calculate $6 + 2 \\times 3$. One writes 24, the other writes 12. Both have followed a rule; only one rule is shared. Without an agreed order, a written expression has more than one meaning, and a calculator's answer would depend on its design rather than on mathematics.
+@P | This chapter therefore does two things at once: it compresses repeated multiplication into a power, and it fixes the order in which operations are applied so that the compression can be read by everybody in the same way.
+
+@MOVE | B | Explore | How thick is a folded sheet of paper?
+@LEAD | Work in pairs with one sheet of paper and a ruler. Record every measurement in a table before drawing any conclusion.
+@H2 | Your investigation
+@P | **Step 1.** Measure the thickness of one sheet. A single sheet is too thin for a ruler, so measure a stack of 100 sheets and divide by 100. Record the result in millimetres.
+@P | **Step 2.** Fold the sheet in half once. How many layers are there? Fold again. Count the layers after 1, 2, 3 and 4 folds. Write the counts as a sequence.
+@P | **Step 3.** Calculate the thickness after each fold: number of layers × thickness of one sheet.
+@P | **Step 4.** Continue the pattern in the table without folding — the paper becomes impossible to fold after about seven folds, but the arithmetic does not stop.
+@TABLE | Recording table (copy and complete; use your own sheet thickness)
+Folds ; Layers ; Layers as a power of 2 ; Thickness (mm)
+0 ; 1 ; $2^{0}$ ; 
+1 ; 2 ; $2^{1}$ ; 
+2 ; 4 ; $2^{2}$ ; 
+3 ;  ;  ; 
+4 ;  ;  ; 
+7 ;  ;  ; 
+10 ;  ;  ; 
+20 ;  ;  ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. How does the number of layers change at each fold? Write the change as a multiplication, then as a power.
+2. How many layers after 10 folds? Show the calculation rather than the answer alone.
+3. What is the thickness after 10 folds? After 20 folds? Compare the second answer with the first: by what factor has it grown?
+4. After how many folds would the stack be taller than your table (about 75 cm)? Show your reasoning.
+5. Does the paper's original size matter for the thickness? Does it matter for anything else?
+@H2 | Making a conjecture
+@P | Write a conjecture in the form:
+@CALLOUT | “After $n$ folds the number of layers is …, so the thickness is … . I know this because … .”
+@H2 | What you should have noticed
+@LISTU
+- Each fold doubles the number of layers, so the number of layers after $n$ folds is $2^{n}$ — a product of $n$ twos.
+- Doubling grows slowly at first and then extremely fast: the first ten folds give about a thousand layers, the next ten give about a million.
+- A power is a record of repeated multiplication, so it compresses a long product into two numbers: a base and an exponent.
+- Comparing $2^{10}$ with $10^{3}$ requires calculation, not intuition: $1{,}024$ and $1{,}000$ are close, but they are not equal.
+@FIG | c02_fold
+@INVEST | Explore further
+Repeat the table for a sheet of thickness 0.05 mm. How many folds would be needed for the stack to reach 1 metre? 1 kilometre? Record your method as well as your answers, and be ready to explain why the numbers grow faster than you expect.
+
+@SEC | 2.1 | From repeated multiplication to powers | Criterion A · i, ii
+@LEAD | A power is a compressed instruction. It records which number is being multiplied and how many copies of it appear.
+@DEF | Base, exponent and power
+In the expression $a^{n}$, the number $a$ is the **base** and $n$ is the **exponent** (or index). The whole expression is called a **power**. It means
+$a^{n} = a \\times a \\times a \\times \\dots \\times a$, with $n$ factors of $a$.
+$2^{4} = 2 \\times 2 \\times 2 \\times 2 = 16$; the base is 2, the exponent is 4, and 16 is the value.
+@FIG | c02_power
+@VOCAB | Vocabulary you will use
+base · exponent · index · power · squared · cubed · expanded form · evaluate · factor
+@KEY | The exponent counts factors, not multiplications
+Students often say “$2^{4}$ means multiply 2 by 4”. It does not: it means multiply four copies of 2. The exponent is a counter. This is why $2^{4} = 16$ but $2 \\times 4 = 8$, and why $3^{2} = 9$ but $3 \\times 2 = 6$.
+@H2 | Special names and special cases
+@LISTU
+- $a^{2}$ is read “$a$ squared”, because it gives the area of a square of side $a$.
+- $a^{3}$ is read “$a$ cubed”, because it gives the volume of a cube of edge $a$.
+- $a^{1} = a$: one factor leaves the number unchanged.
+- $a^{0} = 1$ for every non-zero $a$: dividing $a^{n}$ by itself gives 1, and the exponents subtract to 0.
+@H2 | Writing powers in expanded form
+@P | Rewriting a power as a product is called writing it in **expanded form**. It is the safest way to evaluate a power you are unsure of, and it protects you from the “multiply the base by the exponent” error.
+@TABLE | Powers, expanded form and value
+Power ; Read as ; Expanded form ; Value
+$5^{2}$ ; five squared ; $5 \\times 5$ ; 25
+$2^{5}$ ; two to the power five ; $2 \\times 2 \\times 2 \\times 2 \\times 2$ ; 32
+$10^{4}$ ; ten to the power four ; $10 \\times 10 \\times 10 \\times 10$ ; 10,000
+$3^{3}$ ; three cubed ; $3 \\times 3 \\times 3$ ; 27
+$7^{1}$ ; seven to the power one ; 7 ; 7
+
+@EX | 2.1.1 | Evaluating powers
+GIVEN: (a) $4^{3}$ (b) $2^{6}$ (c) $10^{5}$
+ASKED: Write each in expanded form and give its value.
+METHOD: Write the base as many times as the exponent says, then multiply step by step.
+STEPS:
+1. $4^{3} = 4 \\times 4 \\times 4 = 16 \\times 4 = 64$.
+2. $2^{6} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32 \\times 2 = 64$.
+3. $10^{5} = 10 \\times 10 \\times 10 \\times 10 \\times 10 = 100{,}000$.
+ANSWER: (a) 64 (b) 64 (c) 100,000
+CHECK: Notice that $4^{3} = 64 = 2^{6}$. Different bases and exponents can give the same value; a power is a way of writing a number, not the number itself.
+
+@EX | 2.1.2 | Comparing powers without a calculator
+GIVEN: $2^{10}$ and $10^{3}$.
+ASKED: Decide which is larger, and by how much.
+METHOD: Evaluate both using known powers, then compare the values.
+STEPS:
+1. $2^{10} = 1{,}024$ (from the folding investigation, or by doubling five times from $2^{5} = 32$).
+2. $10^{3} = 1{,}000$.
+3. $1{,}024 - 1{,}000 = 24$.
+ANSWER: $2^{10}$ is larger by 24. The two are close in value, although the numbers in the notation look very different.
+CHECK: Both are about one thousand. When two quantities are “about a thousand”, the notation does not tell you which is larger; only the value does.
+
+@EX | 2.1.3 | Reading a power in context
+GIVEN: A computer's memory is described as $2^{6}$ GB in binary units (GiB).
+ASKED: How many binary units is that, and why is the number not 64 in the operating system's report?
+METHOD: Evaluate the power, then interpret the result in the context of the two counting systems.
+STEPS:
+1. $2^{6} = 64$, so the memory is 64 GiB.
+2. The manufacturer may advertise the same memory as 68.7 GB, because $64 \\times 1{,}024^{3} \\div 1{,}000^{3} \\approx 68.7$.
+3. Both numbers describe the same physical memory; each uses a different base.
+ANSWER: 64 GiB, which is about 68.7 GB when counted in powers of ten. The difference comes from the base, not from a fault.
+CHECK: A smaller number in GiB and a larger number in GB is exactly what the two bases predict.
+
+@PRACTICE | 2.1 | From repeated multiplication to powers | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write each product as a power: (a) $3 \\times 3 \\times 3 \\times 3$ (b) $7 \\times 7$ (c) $10 \\times 10 \\times 10 \\times 10 \\times 10$ || (a) $3^{4}$ (b) $7^{2}$ (c) $10^{5}$
+- F | Write each power in expanded form: (a) $5^{3}$ (b) $2^{5}$ (c) $8^{2}$ || (a) $5 \\times 5 \\times 5$ (b) $2 \\times 2 \\times 2 \\times 2 \\times 2$ (c) $8 \\times 8$
+- F | Evaluate: (a) $6^{2}$ (b) $2^{4}$ (c) $10^{3}$ (d) $5^{1}$ || (a) 36 (b) 16 (c) 1,000 (d) 5
+- F | Evaluate: (a) $3^{4}$ (b) $7^{3}$ (c) $2^{7}$ || (a) 81 (b) 343 (c) 128
+- R | Ben says “$3^{5}$ means $3 \\times 5 = 15$”. Explain the error and give the correct value. || The exponent counts factors, not multiplications: $3^{5} = 3 \\times 3 \\times 3 \\times 3 \\times 3 = 243$.
+- R | Which is larger, $2^{5}$ or $5^{2}$? Explain without evaluating both completely. || $2^{5} = 32$ and $5^{2} = 25$, so $2^{5}$ is larger; the base matters more than the exponent here.
+- P | A cube has edge 5 cm. Write its volume as a power and calculate it. || $5^{3} = 125$ cm³
+- E | Find two different powers with value 64. || $2^{6}$ and $4^{3}$ (also $8^{2}$).
+- E | Without calculating, decide whether $2^{11}$ is greater or less than $2{,}000$. Explain. || $2^{11} = 2 \\times 1{,}024 = 2{,}048$, so it is greater; doubling $2^{10} = 1{,}024$ gives the value.
+- E | Write $81$ as a power in three different ways. || $3^{4}$, $9^{2}$ and $81^{1}$.
+
+@SEC | 2.2 | Powers of ten and expanded form | Criterion C · i, ii
+@LEAD | The place-value system is a system of powers of ten. Once that is visible, expanded form becomes a sum of powers, and multiplying or dividing by 10 becomes a change of exponent.
+@FIG | c02_places
+@DEF | Powers of ten
+$10^{0} = 1$, $10^{1} = 10$, $10^{2} = 100$, $10^{3} = 1{,}000$, $10^{4} = 10{,}000$, and so on. Each power is ten times the previous one. In a base-ten number, the place of a digit records which power of ten multiplies it.
+@EQ | $3{,}486 = 3 \\times 10^{3} + 4 \\times 10^{2} + 8 \\times 10^{1} + 6 \\times 10^{0}$
+@H2 | From expanded form to index form and back
+@P | The expanded form you met in Chapter 1 and the index form are the same statement written at different lengths. Chapter 1 wrote $3{,}000 + 400 + 80 + 6$; index form writes $3 \\times 10^{3} + 4 \\times 10^{2} + 8 \\times 10^{1} + 6 \\times 10^{0}$.
+@TABLE | The same number, four ways
+Standard form ; Expanded with values ; Expanded with powers of ten ; In words
+2,507 ; $2{,}000 + 500 + 0 + 7$ ; $2 \\times 10^{3} + 5 \\times 10^{2} + 0 \\times 10^{1} + 7 \\times 10^{0}$ ; two thousand, five hundred and seven
+40,090 ; $40{,}000 + 0 + 0 + 90$ ; $4 \\times 10^{4} + 0 \\times 10^{3} + 0 \\times 10^{2} + 9 \\times 10^{1} + 0 \\times 10^{0}$ ; forty thousand and ninety
+@KEY | Multiplying and dividing by powers of ten
+Multiplying by $10^{n}$ adds $n$ to the exponent of every place, which is why the digits move $n$ places to the left. Dividing by $10^{n}$ subtracts $n$, so the digits move $n$ places to the right. The rule you used in Chapter 1 is a consequence of index notation.
+@ERR | Zero exponents and empty places
+$10^{0} = 1$, not 0. The pattern $10^{3} = 1{,}000$, $10^{2} = 100$, $10^{1} = 10$ divides by 10 each time, so the next term must be 1. Writing $10^{0} = 0$ would break the pattern and make expanded form collapse.
+
+@EX | 2.2.1 | Writing a number using powers of ten
+GIVEN: The number $70{,}408$.
+ASKED: Write it in expanded form using powers of ten.
+METHOD: Label each place with its power of ten, then multiply each digit by that power.
+STEPS:
+1. The digits occupy the places $10^{4}$, $10^{3}$, $10^{2}$, $10^{1}$, $10^{0}$.
+2. Allocate: $7 \\times 10^{4}$, $0 \\times 10^{3}$, $4 \\times 10^{2}$, $0 \\times 10^{1}$, $8 \\times 10^{0}$.
+3. Add the terms.
+ANSWER: $70{,}408 = 7 \\times 10^{4} + 0 \\times 10^{3} + 4 \\times 10^{2} + 0 \\times 10^{1} + 8 \\times 10^{0}$.
+CHECK: $70{,}000 + 0 + 400 + 0 + 8 = 70{,}408$.
+WATCH: Writing $8 \\times 10^{1}$ instead of $8 \\times 10^{0}$ would make the number 70,480. Count the places from the right, starting at $10^{0}$.
+
+@EX | 2.2.2 | Reconstructing a number from index form
+GIVEN: $5 \\times 10^{3} + 2 \\times 10^{1} + 9 \\times 10^{0}$.
+ASKED: Write the number in standard form and state the value of the missing place.
+METHOD: Each term fills one place; every place not named contains a zero.
+STEPS:
+1. $5 \\times 10^{3} = 5{,}000$ fills the thousands place.
+2. $2 \\times 10^{1} = 20$ fills the tens place, so the hundreds place is empty (0).
+3. $9 \\times 10^{0} = 9$ fills the ones place.
+ANSWER: 5,029. The hundreds place is empty, so its digit is 0.
+CHECK: The expanded sum gives $5{,}000 + 20 + 9 = 5{,}029$, which matches.
+
+@EX | 2.2.3 | Multiplying by powers of ten
+GIVEN: (a) $3.6 \\times 10^{2}$ (b) $47 \\div 10^{2}$ (c) $0.05 \\times 10^{3}$.
+ASKED: Calculate each value and explain the movement of the digits using exponents.
+METHOD: Multiplying by $10^{n}$ moves every digit $n$ places left; dividing moves them $n$ places right.
+STEPS:
+1. $3.6 \\times 10^{2} = 360$: two places left.
+2. $47 \\div 10^{2} = 0.47$: two places right.
+3. $0.05 \\times 10^{3} = 50$: three places left.
+ANSWER: (a) 360 (b) 0.47 (c) 50
+CHECK: Estimate first: $3.6 \\times 100$ is a little under 400; 47 divided by 100 is about 0.5; 0.05 thousand is 50.
+
+@PRACTICE | 2.2 | Powers of ten and expanded form | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write using powers of ten: (a) 3,500 (b) 61 (c) 8,004 || (a) $3 \\times 10^{3} + 5 \\times 10^{2}$ (b) $6 \\times 10^{1} + 1 \\times 10^{0}$ (c) $8 \\times 10^{3} + 4 \\times 10^{0}$
+- F | Evaluate: (a) $10^{0}$ (b) $10^{1}$ (c) $10^{6}$ || (a) 1 (b) 10 (c) 1,000,000
+- F | Calculate: (a) $2.5 \\times 10^{3}$ (b) $600 \\div 10^{3}$ (c) $0.4 \\times 10^{2}$ || (a) 2,500 (b) 0.6 (c) 40
+- F | Write in standard form: $4 \\times 10^{4} + 7 \\times 10^{2} + 3 \\times 10^{0}$. || 40,703
+- R | Explain why $10^{0} = 1$ using the pattern of powers of ten. || Each power is ten times the next: $10^{2} = 100$, $10^{1} = 10$, so $10^{0} = 10 \\div 10 = 1$.
+- R | A student writes $6{,}000 = 6^{3}$. Explain the error and write the correct index form. || $6^{3} = 216$, which is not 6,000. The correct form is $6 \\times 10^{3}$: the base is the place-value base, 10.
+- P | A number is $9 \\times 10^{4} + 9 \\times 10^{0}$. Write it and state how many digits it has. || 90,009 — five digits.
+- P | A warehouse holds $4 \\times 10^{3}$ boxes, each with $10^{2}$ items. How many items are stored? Give the answer as a power of ten and as a number. || $4 \\times 10^{5} = 400{,}000$ items.
+- E | Write $1{,}000{,}000$ as a power of ten, then as a power of 100, then as a power of 1,000. || $10^{6}$, $100^{3}$, $1{,}000^{2}$.
+- E | A number has six digits and is written as $a \\times 10^{5} + \\dots$. What are the possible values of $a$, and why? || $a$ can be 1 to 9, because a six-digit number has a non-zero digit in the hundred-thousands place.
+
+@SEC | 2.3 | Squares, cubes and roots | Criterion A · i, ii
+@LEAD | A square number is a number of unit squares that can be arranged in a square. Its root is the side length. That picture makes “square root” a description rather than a symbol to memorise.
+@FIG | c02_square
+@DEF | Square and cube numbers
+A **square number** is the result of multiplying a whole number by itself: $1$, $4$, $9$, $16$, $25$, … The **square root** of a square number is the side of that square: $\\sqrt{49} = 7$ because $7 \\times 7 = 49$. A **cube number** is the result of multiplying a whole number by itself twice: $1$, $8$, $27$, $64$, … The **cube root** reverses that: $\\sqrt[3]{64} = 4$.
+@TABLE | The first square and cube numbers
+$n$ ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9 ; 10
+$n^{2}$ ; 1 ; 4 ; 9 ; 16 ; 25 ; 36 ; 49 ; 64 ; 81 ; 100
+$n^{3}$ ; 1 ; 8 ; 27 ; 64 ; 125 ; 216 ; 343 ; 512 ; 729 ; 1,000
+@KEY | A root answers “what side would make this area?”
+$\\sqrt{36} = 6$ because a square of side 6 has area 36. The symbol asks a question about a shape, and the answer is a length. This is why roots are useful in measurement, and why $\\sqrt{36}$ is not “half of 36”.
+@ERR | Three root errors
+**Claim:** “$\\sqrt{16} = 8$ because $16 \\div 2 = 8$.” A root is not a half. $4 \\times 4 = 16$, so $\\sqrt{16} = 4$.
+**Claim:** “$\\sqrt{2}$ is exactly 1.4.” In fact $1.4^{2} = 1.96$, so 1.4 is only an approximation. $\\sqrt{2} \\approx 1.414$.
+**“Only squares have roots.”** Every positive number has a square root, but only square numbers have whole-number roots.
+
+@EX | 2.3.1 | Finding roots of square numbers
+GIVEN: (a) $\\sqrt{81}$ (b) $\\sqrt{144}$ (c) $\\sqrt{1}$
+ASKED: Evaluate each root and explain what it means geometrically.
+METHOD: Ask which number multiplied by itself gives the value under the root.
+STEPS:
+1. $9 \\times 9 = 81$, so $\\sqrt{81} = 9$: a square of side 9 has area 81.
+2. $12 \\times 12 = 144$, so $\\sqrt{144} = 12$.
+3. $1 \\times 1 = 1$, so $\\sqrt{1} = 1$: the unit square has side 1.
+ANSWER: (a) 9 (b) 12 (c) 1
+CHECK: Square each answer: $9^{2} = 81$, $12^{2} = 144$, $1^{2} = 1$.
+
+@EX | 2.3.2 | Working between squares and roots
+GIVEN: A square tile has area 225 cm².
+ASKED: Find its side length, then the perimeter of the tile.
+METHOD: Take the square root for the side, then use the perimeter formula for a square.
+STEPS:
+1. Side $= \\sqrt{225} = 15$ cm, because $15 \\times 15 = 225$.
+2. Perimeter $= 4 \\times 15 = 60$ cm.
+ANSWER: Side 15 cm; perimeter 60 cm.
+CHECK: Area $= 15^{2} = 225$ cm², and four equal sides of 15 cm give 60 cm.
+
+@EX | 2.3.3 | Estimating a root that is not a whole number
+GIVEN: $\\sqrt{50}$.
+ASKED: Estimate the root to one decimal place and explain why it is not a whole number.
+METHOD: Find the two square numbers either side, then refine.
+STEPS:
+1. $7^{2} = 49$ and $8^{2} = 64$, so $\\sqrt{50}$ lies between 7 and 8, very close to 7.
+2. Try $7.1$: $7.1^{2} = 50.41$, which is slightly too large.
+3. Try $7.07$: $7.07^{2} = 49.98$, slightly too small, so $\\sqrt{50} \\approx 7.07$.
+ANSWER: $\\sqrt{50} \\approx 7.07$. It is not a whole number because 50 is not a square number.
+CHECK: $7^{2} = 49 < 50 < 64 = 8^{2}$, so the root must lie between 7 and 8.
+
+@PRACTICE | 2.3 | Squares, cubes and roots | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Evaluate: (a) $7^{2}$ (b) $9^{2}$ (c) $12^{2}$ (d) $5^{3}$ || (a) 49 (b) 81 (c) 144 (d) 125
+- F | Evaluate: (a) $\\sqrt{64}$ (b) $\\sqrt{100}$ (c) $\\sqrt{169}$ || (a) 8 (b) 10 (c) 13
+- F | Which of these are square numbers? 36, 40, 49, 56, 64, 70 || 36, 49, 64
+- R | Explain why 30 is not a square number. || There is no whole number whose square is 30: $5^{2} = 25$ and $6^{2} = 36$.
+- R | A student says $\\sqrt{25} + \\sqrt{9} = \\sqrt{34}$. Is this correct? Explain. || No: $5 + 3 = 8$, while $\\sqrt{34} \\approx 5.83$. Roots cannot be added inside a single root.
+- P | A square garden has area 196 m². Find its side and its perimeter. || Side 14 m; perimeter 56 m.
+- P | A cube has volume 216 cm³. Find its edge. || 6 cm, because $6^{3} = 216$.
+- E | Between which two whole numbers does $\\sqrt{75}$ lie? Estimate it to one decimal place. || Between 8 and 9; $\\sqrt{75} \\approx 8.7$.
+- E | Explain why there is no whole number whose square is greater than 100 but whose cube is less than 1,000. || $x^{2} > 100$ requires $x \ge 11$, while $x^{3} < 1{,}000$ requires $x \le 9$. No whole number satisfies both, and $x = 10$ gives exactly 100 and exactly 1,000, so it fails both strict inequalities.
+- E | The first five square numbers are 1, 4, 9, 16, 25. Describe how the gaps between them change, and explain the pattern. || The gaps are 3, 5, 7, 9 — consecutive odd numbers; each new square adds the next odd number.
+
+@SEC | 2.4 | Order of operations | Criterion A · i, ii, iii
+@LEAD | An expression is read by everyone in the same order, so that one written calculation has one value. The order is a shared agreement, not a mathematical discovery about nature.
+@FIG | c02_ops
+@DEF | The agreed order
+1. **Brackets** — work inside them first.
+2. **Indices** — powers and roots.
+3. **Multiplication and division**, from left to right.
+4. **Addition and subtraction**, from left to right.
+An expression in brackets is evaluated as if it were a single number.
+@KEY | Why the order matters
+$6 + 2 \\times 3$ has one value, 12, because multiplication is performed before addition: $6 + 6 = 12$. If addition came first the value would be 24. The order is chosen so that expressions such as $2 + 3x$ and $4 + 2 \\times 5$ behave consistently as algebra develops, and so that expanding brackets later gives the answers everyone expects.
+@H2 | Brackets change the story
+@P | Brackets are the only way to override the order. $6 + 2 \\times 3 = 12$, but $(6 + 2) \\times 3 = 24$. When you are unsure whether an expression needs brackets, ask which operation you intend to happen first, then write the brackets that enforce it.
+@METHOD | A dependable routine for evaluating an expression
+@LISTO
+1. Copy the expression and mark the operations you can see.
+2. Underline the brackets and evaluate them, replacing each with its value.
+3. Evaluate any indices.
+4. Work through multiplication and division left to right, rewriting the expression at each step.
+5. Finish with addition and subtraction, left to right.
+6. Check the size of the answer against a rough estimate.
+
+@EX | 2.4.1 | Evaluating an expression with two operations
+GIVEN: $20 - 3 \\times 4$.
+ASKED: Evaluate, and explain which operation was performed first.
+METHOD: Multiplication before subtraction.
+STEPS:
+1. $3 \\times 4 = 12$.
+2. Replace: $20 - 12$.
+3. $20 - 12 = 8$.
+ANSWER: 8
+CHECK: If subtraction came first the answer would be $17 \\times 4 = 68$, which is far from the estimate: $3 \\times 4$ is about 12, and 20 − 12 is about 8.
+
+@EX | 2.4.2 | An expression with brackets and an index
+GIVEN: $(4 + 5)^{2} - 3 \\times 6$.
+ASKED: Evaluate, showing each step.
+METHOD: Brackets, then indices, then multiplication, then subtraction.
+STEPS:
+1. Brackets: $4 + 5 = 9$, so the expression becomes $9^{2} - 3 \\times 6$.
+2. Index: $9^{2} = 81$, giving $81 - 3 \\times 6$.
+3. Multiplication: $3 \\times 6 = 18$, giving $81 - 18$.
+4. Subtraction: $81 - 18 = 63$.
+ANSWER: 63
+CHECK: Estimate: $9^{2}$ is about 80, and $3 \\times 6$ is about 20, so the answer should be about 60. It is.
+WATCH: Calculating $4 + 5^{2}$ would give 29, a completely different expression. The brackets belong to the whole sum.
+
+@EX | 2.4.3 | Inserting brackets to obtain a stated value
+GIVEN: The digits and operations $2 + 4 \\times 3$.
+ASKED: Insert brackets so that the expression has the value 18, then so that it has the value 14.
+METHOD: Try each possible bracket position and evaluate.
+STEPS:
+1. Without brackets: $2 + 12 = 14$.
+2. With brackets around the sum: $(2 + 4) \\times 3 = 6 \\times 3 = 18$.
+3. There is no bracket position that gives a third value, because there are only two operations.
+ANSWER: $(2 + 4) \\times 3 = 18$; the unbracketed expression gives 14.
+CHECK: Evaluate both expressions by the agreed order, not by reading left to right.
+
+@PRACTICE | 2.4 | Order of operations | SUPPORT 1–4 · CORE 1–8 · EXTENSION 9–12
+- F | Evaluate: (a) $5 + 2 \\times 3$ (b) $12 - 2 \\times 5$ (c) $8 \\div 2 + 3$ || (a) 11 (b) 2 (c) 7
+- F | Evaluate: (a) $(5 + 2) \\times 3$ (b) $12 \\div (2 + 4)$ (c) $20 - (3 + 4)$ || (a) 21 (b) 2 (c) 13
+- F | Evaluate: (a) $2^{3} + 4$ (b) $3 \\times 2^{2}$ (c) $(2 + 3)^{2}$ || (a) 12 (b) 12 (c) 25
+- F | Evaluate: $30 - 2 \\times (3 + 4)$. || 16
+- R | Two students evaluate $18 - 6 \\div 2$. One gets 6, the other gets 15. Which is correct, and what mistake produced the other answer? || 15 is correct (division first). 6 comes from subtracting first: $12 \\div 2$.
+- R | Add one pair of brackets to make $3 + 4 \\times 2$ equal 14. || $(3 + 4) \\times 2 = 14$
+- P | A taxi charges 3 units to start plus 2 units per kilometre. Write an expression for a 7 km journey and evaluate it. || $3 + 2 \\times 7 = 17$ units
+- P | Evaluate $100 - (4 + 6)^{2} \\div 4$. || 75
+- E | Insert brackets in $24 \\div 6 + 2 \\times 3$ to obtain two different values. || $24 \\div (6 + 2) \\times 3 = 9$ and $(24 \\div 6 + 2) \\times 3 = 18$ (also $24 \\div (6 + 2 \\times 3) = 2$).
+- E | Explain why $2 + 3 \\times 4$ and $(2 + 3) \\times 4$ differ, using the order of operations in your answer. || Without brackets multiplication is performed first: $2 + 12 = 14$. Brackets force the sum first: $5 \\times 4 = 20$.
+- E | A calculator gives 24 for $6 + 2 \\times 3$. What has the calculator done, and what does this tell you about relying on a calculator? || It evaluated left to right, ignoring the agreed order. A calculator applies whatever order it was programmed with, so the person must write the expression unambiguously.
+- P | The school's print charge is 5 units per page plus a 12-unit setup fee. A teacher's bill is 112 units. How many pages were printed? Show the equation and its solution. || $12 + 5p = 112$, so $5p = 100$ and $p = 20$ pages.
+
+@SEC | 2.5 | Substitution and expressions with powers | Criterion C · iii, iv
+@LEAD | Substitution replaces each letter with a number. When the expression contains powers, the order of operations decides what the power applies to, so brackets matter.
+@DEF | Substitution
+To **substitute** is to replace every occurrence of a variable with a given value, then evaluate using the agreed order. In $3x^{2}$, the power applies only to $x$, so $x = 4$ gives $3 \\times 16 = 48$. In $(3x)^{2}$, the power applies to the whole product, so $x = 4$ gives $12^{2} = 144$.
+@KEY | Read the exponent's reach
+An exponent applies only to the symbol immediately before it, unless brackets extend its reach. $2x^{2}$ means $2 \\times (x^{2})$; $(2x)^{2}$ means $(2x) \\times (2x)$. The two expressions differ by a factor of 4 for every non-zero $x$, and the difference is the most common source of error in this section.
+@TABLE | The same substitution, different answers
+Expression ; Value when $x = 3$ ; Why
+$2x^{2}$ ; $2 \\times 9 = 18$ ; the power applies to $x$ only
+$(2x)^{2}$ ; $6^{2} = 36$ ; the power applies to $2x$
+$2x^{2} + 1$ ; $18 + 1 = 19$ ; addition last
+$(2x + 1)^{2}$ ; $7^{2} = 49$ ; the power applies to the whole bracket
+
+@EX | 2.5.1 | Substituting a positive value
+GIVEN: $4x^{2} + 3$ with $x = 5$.
+ASKED: Evaluate the expression.
+METHOD: Substitute, evaluate the index, multiply, then add.
+STEPS:
+1. Substitute: $4 \\times 5^{2} + 3$.
+2. Index: $5^{2} = 25$, giving $4 \\times 25 + 3$.
+3. Multiply: $4 \\times 25 = 100$, giving $100 + 3$.
+4. Add: 103.
+ANSWER: 103
+CHECK: $x^{2} = 25$ is about 25; four of them is about 100; add 3 gives about 103.
+
+@EX | 2.5.2 | Substituting a negative value
+GIVEN: $x^{2} - 2x$ with $x = -3$.
+ASKED: Evaluate the expression.
+METHOD: Substitute inside brackets to keep the sign visible, then apply the index before multiplying.
+STEPS:
+1. Substitute: $(-3)^{2} - 2 \\times (-3)$.
+2. Index: $(-3)^{2} = 9$, because a negative times a negative is positive.
+3. Multiply: $2 \\times (-3) = -6$, giving $9 - (-6)$.
+4. Subtract a negative: $9 + 6 = 15$.
+ANSWER: 15
+CHECK: The square contributes 9 and the “subtract twice a negative” adds 6, so the total must exceed 9.
+WATCH: Writing $-3^{2}$ gives $-9$. The brackets are what make the square positive.
+
+@EX | 2.5.3 | Using a formula with a power
+GIVEN: The area of a circle is $A = \\pi r^{2}$. A circular table has radius 0.8 m. Use $\\pi \\approx 3.14$.
+ASKED: Find the area, with its unit.
+METHOD: Substitute the radius, square it, then multiply by $\\pi$.
+STEPS:
+1. $A = 3.14 \\times 0.8^{2}$.
+2. $0.8^{2} = 0.64$.
+3. $3.14 \\times 0.64 = 2.0096$.
+ANSWER: $A \\approx 2.01$ m² (to two decimal places).
+CHECK: A square of side 1.6 m would have area 2.56 m²; a circle inside it must have a smaller area, and 2.01 m² is smaller.
+
+@PRACTICE | 2.5 | Substitution and expressions with powers | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Evaluate $3x^{2}$ when $x = 4$. || 48
+- F | Evaluate $5x^{2} - 2$ when $x = 3$. || 43
+- F | Evaluate $a^{2} + b^{2}$ when $a = 6$ and $b = 8$. || 100
+- R | Explain why $2x^{2}$ and $(2x)^{2}$ give different answers when $x = 3$. || The first squares $x$ only ($2 \\times 9 = 18$); the second squares $2x$ ($6^{2} = 36$).
+- P | Evaluate $x^{2} - 2x + 1$ when $x = 4$ and when $x = -4$. || 9 and 25
+- P | The volume of a cube is $V = s^{3}$. Find $V$ when $s = 2.5$ cm. || 15.625 cm³
+- C | Write a sentence explaining to a classmate why brackets change the value of a substituted expression. || Brackets decide what the power applies to: without them the power covers only the last symbol, with them it covers the whole bracket.
+- E | Find a value of $x$ for which $x^{2} = 2x$. || $x = 2$ (also $x = 0$).
+- E | Evaluate $(a + b)^{2}$ and $a^{2} + b^{2}$ when $a = 2$ and $b = 3$, then explain why the results differ. || 25 and 13; the first squares the sum, the second squares each part separately.
+- E | A formula is $P = 2(l + w)$. Explain why $P = 2l + 2w$ gives the same result, using the idea of expanding brackets. || Multiplying the whole bracket by 2 multiplies each term inside it by 2.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 2 | Does doubling always stay ahead? | Criterion B · i, ii, iii
+@LEAD | Powers of two grow quickly, but powers of ten start larger. Investigate where they meet, and how the gap behaves.
+@INVEST | Investigation brief
+**Question.** Compare $2^{n}$ with $10^{n}$ and with $n^{2}$ for $n = 1, 2, 3, \\dots$. Where does each pair cross? What rule describes the crossing point?
+**What you need.** A table with columns for $n$, $2^{n}$, $10^{n}$ and $n^{2}$; a calculator for the larger values.
+**What to produce.** A completed table, a description of each pattern, a conjecture about the crossing points, and a verification.
+@H2 | Part 1 · Record
+@TABLE | Copy and complete
+$n$ ; $2^{n}$ ; $10^{n}$ ; $n^{2}$ ; Which is largest?
+1 ; 2 ; 10 ; 1 ; 
+2 ; 4 ; 100 ; 4 ; 
+3 ; 8 ; 1,000 ; 9 ; 
+4 ;  ;  ; 16 ; 
+5 ;  ; 100,000 ; 25 ; 
+6 ;  ; 1,000,000 ; 36 ; 
+10 ;  ;  ; 100 ; 
+@H2 | Part 2 · Describe
+@LISTO
+1. How does $2^{n}$ change when $n$ increases by 1? Give two examples from the table.
+2. How does $n^{2}$ change when $n$ increases by 1? Give two examples.
+3. Which grows faster at first, $2^{n}$ or $n^{2}$? Where does the order change?
+4. Compare $2^{n}$ and $10^{n}$. Which is larger for every $n$, and by what factor?
+@H2 | Part 3 · Conjecture, test and justify
+@LISTO
+1. Write a conjecture describing when $2^{n}$ overtakes $n^{2}$, and test it for $n = 5$ and $n = 6$.
+2. Explain why $10^{n}$ is always larger than $2^{n}$ for $n \\ge 1$. Your explanation should use the bases, not a list of examples.
+3. A classmate says “$2^{n}$ always doubles but $n^{2}$ only adds a little, so $2^{n}$ must win for every $n$”. Test the claim at $n = 3$ and decide whether it is true as stated. Revise it if necessary.
+@CRIT | Criterion B task · Requirements
+A complete, systematic table; patterns described in words with evidence; a general statement that predicts rather than lists; at least one test of the statement on a case not used to form it; an explanation of any limitation.
+
+@SEC | Application 2 | The school data store | Criterion D · i, ii, iii, iv
+@LEAD | The school's server is being replaced. The business manager has three quotes, and each describes capacity in different units. Your task is to compare them and recommend one.
+@APPLY | The brief
+@TABLE | Three quotes for the same server room
+Quote ; Advertised capacity ; Reported capacity (binary) ; Annual cost
+A ; 8 TB (powers of ten) ; 7.28 TiB ; 1,200 units
+B ; 6 TiB (powers of two) ; 6 TiB ; 1,050 units
+C ; $2^{43}$ bytes ; $2^{43}$ bytes ; 900 units
+@LISTU
+- The school stores about 5.5 TB of video each year.
+- The manager wants the cheapest option that will hold three years of video.
+- The technician wants “no advertised figure that overstates the real space by more than 10%”.
+@H2 | Task 1 · Convert and compare
+@LISTO
+1. Write each capacity in bytes using powers of ten. Show the power you used.
+2. Convert quote C from bytes to TB, using $1$ TB $= 10^{12}$ bytes.
+3. Which quote offers the largest real capacity? Which offers the smallest?
+@H2 | Task 2 · Check the claims
+@LISTO
+1. Quote A advertises 8 TB but reports 7.28 TiB. Calculate the percentage overstatement and decide whether it passes the technician's test.
+2. Is the difference caused by a fault, a rounding, or a choice of base? Explain in two sentences.
+3. Rewrite quote A's advertisement so that it is accurate and still persuasive.
+@H2 | Task 3 · Recommend
+@LISTO
+1. How much storage does three years of video require? Round sensibly and state your rounding.
+2. Which quote is the cheapest that meets the requirement? Justify with figures.
+3. Write a recommendation of no more than 80 words to the business manager, including one risk you have identified.
+@CRIT | Criterion D task · Requirements
+Relevant quantities identified; conversions correct and shown; a decision justified with calculated evidence; rounding and accuracy explained; a recommendation that acknowledges one limitation.
+
+@SEC | Task C | Explaining a calculator's answer | Criterion C · i, ii, iii, iv
+@CRIT | The task
+A classmate enters $6 + 2 \\times 3$ into a calculator and gets 24. Write a short explanation (no more than 150 words) for the class noticeboard that:
+@LISTO
+1. Shows the correct value and the order of operations used.
+2. Explains why the calculator produced a different value, without blaming the calculator.
+3. States how the expression should be written so that no reader can misread it.
+4. Includes one example in which brackets are necessary and one in which they are optional.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct symbols for multiplication and brackets; no ambiguous expressions.
+Representation (ii) ; At least one worked layout showing the steps.
+Reasoning (iii) ; The explanation says why the order exists, not only what it is.
+Organisation (iv) ; A reader can apply the rule from your explanation alone.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 2 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- A power records repeated multiplication: the base is the number multiplied and the exponent counts the factors.
+- Powers of ten are the place values of the base-ten system, so expanded form can be written in index notation.
+- Square and cube numbers have geometric meanings; roots reverse them.
+- The order of operations is an agreement that makes a written expression unambiguous: brackets, indices, multiplication and division, addition and subtraction.
+- Brackets change what an expression means, and therefore what a substitution produces.
+- Notation choices carry meaning: $2x^{2}$ and $(2x)^{2}$ are different quantities.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 2
+Term ; Meaning in this course
+Base ; The number that is multiplied repeatedly in a power.
+Exponent (index) ; The number of factors of the base in a power.
+Power ; A number written as a base with an exponent.
+Square number ; The result of multiplying a whole number by itself.
+Square root ; The side of a square with a given area.
+Cube number ; The result of multiplying a whole number by itself twice.
+Expanded form ; A number or expression written as a sum of products.
+Substitution ; Replacing a variable with a number and evaluating.
+Order of operations ; The agreed sequence for evaluating an expression.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“$3^{4}$ means $3 \\times 4$.” ; The exponent counts factors. ; $3^{4} = 81$, not 12
+“$10^{0} = 0$.” ; Any non-zero number to the power 0 is 1. ; $10^{2} \\div 10^{2} = 1$
+“$\\sqrt{16} = 8$.” ; A root is not a half. ; $4^{2} = 16$
+“Work left to right.” ; Brackets, indices, then × ÷, then + −. ; $6 + 2 \\times 3 = 12$
+“$2x^{2} = (2x)^{2}$.” ; The exponent reaches only the symbol before it. ; $x = 3$: 18 against 36
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+write repeated multiplication as a power and expand a power. ;  ;  ; 
+evaluate powers, squares, cubes and roots. ;  ;  ; 
+write a whole number in index form using powers of ten. ;  ;  ; 
+apply the order of operations, including brackets and indices. ;  ;  ; 
+substitute a value into an expression with a power. ;  ;  ; 
+explain why two expressions that look similar have different values. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which notation in this chapter saved you the most writing? Give an example.
+2. Describe a mistake you made with the order of operations and the rule that now prevents it.
+3. Write one sentence beginning “An exponent tells you …” and one beginning “Brackets matter because …”.
+4. Why might a manufacturer prefer one base and an operating system another? Is either dishonest?
+5. Which investigation result surprised you, and what would you test next?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ2 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–20
+- F | Evaluate: (a) $4^{2}$ (b) $2^{5}$ (c) $10^{4}$ || (a) 16 (b) 32 (c) 10,000
+- F | Write $7 \\times 7 \\times 7$ as a power. || $7^{3}$
+- F | Evaluate $\\sqrt{121}$. || 11
+- F | Evaluate $16 - 2 \\times 3$. || 10
+- F | Evaluate $(3 + 4)^{2}$. || 49
+- F | Calculate $3.4 \\times 10^{2}$. || 340
+- R | Explain why $5^{2}$ and $2^{5}$ are not equal. || $5^{2} = 25$ and $2^{5} = 32$: the base and exponent play different roles.
+- R | Is $2^{6}$ greater or less than $6^{2}$? Show the values. || Greater: 64 against 36.
+- R | A student writes $8{,}000 = 8^{3}$. What has been confused? Give the correct form. || The base: $8^{3} = 512$. The correct form is $8 \\times 10^{3}$.
+- P | Evaluate $2x^{2} + 3$ when $x = 4$. || 35
+- P | Evaluate $x^{2} - 3x$ when $x = 5$. || 10
+- P | A square room has area 169 m². Find the length of a skirting board needed for all four walls. || Side 13 m; perimeter 52 m.
+- P | A cube-shaped tank has edge 3 m. Find its volume in m³ and in litres. || 27 m³ = 27,000 L
+- C | Explain in two sentences why the order of operations must be agreed rather than discovered. || Two people could otherwise read one expression in two ways and obtain different values; an agreement makes the written expression unambiguous.
+- E | Insert brackets to make $2 + 3 \\times 4^{2}$ equal 400. || $((2 + 3) \\times 4)^{2} = 400$
+- E | Find two powers of 2 whose sum is 96. || $2^{5} + 2^{6} = 32 + 64 = 96$
+- E | Explain why $(-2)^{2} = 4$ but $-2^{2} = -4$. || In the first, the base is −2; in the second the index applies only to 2, and the negative sign is applied afterwards.
+- E | The thickness of a sheet is 0.1 mm. How many folds would make the stack taller than 1 m? Show your reasoning with powers of 2. || Need $2^{n} > 10{,}000$; $2^{13} = 8{,}192$ and $2^{14} = 16{,}384$, so 14 folds.
+- C | Write a 40-word explanation of why $10^{0} = 1$ for a classmate who thinks it should be 0. || Dividing 100 by 10 gives 10, and dividing again gives 1; each division reduces the exponent by 1, so the exponent 0 must give 1.
+- P | A shop advertises a 32 GB card. The computer reports 29.8 GB. Estimate the percentage difference and explain its cause. || About 7%, caused by counting in powers of two rather than powers of ten.
+
+@SEC | Mixed 2 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX2 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Evaluate: (a) $3^{3}$ (b) $6^{2}$ (c) $2^{8}$ || (a) 27 (b) 36 (c) 256
+- F | Evaluate: (a) $45 - 5 \\times 6$ (b) $(45 - 5) \\times 6$ || (a) 15 (b) 240
+- F | Write 60,304 using powers of ten. || $6 \\times 10^{4} + 0 \\times 10^{3} + 3 \\times 10^{2} + 0 \\times 10^{1} + 4 \\times 10^{0}$
+- F | Calculate: (a) $0.7 \\times 10^{3}$ (b) $250 \\div 10^{2}$ || (a) 700 (b) 2.5
+- F | Evaluate $\\sqrt{196}$. || 14
+- R | What is the largest two-digit square number? Explain how you decided. || 81, because $9^{2} = 81$ and $10^{2} = 100$ has three digits.
+- R | Explain why the value of $2^{n}$ doubles when $n$ increases by 1, but the value of $n^{2}$ does not. || $2^{n+1} = 2 \\times 2^{n}$; adding 1 to $n$ changes $n^{2}$ by $2n + 1$, which is not a constant multiple.
+- P | A page holds about $10^{3}$ words. How many pages hold $10^{6}$ words? || $10^{3}$ pages (1,000 pages).
+- P | Evaluate $3(x + 2)^{2}$ when $x = 3$. || 75
+- P | A square tile has area 400 cm². How many tiles are needed to cover a rectangle 4 m by 2 m? || Each tile is 20 cm × 20 cm = 400 cm²; the rectangle is 80,000 cm², so 200 tiles.
+- C | Explain, in no more than 50 words, why $10^{0}$ must be 1 for expanded form to work. || Expanded form needs a value for the ones place; the pattern of dividing by 10 from $10^{1}$ gives 1, so the ones place is $10^{0}$.
+- C | Write the expression for “five more than three times the square of a number” and evaluate it when the number is 4. || $3n^{2} + 5$; value 53.
+- E | Find $n$ such that $2^{n} = 512$. || $n = 9$
+- E | A sheet folded 12 times has 4,096 layers. Write this as a power and explain what the exponent counts. || $2^{12}$; the exponent counts the folds, each of which doubles the layers.
+- E | Which is larger, $2^{10} \\times 2^{3}$ or $2^{12}$? Explain using the meaning of the exponents. || $2^{13}$ is larger: multiplying powers of the same base adds the exponents.
+- E | Explain why $\\sqrt{9} \\times \\sqrt{4} = \\sqrt{36}$, and test whether the same rule works for $\\sqrt{9} + \\sqrt{4}$. || $3 \\times 2 = 6 = \\sqrt{36}$; for addition $3 + 2 = 5$, but $\\sqrt{13} \\approx 3.6$, so the rule fails for addition.
+
+@SEC | Cumulative practice 2 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP2 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Evaluate $3^{4}$. || 81
+- F | Evaluate $\sqrt{144}$. || 12
+- F | Evaluate $20 - 3 \times 4$. || 8
+- R | Explain why $2^{3} \times 2^{2} = 2^{5}$. || Three factors of 2 multiplied by two more gives five factors.
+- P | A square has area 81 cm². Find its side length. || 9 cm
+- P | Write 5,000 + 300 + 4 in standard form. || 5,304
+- C | Explain the order in which operations are carried out in $4 + 2(3 + 1)^{2}$. || Brackets, then the index, then multiplication, then addition, giving 36.
+- E | Find the value of $n$ if $2^{n} = 64$. || $n = 6$

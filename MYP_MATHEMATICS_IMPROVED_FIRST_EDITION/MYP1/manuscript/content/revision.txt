@@ -1,0 +1,538 @@
+
+
+@MOVE | Reference | Cumulative revision | Retrieval practice across parts
+@LEAD | The five papers in this section revisit earlier chapters deliberately. Each paper mixes topics, because the ability to choose a method — not only to apply one — is what revision develops.
+@P | Attempt each paper without notes first, then mark it and return only to the questions you could not finish. A paper that is completed quickly but inaccurately is less useful than one that is attempted slowly and checked.
+@TABLE | What each paper covers
+Paper ; Chapters ; Main focus
+Cumulative revision 1 ; 1–3 ; Place value, powers, factors
+Cumulative revision 2 ; 4–5 ; Fractions, decimals, percentages
+Cumulative revision 3 ; 6–7 ; Algebra and geometry
+Cumulative revision 4 ; 8–9 ; Sets and measurement
+Cumulative revision 5 ; 1–10 ; End-of-year mixed paper
+
+@SEC | Cumulative revision 1 | Chapters 1–3 | Criterion A · i, ii; Criterion D · ii
+@PRACTICE | CR1 | Cumulative practice 1 | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Write 4,706 in expanded form. || $4 \times 1{,}000 + 7 \times 100 + 0 \times 10 + 6 \times 1$
+- F | Round 38,472 to the nearest hundred. || 38,500
+- F | Evaluate $2^{5} + 3^{2}$. || $32 + 9 = 41$
+- F | Evaluate $48 \div 4 \times 2$. || 24
+- F | List the factors of 42. || 1, 2, 3, 6, 7, 14, 21, 42
+- F | Write 84 as a product of primes. || $2^{2} \times 3 \times 7$
+- R | Explain why 1 is neither prime nor composite. || It has exactly one factor.
+- R | A student writes $3^{2} = 6$. Explain the error. || $3^{2} = 3 \times 3 = 9$.
+- R | Explain why the digit sum test works for 3. || Every power of ten is one more than a multiple of 3, so only the digit sum affects the remainder.
+- P | A museum reports 11,846 visitors. Write this rounded to the nearest thousand and say why a report might do that. || 12,000; a rounded figure communicates size without false precision.
+- P | Find the HCF and LCM of 24 and 36. || 12 and 72
+- P | 72 students and 60 parents are split into identical groups containing both. Find the largest number of groups. || 12 groups (HCF)
+- E | Explain why 91 is not prime. || $91 = 7 \times 13$.
+- E | Find the smallest number by which 108 must be multiplied to make a square. || 3, giving 324.
+- E | Without calculating, decide whether $2^{10}$ is greater than 1,000. || Yes: $2^{10} = 1{,}024$.
+- C | Explain why a number with an odd number of factors must be a square. || Every factor pairs with another except the square root.
+
+@SEC | Cumulative revision 2 | Chapters 4–5 | Criterion A · i, ii; Criterion D · iii
+@PRACTICE | CR2 | Fractions and percentages | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Simplify $\frac{42}{56}$. || $\frac{3}{4}$
+- F | Write $\frac{7}{8}$ as a decimal. || 0.875
+- F | Calculate $\frac{3}{4} + \frac{2}{5}$. || $\frac{23}{20} = 1\frac{3}{20}$
+- F | Calculate $\frac{5}{6} \times \frac{9}{10}$. || $\frac{3}{4}$
+- F | Find 15% of 240. || 36
+- F | Write 0.45 as a percentage. || 45%
+- R | Explain why $\frac{2}{3}$ is greater than $\frac{3}{5}$. || 0.667 against 0.6, or $\frac{10}{15}$ against $\frac{9}{15}$.
+- R | Explain why adding fractions needs a common denominator but multiplying does not. || Only like-sized parts can be added.
+- R | Explain why a 20% discount followed by 10% is not 30%. || The second discount is calculated on the reduced price.
+- P | A jacket costs 84 after a 30% reduction. Find the original price. || 120 units
+- P | A recipe for 8 uses $\frac{3}{4}$ kg of flour. How much for 20? || $1\frac{7}{8}$ kg
+- P | A price rises 15% then falls 10%. Find the overall change. || $1.15 \times 0.9 = 1.035$, a rise of 3.5%.
+- E | Find a fraction between $\frac{3}{7}$ and $\frac{4}{7}$. || $\frac{13}{28}$ (about 0.464), since $\frac{3}{7} = \frac{12}{28}$ and $\frac{4}{7} = \frac{16}{28}$; $\frac{1}{2}$ also lies between.
+- E | Write $0.\overline{45}$ as a fraction. || $\frac{5}{11}$
+- E | Two successive increases of 25% equal what single increase? || 56.25%
+- C | Explain how to compare $\frac{7}{12}$ and $\frac{9}{16}$ reliably. || Use a common denominator of 48: $\frac{28}{48}$ against $\frac{27}{48}$.
+
+@SEC | Cumulative revision 3 | Chapters 6–7 | Criterion A · i, ii, iii
+@PRACTICE | CR3 | Algebra and geometry | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find the rule for 6, 10, 14, 18, … || $4n + 2$
+- F | Evaluate $3x^{2} - 5$ when $x = 4$. || 43
+- F | Simplify $5a + 3 - 2a + 7$. || $3a + 10$
+- F | Solve $4x - 7 = 21$. || $x = 7$
+- F | Two angles of a triangle are 64° and 58°. Find the third. || 58°
+- F | Two angles on a straight line: one is 115°. Find the other. || 65°
+- R | Explain why $3(x + 2)$ is not $3x + 2$. || The 3 multiplies both terms.
+- R | Explain why a triangle cannot have angles 90°, 80° and 20°. || They sum to 190°.
+- R | Explain why a sequence with constant difference 5 has a rule containing $5n$. || Each step adds another group of 5.
+- P | A taxi charges 4 plus 2 per km. Find the cost of 9 km and the distance for 30 units. || 22 units; 13 km.
+- P | Solve $5(x - 2) = 3x + 4$. || $x = 7$
+- P | A rectangle is 5 cm longer than it is wide and its perimeter is 46 cm. Find its area. || 9 cm by 14 cm; 126 cm².
+- E | The angles of a triangle are $2x$, $3x$ and $4x$. Find the largest. || $x = 20$; largest 80°.
+- E | Solve $\frac{x}{4} + 5 = 2x - 1$. || Multiply by 4: $x + 20 = 8x - 4$, so $7x = 24$ and $x = \frac{24}{7}$.
+- E | Explain why the angles of an equilateral triangle are 60°. || Equal angles summing to 180°.
+- C | Explain how a balance model justifies solving an equation by inverse operations. || Both sides must change equally to keep the balance.
+
+@SEC | Cumulative revision 4 | Chapters 8–9 | Criterion A · i, ii; Criterion D · i
+@PRACTICE | CR4 | Sets and measurement | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | $A = \{2, 4, 6\}$, $B = \{4, 6, 8\}$. Find $A \cup B$. || $\{2, 4, 6, 8\}$
+- F | $n(A) = 14$, $n(B) = 9$, $n(A \cap B) = 5$. Find $n(A \cup B)$. || 18
+- F | Find the area of a triangle with base 15 cm and height 8 cm. || 60 cm²
+- F | Find the volume of a cuboid 7 cm by 5 cm by 4 cm. || 140 cm³
+- F | Convert 3,250 cm³ to litres. || 3.25 litres
+- F | Find the surface area of a cube of side 5 cm. || 150 cm²
+- R | Explain why the overlap is subtracted in the union formula. || It is counted twice in the sum.
+- R | Explain why area uses square units. || It counts unit squares.
+- R | Explain why a litre is 1,000 cm³. || It is a cube of side 10 cm.
+- P | In a class of 34, 20 study French, 16 study Spanish and 6 study both. How many study neither? || 4
+- P | A room is 5 m by 4 m and a 2 m by 1 m rug covers part of it. What area of floor is uncovered? || 18 m²
+- P | A tank 60 cm by 40 cm by 30 cm is $\frac{2}{3}$ full. How many litres does it hold? || 48 litres
+- E | Two sets have 25 and 18 elements in a universal set of 30. Find the smallest possible overlap. || 13
+- E | A cuboid has volume 360 cm³, length 10 cm and width 6 cm. Find its surface area. || height 6 cm; surface area 312 cm².
+- E | Explain why a cube uses less material than a long box of the same volume. || Its surface-to-volume ratio is smaller.
+- C | Explain how a Venn diagram shows that $n(A \cup B) = n(A) + n(B) - n(A \cap B)$. || The overlap is counted in both circles and once in the union.
+
+@SEC | Cumulative revision 5 | Chapters 1–10 | Criterion A · i, ii, iii; Criterion C · iii
+@PRACTICE | CR5 | End-of-year mixed paper | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–18
+- F | Round 5.076 to two decimal places. || 5.08
+- F | Evaluate $5 + 3 \times 4^{2}$. || 53
+- F | Write $\frac{18}{24}$ in simplest form. || $\frac{3}{4}$
+- F | Increase 180 by 35%. || 243
+- F | Solve $7x + 5 = 40$. || $x = 5$
+- F | Find the mean of 8, 11, 14, 15. || 12
+- F | Find the area of a parallelogram with base 13 cm and height 6 cm. || 78 cm²
+- R | Explain why $0.3$ and $\frac{1}{3}$ are not equal. || $0.3 = \frac{3}{10}$, and $\frac{1}{3} = 0.\dot{3}$.
+- R | Explain why the mean can misrepresent a data set. || An extreme value pulls it away from the typical case.
+- R | Explain why successive percentage changes multiply. || Each change applies to the current amount.
+- P | A shop sells a 3-litre pack for 7.50 and a 5-litre pack for 11.80. Which is better value? || 2.50 against 2.36 per litre; the 5-litre pack.
+- P | A survey of 120 students: 70 walk, 45 cycle, 25 do both. How many do neither? || 30
+- P | A cube has surface area 294 cm². Find its volume. || side 7 cm; volume 343 cm³.
+- C | Explain how you would decide whether to use the mean or the median for a set of house prices. || The median, because a few very high prices distort the mean.
+- C | Explain why a rule found from four terms is a conjecture rather than a proof. || Other rules fit the same four terms but differ later.
+- E | A rectangle's length is 3 cm more than twice its width and its perimeter is 48 cm. Find its area. || width 7, length 17; area 119 cm².
+- E | A number is increased by 20% and then decreased by 20%; the result is 96. Find the original. || 100
+- E | Two angles of an isosceles triangle are 40° and 70°. Find the third and classify the triangle. || 70°; acute-angled isosceles.
+
+@MOVE | Part reviews | Problem solving across each part | Reference
+@LEAD | Each part review is longer than the cumulative papers and is designed for the end of a term. The questions are deliberately unfamiliar: they require a choice of method rather than a recall of one.
+@P | Work through a part review in one sitting of about 45 minutes, without notes. Mark your work against the answers, then write down the two questions that caused most difficulty and the mathematical idea behind each. That short note is more useful for revision than a second attempt at the same paper.
+
+@SEC | Part review I | The grammar of number (Chapters 1–3) | Criterion A · i, iii; Criterion D · ii
+@PRACTICE | PR1 | Part I problem solving | CORE 1–10 · EXTENSION 11–14
+- F | Round 4,096 to the nearest hundred and to the nearest thousand. || 4,100 and 4,000
+- F | Evaluate $6 + 2^{3} \times 3$. || 30
+- F | Find the HCF and LCM of 40 and 60. || 20 and 120
+- R | A student claims that multiplying a number by 10 always adds a zero. Test the claim on 4.5 and on 0.3. || $4.5 \times 10 = 45$ and $0.3 \times 10 = 3$; no zero is added, but the digits shift one place.
+- R | Explain why the sum of two multiples of 6 is always a multiple of 6. || Both are divisible by 6, so their sum is too.
+- P | A museum has 11,846 objects and reports “about 12,000”. Write the smallest and largest counts that could honestly be reported in the same way. || 11,500 to 12,499 if rounding to the nearest thousand with one significant figure — the report is consistent with any count in that range.
+- P | 84 Year 7 students, 60 Year 8 and 48 Year 9 students are split into identical teams. Find the largest possible team size and the number of teams. || 12 students per team; 7 + 5 + 4 = 16 teams.
+- C | Explain how the place-value system makes the digit-sum test for 9 possible. || Every power of ten leaves remainder 1 on division by 9, so only the digits matter.
+- C | Explain why the product of two consecutive whole numbers is always even. || One of them is even.
+- E | A number between 200 and 300 has exactly six factors and is divisible by 9. Find it. || 225 ($3^{2} \times 5^{2}$) has nine factors; 252 has 18; 243 has six: $3^{5}$. So 243.
+- E | Find the smallest whole number with exactly 12 factors. || 60
+- C | Explain why a claim that “a number is divisible by 8 if its last two digits are divisible by 8” is false, and correct it. || 100 is not a multiple of 8, so the hundreds digit matters; the test uses the last three digits.
+- E | Two bells ring every 15 and 18 minutes. They ring together at 9:00. When do they next ring together, and how many times in 6 hours? || 90 minutes later at 10:30; 4 times in 6 hours.
+- R | A rectangular floor is 4.5 m by 3.6 m. Square tiles of whole-centimetre side cover it exactly. Find the largest possible tile side. || 90 cm: the HCF of 450 and 360 is 90, and both sides are multiples of 90.
+
+@SEC | Part review II | Parts and proportions (Chapters 4–5) | Criterion A · ii; Criterion C · iii
+@PRACTICE | PR2 | Part II problem solving | CORE 1–10 · EXTENSION 11–14
+- F | Calculate $\frac{3}{4} - \frac{2}{5}$. || $\frac{7}{20}$
+- F | Calculate $\frac{5}{6} \times 1\frac{1}{5}$. || 1
+- F | Increase 340 by 12.5%. || 382.5
+- R | Explain why $\frac{3}{8}$ is smaller than $\frac{2}{5}$ although 3 > 2. || The denominators differ; as decimals 0.375 < 0.4.
+- R | A shop increases a price by 10% and later reduces it by 10%. Explain why the final price is not the original. || $1.1 \times 0.9 = 0.99$.
+- P | A recipe for 12 uses $\frac{5}{8}$ kg of sugar. How much for 30, and how many 1 kg bags are needed? || $1\frac{9}{16}$ kg; 2 bags.
+- P | A jacket is reduced by 20% to 96. A second jacket is reduced by 30% to 98. Which was more expensive originally? || First 120; second 140; the second.
+- C | Explain why dividing by a fraction less than 1 gives an answer larger than the original number. || There are more than one of those fractions in each whole.
+- C | Explain why 0.375 and $\frac{3}{8}$ are the same number, using place value. || $0.375 = \frac{375}{1000}$, which simplifies to $\frac{3}{8}$.
+- E | A price rises 25%, then falls 20%. Find the overall change. || No change: $1.25 \times 0.8 = 1$.
+- E | Find a fraction between $\frac{5}{8}$ and $\frac{2}{3}$. || $\frac{21}{32}$ (0.656), among others.
+- C | Explain how to compare $\frac{7}{9}$ and $\frac{8}{11}$ reliably and state which is larger. || Common denominator 99: $\frac{77}{99}$ against $\frac{72}{99}$, so $\frac{7}{9}$ is larger.
+- E | A student scores 45% then 54%. Describe the change in the score as a percentage of the first score. || 20% rise.
+
+@SEC | Part review III | Algebra and shape (Chapters 6–7) | Criterion A · iii; Criterion B · iii
+@PRACTICE | PR3 | Part III problem solving | CORE 1–10 · EXTENSION 11–14
+- F | Find the rule for 11, 18, 25, 32, … || $7n + 4$
+- F | Solve $6x - 5 = 2x + 11$. || $x = 4$
+- F | Two parallel lines; one corresponding angle is 116°. Find the co-interior angle. || 64°
+- R | Explain why a sequence with constant difference 4 cannot have rule $4n + 3$ if its first term is 9. || $4(1) + 3 = 7$, not 9; the rule would be $4n + 5$.
+- R | Explain why drawing an accurate diagram does not prove an angle property. || A drawing shows one case; a proof must cover all cases.
+- P | A pattern of squares uses 4 matches in stage 1 and 7 in stage 2. How many matches in stage 20, and which stage uses 100? || 61 matches; stage 33.
+- P | A triangle has angles $2x$, $3x + 10$ and $4x - 10$. Find each. || $9x = 180$, $x = 20$; 40°, 70°, 70°.
+- C | Explain how the balance model justifies each step of solving $3(x - 2) = 15$. || Each operation is applied to both sides, preserving equality.
+- C | Explain why the exterior angle of a triangle equals the sum of the two opposite interior angles. || It and the adjacent interior angle sum to 180°, as do the three interior angles.
+- E | A rectangle's perimeter is 54 cm and its length is 3 cm more than twice its width. Find its area. || width 8, length 19; area 152 cm².
+- E | Construct, in writing, a triangle with sides 5 cm, 6 cm and 7 cm; explain why exactly one triangle is possible. || The two arcs meet at a single point above the base (and its mirror image).
+- C | Explain why three lengths 2 cm, 3 cm and 5 cm do not form a triangle. || The two shorter sides sum exactly to the longest, so the shape is flat.
+- E | An isosceles triangle has a base angle of 3x and a vertex angle of 4x. Find each. || $10x = 180$, $x = 18$; base angles 54°, vertex 72°.
+- R | A student writes the rule for 5, 9, 13 as $5n$. Explain the error using the difference. || The difference is 4, so the rule is $4n + 1$; $5n$ gives 5, 10, 15.
+
+@SEC | Part review IV | Sets and measurement (Chapters 8–9) | Criterion A · ii; Criterion D · iii
+@PRACTICE | PR4 | Part IV problem solving | CORE 1–10 · EXTENSION 11–14
+- F | $A = \{2, 3, 5, 7\}$, $B = \{1, 2, 3\}$. Find $A \cap B$ and $A \cup B$. || $\{2, 3\}$ and $\{1, 2, 3, 5, 7\}$
+- F | Find the surface area of a cuboid 9 cm by 6 cm by 5 cm. || 258 cm²
+- F | Convert 0.8 m³ to litres. || 800 litres
+- R | Explain why “pass” and “fail” is a sound classification but “good” and “bad” is not. || The first is defined by an objective boundary; the second is a judgement.
+- R | Explain why doubling all three dimensions of a cuboid multiplies the volume by 8 but the surface area by 4. || Volume uses three lengths, surface area two.
+- P | In a group of 80, 45 own a bicycle, 38 own a helmet and 12 own neither. How many own both? || 15
+- P | A tank is 1.2 m by 0.9 m by 0.7 m. Find its capacity in litres and the cost of filling it at 0.03 per litre. || 756 litres; 22.68 units.
+- C | Explain how a classification tree prevents a student being counted twice. || Each student follows exactly one branch at every stage.
+- C | Explain why the surface area of an open box is less than that of the closed box. || One face is missing.
+- E | A cuboid has a square base of side 6 cm and volume 216 cm³. Find its surface area. || height 6 cm; surface area 216 cm² (it is a cube).
+- E | In a survey of 120, 70 like A, 55 like B and 15 like neither. Find the number who like exactly one. || 75
+- C | Explain why a litre is not 100 cm³ even though 1 m = 100 cm. || Volume scales with the cube of the length factor.
+- E | A cylindrical tank has radius 0.6 m and height 1.5 m. Find its capacity in litres ($\pi \approx 3.14$). || about 1,696 litres.
+- R | A shop sells boxes 20 × 10 × 5 cm and 25 × 8 × 5 cm at the same price. Which is better value, and does the answer change if card cost matters? || Volumes 1,000 and 1,000 cm³, so equal value; surface areas 700 and 730 cm², so the first is cheaper to make.
+
+@SEC | Part review V | Data and decisions (Chapter 10, with Chapters 1–9) | Criterion C · iii; Criterion D · v
+@PRACTICE | PR5 | Part V problem solving | CORE 1–10 · EXTENSION 11–14
+- F | Find the mean, median and range of 12, 15, 15, 18, 20. || mean 16, median 15, range 8
+- F | A pie chart of 240 students gives 90° to football. How many chose football? || 60
+- F | Estimate the mean of: 0–10 (f 4), 10–20 (f 10), 20–30 (f 6). || 16
+- R | Explain why the median is preferred for house prices. || A few very high prices distort the mean.
+- R | Explain why a bar chart with an axis from 50 can mislead even with correct numbers. || Differences are exaggerated visually.
+- P | A survey of 250 finds 150 walk, 90 cycle and 40 do both. How many do neither, and what percentage is that? || 50 students, 20%.
+- P | A class of 28 has a mean score of 62. One student's score is corrected from 40 to 58. Find the new mean. || 62.64 (to 2 d.p.)
+- C | Explain how to report a survey honestly in three sentences. || State the sample and how it was chosen, the statistics found, and at least one limitation.
+- C | Explain why a percentage without a base is uninformative. || The same percentage of different totals is a very different count.
+- E | A data set of 9 values has median 30. Two values are removed and the median stays 30. What can you say about the removed values? || One was at or below 30 and one at or above, so the middle value is unchanged.
+- E | The mean of 10 values is 24. One value of 44 is removed. Find the new mean. || 220 ÷ 9 ≈ 24.4
+- C | Explain why grouping data into intervals always changes the mean. || Midpoints replace the true values.
+- E | Two classes have means 60 and 64 and ranges 22 and 8. Compare them fully. || The second is higher and much more consistent.
+- R | A report says “results improved by 12%” without a comparison group. Explain what is missing. || What the results are compared with, and how large the sample was.
+
+@SEC | Extended project | Designing a mathematics trail | Project
+@LEAD | This project brings the whole course together. It is designed to be completed over two or three lessons, in groups, and it produces a piece of work that can be assessed against all four criteria.
+@APPLY | The brief
+@P | Your group will design a **mathematics trail** for visitors to your school or neighbourhood: a route of six stations, each with a mathematical task that uses a measurement, a calculation or a data set from that place. The trail must be usable by a student in the year below without a teacher's help.
+@H2 | Stage 1 · Choose and measure
+@LISTO
+1. Walk the route and choose six stations: for example a staircase, a noticeboard, a sports court, a tree or a window.
+2. At each station, take the measurements needed to write a task. Record them with units and note how accurate each measurement is.
+3. Photograph or sketch each station, and note one safety point.
+@H2 | Stage 2 · Write the tasks
+@LISTO
+1. Write one task per station. Across the six tasks, cover at least four of: place value and rounding; powers; factors; fractions or percentages; algebra; angle or shape; perimeter, area or volume; sets; data.
+2. Give each task a clear instruction, the data needed, and a space for the answer.
+3. Write the answers on a separate sheet, with the method for each.
+@H2 | Stage 3 · Test and revise
+@LISTO
+1. Ask another group to attempt two of your tasks. Record what confused them.
+2. Revise the wording of any task that was misunderstood, and say what you changed.
+3. Check every answer again, including the units.
+@H2 | Stage 4 · Present
+@LISTO
+1. Produce a trail leaflet: a map, the six stations, the tasks and a safety note.
+2. Write a short introduction explaining what a visitor will practise.
+@TABLE | How the project is assessed
+Criterion ; Evidence in the project
+A · Knowing and understanding ; Correct mathematics in the tasks and answers, with consistent units.
+B · Investigating patterns ; At least one station where the visitor must find a general rule from measurements.
+C · Communicating ; The leaflet: clear instructions, labelled diagrams, accurate notation.
+D · Applying mathematics ; Real measurements, real places, a usable product, limitations stated.
+@CALLOUT | Keep this question for the end: which station taught the visitor the most mathematics, and why?
+
+@SEC | Practice paper A | Chapters 1–5 | 45 marks · 60 minutes
+@LEAD | A paper written to look like a school examination. Work through it without notes, then mark it with the answers at the back. The mark allocation tells you how much working is expected: one mark for a correct answer with no working, two or three where a method must be shown.
+@H2 | Instructions
+@LISTO
+1. Answer all questions. Write your working, not only your answer.
+2. Calculators are not allowed in Section 1; they are allowed in Section 2.
+3. The paper is worth 45 marks. Allow roughly one minute per mark, with ten minutes to check.
+4. Where a question says “explain”, a calculation alone does not earn the mark.
+@PRACTICE | PA | Practice paper A | SECTION 1 · no calculator · 1–15
+- F | Write 3,407,052 in words. || Three million, four hundred and seven thousand and fifty-two.
+- F | Round 4,836 to the nearest hundred and to the nearest ten. || 4,800 and 4,840
+- F | Write $2^{4} \times 5^{2}$ as a single number. || 16 × 25 = 400
+- F | Work out $48 \div (6 - 2) + 3^{2}$. || 12 + 9 = 21
+- F | List the factors of 84. || 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84
+- F | Find the HCF and LCM of 36 and 48. || HCF 12; LCM 144
+- F | Write $\frac{7}{8}$ as a decimal and as a percentage. || 0.875; 87.5%
+- F | Work out $\frac{5}{6} - \frac{3}{8}$, giving the answer in simplest form. || $\frac{11}{24}$
+- F | Work out $0.6 \times 0.45$ and explain where the decimal point goes. || 0.27; two decimal places in total
+- R | Explain why 1 is not a prime number. || A prime has exactly two factors; 1 has only one.
+- R | A student writes $\frac{2}{3} + \frac{1}{4} = \frac{3}{7}$. What has gone wrong, and what is the correct answer? || Denominators were added; the correct answer is $\frac{11}{12}$.
+- P | A recipe for 6 people uses 450 g of rice. How much is needed for 15 people? || 1,125 g
+- P | A jacket costs 240 units and is reduced by 15%. Find the sale price and the saving. || 204 units; 36 units saved
+- P | A bill of 354 units includes 18% VAT. Find the price before tax. || 300 units
+- E | Show that a 20% increase followed by a 20% decrease does not return to the starting value. || $1.2 \times 0.8 = 0.96$, a 4% fall
+@PRACTICE | PA2 | Practice paper A | SECTION 2 · calculator allowed · 16–30
+- F | Work out $3.7 \times 1.45$, giving the answer to two decimal places. || 5.37
+- F | Write $\frac{5}{12}$ as a recurring decimal. || 0.41666… 
+- F | Increase 640 by 12.5%. || 720
+- F | Find 15% of 80 and explain how a 10% and a 5% could be combined instead. || 12; half of 10% is 5%, and 8 + 4 = 12
+- R | Explain why multiplying by 0.9 is the same as reducing by 10%. || 0.9 is 90% of the amount, so 10% has been removed.
+- R | Two shops advertise “20% off” and “one third off”. Which is the larger reduction? || One third, since 33.3% > 20%
+- P | A car travels 132 km on 11 litres. Find the distance per litre and the fuel needed for 300 km. || 12 km per litre; 25 litres
+- P | A class of 32 has 12 students who walk to school. What percentage walk? Give the answer to one decimal place. || 37.5%
+- P | A phone plan charges 8 units a month plus 0.15 units per minute. Find the cost for 90 minutes. || 21.5 units
+- P | A shop marks a price up by 25% and later discounts it by 25%. Is the final price above, below or equal to the original? || Below: $1.25 \times 0.75 = 0.9375$
+- E | A price is reduced by 10% and then by a further 10%. Find the single percentage reduction. || 19%
+- E | The value of a machine falls by 15% each year. Find its value after two years if it starts at 4,000 units. || $4000 \times 0.85^{2} = 2{,}890$
+- E | A student claims “a 50% increase and a 50% decrease cancel out”. Explain why the claim is false. || $1.5 \times 0.5 = 0.75$, a 25% fall
+- E | Write 0.363636… as a fraction in simplest form, showing the method. || $100x - x = 36$, so $x = \frac{36}{99} = \frac{4}{11}$
+- E | A tank is 40% full. Adding 60 litres makes it 70% full. Find the capacity. || 30% is 60 litres, so capacity is 200 litres
+
+@SEC | Practice paper B | Chapters 6–10 | 45 marks · 60 minutes
+@LEAD | The second paper covers the algebra, shape, sets, measurement and data chapters. As in Paper A, the mark allocation shows how much working is expected, and the answers are in the back of the book.
+@H2 | Instructions
+@LISTO
+1. Answer all questions. All working should be shown.
+2. A calculator may be used throughout. Use $\pi \approx 3.14$ unless a question says otherwise.
+3. The paper is worth 45 marks, in two sections of 15 marks each.
+@PRACTICE | PB | Practice paper B | SECTION 1 · 1–15
+- F | Simplify $5x + 3y - 2x + y$. || $3x + 4y$
+- F | Expand $4(2a - 3)$. || $8a - 12$
+- F | Solve $3x + 7 = 28$. || $x = 7$
+- F | Solve $2(x - 3) = 14$. || $x = 10$
+- F | Find the value of $3n^{2}$ when $n = 4$. || 48
+- F | Work out the size of each angle in an isosceles triangle with vertex angle 46°. || 67° and 67°
+- F | Find the interior angle sum of a nonagon (9 sides). || 1,260°
+- F | Find each exterior angle of a regular octagon. || 45°
+- F | List the elements of $A \cup B$ when $A = \{2, 4, 6, 8\}$ and $B = \{3, 6, 9\}$. || {2, 3, 4, 6, 8, 9}
+- R | Explain why a triangle cannot have angles 100°, 90° and 10°. || They total 200°, not 180°.
+- R | Explain why $\sqrt{2}$ is not a rational number. || It cannot be written as a fraction of two integers; its decimal never ends or repeats.
+- P | A parallelogram has base 14 cm and height 9 cm. Find its area. || 126 cm²
+- P | A cuboid measures 8 cm by 5 cm by 4 cm. Find its volume and surface area. || 160 cm³; 184 cm²
+- P | A circle has radius 6 cm. Find its circumference and area, using $\pi \approx 3.14$. || 37.68 cm; 113.04 cm²
+- E | The angles of a quadrilateral are $2x$, $3x$, $4x$ and $6x$. Find each angle. || $15x = 360$, so $x = 24$; 48°, 72°, 96°, 144°
+@PRACTICE | PB2 | Practice paper B | SECTION 2 · 16–30
+- F | A survey of 40 students: 22 like football, 18 like basketball, 8 like both. How many like neither? || 8
+- F | Find the mean, median and mode of 4, 7, 7, 9, 13. || mean 8; median 7; mode 7
+- F | Find the range of 12, 18, 9, 25, 14. || 16
+- R | Explain why a pie chart cannot show how many people gave each answer. || It shows proportions, not totals.
+- R | A graph's vertical axis starts at 90 instead of 0. Explain how this can mislead. || Small differences look large.
+- P | A water tank is a cuboid 1.2 m by 0.8 m by 0.5 m. Find its capacity in litres. || 480 litres
+- P | A rectangle 12 m by 5 m has a circular pond of diameter 4 m inside it. Find the area of the grass. || $60 - 12.56 \approx 47.4$ m²
+- P | A set of 12 test scores has mean 15. One score of 27 is removed. Find the new mean. || 153 ÷ 11 ≈ 13.9
+- P | The probability-free approach: a bag has 5 red and 7 blue counters. What fraction are red? || $\frac{5}{12}$
+- E | A cuboid has surface area 214 cm² and dimensions 9 cm by 5 cm by $h$. Find $h$. || $2(45 + 9h + 5h) = 214$, so $14h = 62$ and $h \approx 4.4$ cm
+- E | A regular polygon has interior angles of 150°. How many sides has it? || 12
+- E | In a survey, 60% of 250 people chose option A and 25% chose option B. How many chose neither? || 37.5 → 38 people (with rounding explained)
+- E | A histogram shows frequencies 4, 9, 14, 8 in classes of width 5. Estimate the mean using midpoints. || Midpoints 12, 17, 22, 27 give 16.5
+- E | Explain how you would check whether a reported “average” is a mean or a median. || Ask whether the middle value or the total-shared value was used; compare with the data.
+- E | A box is 30 cm by 20 cm by 15 cm. A second box doubles each dimension. How many times larger is its volume? || Eight times
+
+@SEC | Practice paper C | Mixed paper across all ten chapters | 50 marks · 75 minutes
+@LEAD | A longer mixed paper for the end of the year. Questions move between chapters deliberately: a question about a tank may need conversion, rounding and percentage work in the same answer. The mark allocation again shows where working must be shown.
+@H2 | Instructions
+@LISTO
+1. Answer all questions. A calculator may be used throughout, except in questions 1–6.
+2. Give units with every measured answer, and money to two decimal places.
+3. The paper is worth 50 marks. Answers are in the back of the book.
+@PRACTICE | PC | Practice paper C | 1–16
+- F | Write $5.06 \times 10^{3}$ as an ordinary number. || 5,060
+- F | Round 0.0467 to two significant figures. || 0.047
+- F | Work out $2.5 + 0.75 \times 4$. || 5.5
+- F | Simplify $7a - 3b - 2a + 5b$. || $5a + 2b$
+- F | Find 35% of 240. || 84
+- F | Write $\frac{9}{20}$ as a percentage. || 45%
+- R | Explain why multiplying two numbers less than 1 can give an answer smaller than either. || A fraction of a fraction takes a part of a part.
+- R | Explain the difference between a factor and a multiple, with one example of each. || 4 is a factor of 12; 12 is a multiple of 4.
+- P | A rectangular field is 45 m by 32 m. Find its area and the length of fence needed to go round it. || 1,440 m²; 154 m
+- P | A circular flower bed has radius 2.5 m. Find the area to be paved around it if the surrounding square is 6 m by 6 m. || $36 - 19.6 \approx 16.4$ m²
+- P | A shop buys an item for 42 units and sells it for 58.80 units. Find the percentage profit. || 40%
+- P | A recipe for 8 people uses 600 g of flour. How much for 14 people? || 1,050 g
+- P | A cube has volume 343 cm³. Find its side length and surface area. || 7 cm; 294 cm²
+- P | The mean of five numbers is 12. Four of them are 9, 11, 14 and 15. Find the fifth. || 5 × 12 = 60; the fifth is 11
+- E | A price rises by 12% and the new price is 336 units. Find the original price. || 300 units
+- E | Show that the sum of any three consecutive whole numbers is a multiple of 3. || $n + (n+1) + (n+2) = 3n + 3 = 3(n+1)$
+@PRACTICE | PC2 | Practice paper C | 17–30
+- F | Solve $4x - 9 = 23$. || $x = 8$
+- F | Find the size of each angle in a regular pentagon. || 108°
+- F | $\mathcal{U}$ = {1, 2, …, 12}; $A$ = multiples of 4. List $A'$. || {1, 2, 3, 5, 6, 7, 9, 10, 11}
+- R | Explain why a square is a special rectangle but a rectangle is not always a square. || A square has four right angles and all sides equal; a rectangle need not have equal sides.
+- R | Explain how a bar chart with a broken axis can mislead a reader. || Equal-looking intervals represent unequal amounts, so the picture exaggerates.
+- P | A tank 1.5 m by 1.2 m by 0.8 m is three-quarters full. How many litres are in it? || 1,080 litres
+- P | A train travels 240 km in 2 hours 30 minutes. Find its average speed in km/h. || 96 km/h
+- P | A laptop costs 720 units; VAT at 18% is added. Find the total and the VAT. || 849.60 units; 129.60 units
+- P | A survey shows 45% of 240 students walk to school. How many is that? || 108
+- P | A 6 m ladder leans against a wall with its foot 2 m from the wall. Explain why the right angle matters here, without calculating the height. || The wall, ground and ladder form a right-angled triangle, so the height can be found from the two known lengths.
+- E | A cuboid 12 cm by 9 cm by 6 cm is painted and then cut into 3 cm cubes. How many small cubes have paint on exactly two faces? || 12
+- E | The mean of 20 numbers is 15. Each number is increased by 3 and then doubled. Find the new mean. || 36
+- E | A shop offers 30% off, then a further 10% off the reduced price. Find the single percentage saving. || 37%
+- E | Explain why the median can be a better summary than the mean when one value is very large. || The median is not affected by extreme values; the mean is pulled towards them.
+- E | A cylinder has radius 5 cm and height 10 cm. Estimate its volume and say whether a 1 litre bottle is large enough. || $V = \pi(25)(10) \approx 785$ cm³, so yes.
+
+@SEC | Worked solutions | Twenty-five problems solved in full | Method, reasoning and check
+@LEAD | An answer tells you whether you were right; a solution tells you how to think. The twenty-five problems below are chosen because each one is a place where Year 1 students commonly lose marks, and each solution is written in the same five steps: read, plan, work, answer, check.
+@H2 | Number and place value
+@H3 | 1 · Rounding with a decision
+**Question.** Round 4,836 to the nearest hundred.
+**Read.** The hundreds digit is 8; the digit that decides is the 3 in the tens place.
+**Plan.** Look only at the deciding digit, then choose the nearer hundred.
+**Work.** The number lies between 4,800 and 4,900. 4,836 is 36 above 4,800 and 64 below 4,900, so it is nearer 4,800.
+**Answer.** 4,800.
+**Check.** Rounding to the nearest ten gives 4,840, so the hundreds answer must be a multiple of 100 near it. 4,800 is consistent.
+@H3 | 2 · The order of operations with a bracket
+**Question.** Work out $48 \div (6 - 2) + 3^{2}$.
+**Plan.** Bracket first, then the power, then division, then addition.
+**Work.** $6 - 2 = 4$; $3^{2} = 9$; $48 \div 4 = 12$; $12 + 9 = 21$.
+**Answer.** 21.
+**Check.** A quick estimate: 50 ÷ 4 ≈ 12.5, plus 9 gives about 21.5, and 21 is close to that. Changing the order would give $48 \div (4 + 9) \approx 3.7$, so the brackets are doing real work.
+@H3 | 3 · HCF and LCM chosen by context
+**Question.** Tiles 24 cm by 18 cm are to cover a square exactly. Find the smallest possible square.
+**Plan.** The side of the square must be a common multiple of both tile lengths; the smallest is the LCM.
+**Work.** $24 = 2^{3} \times 3$ and $18 = 2 \times 3^{2}$, so LCM $= 2^{3} \times 3^{2} = 72$.
+**Answer.** A 72 cm square, using $3 \times 4 = 12$ tiles.
+**Check.** $72 \div 24 = 3$ and $72 \div 18 = 4$, both whole numbers, and no smaller number works because 24 and 18 share the factor 6.
+@H3 | 4 · Prime factorisation in index form
+**Question.** Write 360 as a product of primes.
+**Work.** $360 = 36 \times 10 = (2^{2} \times 3^{2}) \times (2 \times 5) = 2^{3} \times 3^{2} \times 5$.
+**Check.** $8 \times 9 \times 5 = 360$. Only primes appear, and the factorisation is unique apart from order.
+@H2 | Fractions, decimals and percentages
+@H3 | 5 · Adding fractions with unlike denominators
+**Question.** Work out $\frac{5}{6} - \frac{3}{8}$.
+**Plan.** The LCM of 6 and 8 is 24, so both fractions can be written in twenty-fourths.
+**Work.** $\frac{5}{6} = \frac{20}{24}$ and $\frac{3}{8} = \frac{9}{24}$; the difference is $\frac{11}{24}$.
+**Answer.** $\frac{11}{24}$, which is already in simplest form because 11 is prime and does not divide 24.
+**Check.** $\frac{5}{6} \approx 0.833$ and $\frac{3}{8} = 0.375$, so the difference is about $0.458$, and $\frac{11}{24} \approx 0.458$. The decimal check agrees with the fraction.
+@H3 | 6 · A recurring decimal as a fraction
+**Question.** Write $0.363636\dots$ as a fraction in simplest form.
+**Plan.** Let $x$ be the number and multiply by a power of ten that shifts one whole repeating block.
+**Work.** $x = 0.363636\dots$, so $100x = 36.363636\dots$. Subtracting, $99x = 36$, hence $x = \frac{36}{99} = \frac{4}{11}$.
+**Check.** $4 \div 11 = 0.363636\dots$, and the block 36 repeats.
+@H3 | 7 · Multiplying decimals by counting places
+**Question.** Work out $0.6 \times 0.45$.
+**Plan.** Multiply as whole numbers, then restore the total number of decimal places.
+**Work.** $6 \times 45 = 270$. There is one decimal place in 0.6 and two in 0.45, so three in total: 0.270.
+**Answer.** 0.27.
+**Check.** $0.6 \times 0.45$ is a little more than half of 0.45, so about 0.25; 0.27 is sensible.
+@H3 | 8 · Percentage change in two steps
+**Question.** A price of 240 is reduced by 15%, then the new price is reduced by 10%. Find the single equivalent reduction.
+**Work.** Multipliers: $0.85 \times 0.90 = 0.765$. The final price is 76.5% of the original, so the reduction is 23.5%.
+**Check.** A single 25% reduction would leave 180; two successive reductions leave $240 \times 0.765 = 183.6$, which is slightly more, as expected.
+@H3 | 9 · Removing a tax that is already included
+**Question.** A receipt shows 354 units including 18% VAT. Find the price before tax.
+**Plan.** The total is 118% of the price, so divide by 1.18.
+**Work.** $354 \div 1.18 = 300$. The VAT is 54 units.
+**Check.** $300 \times 1.18 = 354$. Taking 18% of 354 would give 63.72, which is too large — a common error.
+@H3 | 10 · Working backwards to an original amount
+**Question.** After a 30% reduction a coat costs 84 units. Find the original price.
+**Work.** The sale price is 70% of the original, so the original is $84 \div 0.7 = 120$.
+**Check.** 30% of 120 is 36, and $120 - 36 = 84$.
+@H2 | Algebra and equations
+@H3 | 11 · Collecting like terms before solving
+**Question.** Solve $5x + 3 - 2x = 18$.
+**Work.** $3x + 3 = 18$, so $3x = 15$ and $x = 5$.
+**Check.** $5(5) + 3 - 2(5) = 25 + 3 - 10 = 18$.
+@H3 | 12 · Expanding then solving
+**Question.** Solve $2(x - 3) = 14$.
+**Plan.** Either divide both sides by 2 first, or expand. Dividing is quicker here.
+**Work.** $x - 3 = 7$, so $x = 10$.
+**Check.** $2(10 - 3) = 14$. Expanding first gives $2x - 6 = 14$ and the same answer, which is a useful second method.
+@H3 | 13 · Forming an equation from a context
+**Question.** A taxi charges 3 units plus 2 units per kilometre. A journey costs 27 units. How far was the journey?
+**Plan.** Let $d$ be the distance in kilometres; the cost is $3 + 2d$.
+**Work.** $3 + 2d = 27$, so $2d = 24$ and $d = 12$.
+**Check.** $3 + 2(12) = 27$, and the answer is a distance in kilometres, not an amount of money.
+@H3 | 14 · Substitution with a power
+**Question.** Find the value of $3n^{2}$ when $n = -4$.
+**Plan.** The power applies only to $n$, and squaring a negative gives a positive.
+**Work.** $(-4)^{2} = 16$, and $3 \times 16 = 48$.
+**Check.** $3n^{2}$ is not $(3n)^{2}$, which would be 144. The position of the bracket changes the answer.
+@H2 | Shape and measurement
+@H3 | 15 · Angles in a triangle with algebra
+**Question.** The angles of a triangle are $x$, $2x + 10$ and $3x - 10$. Find each angle.
+**Work.** $x + 2x + 10 + 3x - 10 = 180$, so $6x = 180$ and $x = 30$. The angles are 30°, 70° and 80°.
+**Check.** They total 180° and all are less than 90°, so the triangle is acute-angled.
+@H3 | 16 · Parallel lines and one known angle
+**Question.** Two parallel lines are cut by a transversal. One angle is 115°. Find the alternate angle and the co-interior angle.
+**Work.** The alternate angle equals 115°; the co-interior angle is $180° - 115° = 65°$.
+**Check.** Co-interior angles always total 180° between parallel lines, and 115 + 65 = 180.
+@H3 | 17 · Interior angles of a regular polygon
+**Question.** Find each interior angle of a regular 15-sided polygon.
+**Work.** Interior sum $= (15 - 2) \times 180° = 2{,}340°$; each angle $= 2{,}340° \div 15 = 156°$.
+**Check.** Each exterior angle is $360° \div 15 = 24°$, and $156 + 24 = 180$, as it must at every vertex.
+@H3 | 18 · Area of a compound shape
+**Question.** A rectangle 12 m by 8 m has a semicircle of diameter 8 m attached to one short side. Find the total area.
+**Work.** Rectangle $= 96$ m²; semicircle radius 4 m $= \frac{1}{2}\pi(16) \approx 25.1$ m²; total $\approx 121.1$ m².
+**Check.** The semicircle fits inside a 4 m by 8 m rectangle of area 32 m², and 25.1 is less than 32.
+@H3 | 19 · Surface area of a cuboid
+**Question.** Find the surface area of a cuboid 8 cm by 5 cm by 4 cm.
+**Work.** $2(8 \times 5 + 8 \times 4 + 5 \times 4) = 2(40 + 32 + 20) = 184$ cm².
+**Check.** The net has six rectangles in three equal pairs; 80 + 64 + 40 = 184.
+@H3 | 20 · Capacity and volume units
+**Question.** A tank is 1.2 m by 0.8 m by 0.5 m. Find its capacity in litres.
+**Work.** Volume $= 0.48$ m³. Since 1 m³ = 1,000 litres, the capacity is 480 litres.
+**Check.** $1.2 \times 0.8 = 0.96$ m² of base, and 0.96 × 0.5 = 0.48 m³; each cubic metre holds 1,000 litres.
+@H2 | Sets and data
+@H3 | 21 · A two-set problem with an overlap
+**Question.** Of 40 students, 22 like football, 18 like basketball and 8 like both. How many like neither?
+**Work.** $n(F \cup B) = 22 + 18 - 8 = 32$, so $40 - 32 = 8$ like neither.
+**Check.** Only football is 14, only basketball is 10, both are 8: $14 + 10 + 8 = 32$, leaving 8.
+@H3 | 22 · Mean, median and mode together
+**Question.** Find the mean, median and mode of 4, 7, 7, 9, 13.
+**Work.** Sum 40 over 5 values gives mean 8; the middle value is 7, so median 7; 7 occurs twice, so mode 7.
+**Check.** The median equals the mode here but not in general; the mean is pulled up by the 13.
+@H3 | 23 · Estimating a mean from grouped data
+**Question.** Times are grouped as 10–14 (4), 15–19 (9), 20–24 (14). Estimate the mean.
+**Work.** Midpoints 12, 17, 22: $48 + 153 + 308 = 509$ over 27 values, giving about 18.9.
+**Check.** The estimate of 18.9 sits inside the class 15–19, which holds the most values, so it is plausible; a grouped estimate always treats each value as if it were at the midpoint.
+@H3 | 24 · Reading a misleading graph
+**Question.** A bar chart starts its vertical axis at 90. Two bars show 92 and 95. Explain the distortion.
+**Work.** On a full scale from 0 the bars would differ by 3 in 100, about 3%; with the axis starting at 90 the visual difference is 3 in 5, or 60%.
+**Check.** The data are unchanged; only the axis has changed, which is why the axis must be read before the picture.
+@H3 | 25 · Choosing between area and volume
+**Question.** A paint tin covers 12 m² per litre. A wall is 9 m by 3 m. How many litres are needed for two coats?
+**Work.** Wall area $= 27$ m²; two coats cover 54 m²; $54 \div 12 = 4.5$ litres.
+**Check.** One coat needs 2.25 litres, so two coats need 4.5 — and paint is sold in whole litres, so buy 5.
+
+@SEC | Annotated student work | Four responses with examiner commentary | What the criteria look like in practice
+@LEAD | Marks are not awarded for length. The four responses below are short, and each one is annotated to show what earns credit under the MYP mathematics criteria and what holds a response back. Reading them is faster than reading a rubric, and more useful.
+@H2 | Response 1 · Knowing and understanding (Criterion A)
+@P | **The task.** “Explain why $\frac{3}{8}$ is a terminating decimal.”
+@P | **The response.** “$8 = 2^{3}$, and $\frac{3}{8} = \frac{3 \times 125}{8 \times 125} = \frac{375}{1000} = 0.375$. The denominator is built only from 2s, so the fraction can always be written over a power of ten, and the decimal stops.”
+@P | **Commentary.** Full credit. The student does more than state a fact: they name the condition, demonstrate it on the example, and give the reason the condition works. A response that says only “because the calculator shows 0.375” earns nothing, because a calculator result is not an explanation.
+@H2 | Response 2 · Investigating patterns (Criterion B)
+@P | **The task.** “How many matches are needed for stage $n$ of a pattern that starts with 4 matches and adds 3 each time?”
+@P | **The response.** “Stage 1: 4. Stage 2: 7. Stage 3: 10. The differences are constant at 3, so the rule is $3n + 1$. Checking $n = 4$ gives 13, which matches the diagram. For stage 20, $3(20) + 1 = 61$.”
+@P | **Commentary.** Full credit. Four things are present: data collected, a pattern described, a general rule expressed algebraically, and the rule verified against a case not used to find it. Without that verification the generalisation is a guess; with it, it is a justified conclusion.
+@H2 | Response 3 · Communicating (Criterion C)
+@P | **The task.** “Explain how to decide whether a problem needs area or volume.”
+@P | **The response.** “Area is for something that covers — paint for a wall, turf for a garden, tiles for a floor. Volume is for something that fills — water in a tank, sand in a box. If the answer needs square units it is area; if it needs cubic units it is volume. A paint problem can still need volume at the end, because paint is sold by the litre, so the surface area is divided by the coverage.”
+@P | **Commentary.** Full credit at the top band. The response defines the terms through examples, gives a decisive test, and then handles the awkward case where a real problem needs both. The last sentence is what lifts it above a correct but thin answer.
+@H2 | Response 4 · Applying mathematics in context (Criterion D)
+@P | **The task.** “A school needs to buy water for a sports day. Which option is better value?”
+@P | **The response.** “Option A: 24 bottles of 500 ml for 6 units, which is 12 litres for 6 units, so 0.50 units per litre. Option B: one 5 litre container for 2.40 units, so 0.48 units per litre. Option B is cheaper per litre, but it needs cups and a way to keep it cold, and the bottles can be handed out and resealed. For 200 students needing about 0.5 litres each we need 100 litres: A costs 50 units, B costs 48 units. The difference is 2 units, which is smaller than the cost of cups, so A is the better decision.”
+@P | **Commentary.** Full credit. The student computes both unit rates, models the real quantity needed, and then makes a justified decision that includes a factor the mathematics alone cannot supply. A response that stops at “0.48 is less than 0.50, so B” earns partial credit only, because it has not applied the result to the situation.
+@H2 | What the four responses have in common
+@LISTU
+- Each states a method before using it, so the reader can follow the reasoning.
+- Each answers the question that was asked, in the units that were asked for.
+- Each checks or applies the result, rather than stopping at the calculation.
+- None is long. Precision, not length, is what earns credit.
+
+@SEC | Revision planner | Twelve weeks to the assessment | A working plan
+@LEAD | A plan is useful only if it fits the time available. The twelve-week plan below assumes four short sessions a week of about twenty-five minutes, plus one longer session at the weekend. Adjust the number of weeks, not the order.
+@H2 | The plan
+@TABLE | Twelve weeks, four sessions a week
+Week ; Focus ; What to do ; Evidence of progress
+1 ; Place value and rounding ; Re-read 1.1–1.3; do the fluency items in 1.1 and 1.2 ; Explain rounding to a partner in one minute
+2 ; Powers and roots ; 2.1–2.3; memorise squares to 15² ; Write 64 as a power in three ways
+3 ; Factors, primes, HCF and LCM ; 3.3–3.5; ten mixed HCF/LCM items ; Explain why 91 is not prime
+4 ; Fractions ; 4.1–4.4; twenty fraction operations ; Order five fractions without a calculator
+5 ; Decimals and percentages ; 4.5–4.7, 5.1–5.3 ; Convert ten values between forms
+6 ; Percentage change ; 5.4–5.5; three real receipts or bills ; Work backwards from a discounted price
+7 ; Algebra ; 6.1–6.5; twenty equations with checks ; Form an equation from a word problem
+8 ; Angles and polygons ; 7.1–7.5; ten angle problems with reasons ; Give the reason for every step
+9 ; Measurement ; 9.1–9.6; five compound-shape and five volume items ; Estimate before calculating
+10 ; Sets and data ; 8.1–8.5, 10.1–10.5 ; Complete a survey and a two-way table
+11 ; Mixed practice ; Paper A and Paper B under time ; Mark honestly and list every lost mark
+12 ; Final revision ; Re-do every question you got wrong in weeks 1–11 ; Explain your three weakest topics aloud
+@H2 | How to mark your own work
+@LISTO
+1. Mark in a different colour from the one you worked in, so mistakes stay visible.
+2. For each lost mark, write one line: “I lost this because …”. Group the reasons — method, arithmetic, units, misreading.
+3. Re-do the question two days later without looking at the solution. If it works the second time, the gap has closed.
+4. Keep a single sheet of the four errors you keep repeating; check it before every practice paper.
+@H2 | The night before
+@P | Sleep matters more than one more paper. Read your error sheet, read the formula bank, and read the four annotated responses above. Do not start a new topic. In the assessment, read every question twice, write the units, and if a question is worth three marks, show the three steps those marks are for.
+
+@SEC | Reference notes | Using a calculator well | Reference
+@LEAD | A calculator performs the operations you enter, in the order you enter them. Most errors are errors of entry or of order, not of arithmetic.
+@TABLE | Five habits that prevent calculator errors
+Habit ; What it prevents
+Estimate first ; Accepting an absurd answer
+Use brackets for whole numerators and denominators ; $7+3 \div 2$ instead of $(7+3) \div 2$
+Keep the full value in the calculator until the end ; Rounding errors accumulating
+Write down intermediate values ; Losing the thread of a multi-step calculation
+Check the units of the answer ; Reporting an area as a length
+@P | A calculator is a tool for arithmetic, not for reasoning. It will compute $15\%$ of 240 correctly, but it will not decide whether 15% is the right percentage to use; it will divide by 0.7 when asked, but it will not know that dividing is the correct operation for finding an original price. The decisions remain yours, and they are what this course assesses.
+@ERR | The three commonest calculator errors
+Entering $3 + 4 \times 5$ as $(3 + 4) \times 5$; rounding a recurring decimal too early and then multiplying; and reading a display such as 1.2E3 as 1.23 rather than 1,200.

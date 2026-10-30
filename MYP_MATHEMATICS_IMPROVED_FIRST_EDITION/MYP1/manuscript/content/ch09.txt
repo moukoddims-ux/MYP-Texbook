@@ -1,0 +1,632 @@
+@MOVE | A | Engage | The box that holds more than it should
+@LEAD | Two cereal boxes stand side by side. Box A is 20 cm by 12 cm by 6 cm. Box B is 18 cm by 14 cm by 7 cm. The manufacturer claims Box B holds more but uses less cardboard.
+@P | Both claims need checking, and they are different measurements. Volume tells us how much fits inside: Box A holds $20 \\times 12 \\times 6 = 1{,}440$ cm³ and Box B holds $18 \\times 14 \\times 7 = 1{,}764$ cm³. So the first claim is true. Surface area tells us how much cardboard is needed: Box A needs 1,008 cm² and Box B needs 952 cm². The second claim is also true.
+@P | The reason is that a shape can be more compact — closer to a cube — and hold more for the same amount of material. This is not a trick of the numbers; it is a geometric principle that packaging designers use, and it is why milk cartons are close to cuboids rather than long thin boxes.
+@TABLE | Figure 9.1 Two boxes compared
+Box ; Dimensions ; Volume ; Surface area
+A ; 20 × 12 × 6 cm ; 1,440 cm³ ; 1,008 cm²
+B ; 18 × 14 × 7 cm ; 1,764 cm³ ; 952 cm²
+Cube of side 12 cm ; 12 × 12 × 12 cm ; 1,728 cm³ ; 864 cm²
+@MINI | Notice and wonder
+@LISTU
+- Which box holds more for the same cardboard?
+- Why does a cube use less material than a long thin box of the same volume?
+- Which measurement — length, area or volume — matches “how much cardboard”?
+- What would a box shaped like a very flat envelope do to the surface area?
+@CALLOUT | Keep this question open: how does the form of a shape decide how much material it takes to enclose a given space?
+
+@MOVE | B | Explore | The packaging problem
+@LEAD | Work in groups of three. You need 24 identical centimetre cubes, paper, scissors and a ruler.
+@H2 | Your investigation
+@P | **Step 1.** Build every cuboid you can from exactly 24 cubes. Record length, width and height for each.
+@P | **Step 2.** Calculate the surface area of each cuboid by counting faces or by using a formula.
+@P | **Step 3.** Record your results in a table, ordering the shapes from smallest to largest surface area.
+@P | **Step 4.** Decide which shape a manufacturer should choose if cardboard cost matters, and which if shelf space matters.
+@TABLE | Recording table (copy and complete)
+Length ; Width ; Height ; Volume ; Surface area
+24 ; 1 ; 1 ; 24 ; 
+12 ; 2 ; 1 ; 24 ; 
+8 ; 3 ; 1 ; 24 ; 
+6 ; 4 ; 1 ; 24 ; 
+6 ; 2 ; 2 ; 24 ; 
+4 ; 3 ; 2 ; 24 ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. Which cuboid uses the least material? How close is it to a cube?
+2. Which uses the most? How many times more material does it need than the best one?
+3. Does every cuboid with the same volume have the same surface area? Explain.
+4. If the cardboard cost is 0.02 units per cm², how much does the cheapest box save compared with the most expensive?
+5. Does the answer change if a lid is needed, so that the top face is counted twice?
+@H2 | Making a conjecture
+@CALLOUT | “For a fixed volume, the surface area is smallest when … because … .”
+@H2 | What you should have noticed
+@LISTU
+- The volume is the same for all six cuboids, but the surface area varies a great deal.
+- The most compact cuboid, closest to a cube, uses the least material.
+- The long thin 24 × 1 × 1 box uses the most, because it has the greatest amount of exposed surface per unit of volume.
+- A lid changes the totals but not the ranking.
+@FIG | c09_net
+@INVEST | Explore further
+Investigate the same question with 36 cubes. Which set of dimensions gives the smallest surface area, and how close to a cube is it? Then try 30 cubes, where no perfect cube is possible, and describe the best shape you can find.
+
+@SEC | 9.1 | Perimeter and area of rectangles and triangles | Criterion A · i, ii
+@LEAD | Perimeter measures a boundary in units of length; area measures a surface in square units. Confusing them is the commonest error in this chapter, and the units are the quickest way to detect it.
+@DEF | Perimeter and area
+The **perimeter** of a shape is the total length of its boundary. The **area** is the amount of surface it covers, measured in square units.
+For a rectangle of length $l$ and width $w$: perimeter $= 2(l + w)$ and area $= lw$.
+For a triangle with base $b$ and perpendicular height $h$: area $= \\frac{1}{2}bh$.
+@FIG | c09_triangle
+@KEY | Base and height must be perpendicular
+The height of a triangle is measured at right angles to the chosen base, which may lie outside the triangle for an obtuse triangle. Using a sloping side instead of the perpendicular height gives the wrong area — sometimes a large overestimate.
+@TABLE | The formulas of this section
+Shape ; Perimeter ; Area
+Rectangle ; $2(l + w)$ ; $lw$
+Square ; $4s$ ; $s^{2}$
+Triangle ; sum of three sides ; $\\frac{1}{2}bh$
+Parallelogram ; $2(a + b)$ ; $bh$ (perpendicular height)
+@METHOD | Choosing and applying a formula
+@LISTO
+1. Identify the shape and the quantity asked for: boundary (perimeter) or surface (area).
+2. Write the formula before substituting, so the units are clear.
+3. Substitute with units and calculate.
+4. State the answer in the correct units: cm for perimeter, cm² for area.
+5. Check plausibility: area grows with the square of the length, so doubling the sides quadruples the area.
+@ERR | Mixing units of length and area
+A rectangle 6 cm by 4 cm has area 24 cm², not 24 cm. Writing the unit as part of the calculation — $6 \\text{ cm} \\times 4 \\text{ cm} = 24 \\text{ cm}^{2}$ — makes the difference visible and prevents the error at the end.
+
+@EX | 9.1.1 | Rectangle and square
+GIVEN: A rectangle 12 cm by 7 cm, and a square of side 9 cm.
+ASKED: Find the perimeter and area of each.
+METHOD: Substitute into the formulas.
+STEPS:
+1. Rectangle: perimeter $= 2(12 + 7) = 38$ cm; area $= 12 \\times 7 = 84$ cm².
+2. Square: perimeter $= 36$ cm; area $= 81$ cm².
+ANSWER: 38 cm and 84 cm²; 36 cm and 81 cm².
+CHECK: The square's perimeter is smaller than the rectangle's although its area is nearly the same — a reminder that the two measures are independent.
+
+@EX | 9.1.2 | Area of a triangle
+GIVEN: A triangle with base 14 cm and perpendicular height 9 cm.
+ASKED: Find its area.
+METHOD: Use area $= \\frac{1}{2}bh$.
+STEPS:
+1. Area $= \\frac{1}{2} \\times 14 \\times 9$.
+2. $= 63$.
+ANSWER: 63 cm².
+CHECK: The triangle is half the rectangle 14 by 9, whose area is 126 cm².
+
+@EX | 9.1.3 | Working backwards
+GIVEN: A rectangle has area 96 cm² and width 8 cm.
+ASKED: Find its length and perimeter.
+METHOD: Rearrange the area formula.
+STEPS:
+1. $l \\times 8 = 96$, so $l = 12$ cm.
+2. Perimeter $= 2(12 + 8) = 40$ cm.
+ANSWER: 12 cm; 40 cm.
+CHECK: $12 \\times 8 = 96$.
+WATCH: Dividing the area by the width gives a length, not an area. The unit check protects the answer.
+
+@PRACTICE | 9.1 | Perimeter and area of rectangles and triangles | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the area of a rectangle 15 cm by 6 cm. || 90 cm²
+- F | Find the perimeter of a square of side 7.5 cm. || 30 cm
+- F | Find the area of a triangle with base 12 m and height 5 m. || 30 m²
+- F | A rectangle has area 72 cm² and length 9 cm. Find its width. || 8 cm
+- R | Explain why area is measured in square units. || Area counts the number of unit squares that cover the shape.
+- R | A student gives a perimeter as 24 cm². What is wrong? || Perimeter is a length, so the unit should be cm.
+- P | A triangle has area 48 cm² and base 12 cm. Find its height. || 8 cm
+- P | A rectangular garden is 18 m by 12 m. Find the cost of fencing at 4 units per metre. || Perimeter 60 m; cost 240 units.
+- E | A square and a rectangle have the same perimeter of 36 cm; the rectangle is 12 cm long. Compare their areas. || Square 81 cm²; rectangle 12 by 6 gives 72 cm².
+- E | Explain how doubling every side of a rectangle affects its perimeter and its area. || Perimeter doubles; area quadruples.
+
+@SEC | 9.2 | Area of parallelograms and compound shapes | Criterion A · ii; Criterion C · ii
+@LEAD | New shapes are handled by cutting and rearranging them into shapes whose area is already known. This is the method behind every area formula in the chapter.
+@DEF | Parallelogram area
+For a parallelogram with base $b$ and perpendicular height $h$, area $= bh$.
+The height is the perpendicular distance between the parallel sides, not the length of a sloping side.
+@KEY | Why the parallelogram formula works
+Cut a right-angled triangle from one end of the parallelogram and move it to the other end. The result is a rectangle with the same base and height. The area is unchanged because nothing was added or removed, only moved: $bh$.
+@FIG | c09_compound
+@METHOD | Area of a compound shape
+@LISTO
+1. Split the shape into rectangles, triangles or parallelograms, using lines you can measure.
+2. Calculate the area of each part.
+3. Add the parts, or subtract the parts removed from a larger shape.
+4. Check that the parts do not overlap and that nothing is counted twice.
+@TABLE | Two methods for one shape
+Method ; Parts ; Total
+Add the parts ; 10 × 4 = 40 and 4 × 6 = 24 ; 64 cm²
+Subtract from a rectangle ; $10 \\times 10 = 100$ minus $6 \\times 6 = 36$ ; 64 cm²
+@ERR | Using a sloping side as the height
+A parallelogram has sides 8 cm and 5 cm with a perpendicular height of 4 cm. Its area is $8 \\times 4 = 32$ cm², not $8 \\times 5 = 40$ cm². The sloping side is a length of the boundary, not the distance between the parallel sides.
+
+@EX | 9.2.1 | Area of a parallelogram
+GIVEN: A parallelogram with base 11 cm and perpendicular height 7 cm.
+ASKED: Find its area.
+METHOD: Multiply base by perpendicular height.
+STEPS:
+1. Area $= 11 \\times 7$.
+2. $= 77$.
+ANSWER: 77 cm².
+CHECK: The rectangle with the same base and height has the same area.
+
+@EX | 9.2.2 | A compound shape by adding
+GIVEN: An L-shaped room made from a 9 m by 5 m rectangle and a 4 m by 3 m rectangle joined along a side.
+ASKED: Find the area and the perimeter.
+METHOD: Add the rectangles; add the outer boundary only.
+STEPS:
+1. Area: $45 + 12 = 57$ m².
+2. Perimeter: the outer boundary measures 9 + 5 + 5 + 3 + 4 + 2 = 28 m.
+ANSWER: 57 m² and 28 m.
+CHECK: The perimeter is not the sum of both rectangles' perimeters, because the joining edge is inside the shape.
+
+@EX | 9.2.3 | A compound shape by subtracting
+GIVEN: A square of side 12 cm with a square of side 5 cm cut from one corner.
+ASKED: Find the area and the perimeter.
+METHOD: Subtract the removed area; the perimeter is unchanged by a corner cut.
+STEPS:
+1. Area: $144 - 25 = 119$ cm².
+2. Perimeter: the two removed edges replace two edges of equal length, so it is still $4 \\times 12 = 48$ cm.
+ANSWER: 119 cm² and 48 cm.
+CHECK: Cutting a corner from the boundary removes two segments and adds two of the same lengths.
+WATCH: A corner cut leaves the perimeter the same; a cut from the middle of an edge increases it.
+
+@PRACTICE | 9.2 | Area of parallelograms and compound shapes | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the area of a parallelogram with base 9 cm and height 4 cm. || 36 cm²
+- F | A compound shape is made of a 6 by 4 rectangle and a 3 by 2 rectangle. Find the total area. || 30 cm²
+- F | Find the area of a square of side 11 m. || 121 m²
+- F | A parallelogram has area 54 cm² and base 9 cm. Find its height. || 6 cm
+- R | Explain why the sloping side of a parallelogram is not its height. || The height must be perpendicular to the base.
+- R | A student finds the area of an L-shape by adding the areas of two rectangles and then adding both perimeters. What is wrong with adding the perimeters? || The shared edge is counted twice; perimeter is the outer boundary.
+- P | A room 8 m by 6 m has a 2 m by 2 m fireplace removed from one wall. Find the floor area. || 44 m²
+- P | A parallelogram has sides 12 cm and 7 cm with height 5 cm. Find its area and explain why 12 × 7 is wrong. || 60 cm²; 7 cm is a sloping side, not the perpendicular height.
+- E | A cross-shaped figure is made from five squares of side 3 cm. Find its area and perimeter. || Area 45 cm²; perimeter 36 cm.
+- E | Explain how cutting and moving a triangle shows that the parallelogram formula is correct. || The moved triangle leaves a rectangle of the same base and height.
+
+@SEC | 9.3 | Circles: circumference and area | Criterion A · i, ii; Criterion C · ii
+@LEAD | A circle has no straight edges, so its perimeter and area are not measured by counting squares. Both come from one length, the radius, and one constant, $\pi$.
+@FIG | c09_circle
+@DEF | Circumference and area of a circle
+The **circumference** is the distance around a circle: $C = 2\pi r$, or $C = \pi d$ because $d = 2r$.
+The **area** is the space inside: $A = \pi r^{2}$.
+Here $r$ is the radius, $d$ the diameter, and $\pi \approx 3.14159$, often used as $3.14$ or $\frac{22}{7}$.
+@KEY | What π is
+$\pi$ is the same number for every circle: the circumference divided by the diameter. Measure round any circular lid and across it, and the first divided by the second is close to 3.14 each time. Because $\pi$ never ends or repeats, any decimal answer is an approximation, so state the value of $\pi$ you used.
+@METHOD | Choosing the right formula
+@LISTO
+1. Decide what is being measured: a length around the edge (circumference) or space inside (area).
+2. Identify the radius. If the diameter is given, halve it.
+3. Substitute into $C = 2\pi r$ or $A = \pi r^{2}$.
+4. Give units: cm for circumference, cm² for area.
+5. Round sensibly — two decimal places is usual unless the question says otherwise.
+@TABLE | The same circle, three questions
+Radius ; Diameter ; Circumference $2\pi r$ ; Area $\pi r^{2}$
+5 cm ; 10 cm ; 31.4 cm ; 78.5 cm²
+7 cm ; 14 cm ; 44.0 cm ; 153.9 cm²
+2.5 m ; 5 m ; 15.7 m ; 19.6 m²
+@ERR | Mixing up radius and diameter
+$A = \pi r^{2}$ uses the radius. Using the diameter in the area formula multiplies the area by 4, not by 2: a circle of diameter 10 cm has area $25\pi \approx 78.5$ cm², not $100\pi$. A second common slip is squaring the wrong quantity: $(2r)^{2}$ is not $2r^{2}$.
+
+@EX | 9.3.1 | Circumference from the diameter
+GIVEN: A circular tabletop of diameter 1.2 m.
+ASKED: Find the length of edging needed to go right round it.
+METHOD: Use $C = \pi d$.
+STEPS:
+1. $C = \pi \times 1.2$.
+2. $C \approx 3.14159 \times 1.2 = 3.77$ m.
+ANSWER: About 3.77 m of edging.
+CHECK: The circumference is a little more than three diameters: $3 \times 1.2 = 3.6$, and 3.77 is a little more.
+
+@EX | 9.3.2 | Area from the radius
+GIVEN: A circular flower bed of radius 3 m.
+ASKED: Find the area to be covered with soil.
+METHOD: Use $A = \pi r^{2}$.
+STEPS:
+1. $r^{2} = 9$.
+2. $A = \pi \times 9 \approx 28.27$.
+ANSWER: About 28.3 m².
+CHECK: A square of side 6 m around it has area 36 m², and the circle fills a little less than that.
+
+@EX | 9.3.3 | A composite shape with a semicircle
+GIVEN: A running track end: a rectangle 20 m by 12 m with a semicircle of diameter 12 m attached to one short side.
+ASKED: Find the total area and the perimeter of the outside edge.
+METHOD: Split the shape, then add.
+STEPS:
+1. Rectangle area $= 20 \times 12 = 240$ m².
+2. Semicircle: radius 6 m, area $= \frac{1}{2}\pi \times 36 \approx 56.5$ m².
+3. Total area $\approx 296.5$ m².
+4. Perimeter: two long sides (40 m) plus one short side (12 m) plus the semicircular arc $\frac{1}{2} \times \pi \times 12 \approx 18.8$ m.
+5. Perimeter $\approx 70.8$ m.
+ANSWER: Area about 296.5 m², perimeter about 70.8 m.
+WATCH: The straight side of the semicircle is not part of the outside edge, so it is not counted in the perimeter. This is the most common error in composite circle questions.
+
+@PRACTICE | 9.3 | Circles: circumference and area | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the circumference, using $\pi \approx 3.14$: (a) $r = 4$ cm (b) $d = 10$ cm (c) $r = 2.5$ m || (a) 25.12 cm (b) 31.4 cm (c) 15.7 m
+- F | Find the area, using $\pi \approx 3.14$: (a) $r = 3$ cm (b) $r = 10$ cm (c) $d = 8$ m || (a) 28.26 cm² (b) 314 cm² (c) 50.24 m²
+- F | A circle has diameter 14 cm. Find its circumference and area, using $\pi \approx \frac{22}{7}$. || 44 cm; 154 cm²
+- F | Find the area of a semicircle of radius 6 cm. || $\frac{1}{2}\pi \times 36 \approx 56.5$ cm²
+- R | Explain why the area of a circle grows four times when the radius doubles. || The area depends on $r^{2}$, and $(2r)^{2} = 4r^{2}$.
+- R | A student calculates the area of a circle of diameter 9 cm as $\pi \times 81$. What went wrong? || They used the diameter instead of the radius; the correct area is $\pi \times 4.5^{2} \approx 63.6$ cm².
+- P | A circular pond of diameter 6 m is surrounded by a path 1 m wide. Find the area of the path. || $\pi(16 - 9) \approx 22.0$ m²
+- P | A wheel of diameter 60 cm rolls once. How far does it travel, and how many turns for 100 m? || About 188.5 cm; about 53 turns
+- E | The circumference of a circle is 62.8 cm. Find its radius to one decimal place. || $r = 62.8 \div (2\pi) \approx 10.0$ cm
+- E | A quarter circle of radius 8 cm is cut from a square of side 8 cm. Find the area left. || $64 - \frac{1}{4}\pi \times 64 \approx 13.7$ cm²
+
+@SEC | 9.4 | Surface area of cuboids and prisms | Criterion A · ii; Criterion C · ii
+@LEAD | Surface area is the total area of the faces of a solid. A net makes it visible: unfolding the solid into a flat shape turns a three-dimensional question into an area question.
+@FIG | c09_net
+@DEF | Surface area
+The **surface area** of a solid is the sum of the areas of all its faces, measured in square units.
+For a cuboid with dimensions $l$, $w$ and $h$: surface area $= 2(lw + lh + wh)$.
+@KEY | Why the formula has a factor of 2
+A cuboid has three pairs of opposite faces, and each pair is equal: top and bottom ($lw$), front and back ($lh$), left and right ($wh$). Adding one of each and doubling gives the total. The factor of 2 is not a rule to memorise but a consequence of the pairs.
+@METHOD | Surface area of a cuboid
+@LISTO
+1. Identify the three different dimensions.
+2. Calculate the three different face areas.
+3. Add them and double the total.
+4. Check the total against the net: six faces, in three equal pairs.
+@TABLE | Surface area of a 6 × 4 × 3 cm cuboid
+Face ; Area ; How many
+6 × 4 ; 24 cm² ; 2
+6 × 3 ; 18 cm² ; 2
+4 × 3 ; 12 cm² ; 2
+Total ; $2(24 + 18 + 12)$ ; 108 cm²
+@ERR | Forgetting the hidden faces
+Counting only the faces you can see in a drawing gives half the surface area. A cuboid has six faces, and the back, bottom and one side are hidden in any single view. The net is the reliable picture because nothing is hidden.
+
+@EX | 9.4.1 | A cuboid
+GIVEN: A cuboid 10 cm by 6 cm by 4 cm.
+ASKED: Find its surface area.
+METHOD: Use $2(lw + lh + wh)$.
+STEPS:
+1. $lw = 60$, $lh = 40$, $wh = 24$.
+2. Sum $= 124$.
+3. $2 \\times 124 = 248$.
+ANSWER: 248 cm².
+CHECK: The net has two 60 cm², two 40 cm² and two 24 cm² faces: $120 + 80 + 48 = 248$.
+
+@EX | 9.4.2 | A cube
+GIVEN: A cube of side 7 cm.
+ASKED: Find its volume and surface area.
+METHOD: Use the special cases of the cuboid formulas.
+STEPS:
+1. Volume $= 7^{3} = 343$ cm³.
+2. Surface area $= 6 \\times 49 = 294$ cm².
+ANSWER: 343 cm³ and 294 cm².
+CHECK: Six equal faces of 49 cm².
+
+@EX | 9.4.3 | A box without a lid
+GIVEN: An open-topped box 20 cm by 15 cm by 10 cm.
+ASKED: Find the area of card needed.
+METHOD: Count five faces instead of six.
+STEPS:
+1. Base: $20 \\times 15 = 300$ cm².
+2. Two sides of $20 \\times 10 = 200$ each: 400 cm².
+3. Two ends of $15 \\times 10 = 150$ each: 300 cm².
+4. Total $= 300 + 400 + 300 = 1{,}000$ cm².
+ANSWER: 1,000 cm².
+CHECK: The closed box would need $2(300 + 200 + 150) = 1{,}300$ cm², so removing the lid saves 300 cm².
+WATCH: “Open box” changes the count of faces. Read whether a lid is included before using the formula.
+
+@PRACTICE | 9.4 | Surface area of cuboids and prisms | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the surface area of a cuboid 5 cm by 3 cm by 2 cm. || 62 cm²
+- F | Find the surface area of a cube of side 4 cm. || 96 cm²
+- F | A cuboid is 8 cm by 5 cm by 5 cm. Find its surface area. || 210 cm²
+- F | How many faces does a cuboid have? || 6
+- R | Explain why the surface-area formula doubles the sum of three face areas. || The faces occur in three equal pairs.
+- R | A student calculates the surface area of a 6 × 4 × 3 cuboid as 72 cm². What has gone wrong? || Only three faces were counted, not six.
+- P | A gift box 24 cm by 16 cm by 9 cm is to be covered in paper. How much paper is needed, ignoring overlaps? || $2(384 + 216 + 144) = 1{,}488$ cm²
+- P | An open box is 30 cm by 20 cm by 12 cm. Find the card needed. || $600 + 2(360) + 2(240) = 1{,}800$ cm²
+- E | A cube has surface area 150 cm². Find its side length and volume. || side 5 cm; volume 125 cm³
+- E | Explain why a cube uses less material than a long cuboid of the same volume. || Its faces are closer to squares, so the sum of products is smaller for a fixed product.
+
+@SEC | 9.5 | Volume of cuboids and prisms | Criterion A · ii, iii
+@LEAD | Volume measures the space a solid occupies, in cubic units. For a cuboid it is the product of three lengths, and for any prism it is the area of the cross-section multiplied by the length.
+@FIG | c09_prism
+@DEF | Volume and capacity
+The **volume** of a cuboid is $l \\times w \\times h$, measured in cubic units. The volume of any **prism** is the area of its cross-section multiplied by its length.
+**Capacity** is the volume of liquid or gas a container can hold, usually measured in litres: $1 \\text{ litre} = 1{,}000 \\text{ cm}^{3}$ and $1 \\text{ m}^{3} = 1{,}000 \\text{ litres}$.
+@FIG | c09_units
+@KEY | Units follow the dimensions
+Length uses one factor of 10; area uses two, so $1 \\text{ cm}^{2} = 100 \\text{ mm}^{2}$; volume uses three, so $1 \\text{ cm}^{3} = 1{,}000 \\text{ mm}^{3}$. This is why a litre — 1,000 cm³ — is a cube about 10 cm on each side.
+@METHOD | Volume and capacity problems
+@LISTO
+1. Identify the solid and the dimensions, converting to the same unit first.
+2. Apply the formula: $lwh$ for a cuboid, cross-section × length for a prism.
+3. State the volume in cubic units.
+4. Convert to litres if the question asks about capacity: divide cm³ by 1,000, or m³ by 0.001.
+@TABLE | Volume and capacity
+Solid ; Dimensions ; Volume ; Capacity
+Cuboid ; 20 × 15 × 10 cm ; 3,000 cm³ ; 3 litres
+Cuboid ; 1 m × 50 cm × 40 cm ; 200,000 cm³ ; 200 litres
+Cube ; 10 cm side ; 1,000 cm³ ; 1 litre
+Tank ; 2 m × 1 m × 0.5 m ; 1 m³ ; 1,000 litres
+@ERR | Mixing units inside one formula
+$2 \\text{ m} \\times 50 \\text{ cm} \\times 40 \\text{ cm}$ must be calculated as $200 \\times 50 \\times 40$ cm³, not $2 \\times 50 \\times 40$. Converting all lengths to the same unit before multiplying prevents an error of a factor of 100.
+
+@EX | 9.5.1 | Volume of a cuboid
+GIVEN: A box 25 cm by 18 cm by 12 cm.
+ASKED: Find its volume and its capacity in litres.
+METHOD: Multiply the dimensions, then convert.
+STEPS:
+1. $25 \\times 18 = 450$; $450 \\times 12 = 5{,}400$ cm³.
+2. $5{,}400 \\div 1{,}000 = 5.4$ litres.
+ANSWER: 5,400 cm³, or 5.4 litres.
+CHECK: A litre is 1,000 cm³, so 5,400 cm³ is a little over five litres.
+
+@EX | 9.5.2 | Volume of a prism
+GIVEN: A triangular prism whose cross-section is a triangle with base 8 cm and height 5 cm; the prism is 20 cm long.
+ASKED: Find its volume.
+METHOD: Find the cross-sectional area, then multiply by the length.
+STEPS:
+1. Triangle area $= \\frac{1}{2} \\times 8 \\times 5 = 20$ cm².
+2. Volume $= 20 \\times 20 = 400$ cm³.
+ANSWER: 400 cm³.
+CHECK: The prism is equivalent to a cuboid with the same cross-section area and length.
+
+@EX | 9.5.3 | A problem with mixed units
+GIVEN: A water tank is 1.2 m long, 80 cm wide and 60 cm deep.
+ASKED: Find its capacity in litres.
+METHOD: Convert all lengths to centimetres, then convert the volume.
+STEPS:
+1. $120 \\times 80 \\times 60 = 576{,}000$ cm³.
+2. $576{,}000 \\div 1{,}000 = 576$ litres.
+ANSWER: 576 litres.
+CHECK: $1.2 \\times 0.8 \\times 0.6 = 0.576$ m³, and $0.576 \\times 1{,}000 = 576$ litres.
+WATCH: A depth of 60 cm is 0.6 m, not 6 m. Estimating the size of a tank in litres before calculating catches factor-of-ten errors.
+
+@PRACTICE | 9.5 | Volume of cuboids and prisms | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the volume of a cuboid 6 cm by 4 cm by 3 cm. || 72 cm³
+- F | Find the volume of a cube of side 5 cm. || 125 cm³
+- F | Convert 2,500 cm³ to litres. || 2.5 litres
+- F | A cuboid has volume 120 cm³ and a base of 20 cm². Find its height. || 6 cm
+- R | Explain why volume is measured in cubic units. || Three lengths are multiplied, so the unit is cubed.
+- R | A student calculates the volume of a 2 m by 50 cm by 40 cm box as 4,000 cm³. What has gone wrong? || The 2 m was not converted to 200 cm; the correct volume is 400,000 cm³.
+- P | A fish tank is 60 cm by 30 cm by 40 cm. How many litres does it hold when full? || 72 litres
+- P | A prism has a cross-section of 15 cm² and a length of 24 cm. Find its volume. || 360 cm³
+- E | A cuboid has volume 480 cm³ and dimensions 10 cm by 8 cm by $h$. Find $h$ and its surface area. || $h = 6$ cm; surface area 376 cm².
+- E | Explain why doubling all three dimensions of a cuboid multiplies its volume by 8. || Each length doubles, so the product gains three factors of 2.
+
+@SEC | 9.6 | Using measurement to make decisions | Criterion D · i, ii, iii, iv
+@LEAD | Measurement answers questions about cost, capacity and material. The mathematics is in choosing the right measure, keeping the units consistent and stating what the answer does not cover.
+@METHOD | A decision routine
+@LISTO
+1. Decide which quantity matters: length for fencing, area for paint or card, volume for capacity.
+2. Convert all measurements to one unit before calculating.
+3. Calculate, then add a stated allowance for waste or overlap if the question requires it.
+4. Compare cost per unit of the relevant quantity, not per object.
+5. State an assumption and a limitation with the recommendation.
+@TABLE | Which measure for which job
+Job ; Measure ; Unit
+Fencing a garden ; perimeter ; metres
+Painting a wall ; area ; square metres
+Filling a tank ; volume ; litres
+Covering a box ; surface area ; square centimetres
+Buying ribbon for a parcel ; length ; metres
+@KEY | Cost per unit is the fair comparison
+Two boxes may cost the same but hold different volumes, or cost different amounts for the same capacity. Comparing cost per litre, or per square metre, makes the comparison meaningful — the same reasoning as comparing fractions by a common denominator.
+@ERR | Comparing totals instead of rates
+“Pack A costs 6 for 2 litres and pack B costs 8 for 3 litres, so A is cheaper” compares totals, not value. Pack A costs 3 per litre and pack B about 2.67 per litre, so B is the better buy.
+
+@EX | 9.6.1 | Paint for a room
+GIVEN: A room has four walls, each 4 m by 2.5 m, ignoring doors and windows. One litre of paint covers 10 m² and paint is sold in 5-litre tins.
+ASKED: Find the number of tins needed.
+METHOD: Find the area, then the paint, then the tins, rounding up.
+STEPS:
+1. Area of one wall $= 10$ m²; four walls $= 40$ m².
+2. Paint needed $= 40 \\div 10 = 4$ litres.
+3. One 5-litre tin covers 50 m², so one tin is enough.
+ANSWER: One tin.
+CHECK: 5 litres covers 50 m², which exceeds 40 m².
+
+@EX | 9.6.2 | Comparing two cartons
+GIVEN: Carton A: 12 cm by 10 cm by 8 cm at 1.20 units. Carton B: 15 cm by 10 cm by 6 cm at 1.35 units.
+ASKED: Decide which carton is better value.
+METHOD: Find each volume and the cost per 100 cm³.
+STEPS:
+1. A: $12 \\times 10 \\times 8 = 960$ cm³.
+2. B: $15 \\times 10 \\times 6 = 900$ cm³.
+3. A costs $1.20 \\div 960 \\times 100 = 0.125$ per 100 cm³; B costs $1.35 \\div 900 \\times 100 = 0.15$ per 100 cm³.
+ANSWER: Carton A is better value, despite its lower apparent capacity being irrelevant: it holds more and costs less.
+CHECK: A holds 960 cm³ for 1.20 units and B holds 900 cm³ for 1.35 units.
+
+@EX | 9.6.3 | Designing a box
+GIVEN: A manufacturer wants a box of volume 1,000 cm³ with a square base, using as little card as possible.
+ASKED: Choose the dimensions and justify the choice.
+METHOD: Test three square-based boxes and compare surface areas.
+STEPS:
+1. Base 10 × 10, height 10: surface area $6 \\times 100 = 600$ cm².
+2. Base 5 × 5, height 40: surface area $2(25) + 4(200) = 850$ cm².
+3. Base 20 × 20, height 2.5: surface area $2(400) + 4(50) = 1{,}000$ cm².
+ANSWER: The cube of side 10 cm, using 600 cm² — the least card of the three.
+CHECK: All three have volume 1,000 cm³, and the cube has the smallest surface area.
+WATCH: A very flat or very tall box of the same volume always uses more card. The compact shape wins.
+
+@PRACTICE | 9.6 | Using measurement to make decisions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | A wall is 5 m by 3 m. How many square metres must be painted? || 15 m²
+- F | Ribbon goes once round a 20 cm by 15 cm by 10 cm box in each direction, plus 20 cm for a bow. Find the total length needed. || $2(20+10) + 2(15+10) + 20 = 60 + 50 + 20 = 130$ cm.
+- F | A 1.5-litre bottle costs 0.90. Find the cost per litre. || 0.60 per litre
+- F | A tank holds 300 litres. How many 20-litre buckets fill it? || 15
+- R | Explain why cost per litre is a fairer comparison than total cost. || It compares value for the same quantity.
+- R | A student compares a 2-litre pack at 6 units with a 3-litre pack at 8 units and says the first is cheaper. Explain the error. || The totals differ; per litre, 3.00 against about 2.67.
+- P | Paint covers 12 m² per litre and is sold in 4-litre tins. How many tins for 90 m²? || 2 tins (8 litres covers 96 m²)
+- P | A box 40 cm by 30 cm by 20 cm is wrapped. Find the card needed, ignoring overlaps. || 2(1200 + 800 + 600) = 5,200 cm²
+- E | Two boxes have volumes 720 cm³ and 750 cm³ and cost 2.40 and 2.60. Which is better value per 100 cm³? || 0.333 against 0.347; the first.
+- E | Explain why a very tall thin box uses more card than a cube of the same volume. || Its surface-to-volume ratio is larger.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 9 | The packaging problem | Criterion B · i, ii, iii
+@LEAD | Extend the Explore activity to a general claim about compactness, and test it where no perfect cube is possible.
+@INVEST | Investigation brief
+**Question.** For a fixed volume, how does the shape of a cuboid affect the material needed to make it?
+**What you need.** Your table of cuboids, a calculator, and the surface-area formula.
+**What to produce.** A comparison table, a conjecture about the most compact shape, a justification, and a test with a volume that has no cubic factorisation.
+@H2 | Part 1 · Compare
+@TABLE | Copy and complete
+Length ; Width ; Height ; Volume ; Surface area ; Ratio area ÷ volume
+24 ; 1 ; 1 ; ; ; 
+12 ; 2 ; 1 ; ; ; 
+6 ; 4 ; 1 ; ; ; 
+4 ; 3 ; 2 ; ; ; 
+@H2 | Part 2 · Generalise
+@LISTO
+1. Which shape gives the smallest ratio of surface area to volume? What is that ratio?
+2. Which gives the largest? How many times larger is it?
+3. State a conjecture about the shape that minimises material for a fixed volume.
+4. Why does the ratio, rather than the surface area alone, give a fair comparison between boxes of different volumes?
+@H2 | Part 3 · Test and evaluate
+@LISTO
+1. Test your conjecture with volume 36, where a cube is impossible. Which cuboid comes closest?
+2. Test with volume 64, where a cube is possible. Does the conjecture hold?
+3. Explain, in two sentences, what a packaging designer gains from this result.
+4. State one practical constraint that could make the best mathematical shape a poor choice.
+@CRIT | Criterion B task · Requirements
+Complete table with correct values; a conjecture about compactness; a justification using the ratio; tests on two new volumes; an evaluation that names a practical constraint.
+
+@SEC | Application 9 | The water tank decision | Criterion D · i, ii, iii, iv, v
+@LEAD | A school must choose a water tank. Three tanks are available, and the choice depends on capacity, floor space and cost.
+@APPLY | The brief
+@TABLE | The three tanks
+Tank ; Dimensions ; Cost ; Floor space
+A ; 1.5 m × 1 m × 1.2 m ; 240 units ; 1.5 m²
+B ; 2 m × 0.8 m × 1.2 m ; 270 units ; 1.6 m²
+C ; cylindrical, diameter 1.2 m, height 1.5 m ; 300 units ; about 1.1 m²
+@LISTU
+- The school needs at least 1,400 litres.
+- The available floor space is 2 m².
+- The budget is 300 units, and the tank must fit through a door 1 m wide.
+- For the cylinder, use volume $= \\pi r^{2} h$ with $\\pi \\approx 3.14$.
+@H2 | Task 1 · Calculate capacities
+@LISTO
+1. Find the volume of each tank in cubic metres, then in litres.
+2. Decide which tanks meet the capacity requirement.
+3. Check the floor space and door-width constraints for each candidate.
+@H2 | Task 2 · Compare value
+@LISTO
+1. Calculate the cost per 100 litres for each candidate.
+2. Rank the candidates by value.
+3. State which constraint eliminates the cheapest option, if any.
+@H2 | Task 3 · Recommend
+@LISTO
+1. Choose a tank and justify the choice against all four constraints.
+2. State one assumption in your calculation and one way the answer could change.
+3. Write a short recommendation for the school office, using your figures.
+@CRIT | Criterion D task · Requirements
+All volumes correct with units; constraints checked explicitly; cost per 100 litres calculated; a recommendation that survives every constraint; assumptions and limitations stated.
+
+@SEC | Task C | Writing the measurement guide | Criterion C · i, ii, iv
+@CRIT | The task
+Write a one-page guide for younger students: **“Perimeter, area, surface area and volume — which one is it?”**
+@LISTO
+1. A table of the four measurements with their units and one example each.
+2. A labelled sketch for each, showing what is being measured.
+3. Two worked examples where choosing the wrong measurement would give a silly answer, with the wrong answer shown.
+4. A short test of understanding: four short questions with answers at the end.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct units and correct use of squared and cubed notation.
+Representation (ii) ; Sketches that show what each measurement refers to.
+Organisation (iv) ; A reader can choose the right measure without help.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 9 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- Perimeter is a length; area is measured in square units; volume in cubic units.
+- Rectangle area $lw$; triangle area $\\frac{1}{2}bh$; parallelogram area $bh$, using perpendicular height.
+- Compound shapes are handled by adding or subtracting simple shapes.
+- Surface area is the sum of all faces: $2(lw + lh + wh)$ for a cuboid, $6s^{2}$ for a cube.
+- Volume of a cuboid is $lwh$; of a prism, cross-section area × length.
+- $1 \\text{ litre} = 1{,}000 \\text{ cm}^{3}$; unit conversions follow the number of dimensions.
+- For a fixed volume, the most compact shape uses the least material.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 9
+Term | Meaning in this course
+Perimeter | The total length of a boundary.
+Area | The surface covered, in square units.
+Perpendicular height | The distance at right angles to a base.
+Compound shape | A shape made from two or more simple shapes.
+Surface area | The total area of all faces of a solid.
+Volume | The space occupied, in cubic units.
+Capacity | The volume a container can hold, often in litres.
+Prism | A solid with the same cross-section along its length.
+Net | A flat shape that folds into a solid.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“Area and perimeter are the same.” ; One is surface, one is boundary. ; 6 by 4: 24 cm², 20 cm
+“The sloping side is the height.” ; Height is perpendicular. ; parallelogram 8 × 4
+“A cuboid has five faces in a drawing.” ; It has six. ; the net
+“1 m² = 100 cm².” ; It is 10,000 cm². ; $100 \\times 100$
+“Doubling the sides doubles the volume.” ; It multiplies by 8. ; $2^{3} = 8$
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+calculate perimeter and area of rectangles, triangles and parallelograms. ;  ;  ; 
+find the area of a compound shape by adding or subtracting. ;  ;  ; 
+calculate the surface area of a cuboid, including an open box. ;  ;  ; 
+calculate volume and convert between cm³, m³ and litres. ;  ;  ; 
+choose the right measure for a practical decision. ;  ;  ; 
+compare value using cost per unit. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which measurement do you still confuse with another, and what will you check in future?
+2. Describe a container you have seen that is shaped to use less material.
+3. Write one sentence explaining why a cube is an efficient shape.
+4. In the tank task, which constraint eliminated the most tempting option?
+5. How did the unit of the answer help you check your work this chapter?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ9 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–18
+- F | Find the area of a rectangle 14 cm by 5 cm. || 70 cm²
+- F | Find the perimeter of a rectangle 14 cm by 5 cm. || 38 cm
+- F | Find the area of a triangle with base 16 m and height 7 m. || 56 m²
+- F | Find the volume of a cuboid 9 cm by 5 cm by 4 cm. || 180 cm³
+- F | Find the surface area of a cube of side 6 cm. || 216 cm²
+- F | Convert 4,500 cm³ to litres. || 4.5 litres
+- R | Explain why the surface area of a cuboid is doubled in the formula. || There are three pairs of equal faces.
+- R | A square and a rectangle have equal areas. Must their perimeters be equal? || No; a square has the smallest perimeter for a given area.
+- R | Explain why a litre is 1,000 cm³ and not 100 cm³. || A litre is a cube of side 10 cm, and $10^{3} = 1{,}000$.
+- P | A room is 6 m by 4.5 m. Carpet costs 12 units per m². Find the cost. || 27 m²; 324 units.
+- P | A tank is 1.5 m by 0.8 m by 0.7 m. Find its capacity in litres. || 840 litres
+- P | An open box is 25 cm by 20 cm by 15 cm. Find the card needed. || $500 + 2(375) + 2(300) = 1{,}850$ cm²
+- C | Explain why the area of a triangle is half that of a rectangle with the same base and height. || Two congruent triangles make the rectangle.
+- C | Explain why doubling all dimensions multiplies the surface area by 4 and the volume by 8. || Area depends on two lengths and volume on three.
+- E | A cuboid has volume 240 cm³ and a square base of side 4 cm. Find its height and surface area. || height 15 cm; surface area $2(16) + 4(60) = 272$ cm².
+- E | A cylinder has radius 5 cm and height 10 cm. Find its volume ($\\pi \\approx 3.14$). || 785 cm³
+- E | Explain why a sphere is more efficient than a cube for holding a given volume. || Its surface area per unit volume is smaller.
+- P | A tank 1 m × 1 m × 1 m is filled at 5 litres per minute. How long to fill it? || 1,000 litres; 200 minutes.
+- C | A shop sells soap in a 6 × 4 × 3 cm box and in a 12 × 4 × 3 cm box. Compare surface areas and volumes, and say which is the better use of card per unit of soap. || 108 cm² for 72 cm³ against 192 cm² for 144 cm³; the larger box is more efficient.
+
+@SEC | Mixed 9 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX9 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find the area of a parallelogram with base 12 cm and height 5 cm. || 60 cm²
+- F | Find the perimeter of a square of side 8 m. || 32 m
+- F | Find the volume of a cube of side 9 cm. || 729 cm³
+- F | Convert 0.75 m³ to litres. || 750 litres
+- F | Find the surface area of a cuboid 7 cm by 5 cm by 4 cm. || 166 cm²
+- R | Explain why perimeter has units of cm while area has units of cm². || Perimeter is a length; area is a product of two lengths.
+- R | A student says a box 10 × 10 × 10 holds twice as much as one 5 × 5 × 5. Refute this. || The volumes are 1,000 and 125 cm³, so eight times as much.
+- P | A garden 15 m by 9 m is fenced and turfed. Find the fencing and turf costs at 3 and 8 units per unit respectively. || Fence 48 m costs 144; turf 135 m² costs 1,080.
+- P | A carton 20 cm by 12 cm by 8 cm is filled with 1 cm cubes. How many fit? || 1,920 cubes
+- P | A prism has cross-section area 24 cm² and length 15 cm. Find its volume. || 360 cm³
+- C | Explain when cutting a corner from a rectangle changes the perimeter. || It does not if the cut replaces two edges with equal lengths; it does if the cut is not at a corner.
+- C | Explain how to decide whether a problem needs area or volume. || Area covers a surface; volume fills a space.
+- E | A cuboid has dimensions in the ratio 1 : 2 : 3 and volume 384 cm³. Find the dimensions. || $6k^{3} = 384$, $k^{3} = 64$, $k = 4$; 4, 8, 12 cm.
+- E | A cube and a cuboid have equal volumes of 216 cm³; the cuboid is 9 cm by 6 cm by 4 cm. Which has the smaller surface area? || Cube 216 cm²; cuboid 228 cm²; the cube.
+- E | A tank 80 cm by 50 cm by 40 cm is half full. How many litres must be added to fill it? || Capacity 160 litres, half full holds 80, so add 80 litres.
+- P | A cylindrical can has diameter 8 cm and height 12 cm. Find its volume and how many litres it holds. || $r = 4$; volume $\\approx 603$ cm³, about 0.6 litres.
+- F | Find the circumference of a circle of radius 7 cm, using $\pi \approx \frac{22}{7}$. || 44 cm
+- R | Explain why doubling the radius of a circle multiplies its area by 4 but its circumference by only 2. || Area depends on $r^{2}$; circumference depends on $r$.
+- P | A circular table top has diameter 1.4 m. How long is the strip that goes right round the edge? || $\pi \times 1.4 \approx 4.4$ m
+- E | A semicircular window has diameter 60 cm. Find its perimeter. || Arc $\approx 94.2$ cm plus the 60 cm diameter, so about 154.2 cm
+
+@SEC | Cumulative practice 9 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP9 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Find the area of a triangle with base 21 cm and height 10 cm. || 105 cm²
+- F | Find the volume of a cuboid 8 cm by 5 cm by 5 cm. || 200 cm³
+- F | Convert 7,500 cm³ to litres. || 7.5 litres
+- R | Explain why the height of a triangle is not always a side. || It must be measured perpendicular to the base.
+- P | An open box is 40 cm by 30 cm by 20 cm. Find the card needed. || $1{,}200 + 2(800) + 2(600) = 4{,}000$ cm²
+- P | A tank 90 cm by 60 cm by 50 cm is $\frac{3}{4}$ full. How many litres does it hold? || 202.5 litres
+- C | Explain why a cube is an efficient container. || It has a small surface area for its volume.
+- E | A cube has volume 512 cm³. Find its surface area. || side 8 cm; surface area 384 cm².

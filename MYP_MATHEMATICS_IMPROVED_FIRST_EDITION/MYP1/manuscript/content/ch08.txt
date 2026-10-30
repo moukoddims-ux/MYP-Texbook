@@ -1,0 +1,578 @@
+@MOVE | A | Engage | Who is in the group?
+@LEAD | A club advertises two activities: chess and football. Of 40 members, 22 play chess and 25 play football. A member reads the notice and says “that is 47 members, but the club only has 40 — the numbers must be wrong.”
+@P | The numbers are not wrong. Some members do both activities, and those members are counted in both figures. The overlap is the missing information: $22 + 25 - 40 = 7$ members play both. This is the arithmetic of sets, and it explains a great many surveys, registers and reports.
+@P | Sets are also how mathematics classifies. A set is defined by a rule that decides membership without ambiguity, which is exactly what a fair classification needs: no member left out, no member counted twice, and the same decision every time.
+@TABLE | Figure 8.1 The club, counted two ways
+Group ; Count
+Members who play chess ; 22
+Members who play football ; 25
+Members who play both ; 7
+Members who play at least one ; $22 + 25 - 7 = 40$
+Members who play neither ; $40 - 40 = 0$
+@MINI | Notice and wonder
+@LISTU
+- Why was 7 subtracted rather than added?
+- Could the overlap be 30? Could it be 0? What limits the overlap?
+- What would it mean if the total of the two activities were less than 40?
+- How would the answer change if some members played neither activity?
+@CALLOUT | Keep this question open: when does adding two counts mislead, and what has to be known about the overlap before a total can be trusted?
+
+@MOVE | B | Explore | How much overlap is possible?
+@LEAD | Work in pairs. You need a class list, two coloured pencils and a large sheet of paper.
+@H2 | Your investigation
+@P | **Step 1.** Agree on two questions with yes-or-no answers that every member of the class can answer, such as “Do you walk to school?” and “Do you cycle to school?”.
+@P | **Step 2.** Collect the answers and record four counts: yes to both, yes to the first only, yes to the second only, no to both.
+@P | **Step 3.** Display the counts in a Venn diagram with a rectangle for everyone in the class.
+@P | **Step 4.** Now invent a hypothetical class of 30 in which 20 answer yes to A and 18 answer yes to B. Find the smallest and largest possible overlap.
+@TABLE | Recording table (copy and complete)
+Number who say yes to A ; Number who say yes to B ; Smallest overlap ; Largest overlap ; Number who say no to both
+20 ; 18 ; ; ; 
+30 ; 25 ; ; ; 
+12 ; 12 ; ; ; 
+25 ; 5 ; ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. What is the largest possible number of people who could answer yes to both questions?
+2. What is the smallest possible number? Which total makes the smallest overlap 0?
+3. In your class data, how many answered no to both? Where does that number sit in the diagram?
+4. If 20 out of 30 say yes to A and 18 say yes to B, what is the smallest number who could say no to both?
+5. Can the two overlaps — “both yes” and “both no” — both be large? Explain.
+@H2 | Making a conjecture
+@CALLOUT | “When two sets are chosen from a group of $n$, the overlap is at least … and at most … because … .”
+@H2 | What you should have noticed
+@LISTU
+- The largest possible overlap is the smaller of the two set sizes.
+- The smallest possible overlap is 0 when the two sizes together do not exceed the group; otherwise it is the excess.
+- The number outside both sets is the group size minus the union.
+- Counts must be checked against the total: the four regions must add to the group size.
+@FIG | c08_venn
+@INVEST | Explore further
+Design a survey with three overlapping questions and see how many regions the diagram needs. For three sets there are eight regions. Can you find a set of counts in which one region must be empty? Explain why.
+
+@SEC | 8.1 | Sets and set notation | Criterion A · i, ii
+@LEAD | A set is a collection defined precisely enough that membership is never in doubt. The notation exists to make that precision visible.
+@DEF | Sets and their notation
+A **set** is a well-defined collection of objects, called its **elements**. Sets are named with capital letters and listed in braces: $A = \\{2, 4, 6, 8\\}$.
+@LISTU
+- $x \\in A$ means $x$ is an element of $A$; $x \\notin A$ means it is not.
+- The **universal set** $\\mathcal{U}$ contains everything under discussion.
+- The **empty set** $\\{\\}$ or $\\emptyset$ has no elements.
+- The **cardinality** $n(A)$ is the number of elements in $A$.
+@KEY | Two ways to describe the same set
+**Listing** (roster method) names each element: $B = \\{3, 6, 9, 12\\}$.
+**Rule** (set-builder method) states the condition: $B = \\{x : x \\text{ is a multiple of } 3 \\text{ and } 0 < x < 15\\}$.
+The listing is easier to read; the rule is easier to extend and to test. Both describe exactly the same set, and neither leaves membership in doubt — which is the whole point.
+@TABLE | Sets described by rules
+Set ; Rule ; Listed
+Even numbers below 10 ; $\\{x : x \\text{ even}, 0 < x < 10\\}$ ; $\\{2, 4, 6, 8\\}$
+Factors of 12 ; $\\{x : x \\text{ divides } 12\\}$ ; $\\{1, 2, 3, 4, 6, 12\\}$
+Prime numbers below 20 ; $\\{x : x \\text{ prime}, x < 20\\}$ ; $\\{2, 3, 5, 7, 11, 13, 17, 19\\}$
+Whole numbers between 4 and 5 ; $\\{x : 4 < x < 5, x \\text{ whole}\\}$ ; $\\emptyset$
+@METHOD | Working with sets
+@LISTO
+1. Decide the universal set first: “multiples of 3” means nothing until the range is known.
+2. List elements without repetition; order does not matter in a set.
+3. Use a rule when the set is large or infinite, and a list when it is small.
+4. Check the cardinality by counting the listed elements.
+@ERR | A rule that does not decide
+“The set of tall students” is not a set in the mathematical sense, because “tall” is not defined precisely enough to decide every case. “Students taller than 1.70 m” is a set. Precision, not subject matter, is what makes a collection a set.
+
+@EX | 8.1.1 | Listing and describing
+GIVEN: The set $A = \\{x : x \\text{ is a factor of } 18\\}$ with $\\mathcal{U} = \\{1, 2, 3, \\dots, 20\\}$.
+ASKED: List the elements of $A$ and state $n(A)$.
+METHOD: Test each whole number up to 18.
+STEPS:
+1. Factors: 1, 2, 3, 6, 9, 18.
+2. Count: six elements.
+ANSWER: $A = \\{1, 2, 3, 6, 9, 18\\}$ and $n(A) = 6$.
+CHECK: Each listed number divides 18 exactly; no other number below 20 does.
+
+@EX | 8.1.2 | Membership and the empty set
+GIVEN: $B = \\{x : x \\text{ is an even prime number}\\}$ and $C = \\{x : x \\text{ is a multiple of } 4, 10 < x < 12\\}$.
+ASKED: Describe each set.
+METHOD: Test the definition against the possible values.
+STEPS:
+1. The only even prime is 2, so $B = \\{2\\}$.
+2. There is no multiple of 4 strictly between 10 and 12, so $C = \\emptyset$.
+ANSWER: $B$ has one element; $C$ is empty.
+CHECK: $n(B) = 1$ and $n(C) = 0$.
+
+@EX | 8.1.3 | Sets in a school context
+GIVEN: A year group of 120 students; $\\mathcal{U}$ is the year group. Let $F = \\{$students who study French$\\}$ and $S = \\{$students who study Spanish$\\}$.
+ASKED: Describe the meaning of $n(F) = 64$, $n(S) = 51$ and $n(F \\cap S) = 20$.
+METHOD: Translate each symbol into words.
+STEPS:
+1. $n(F) = 64$: 64 students study French.
+2. $n(S) = 51$: 51 study Spanish.
+3. $n(F \\cap S) = 20$: 20 study both.
+ANSWER: 64 French, 51 Spanish, 20 both.
+CHECK: $64 + 51 - 20 = 95$ study at least one, so 25 study neither.
+
+@PRACTICE | 8.1 | Sets and set notation | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | List the elements of $\\{x : x \\text{ is an odd number}, 0 < x < 12\\}$. || $\\{1, 3, 5, 7, 9, 11\\}$
+- F | State $n(\\{a, b, c, d\\})$. || 4
+- F | Write the set of factors of 16. || $\\{1, 2, 4, 8, 16\\}$
+- F | Is $7 \\in \\{2, 3, 5, 7, 11\\}$? || Yes.
+- R | Explain why “the set of interesting numbers” is not a set in mathematics. || “Interesting” is not defined precisely enough to decide membership.
+- R | Explain the difference between $\\emptyset$ and $\\{0\\}$. || The empty set has no elements; $\\{0\\}$ has one element, the number 0.
+- P | Write a rule that describes $\\{4, 8, 12, 16, 20\\}$. || $\\{x : x \\text{ is a multiple of } 4, 0 < x < 24\\}$
+- P | $\\mathcal{U} = \\{1, 2, \\dots, 12\\}$ and $A = \\{x : x \\text{ is prime}\\}$. List $A$ and $n(A)$. || $\\{2, 3, 5, 7, 11\\}$; 5
+- E | A set has elements that are multiples of both 3 and 5 below 40. List it. || $\\{15, 30\\}$
+- E | Explain why the order of elements in a set does not matter. || A set is determined by membership, not by arrangement.
+
+@SEC | 8.2 | Subsets, union, intersection and complement | Criterion A · ii; Criterion C · i
+@LEAD | Four operations describe how sets relate: being inside, combining, overlapping and excluding. Each has a symbol, and each has a picture in a Venn diagram.
+@DEF | Set operations
+@LISTU
+- **Subset:** $A \\subseteq B$ means every element of $A$ is in $B$.
+- **Union:** $A \\cup B$ contains everything in $A$ or in $B$ or in both.
+- **Intersection:** $A \\cap B$ contains only what is in both.
+- **Complement:** $A'$ contains everything in $\\mathcal{U}$ that is not in $A$.
+@KEY | The rule that links them
+For any two sets, $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.
+The subtraction corrects for double counting: elements in both sets appear twice in $n(A) + n(B)$ and should appear once in the union. This single formula answers most survey questions.
+@TABLE | Operations on $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$
+Operation ; Result ; Cardinality
+$A \\cap B$ ; $\\{3, 4\\}$ ; 2
+$A \\cup B$ ; $\\{1, 2, 3, 4, 5, 6\\}$ ; 6
+$A'$ with $\\mathcal{U} = \\{1, \\dots, 8\\}$ ; $\\{5, 6, 7, 8\\}$ ; 4
+$A \\cap B'$ ; $\\{1, 2\\}$ ; 2
+@ERR | Adding without correcting
+$n(A) + n(B)$ counts the overlap twice. A survey in which 18 like tea, 14 like coffee and 6 like both gives $18 + 14 - 6 = 26$ who like at least one, not 32. If the group has 30 members, 4 like neither — a figure that is easy to forget and easy to check.
+
+@EX | 8.2.1 | Finding union and intersection
+GIVEN: $A = \\{2, 4, 6, 8, 10\\}$ and $B = \\{4, 8, 12\\}$.
+ASKED: Find $A \\cap B$, $A \\cup B$ and their cardinalities.
+METHOD: Compare the lists element by element.
+STEPS:
+1. Common elements: 4 and 8, so $A \\cap B = \\{4, 8\\}$ and $n(A \\cap B) = 2$.
+2. All elements: 2, 4, 6, 8, 10, 12, so $n(A \\cup B) = 6$.
+ANSWER: $\\{4, 8\\}$ and $\\{2, 4, 6, 8, 10, 12\\}$.
+CHECK: $5 + 3 - 2 = 6$, which matches the union count.
+
+@EX | 8.2.2 | A survey with neither group
+GIVEN: In a class of 32, 20 study biology and 15 study chemistry; 8 study both.
+ASKED: Find how many study at least one, and how many study neither.
+METHOD: Use the union formula, then subtract from the total.
+STEPS:
+1. At least one: $20 + 15 - 8 = 27$.
+2. Neither: $32 - 27 = 5$.
+ANSWER: 27 study at least one; 5 study neither.
+CHECK: The four regions are $12 + 8 + 7 + 5 = 32$.
+
+@EX | 8.2.3 | Using the complement
+GIVEN: $\\mathcal{U} = \\{1, 2, \\dots, 20\\}$, $A = \\{$multiples of 3$\\}$ and $B = \\{$multiples of 5$\\}$.
+ASKED: Find $A \\cap B$, $A \\cup B$ and $n((A \\cup B)')$.
+METHOD: List both sets, then apply the operations.
+STEPS:
+1. $A = \\{3, 6, 9, 12, 15, 18\\}$ and $B = \\{5, 10, 15, 20\\}$.
+2. $A \\cap B = \\{15\\}$.
+3. $A \\cup B = \\{3, 5, 6, 9, 10, 12, 15, 18, 20\\}$, with 9 elements.
+4. Complement: $20 - 9 = 11$.
+ANSWER: $\\{15\\}$; nine elements; 11 elements outside.
+CHECK: $6 + 4 - 1 = 9$.
+WATCH: A number that is in both sets must appear once in the union. Listing it twice inflates the count.
+
+@PRACTICE | 8.2 | Subsets, union, intersection and complement | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | $A = \\{1, 3, 5\\}$, $B = \\{3, 5, 7\\}$. Find $A \\cap B$ and $A \\cup B$. || $\\{3, 5\\}$ and $\\{1, 3, 5, 7\\}$
+- F | $\\mathcal{U} = \\{1, \\dots, 10\\}$, $A = \\{2, 4, 6, 8, 10\\}$. Find $A'$. || $\\{1, 3, 5, 7, 9\\}$
+- F | Is $\\{1, 2\\} \\subseteq \\{1, 2, 3\\}$? || Yes.
+- F | $n(A) = 12$, $n(B) = 9$, $n(A \\cap B) = 4$. Find $n(A \\cup B)$. || 17
+- R | Explain why $n(A \\cup B)$ is not $n(A) + n(B)$ in general. || The overlap is counted twice in the sum.
+- R | A student says $A \\cap B$ is always smaller than $A$. Find a case where they are equal. || When $A \\subseteq B$, for example $A = \\{1, 2\\}$, $B = \\{1, 2, 3\\}$.
+- P | In a group of 40, 25 like football and 22 like cricket; 10 like both. How many like neither? || 3
+- P | $A$ has 18 elements, $B$ has 14, and $A \\cup B$ has 26. Find $n(A \\cap B)$. || 6
+- E | $\\mathcal{U} = \\{1, \\dots, 30\\}$. $A = \\{$multiples of 4$\\}$, $B = \\{$multiples of 6$\\}$. Find $n(A \\cap B)$ and $n(A \\cup B)$. || $A \\cap B = \\{12, 24\\}$, so 2; $7 + 5 - 2 = 10$.
+- E | Explain why $n(A \\cup B) \\le n(\\mathcal{U})$ must always hold. || The union is a subset of the universal set, so it cannot have more elements than it.
+
+@SEC | 8.3 | Venn diagrams and survey problems | Criterion D · i, ii, iv
+@LEAD | A two-set Venn diagram has four regions, and every survey question about two groups can be solved by filling them in the right order.
+@FIG | c08_survey
+@METHOD | Solving a survey problem
+@LISTO
+1. Draw the rectangle for $\\mathcal{U}$ and two overlapping circles.
+2. Put the number for “both” in the overlap first.
+3. Subtract to fill “only $A$” and “only $B$”.
+4. Add the three regions and subtract from the total to find “neither”.
+5. Check that all four numbers add to the total.
+@KEY | Why the overlap comes first
+The overlap is the only region that belongs to both sets, so every other region depends on it. Filling it first means the other numbers are found by subtraction, with no simultaneous unknowns. Starting anywhere else produces answers that do not add up.
+@TABLE | A worked survey
+Information ; Region ; Count
+50 students in total ; outside the circles ; 
+23 walk ; $A$ only $+$ both ; 
+21 cycle ; $B$ only $+$ both ; 
+9 both ; overlap ; 9
+$A$ only ; $23 - 9$ ; 14
+$B$ only ; $21 - 9$ ; 12
+Neither ; $50 - (14 + 9 + 12)$ ; 15
+@ERR | Forgetting the rectangle
+The number who belong to neither set has no circle to live in, and it is easy to leave it out. Always draw the rectangle, and always check that the regions add to the total.
+
+@EX | 8.3.1 | Filling a Venn diagram
+GIVEN: In a class of 36, 19 play an instrument and 17 play a sport; 6 do both.
+ASKED: Draw a Venn diagram and state how many do neither.
+METHOD: Overlap first, then subtract, then check.
+STEPS:
+1. Both: 6.
+2. Instrument only: $19 - 6 = 13$.
+3. Sport only: $17 - 6 = 11$.
+4. Neither: $36 - (13 + 6 + 11) = 6$.
+ANSWER: 6 students do neither.
+CHECK: $13 + 6 + 11 + 6 = 36$.
+
+@EX | 8.3.2 | Working backwards from the diagram
+GIVEN: A diagram shows 12 in $A$ only, 5 in both, 9 in $B$ only and 4 outside both.
+ASKED: Find $n(A)$, $n(B)$, $n(A \\cup B)$ and the total.
+METHOD: Read each region and combine.
+STEPS:
+1. $n(A) = 12 + 5 = 17$.
+2. $n(B) = 9 + 5 = 14$.
+3. $n(A \\cup B) = 12 + 5 + 9 = 26$.
+4. Total: $26 + 4 = 30$.
+ANSWER: 17, 14, 26, 30.
+CHECK: $17 + 14 - 5 = 26$.
+
+@EX | 8.3.3 | A problem with the group size missing
+GIVEN: 40 people were asked about two newspapers. 24 read paper $A$, 18 read paper $B$ and 7 read both.
+ASKED: Find how many read exactly one paper, and how many read neither.
+METHOD: Fill the regions; the total is given, so “neither” follows.
+STEPS:
+1. $A$ only: $24 - 7 = 17$.
+2. $B$ only: $18 - 7 = 11$.
+3. Exactly one: $17 + 11 = 28$.
+4. Neither: $40 - (28 + 7) = 5$.
+ANSWER: 28 read exactly one; 5 read neither.
+CHECK: $17 + 7 + 11 + 5 = 40$.
+WATCH: “Exactly one” excludes the overlap while “at least one” includes it. Reading the question carefully is part of the mathematics.
+
+@PRACTICE | 8.3 | Venn diagrams and survey problems | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | 30 students; 18 like maths, 14 like science, 8 like both. How many like neither? || 6
+- F | A diagram has 10 in $A$ only, 4 in both and 6 in $B$ only. Find $n(A \\cup B)$. || 20
+- F | 25 people; 15 read a magazine, 12 read a newspaper, 6 read both. How many read exactly one? || 15
+- F | In a class of 28, 20 play football. How many do not? || 8
+- R | Explain why the overlap must be filled in first. || Every other region is found by subtracting it.
+- R | A diagram gives $A$ only 15, both 8, $B$ only 9, outside 3. What is the total? || 35
+- P | In a survey of 60, 34 use brand X and 27 use brand Y; 15 use both. How many use neither? || 14
+- P | 45 students; 28 study French, 22 study German; every student studies at least one. How many study both? || 5
+- E | In a group of 50, 30 own a bike, 26 own a skateboard and 12 own neither. How many own both? || 18
+- E | Explain why the number in the overlap cannot exceed the smaller of the two set sizes. || Every member of the overlap is in both sets, so the overlap is a subset of each.
+
+@SEC | 8.4 | Classification and fair decisions | Criterion C · iii; Criterion D · iii, v
+@LEAD | To classify is to divide a group into categories using a rule. A classification is mathematically sound when every member lands in exactly one category and the rule gives the same answer every time.
+@FIG | c08_tree
+@DEF | Classification
+A **classification** assigns every member of a set to exactly one of several categories. The categories are **mutually exclusive** (no member belongs to two) and **exhaustive** (no member is left out).
+A classification tree makes the decisions visible: each branch applies one rule, and the branches at each stage cover every possibility.
+@KEY | The two tests for a fair classification
+@LISTU
+- **Mutually exclusive:** check that no object satisfies two categories. If “even” and “prime” were categories, 2 would belong to both.
+- **Exhaustive:** check that every object fits somewhere. “Multiples of 4” and “not multiples of 4” is exhaustive; “multiples of 4” and “odd numbers” is not, because 6 fits neither.
+@TABLE | Classifications tested
+Categories ; Mutually exclusive? ; Exhaustive? ; Verdict
+Even, odd ; yes ; yes ; sound
+Even, prime ; no (2 is both) ; no (9 fits neither) ; unsound
+Multiple of 4, not a multiple of 4 ; yes ; yes ; sound
+Negative, zero, positive ; yes ; yes for integers ; sound
+Pass, fail, absent ; yes if defined once ; yes ; sound if the rules are stated
+@METHOD | Building a classification
+@LISTO
+1. Decide the universal set: the group being classified.
+2. Choose a rule that every member either satisfies or does not.
+3. Split first by one rule, then by another within each branch.
+4. Test for overlaps and gaps with awkward cases, especially boundary values.
+5. State the rule precisely enough that two people would decide the same way.
+@ERR | Categories that overlap in practice
+“Students who take the bus” and “students who walk” look exclusive until a student does both on different days of the week. The categories were defined by mode of travel without a time frame. Precision in the rule, not confidence in the answer, is what prevents this.
+
+@EX | 8.4.1 | Testing a classification
+GIVEN: A class is divided into “has a pet” and “has a brother”.
+ASKED: Decide whether the classification is sound.
+METHOD: Test for overlap and for gaps.
+STEPS:
+1. Overlap: a student can have both a pet and a brother, so the categories are not mutually exclusive.
+2. Gap: a student with neither belongs to no category, so the categories are not exhaustive.
+ANSWER: Unsound; the categories overlap and leave a gap.
+CHECK: Sketching the two circles shows a two-region overlap and an outside region — the classification is not a division into separate parts.
+
+@EX | 8.4.2 | A sound classification
+GIVEN: Whole numbers from 1 to 30.
+ASKED: Classify them so that each number falls in exactly one category, using factors.
+METHOD: Choose rules that are complementary at each stage.
+STEPS:
+1. First split: prime or composite — but 1 is neither, so the rule must be “prime”, “composite”, “neither”.
+2. Test boundary cases: 1 (neither), 2 (prime), 4 (composite).
+3. Count the categories: 10 primes, 19 composites, 1 neither; total 30.
+ANSWER: Prime, composite and neither is an exhaustive, mutually exclusive classification for whole numbers above 0.
+CHECK: $10 + 19 + 1 = 30$.
+
+@EX | 8.4.3 | Classification and fairness in a decision
+GIVEN: A school gives a prize to “the best all-round student”, judged on mathematics, sport and service.
+ASKED: Suggest how to make the decision fair using classification and counting.
+METHOD: Replace a vague category with stated criteria and measurable evidence.
+STEPS:
+1. Define each criterion precisely, for example “service: at least 10 hours recorded”.
+2. Decide whether a student must meet all criteria or a stated number of them.
+3. Count how many students meet each combination, and check that no one is excluded by an unstated rule.
+ANSWER: A fair scheme states the criteria, applies them to everyone, and shows the counts for each combination of criteria.
+CHECK: If the criteria leave a student unclassified, the scheme is not exhaustive and must be revised.
+WATCH: A criterion that depends on opinion cannot be applied consistently. Mathematics can organise a decision, but it cannot make a vague rule precise on its own.
+
+@PRACTICE | 8.4 | Classification and fair decisions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Are “multiple of 2” and “multiple of 3” mutually exclusive? || No: 6 is both.
+- F | Are “less than 10” and “at least 10” exhaustive for whole numbers? || Yes.
+- F | Classify the numbers 1 to 10 as prime or composite. Which number fits neither? || 1.
+- F | Are “red” and “blue” exhaustive for the colours of cars in a car park? || No; other colours exist.
+- R | Explain why a classification must be both mutually exclusive and exhaustive. || Otherwise a member is counted twice or not at all.
+- R | A survey asks “Do you walk or take the bus?” and offers only those two answers. What is wrong with the question? || Some students do neither, and some do both.
+- P | Classify the numbers 1 to 20 by “multiple of 5” and “not a multiple of 5”. How many in each? || 4 and 16.
+- P | A club divides members by age: under 12, 12 to 16, over 16. Is this sound? || Yes, provided “12 to 16” includes its endpoints and the boundaries are stated.
+- E | Design a two-stage classification tree for the numbers 1 to 30. State the categories and counts. || For example, prime/composite/neither, then odd/even within composites: 10 primes, 9 even composites, 10 odd composites, 1 neither.
+- E | Explain, with an example, why a classification that works for whole numbers may fail for decimals. || “Even” is undefined for 2.5, so the rule does not decide membership.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | 8.5 | Number sets and the real line | Criterion A · i, ii; Criterion C · ii, iii
+@LEAD | Numbers come in families that fit inside one another like nested sets. Writing those families down, and testing a number to see where it belongs, is a good use of everything this chapter has built.
+@DEF | The number sets
+$\mathbb{N}$ — the **natural numbers** $1, 2, 3, \dots$ (sometimes including 0).
+$\mathbb{Z}$ — the **integers**: all whole numbers, positive, negative and zero.
+$\mathbb{Q}$ — the **rational numbers**: every number that can be written as $\frac{a}{b}$ with integers $a$ and $b$ and $b \ne 0$. This includes fractions, terminating decimals and recurring decimals.
+**Irrational numbers** cannot be written as a fraction of two integers: $\sqrt{2}$, $\pi$ and $0.1010010001\dots$ are examples.
+$\mathbb{R}$ — the **real numbers**: every rational and every irrational number, which is to say every point on the number line.
+@KEY | The sets fit inside one another
+Every natural number is an integer, every integer is rational, and every rational number is real:
+$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
+So the number $-3$ is in $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{R}$ but not in $\mathbb{N}$. A number that is not rational is irrational, and it is still real.
+@TABLE | Testing where numbers belong
+Number ; $\mathbb{N}$ ; $\mathbb{Z}$ ; $\mathbb{Q}$ ; $\mathbb{R}$ ; Reason
+7 ; yes ; yes ; yes ; yes ; a whole number
+−4 ; no ; yes ; yes ; yes ; negative
+$\frac{2}{3}$ ; no ; no ; yes ; yes ; a fraction of integers
+$0.\overline{6}$ ; no ; no ; yes ; yes ; recurring decimals are fractions: $\frac{2}{3}$
+$\sqrt{9}$ ; yes ; yes ; yes ; yes ; equals 3, so it is an integer
+$\sqrt{2}$ ; no ; no ; no ; yes ; cannot be written as a fraction
+$\pi$ ; no ; no ; no ; yes ; irrational
+@DEF | Decimals on the number line
+Every terminating or recurring decimal has an exact position on the number line. Between any two rational numbers there is another rational number — take their average — so the rationals are **dense**. The irrationals fill the remaining points, and together with the rationals they cover the whole line.
+@ERR | “A square root is always irrational”
+$\sqrt{9} = 3$ and $\sqrt{0.25} = 0.5$ are rational. A square root is irrational only when the number under it is not a perfect square of a rational. Simplify first, then classify.
+
+@EX | 8.5.1 | Classifying numbers
+GIVEN: $-7$, $\frac{5}{8}$, $\sqrt{16}$, $0.4\dot{1}$, $\sqrt{5}$.
+ASKED: Place each in the smallest set it belongs to.
+METHOD: Test in order: natural, integer, rational, otherwise irrational.
+STEPS:
+1. $-7$ is an integer but not natural: $\mathbb{Z}$.
+2. $\frac{5}{8}$ is a fraction of integers: $\mathbb{Q}$.
+3. $\sqrt{16} = 4$, a natural number: $\mathbb{N}$.
+4. $0.4\dot{1}$ recurs, and $0.4\dot{1} = \frac{41}{99}$: $\mathbb{Q}$.
+5. $\sqrt{5} \approx 2.236$ does not terminate or repeat: irrational.
+ANSWER: $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{N}$, $\mathbb{Q}$ and irrational respectively.
+CHECK: Each answer is the smallest set containing the number, and every one of them is also real.
+
+@EX | 8.5.2 | Placing irrationals on the line
+GIVEN: $\sqrt{2}$ and $\pi$.
+ASKED: Give each to two decimal places and place it between two consecutive integers.
+METHOD: Estimate with perfect squares, then refine.
+STEPS:
+1. $1^{2} = 1$ and $2^{2} = 4$, so $1 < \sqrt{2} < 2$.
+2. $1.4^{2} = 1.96$ and $1.5^{2} = 2.25$, so $1.4 < \sqrt{2} < 1.5$, giving $\sqrt{2} \approx 1.41$.
+3. $3 < \pi < 4$, and $\pi \approx 3.14$.
+ANSWER: $\sqrt{2} \approx 1.41$ between 1 and 2; $\pi \approx 3.14$ between 3 and 4.
+CHECK: Squaring the approximation 1.41 gives 1.9881, close to 2.
+
+@EX | 8.5.3 | Sets within a universal set
+GIVEN: $\mathcal{U} = \{$whole numbers from 1 to 20$\}$, $A = \{$multiples of 3$\}$, $B = \{$perfect squares$\}$.
+ASKED: List $A$, $B$, $A \cap B$ and $A \cup B$, and state $n(A')$.
+METHOD: List first, then combine.
+STEPS:
+1. $A = \{3, 6, 9, 12, 15, 18\}$ and $B = \{1, 4, 9, 16\}$.
+2. $A \cap B = \{9\}$ and $A \cup B = \{1, 3, 4, 6, 9, 12, 15, 16, 18\}$.
+3. $n(A \cup B) = 9$, so $n(A') = 20 - 6 = 14$.
+ANSWER: as listed; $n(A') = 14$.
+CHECK: $n(A \cup B) = n(A) + n(B) - n(A \cap B) = 6 + 4 - 1 = 9$.
+
+@PRACTICE | 8.5 | Number sets and the real line | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | List the smallest set each number belongs to: (a) 12 (b) −5 (c) $\frac{3}{4}$ (d) $\sqrt{7}$ || (a) ℕ (b) ℤ (c) ℚ (d) irrational
+- F | True or false: (a) every integer is rational (b) every rational is an integer (c) $\pi$ is real || (a) true (b) false (c) true
+- F | Write $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ and mark where 0 and $-\frac{1}{2}$ belong. || 0: ℤ, ℚ, ℝ; −½: ℚ, ℝ
+- F | Give the value of $\sqrt{25}$, $\sqrt{0.04}$ and $\sqrt{2}$ to two decimal places. || 5; 0.2; 1.41
+- R | Explain why $0.\overline{3}$ is rational. || It equals $\frac{1}{3}$, a fraction of two integers.
+- R | A student claims $\sqrt{2} = 1.414$ exactly. What is wrong with the claim? || 1.414 is a rounded decimal; squaring it gives 1.999396, not 2.
+- P | Between which two consecutive integers does $\sqrt{40}$ lie? Give it to one decimal place. || 6 and 7; 6.3
+- P | $\mathcal{U}$ = integers from −5 to 5. List the elements of $\mathbb{N}$ and of $\mathbb{Z} \setminus \mathbb{N}$ within $\mathcal{U}$. || ℕ = {1,2,3,4,5}; the rest = {−5,−4,−3,−2,−1,0}
+- E | Show that the average of $\frac{1}{3}$ and $\frac{1}{2}$ is rational and lies between them. || $\frac{5}{12}$, and $\frac{1}{3} < \frac{5}{12} < \frac{1}{2}$
+- E | Explain why there is no smallest positive rational number. || Halving any positive rational gives a smaller positive rational.
+
+@SEC | Investigation 8 | How much overlap is possible? | Criterion B · i, ii, iii
+@LEAD | Extend the Explore activity into a general result about the possible sizes of an overlap and the possible number outside both sets.
+@INVEST | Investigation brief
+**Question.** Given two set sizes chosen from a group of $n$, what are the largest and smallest possible overlaps, and how many can belong to neither set?
+**What you need.** Your class data, a table of hypothetical cases, and the union formula.
+**What to produce.** A general rule for each extreme, a justification, and a test on a case where the sets must overlap.
+@H2 | Part 1 · Tabulate
+@TABLE | Copy and complete (group of 40)
+$n(A)$ ; $n(B)$ ; Smallest overlap ; Largest overlap ; Smallest number outside both
+18 ; 14 ; ; ; 
+30 ; 24 ; ; ; 
+35 ; 8 ; ; ; 
+20 ; 20 ; ; ; 
+40 ; 40 ; ; ; 
+@H2 | Part 2 · Generalise
+@LISTO
+1. State the largest possible overlap in terms of $n(A)$ and $n(B)$.
+2. State the smallest possible overlap when $n(A) + n(B) > n$.
+3. Write the value of the smallest number who can be outside both sets.
+4. What happens to your answers in the last row, where both sets are the whole group?
+@H2 | Part 3 · Justify
+@LISTO
+1. Explain why the overlap cannot exceed the smaller set.
+2. Explain, using the union formula, why the overlap must be at least $n(A) + n(B) - n$.
+3. A survey reports 26 like tea, 31 like coffee, in a group of 40, with 0 liking neither. Is the report possible? Justify.
+@CRIT | Criterion B task · Requirements
+Complete table; general rules stated with variables; a justification using the union formula; a test of a reported figure for consistency.
+
+@SEC | Application 8 | The library survey | Criterion D · i, ii, iii, iv
+@LEAD | A school library surveys students about two services: borrowing books and using the study room. The librarian must decide how to use the results and what to report.
+@APPLY | The brief
+@TABLE | Survey results
+Information ; Value
+Students surveyed ; 240
+Borrow books ; 158
+Use the study room ; 96
+Use both ; 61
+Students who answered the survey in the first week ; 150
+@LISTU
+- The report must state how many use at least one service and how many use neither.
+- The librarian also wants the figures as percentages of those surveyed.
+- The survey was completed by all 240 students over two weeks.
+@H2 | Task 1 · Complete the diagram
+@LISTO
+1. Calculate the number in each of the four regions of a two-set diagram.
+2. State how many students use exactly one service.
+3. Check that the four regions total 240.
+@H2 | Task 2 · Report the figures
+@LISTO
+1. Express the number who use neither as a percentage of the total, to one decimal place.
+2. Express each region as a percentage, and check that the four percentages total 100%.
+3. Explain why the percentages must be calculated from 240 rather than 150.
+@H2 | Task 3 · Recommend an action
+@LISTO
+1. Identify which service has the lower take-up and by how much.
+2. Propose one action for the library and state the evidence from your figures that supports it.
+3. State one limitation of the survey that the report should acknowledge.
+@CRIT | Criterion D task · Requirements
+All four regions correct and checked; percentages accurate and totalled; a recommendation supported by the data; a limitation identified; clear reporting language.
+
+@SEC | Task C | Explaining a misleading headline | Criterion C · i, iii, iv
+@CRIT | The task
+A newspaper reports: **“Two thirds of students do not walk to school.”** The survey asked 90 students whether they walked or cycled. Write a response explaining what the headline does and does not establish.
+@LISTO
+1. Construct a possible set of survey counts consistent with the headline.
+2. Identify what the survey did not ask, and how that affects the claim.
+3. Show two different sets of counts that produce the same headline.
+4. Rewrite the headline so that it states exactly what the data supports.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct set notation and a labelled Venn diagram.
+Reasoning (iii) ; The analysis distinguishes what the data show from what the headline claims.
+Organisation (iv) ; The response is ordered so a reader can follow the argument.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 8 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- A set is a well-defined collection; membership must be decidable for every object.
+- Sets can be described by listing or by a rule, and the two descriptions can be equivalent.
+- Union, intersection and complement have symbols and meanings that mirror the Venn diagram regions.
+- $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ corrects for double counting.
+- Survey problems are solved by filling the overlap first, then subtracting.
+- A sound classification is mutually exclusive and exhaustive, and its rules are stated precisely.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 8
+Term | Meaning in this course
+Set | A well-defined collection of objects.
+Element | A member of a set.
+Universal set | The set of everything under discussion.
+Empty set | A set with no elements.
+Subset | A set all of whose elements belong to another set.
+Union | Everything in either set or both.
+Intersection | The elements common to both sets.
+Complement | Everything in the universal set but not in the set.
+Mutually exclusive | Categories with no member in common.
+Exhaustive | Categories that cover every member.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“Union means add the two sizes.” ; Subtract the overlap. ; $6 + 4 - 1 = 9$
+“$\\emptyset$ and $\\{0\\}$ are the same.” ; One has no elements. ; $n(\\emptyset) = 0$, $n(\\{0\\}) = 1$
+“Everything outside $A$ is empty.” ; The complement may be large. ; half the universal set
+“Any two categories classify.” ; They must not overlap or leave gaps. ; “even” and “prime”
+“The overlap can be as large as we like.” ; It cannot exceed the smaller set. ; $n(A \\cap B) \\le n(A)$
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+list and describe sets using both notation styles. ;  ;  ; 
+find unions, intersections and complements. ;  ;  ; 
+solve survey problems using a Venn diagram. ;  ;  ; 
+use the union formula and check it against the diagram. ;  ;  ; 
+test whether a classification is sound. ;  ;  ; 
+explain a set result in the language of a real context. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which region of the Venn diagram caused you most difficulty, and why?
+2. Describe a survey or report you have seen that could be analysed with sets.
+3. Write one sentence explaining why the overlap is subtracted in the union formula.
+4. In the library task, which figure was most useful to the librarian? Why?
+5. How does stating a rule precisely change the fairness of a decision?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ8 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–18
+- F | List the set of even numbers between 10 and 20. || $\\{12, 14, 16, 18\\}$
+- F | $n(\\{a, e, i, o, u\\}) = ?$ || 5
+- F | $A = \\{1, 2, 3\\}$, $B = \\{3, 4\\}$. Find $A \\cup B$. || $\\{1, 2, 3, 4\\}$
+- F | $n(A) = 15$, $n(B) = 11$, $n(A \\cap B) = 6$. Find $n(A \\cup B)$. || 20
+- F | In a class of 30, 18 like sport, 12 like music, 6 like both. How many like neither? || 6
+- F | Write the complement of $\\{2, 4, 6\\}$ in $\\mathcal{U} = \\{1, \\dots, 8\\}$. || $\\{1, 3, 5, 7, 8\\}$
+- R | Explain why the four regions of a two-set diagram must add to the total. || They are non-overlapping parts of the whole group.
+- R | A survey reports 20 like A, 18 like B, in a group of 30, with 5 liking neither. Is this possible? || $20 + 18 - 5 = 33 > 30$, so no: the overlap would be negative.
+- R | Explain the difference between “exactly one” and “at least one”. || Exactly one excludes the overlap; at least one includes it.
+- P | In a group of 60, 35 own a phone, 28 own a tablet and 10 own both. How many own neither? || 7
+- P | A Venn diagram shows 14 in $A$ only, 9 in both, 12 in $B$ only and 15 outside. Find the total. || 50
+- P | Classify the numbers 1 to 24 as multiples of 3 or not. How many in each? || 8 and 16
+- C | Explain why $n(A \\cap B)$ cannot be larger than $n(A)$. || Every element of the intersection is also in $A$.
+- C | Explain how a Venn diagram shows that the union formula is correct. || The overlap is counted in both circles and should be counted once.
+- E | In a survey of 100, 62 like tea, 48 like coffee and 15 like neither. Find the number who like both. || 25
+- E | Two sets have 12 and 20 elements and their union has 20. What does that tell you? || The smaller set is a subset of the larger.
+- E | Explain why a three-set Venn diagram has eight regions. || Each set contributes a yes/no choice, and $2^{3} = 8$.
+- P | A school has 180 students; 96 study French, 84 study Spanish, 30 study neither. How many study both? || 30
+
+@SEC | Mixed 8 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX8 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | $A = \\{2, 4, 6\\}$, $B = \\{4, 6, 8\\}$. Find $A \\cap B$. || $\\{4, 6\\}$
+- F | State $n(\\emptyset)$. || 0
+- F | Is 9 in $\\{x : x \\text{ is prime}\\}$? || No.
+- F | $n(A) = 22$, $n(B) = 19$, $n(A \\cap B) = 8$. Find $n(A \\cup B)$. || 33
+- F | In a group of 25, 10 like tea, 12 like coffee and 4 like both. How many like neither? || 7
+- R | Explain why $\\{1, 2, 3\\}$ and $\\{3, 2, 1\\}$ are the same set. || Sets are determined by membership, not order.
+- R | A classification has categories “under 10” and “over 10”. What is missing? || The value 10 itself, so the categories are not exhaustive.
+- P | In a class of 32, 20 have a pet, 14 have a bike, and 8 have neither. How many have both? || 10
+- P | In a survey of 50, 30 read fiction, 22 read non-fiction and 12 read neither. How many read both? || 14
+- P | A Venn diagram has 18 in $A$ only, 7 in both and 11 in $B$ only. Find $n(A)$ and $n(B)$. || 25 and 18
+- C | Explain why the overlap must be subtracted exactly once in the union formula. || It is counted twice in the sum of the two set sizes and should appear once.
+- C | Explain why a classification of “prime” and “composite” needs a third category for whole numbers. || The number 1 is neither.
+- E | Two sets have 30 and 24 elements in a universal set of 40. Find the smallest possible overlap. || 14
+- E | In a group of 60, 40 like A, 35 like B and everyone likes at least one. How many like both? || 15
+- E | A survey of 200 finds 120 use app A, 90 use app B and 30 use neither. How many use exactly one app? || 140
+- P | A school must decide a prize using three criteria. Explain, with one example, how a classification tree can make the decision consistent. || The tree applies each criterion in a stated order so every student follows the same path.
+
+@SEC | Cumulative practice 8 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP8 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | $A = \{1, 3, 5, 7\}$, $B = \{3, 5, 9\}$. Find $A \cap B$. || $\{3, 5\}$
+- F | $n(A) = 17$, $n(B) = 12$, $n(A \cap B) = 6$. Find $n(A \cup B)$. || 23
+- R | Explain why a classification must be exhaustive. || Otherwise a member belongs to no category.
+- P | In a group of 45, 26 like tea, 21 like coffee and 8 like neither. How many like both? || 10
+- P | Classify the numbers 1 to 30 by prime, composite and neither. || 10 prime, 19 composite, 1 neither.
+- C | Explain why $\{0\}$ is not the empty set. || It contains one element, the number 0.
+- E | A survey of 150 finds 90 use A, 70 use B and 20 use neither. How many use both? || 30
+- E | Explain why the overlap cannot exceed the smaller set. || Every element of the overlap belongs to both sets.

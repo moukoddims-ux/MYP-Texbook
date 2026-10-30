@@ -1,0 +1,651 @@
+@MOVE | A | Engage | Three lines, one impossible triangle
+@LEAD | A student cuts three strips of card: 4 cm, 5 cm and 12 cm, and tries to make a triangle. The strips will not close: however the two shorter strips are arranged, they cannot reach across the longest one.
+@P | The reason is arithmetic. The two shorter sides together (4 + 5 = 9 cm) are shorter than the longest side (12 cm), so the triangle cannot exist. Geometry is not only drawing: it makes statements that either can or cannot be true, and the check is often a calculation.
+@P | The same is true of angles. The three angles of any triangle add to exactly 180°, whatever the triangle looks like. That is not a coincidence of drawing but a consequence of how straight lines behave — and this chapter builds the argument.
+@TABLE | Figure 7.1 Three attempted triangles
+Sides given ; Sum of two shorter ; Longest side ; Possible?
+4, 5, 12 ; 9 ; 12 ; no
+4, 5, 6 ; 9 ; 6 ; yes
+7, 7, 13 ; 14 ; 13 ; yes
+3, 8, 11 ; 11 ; 11 ; no, the strips lie flat
+@MINI | Notice and wonder
+@LISTU
+- What has to be true of three lengths before they can form a triangle?
+- Is there a largest possible third side once two sides are fixed?
+- Why do the angles of a triangle always total 180°?
+- What would a triangle with angles 100°, 50° and 40° look like, and why can it not exist?
+@CALLOUT | Keep this question open: how can a property of a shape be certain for every case, when no one can check every case?
+
+@MOVE | B | Explore | The triangle inequality
+@LEAD | Work in pairs. You need strips of card or straws cut to different lengths, a ruler and a protractor.
+@H2 | Your investigation
+@P | **Step 1.** Cut strips of 3 cm, 4 cm, 5 cm, 6 cm, 8 cm, 10 cm and 12 cm.
+@P | **Step 2.** Choose three strips and try to form a triangle. Record whether you succeed.
+@P | **Step 3.** Repeat with at least eight different combinations, including cases where one strip is much longer than the other two.
+@P | **Step 4.** For each combination, record the sum of the two shorter strips and compare it with the longest strip.
+@TABLE | Recording table (copy and complete)
+Lengths ; Sum of two shorter ; Longest ; Triangle formed?
+3, 4, 5 ; ; ; 
+3, 4, 8 ; ; ; 
+5, 6, 10 ; ; ; 
+5, 5, 10 ; ; ; 
+6, 8, 12 ; ; ; 
+4, 7, 10 ; ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. In the cases where a triangle was formed, how did the sum of the two shorter lengths compare with the longest?
+2. What happens when the sum equals the longest length exactly? Build it and describe the result.
+3. If two sides are 6 cm and 9 cm, what is the smallest and largest whole-number third side possible?
+4. Does the rule depend on which side you call the longest? Explain.
+5. A triangle has sides 5 cm, 5 cm and 5 cm. Does the rule hold? What kind of triangle is it?
+@H2 | Making a conjecture
+@CALLOUT | “Three lengths form a triangle exactly when … because … .”
+@H2 | What you should have noticed
+@LISTU
+- A triangle is possible only when the sum of the two shorter sides is **greater** than the longest side.
+- If the sum equals the longest side, the strips lie flat and no triangle is formed.
+- The rule must be checked against the longest side, because that is the demanding case.
+@FIG | c07_bisector
+@INVEST | Explore further
+Using a ruler and compasses, try to construct a triangle with sides 5 cm, 6 cm and 13 cm. Describe exactly where the construction fails, and explain why the failure was predictable before you began.
+
+@SEC | 7.1 | Points, lines, angles and notation | Criterion A · i, ii
+@LEAD | Geometry has its own vocabulary and notation, and precision in naming is part of the mathematics. A wrong label can make a correct calculation unreadable.
+@DEF | Naming and measuring
+A **point** marks a position and is named with a capital letter. A **line** extends without end in both directions; a **line segment** has two endpoints; a **ray** starts at a point and extends in one direction.
+An **angle** is formed where two rays meet at a **vertex**. It is measured in **degrees** (°) and named with three letters, with the vertex in the middle: angle $ABC$ has its vertex at $B$.
+@FIG | c07_types
+@TABLE | Angle types
+Type ; Size ; Example in a clock face
+Acute ; between 0° and 90° ; 2 o'clock (60°)
+Right ; exactly 90° ; 3 o'clock
+Obtuse ; between 90° and 180° ; 5 o'clock (150°)
+Straight ; exactly 180° ; 6 o'clock
+Reflex ; between 180° and 360° ; 8 o'clock (240°)
+@KEY | Notation that is worth learning exactly
+@LISTU
+- $AB$ means the length of the segment from $A$ to $B$; the line through them is written $\\overleftrightarrow{AB}$.
+- $\\angle ABC$ names the angle at $B$ between $BA$ and $BC$.
+- Two lines meeting at right angles are **perpendicular**; lines that never meet however far they extend are **parallel**.
+- Angles on the same arc are marked with matching arcs; equal angles are shown with identical arc marks.
+@METHOD | Measuring and drawing an angle
+@LISTO
+1. Place the centre of the protractor on the vertex, with the baseline along one arm.
+2. Read the scale that starts at 0° on that arm — there are two scales, and using the wrong one gives an answer that is wrong by the supplement.
+3. To draw an angle, draw the first arm, place the centre at the vertex, mark the required number of degrees, then join.
+4. Check the result is sensible: an acute angle must look smaller than a right angle.
+@ERR | Reading the wrong scale
+A protractor has two scales, inner and outer. Reading the outer scale when the arm lies on the inner zero gives $180° - \\theta$ instead of $\\theta$. If the measured angle is 150° when the drawing is clearly acute, the wrong scale has been read.
+
+@EX | 7.1.1 | Naming and classifying
+GIVEN: Three rays from a point $O$: $OA$ at 0°, $OB$ at 62°, $OC$ at 145°.
+ASKED: Name and classify angle $AOB$, angle $BOC$ and angle $AOC$.
+METHOD: Subtract the readings and classify by size.
+STEPS:
+1. $\\angle AOB = 62° - 0° = 62°$, acute.
+2. $\\angle BOC = 145° - 62° = 83°$, acute.
+3. $\\angle AOC = 145° - 0° = 145°$, obtuse.
+ANSWER: 62° acute, 83° acute, 145° obtuse.
+CHECK: $\\angle AOB + \\angle BOC = \\angle AOC$, as the rays lie in order.
+
+@EX | 7.1.2 | Using a right angle
+GIVEN: Two straight lines crossing, with one angle marked 37°.
+ASKED: Find the three other angles at the crossing.
+METHOD: Use the straight-line property and the equality of vertically opposite angles.
+STEPS:
+1. The angle next to 37° on a straight line is $180° - 37° = 143°$.
+2. Vertically opposite angles are equal, so the other two are 37° and 143°.
+ANSWER: 37°, 143°, 143°.
+CHECK: $37 + 143 + 37 + 143 = 360°$, a full turn.
+
+@EX | 7.1.3 | A reasoning step with notation
+GIVEN: $A$, $B$ and $C$ lie on a straight line in that order, with $\\angle ABD = 118°$.
+ASKED: Find $\\angle DBC$, giving a reason.
+METHOD: Angles on a straight line sum to 180°.
+STEPS:
+1. $\\angle ABD + \\angle DBC = 180°$ (angles on a straight line).
+2. $\\angle DBC = 180° - 118° = 62°$.
+ANSWER: 62°.
+CHECK: $118 + 62 = 180$.
+WATCH: Naming the reason is part of the answer. A figure without a reason earns fewer marks than a figure with one.
+
+@PRACTICE | 7.1 | Points, lines, angles and notation | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Classify each angle: 45°, 90°, 120°, 200°. || acute, right, obtuse, reflex
+- F | Two angles on a straight line are 68° and $x$. Find $x$. || 112°
+- F | Four angles meet at a point. Three are 80°, 95° and 110°. Find the fourth. || 75°
+- F | Write the angle at vertex $B$ between $BA$ and $BC$ using three letters. || $\\angle ABC$
+- R | Explain why two angles on a straight line cannot both be obtuse. || Their sum would exceed 180°.
+- R | A student measures an acute angle as 130°. What has probably gone wrong? || The wrong protractor scale was read; the correct angle is 50°.
+- P | The angles at a point are $2x$, $3x$ and $4x$. Find $x$ and each angle. || $9x = 360$, $x = 40$; angles 80°, 120°, 160°.
+- P | A clock shows 4 o'clock. Find the angle between the hands. || 120°
+- E | Two straight lines cross. One angle is $3y$ and the adjacent is $2y + 30$. Find $y$. || $5y + 30 = 180$, $y = 30$.
+- E | Explain why vertically opposite angles are equal, using a straight line twice. || Each is $180° - $ the shared angle.
+
+@SEC | 7.2 | Angle relationships | Criterion A · ii; Criterion C · iii
+@LEAD | Three relationships do most of the work in angle problems: angles on a straight line, angles at a point, and vertically opposite angles. Each is a consequence of a full turn being 360°.
+@FIG | c07_angles
+@DEF | Three angle facts
+@LISTU
+- **Angles on a straight line** add to 180°.
+- **Angles at a point** add to 360°.
+- **Vertically opposite angles** — the angles opposite each other where two lines cross — are equal.
+@KEY | Why all three follow from one idea
+A full turn is 360°. Two angles that together make a straight line make half a turn, so they add to 180°. Angles around a point make a whole turn, so they add to 360°. Vertically opposite angles are equal because each is $180°$ minus the same adjacent angle.
+@METHOD | Solving an angle problem with reasons
+@LISTO
+1. Mark on the diagram what you know and what you want.
+2. Choose the relationship that connects them: straight line, point, or vertically opposite.
+3. Write an equation; solve it.
+4. State the reason with the answer, in words or in brackets.
+5. Check that the angles are plausible: no angle in a triangle or on a line can be negative.
+@TABLE | Which relationship to use
+Diagram feature ; Relationship ; Equation
+Two angles making a straight line ; sum to 180° ; $a + b = 180$
+Angles all the way round a point ; sum to 360° ; $a + b + c + d = 360$
+Two crossing lines ; vertically opposite equal ; $a = c$
+Three angles on a line ; sum to 180° ; $a + b + c = 180$
+@ERR | Assuming a diagram is to scale
+A diagram may show an angle that looks like 90° but is labelled 85°. Never measure a diagram to find an answer, and never assume two lines are parallel because they look parallel. Use the given information and the named relationships only.
+
+@EX | 7.2.1 | Angles on a straight line
+GIVEN: Three angles on a straight line are $x$, $2x$ and $3x + 30$.
+ASKED: Find $x$ and the three angles.
+METHOD: Use the straight-line sum and solve the equation.
+STEPS:
+1. $x + 2x + 3x + 30 = 180$.
+2. $6x = 150$.
+3. $x = 25$, so the angles are 25°, 50° and 105°.
+ANSWER: $x = 25$; angles 25°, 50°, 105°.
+CHECK: $25 + 50 + 105 = 180$.
+
+@EX | 7.2.2 | Vertically opposite angles
+GIVEN: Two straight lines cross. One angle is $4a - 10$ and the vertically opposite angle is $2a + 30$.
+ASKED: Find $a$ and the size of both angles.
+METHOD: Set the vertically opposite angles equal.
+STEPS:
+1. $4a - 10 = 2a + 30$.
+2. $2a = 40$, so $a = 20$.
+3. Each angle is $4(20) - 10 = 70°$.
+ANSWER: $a = 20$; both angles 70°.
+CHECK: $2(20) + 30 = 70$; the adjacent angles are 110° each, and $70 + 110 + 70 + 110 = 360$.
+
+@EX | 7.2.3 | Angles at a point
+GIVEN: Five angles meet at a point. Four are 40°, 65°, 90° and 105°.
+ASKED: Find the fifth, with a reason.
+METHOD: Use the point sum.
+STEPS:
+1. $40 + 65 + 90 + 105 = 300$.
+2. $360 - 300 = 60$.
+ANSWER: 60°, because angles at a point sum to 360°.
+CHECK: $300 + 60 = 360$.
+WATCH: A common slip is to use 180° at a point. Check whether the angles surround the point completely or lie on one side of a line.
+
+@PRACTICE | 7.2 | Angle relationships | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Two angles on a straight line: one is 47°. Find the other. || 133°
+- F | Angles at a point: 120°, 130° and $x$. Find $x$. || 110°
+- F | Two lines cross; one angle is 55°. Find the other three. || 125°, 55°, 125°
+- F | Three angles on a line are 90°, $x$ and 35°. Find $x$. || 55°
+- R | Explain why vertically opposite angles are equal. || Each is $180°$ minus the same adjacent angle.
+- R | A student finds an angle of 200° on a straight line. Is that possible? || No; angles on a line sum to 180°.
+- P | The angles at a point are $x$, $2x$, $3x$ and $4x$. Find each. || $10x = 360$, $x = 36$; 36°, 72°, 108°, 144°.
+- P | Two crossing lines form an angle of $3x + 10$ and its adjacent angle $2x$. Find $x$. || $5x + 10 = 180$, $x = 34$.
+- E | Four angles at a point are in the ratio 1 : 2 : 3 : 4. Find the largest. || $10$ parts $= 360$, one part 36; largest 144°.
+- E | Explain why the angles at a point cannot all be acute. || Acute angles are each below 90°, so four would sum to less than 360°.
+
+@SEC | 7.3 | Parallel lines and transversals | Criterion A · ii, iii
+@LEAD | When a line crosses two parallel lines, eight angles appear, and they fall into only two sizes. That is a strong result, and it is the basis of all reasoning about parallel lines.
+@FIG | c07_parallel
+@DEF | Corresponding and alternate angles
+A **transversal** is a line that crosses two or more other lines. When it crosses **parallel** lines:
+@LISTU
+- **Corresponding angles** — in the same position at each crossing — are equal.
+- **Alternate angles** — on opposite sides of the transversal, between the parallel lines — are equal.
+- **Co-interior angles** — on the same side of the transversal, between the parallel lines — add to 180°.
+@KEY | Why only two sizes appear
+Corresponding angles are equal because a translation along the transversal maps one crossing onto the other. Once corresponding angles are equal, alternate angles follow by vertically opposite angles, and co-interior angles follow from a straight line. One fact generates the other two.
+@METHOD | Finding angles between parallel lines
+@LISTO
+1. Identify the parallel lines and mark them with matching arrows.
+2. Identify the transversal.
+3. Find a corresponding or alternate partner for the angle you know.
+4. Continue step by step, naming the relationship each time, until you reach the required angle.
+@TABLE | The three relationships in one diagram
+Relationship ; Position ; What is true
+Corresponding ; same corner at each crossing ; equal
+Alternate ; opposite sides, inside ; equal
+Co-interior ; same side, inside ; sum to 180°
+@ERR | Using alternate angles that are not alternate
+Z-shaped pairs of angles are alternate and equal. C-shaped pairs inside the parallel lines are co-interior and supplementary, not equal. The letter shape is a useful check: Z means equal, C means add to 180°.
+
+@EX | 7.3.1 | One angle, then the rest
+GIVEN: A transversal crosses two parallel lines, and one angle is 68°.
+ASKED: Find the alternate angle, the corresponding angle and the co-interior angle, with reasons.
+METHOD: Apply each relationship in turn.
+STEPS:
+1. Alternate angle: 68°, alternate angles are equal.
+2. Corresponding angle: 68°, corresponding angles are equal.
+3. Co-interior angle: $180° - 68° = 112°$, co-interior angles sum to 180°.
+ANSWER: 68°, 68°, 112°.
+CHECK: All eight angles are 68° or 112°, and the sizes alternate around each crossing.
+
+@EX | 7.3.2 | An algebraic parallel-line problem
+GIVEN: Two parallel lines cut by a transversal. A corresponding pair is $3x + 15$ and $5x - 25$.
+ASKED: Find $x$ and the angle.
+METHOD: Set corresponding angles equal.
+STEPS:
+1. $3x + 15 = 5x - 25$.
+2. $40 = 2x$, so $x = 20$.
+3. Angle: $3(20) + 15 = 75°$.
+ANSWER: $x = 20$; the angles are 75°.
+CHECK: $5(20) - 25 = 75$.
+
+@EX | 7.3.3 | Deciding whether lines are parallel
+GIVEN: A transversal crosses two lines. A pair of alternate angles measures 74° and 76°.
+ASKED: Decide whether the lines are parallel.
+METHOD: Use the converse of the alternate-angle property.
+STEPS:
+1. If the lines were parallel, the alternate angles would be equal.
+2. $74° \\neq 76°$, so the lines are not parallel.
+ANSWER: Not parallel; the alternate angles differ by 2°.
+CHECK: Two lines meeting at a very small angle look nearly parallel, which is why the calculation matters.
+WATCH: “They look parallel” is not a reason. The converse properties are the test.
+
+@PRACTICE | 7.3 | Parallel lines and transversals | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Two parallel lines are cut by a transversal; one angle is 110°. Find the co-interior angle. || 70°
+- F | One alternate angle is 42°. Find its partner. || 42°
+- F | One corresponding angle is 128°. Find the vertically opposite angle to its partner. || 128°
+- F | Two parallel lines; a transversal makes an angle of 65°. Find the four angles at the second crossing. || 65°, 115°, 65°, 115°
+- R | Explain the difference between alternate and co-interior angles. || Alternate angles are equal; co-interior angles add to 180°.
+- R | A student says two lines are parallel because the corresponding angles “look equal”. What should they do instead? || Measure or calculate both angles and compare them exactly.
+- P | Corresponding angles are $4x$ and $2x + 40$. Find $x$. || $2x = 40$, $x = 20$; angles 80°.
+- P | Co-interior angles are $3x$ and $2x + 30$. Find $x$. || $5x + 30 = 180$, $x = 30$.
+- E | Alternate angles are $5y - 10$ and $3y + 20$. Are the lines parallel? Find $y$ if they are. || $2y = 30$, $y = 15$, both 65°.
+- E | Prove that co-interior angles sum to 180°, using corresponding and straight-line angles. || The co-interior angle and the alternate angle of the given angle lie on a straight line.
+
+@SEC | 7.4 | Triangles | Criterion A · ii, iii; Criterion B · iii
+@LEAD | A triangle is the simplest closed shape and the most constrained: three angles summing to 180° and three sides obeying the triangle inequality. Both facts generate a great deal of reasoning.
+@FIG | c07_sum
+@DEF | Triangles by sides and by angles
+By sides: **equilateral** (three equal sides), **isosceles** (two equal sides), **scalene** (no equal sides). By angles: **acute**, **right-angled**, **obtuse**.
+The angles of any triangle add to 180°. In an isosceles triangle the angles opposite the equal sides are equal.
+@KEY | Why the angle sum is 180°
+Draw a line through the apex parallel to the base. The two base angles then match alternate angles on that line, and the apex angle sits between them. Together the three angles make a straight line, so they sum to 180°. The proof uses only the parallel-line property, which is why that property was established first.
+@TABLE | Angle facts for special triangles
+Triangle ; Angles ; Reason
+Equilateral ; 60°, 60°, 60° ; three equal angles summing to 180°
+Right-angled ; one angle 90°, other two sum to 90° ; angle sum
+Isosceles ; two equal base angles ; equal sides give equal angles
+Obtuse ; one angle above 90° ; definition
+@METHOD | Finding unknown angles in a triangle
+@LISTO
+1. Write the angle sum equation: the three angles total 180°.
+2. Use any extra information: equal sides give equal angles, a right angle is 90°.
+3. Solve for the unknown.
+4. Check the answer against the type of triangle: an equilateral triangle must give 60° three times.
+@ERR | Using 360° for a triangle
+The 360° figure applies to angles at a point, not inside a triangle. A quick check: a triangle fits inside a straight angle, so its total must be less than 180° plus the exterior angle — and exactly 180°.
+
+@EX | 7.4.1 | Two angles given
+GIVEN: A triangle has angles 48° and 67°.
+ASKED: Find the third angle and classify the triangle.
+METHOD: Subtract from 180°.
+STEPS:
+1. $48 + 67 = 115$.
+2. $180 - 115 = 65$.
+ANSWER: 65°; all angles acute, so the triangle is acute-angled.
+CHECK: $48 + 67 + 65 = 180$.
+
+@EX | 7.4.2 | An isosceles triangle
+GIVEN: An isosceles triangle has a vertex angle of 40°.
+ASKED: Find the base angles, with reasons.
+METHOD: Use the angle sum and the equality of base angles.
+STEPS:
+1. The base angles are equal, so each is $x$ with $2x + 40 = 180$.
+2. $2x = 140$, so $x = 70$.
+ANSWER: Each base angle is 70°, because the angles opposite the equal sides are equal.
+CHECK: $40 + 70 + 70 = 180$.
+
+@EX | 7.4.3 | A triangle with algebra
+GIVEN: The angles of a triangle are $x$, $2x + 10$ and $3x - 10$.
+ASKED: Find each angle and classify the triangle.
+METHOD: Form the angle-sum equation.
+STEPS:
+1. $x + 2x + 10 + 3x - 10 = 180$.
+2. $6x = 180$, so $x = 30$.
+3. Angles: 30°, 70°, 80°.
+ANSWER: 30°, 70°, 80°; acute-angled.
+CHECK: $30 + 70 + 80 = 180$.
+WATCH: A negative or zero angle is a signal that the equation is wrong, not that the triangle is unusual.
+
+@PRACTICE | 7.4 | Triangles | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Two angles of a triangle are 55° and 65°. Find the third. || 60°
+- F | A right-angled triangle has one acute angle of 32°. Find the other. || 58°
+- F | An equilateral triangle: find each angle. || 60°
+- F | An isosceles triangle has base angles of 50°. Find the vertex angle. || 80°
+- R | Explain why a triangle cannot have two right angles. || Their sum would be 180°, leaving nothing for the third angle.
+- R | A triangle has angles 100°, 45° and 35°. What type is it? || Obtuse-angled.
+- P | The angles of a triangle are in the ratio 2 : 3 : 4. Find them. || 40°, 60°, 80°
+- P | An isosceles triangle has a vertex angle of 110°. Find the base angles. || 35° each
+- E | The angles of a triangle are $2x$, $3x$ and $4x + 45$. Find $x$ and the largest angle. || $9x + 45 = 180$, $x = 15$; the angles are 30°, 45° and 105°, so the largest is 105°.
+- E | Explain why the largest angle of a triangle must be at least 60°. || If all three were less than 60°, the sum would be below 180°.
+
+@SEC | 7.5 | Polygons and their angles | Criterion A · ii, iii; Criterion C · ii
+@LEAD | A polygon is a closed flat shape made of straight sides that do not cross. The angles of any polygon can be found from the angles of triangles, and that is why the triangle result in 7.4 is worth so much.
+@DEF | Polygons, regular and irregular
+A **polygon** has straight sides and no curves. It is **regular** when every side is the same length and every interior angle is equal; otherwise it is **irregular**. A polygon is **convex** when every interior angle is less than 180°, so no corner points inwards.
+@FIG | c07_polygon
+@KEY | The interior angle sum
+Drawing all the diagonals from one vertex splits an $n$-sided polygon into $n - 2$ triangles. Each triangle holds 180°, so the interior angles of the polygon total
+$(n - 2) \times 180°$
+For a quadrilateral: $2 \times 180° = 360°$. For a pentagon: $540°$. For a hexagon: $720°$. For a decagon: $1440°$.
+@METHOD | Working with regular polygons
+**One interior angle:** divide the total by $n$. A regular pentagon has $540° \div 5 = 108°$.
+**Exterior angle:** each exterior angle is $360° \div n$, because the exterior angles of any convex polygon add to a full turn. A regular pentagon has $360° \div 5 = 72°$.
+**Check:** interior + exterior $= 180°$ at every vertex, since they sit on a straight line.
+@TABLE | Angle facts for regular polygons
+Polygon ; Sides $n$ ; Interior sum ; Each interior ; Each exterior
+Triangle ; 3 ; $180°$ ; $60°$ ; $120°$
+Quadrilateral ; 4 ; $360°$ ; $90°$ ; $90°$
+Pentagon ; 5 ; $540°$ ; $108°$ ; $72°$
+Hexagon ; 6 ; $720°$ ; $120°$ ; $60°$
+Octagon ; 8 ; $1080°$ ; $135°$ ; $45°$
+Decagon ; 10 ; $1440°$ ; $144°$ ; $36°$
+@ERR | Assuming every quadrilateral is a rectangle
+A rectangle has four right angles, but a quadrilateral need not. In a kite or a trapezium the four angles still total 360°, yet none of them may be 90°. The sum is fixed; the individual angles are not.
+@KEY | Why the exterior angles total 360°
+Walk once around the outside of any convex polygon. At each vertex you turn through the exterior angle, and after the last vertex you are facing the way you started — one full turn, $360°$. This is why $360 \div n$ gives the exterior angle of a regular polygon and why the number of sides can be recovered from one exterior angle.
+
+@EX | 7.5.1 | Interior angles of a hexagon
+GIVEN: A regular hexagon.
+ASKED: Find each interior angle and each exterior angle.
+METHOD: Use the interior sum, then divide.
+STEPS:
+1. $n = 6$, so the interior sum is $(6 - 2) \times 180° = 720°$.
+2. Each interior angle is $720° \div 6 = 120°$.
+3. Each exterior angle is $180° - 120° = 60°$, which also equals $360° \div 6$.
+ANSWER: $120°$ interior, $60°$ exterior.
+CHECK: Six exterior angles of $60°$ make $360°$, a full turn.
+
+@EX | 7.5.2 | Working backwards to the number of sides
+GIVEN: A regular polygon whose interior angles are each $156°$.
+ASKED: How many sides does it have?
+METHOD: Find the exterior angle first; it is smaller and divides 360 exactly.
+STEPS:
+1. Exterior angle $= 180° - 156° = 24°$.
+2. $n = 360° \div 24° = 15$.
+3. Check: $(15 - 2) \times 180° = 2340°$, and $2340° \div 15 = 156°$.
+ANSWER: 15 sides.
+WATCH: Dividing 360 by the interior angle would give $2.3$, which cannot be a number of sides. The exterior angle is the one that shares the full turn.
+
+@EX | 7.5.3 | An irregular polygon
+GIVEN: A pentagon with angles $100°$, $115°$, $95°$, $130°$ and $x$.
+ASKED: Find $x$.
+METHOD: Interior sum for five sides is $540°$.
+STEPS:
+1. $100 + 115 + 95 + 130 = 440$.
+2. $x = 540 - 440 = 100$.
+ANSWER: $x = 100°$.
+CHECK: $440 + 100 = 540$, and every angle is below $180°$, so the pentagon is convex.
+
+@PRACTICE | 7.5 | Polygons and their angles | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the interior angle sum of: (a) a pentagon (b) an octagon (c) a dodecagon (12 sides) || (a) 540° (b) 1080° (c) 1800°
+- F | Find each interior angle of a regular: (a) hexagon (b) octagon (c) nonagon (9 sides) || (a) 120° (b) 135° (c) 140°
+- F | Find each exterior angle of a regular: (a) pentagon (b) decagon (c) 20-sided polygon || (a) 72° (b) 36° (c) 18°
+- F | A quadrilateral has angles 85°, 95° and 110°. Find the fourth. || 70°
+- R | Explain why the interior angles of a quadrilateral total 360°. || A diagonal splits it into two triangles of 180°.
+- R | A student says a regular polygon can have interior angles of 150°. How many sides would it have, and how do you know? || 12 sides, since the exterior angle is 30° and 360 ÷ 30 = 12.
+- P | A regular polygon has an exterior angle of 24°. How many sides has it, and what is each interior angle? || 15 sides; 156°
+- P | A pentagon has four angles of 100°. Find the fifth angle and explain why the pentagon is not regular. || 540 − 400 = 140°, so not all five angles are equal.
+- E | Two regular polygons have exterior angles of 30° and 45°. Find the difference between their numbers of sides. || 12 − 8 = 4 sides
+- E | Explain why a convex polygon cannot have an interior angle of 200°. || A convex polygon has every interior angle below 180°; 200° would make the corner point inwards.
+
+@SEC | 7.6 | Constructions with compasses | Criterion C · ii, iv; Criterion D · ii
+@LEAD | A construction is a drawing made with compasses and a straight edge only, and it can be justified by the geometry it relies on. Constructions are how geometry is made precise without a protractor.
+@FIG | c07_bisector
+@DEF | Construction
+A **construction** is an accurate drawing made using only a straight edge and compasses. **Arcs** mark equal distances, and the intersections of arcs locate points exactly.
+Two constructions appear in this chapter: the **perpendicular bisector** of a segment, and the **bisector of an angle**.
+@METHOD | Perpendicular bisector of $AB$
+@LISTO
+1. Open the compasses to more than half of $AB$.
+2. With the point at $A$, draw arcs above and below the segment.
+3. With the same opening and the point at $B$, draw arcs to cut the first pair.
+4. Draw the line through the two intersections. It is perpendicular to $AB$ and passes through its midpoint.
+@METHOD | Bisector of an angle
+@LISTO
+1. With the point at the vertex, draw an arc cutting both arms.
+2. With the point at each intersection, draw arcs of equal radius that cross inside the angle.
+3. Draw the line from the vertex through the crossing point. It divides the angle into two equal parts.
+@KEY | Why constructions can be trusted
+Every arc is drawn with a fixed compass opening, so every point on it is the same distance from the centre. The perpendicular bisector works because its two points are each equidistant from $A$ and $B$, and the set of such points is exactly that line. Nothing is estimated; the accuracy comes from equal distances.
+@TABLE | Construction and its justification
+Construction ; What is drawn ; Why it works
+Perpendicular bisector ; arcs of equal radius from both ends ; points equidistant from the endpoints
+Angle bisector ; arcs at the vertex, then equal arcs inside ; equal distances from both arms
+Equilateral triangle ; two arcs of radius equal to the base ; three equal sides
+Triangle from three sides ; arcs at each end of the base ; the third vertex is fixed by two distances
+@ERR | Rubbing out the construction lines
+The arcs are the evidence that the construction is valid. Removing them leaves a drawing that cannot be checked. In an examination, construction arcs are usually required for full marks, and they should be drawn lightly but visibly.
+
+@EX | 7.6.1 | Constructing a perpendicular bisector
+GIVEN: A segment $AB$ of length 8 cm.
+ASKED: Construct its perpendicular bisector and state the distance from $A$ to the midpoint.
+METHOD: Follow the standard construction.
+STEPS:
+1. Set the compasses to more than 4 cm, say 6 cm.
+2. Draw arcs from $A$ and from $B$, above and below.
+3. Join the two intersections.
+4. The bisector crosses $AB$ at 4 cm from $A$.
+ANSWER: The bisector meets $AB$ at its midpoint, 4 cm from $A$, at 90°.
+CHECK: Measure both halves and both angles; each pair should be equal.
+
+@EX | 7.6.2 | Constructing a triangle from three sides
+GIVEN: Sides 7 cm, 5 cm and 4 cm.
+ASKED: Construct the triangle and decide whether a different triangle with the same sides is possible.
+METHOD: Draw the longest side as base, then locate the third vertex with two arcs.
+STEPS:
+1. Check the triangle inequality: $5 + 4 = 9 > 7$, so a triangle exists.
+2. Draw $AB = 7$ cm.
+3. With centre $A$ and radius 5 cm draw an arc; with centre $B$ and radius 4 cm draw an arc.
+4. Join the intersection to $A$ and $B$.
+ANSWER: The triangle is fixed: the two arcs meet at one point above $AB$ and its mirror image below, giving the same triangle.
+CHECK: Measuring the angles of both versions gives the same three angles.
+WATCH: If the two shorter sides barely exceed the longest, the arcs meet at a very shallow angle and small errors in compass opening produce a visibly wrong triangle.
+
+@EX | 7.6.3 | Using a construction to solve a problem
+GIVEN: A school wants a flagpole equidistant from two gateposts $A$ and $B$, and also on the path that runs between them.
+ASKED: Describe where the flagpole should stand.
+METHOD: Translate the conditions into a geometric locus.
+STEPS:
+1. Equidistant from $A$ and $B$ means on the perpendicular bisector of $AB$.
+2. On the path means on the segment $AB$.
+3. The only point on both is the midpoint of $AB$.
+ANSWER: At the midpoint of $AB$, found by constructing the perpendicular bisector.
+CHECK: The midpoint is 4 cm from each end on a drawing of an 8 cm path.
+
+@PRACTICE | 7.6 | Constructions with compasses | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | What compass opening is needed to construct the perpendicular bisector of a 10 cm segment? || more than 5 cm
+- F | How many arcs are drawn in the angle-bisector construction before the bisector itself? || three: one at the vertex, two inside
+- F | Construct an equilateral triangle of side 5 cm. Which two arcs locate the apex? || arcs of radius 5 cm from both ends of the base
+- F | State the size of the angles formed by a perpendicular bisector. || 90° each
+- R | Explain why the arcs must not be rubbed out. || They are the evidence that the construction is exact.
+- R | Why must the compass opening exceed half the segment? || Otherwise the arcs from the two ends do not meet.
+- P | Construct a triangle with sides 6 cm, 6 cm and 4 cm. What type is it? || Isosceles.
+- P | A point must be equidistant from two towns 30 km apart. Describe its possible positions. || Any point on the perpendicular bisector of the line joining them.
+- E | Explain how to construct an angle of 45° using only compasses and a straight edge. || Construct a right angle, then bisect it.
+- E | Explain why the three angle bisectors of a triangle meet at a single point. || Each point on a bisector is equidistant from two sides; the three conditions coincide at one point.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 7 | The triangle inequality | Criterion B · i, ii, iii
+@LEAD | Turn the Explore activity into a general statement with a justification, and test its limits.
+@INVEST | Investigation brief
+**Question.** Exactly which triples of lengths can form a triangle, and why does the rule hold for every case?
+**What you need.** Strips or compasses, a table of lengths, and your recording sheet.
+**What to produce.** A general statement, a justification from the geometry, a test on a limiting case, and a prediction for a new triple.
+@H2 | Part 1 · Collect and describe
+@TABLE | Copy and complete
+Lengths ; Two shorter sides ; Their sum ; Longest ; Triangle?
+2, 3, 4 ; ; ; ; 
+2, 3, 5 ; ; ; ; 
+2, 3, 6 ; ; ; ; 
+6, 8, 10 ; ; ; ; 
+5, 12, 13 ; ; ; ; 
+7, 9, 15 ; ; ; ; 
+@H2 | Part 2 · Generalise
+@LISTO
+1. Write the rule as a statement about the sum of the two shorter sides.
+2. Write the rule as three inequalities, one for each side.
+3. Two sides are 8 cm and 11 cm. Between which values must the third side lie? Give the answer as an inequality.
+4. Predict, without drawing, whether 9 cm, 14 cm and 24 cm form a triangle, then check.
+@H2 | Part 3 · Justify and extend
+@LISTO
+1. Explain, using the shortest path between two points, why the rule must be true.
+2. Describe the shape formed when the sum of the two shorter sides equals the longest exactly.
+3. What happens to the area of a triangle as the third side approaches the limiting value?
+4. Is there an equivalent rule for four lengths forming a quadrilateral? Test it with strips.
+@CRIT | Criterion B task · Requirements
+Complete and correct table; the rule stated both in words and as inequalities; a justification from the shortest-path idea; a limiting case described; a prediction tested.
+
+@SEC | Application 7 | Laying out the school garden | Criterion D · i, ii, iii, iv
+@LEAD | A garden is to be laid out in a triangular plot. The design must satisfy the client's conditions and be constructible accurately on the ground.
+@APPLY | The brief
+@TABLE | The plot
+Constraint ; Value
+Two sides of the plot ; 9 m and 12 m
+Area must fit inside a corner bounded by two paths ; the angle between the sides must be at least 40° and at most 60°
+Fence panels ; 2 m each, no cutting
+Path along the longest side ; 1.5 m wide
+@LISTU
+- The third side must allow the angle condition to be met.
+- Fence panels must span the perimeter exactly, so the perimeter must be a multiple of 2 m where possible.
+- The design must be drawn to scale and justified with angle calculations.
+@H2 | Task 1 · Fix the triangle
+@LISTO
+1. Using the triangle inequality, state the possible range for the third side.
+2. Choose a third side that gives an angle of about 50° between the 9 m and 12 m sides, and draw the triangle to scale.
+3. Measure the third side on your drawing and compare it with the length you chose.
+@H2 | Task 2 · Check the constraints
+@LISTO
+1. Calculate the perimeter and decide how many fence panels are needed, and whether any adjustment is necessary.
+2. Check that the angle lies within the range allowed.
+3. State one reason why an exact fit may be impossible and how you would resolve it.
+@H2 | Task 3 · Justify the design
+@LISTO
+1. Explain the role of the triangle inequality in your design, in two sentences.
+2. Explain the role of the construction in making the design buildable.
+3. Present your recommendation with a scale drawing, a table of measurements and one stated assumption.
+@CRIT | Criterion D task · Requirements
+Correct use of the triangle inequality; an accurate scale drawing with arcs shown; angle checked against the constraint; perimeter and panels calculated; a decision justified with reference to the constraints.
+
+@SEC | Task C | Writing up a construction | Criterion C · i, ii, iv
+@CRIT | The task
+Write a set of instructions, with a diagram for each stage, showing how to construct the perpendicular bisector of a segment and how to use it to find the midpoint of a line on a playing field.
+@LISTO
+1. Numbered instructions that a classmate could follow without help.
+2. A diagram for each stage, with the compass arcs shown.
+3. A short paragraph explaining why the construction gives exactly the midpoint.
+4. A note on the accuracy of the method compared with measuring with a ruler.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct geometric notation, including labels and arcs.
+Representation (ii) ; Diagrams that show the construction state at each stage.
+Organisation (iv) ; Instructions in a workable order, with no step assumed.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 7 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- Angles are measured in degrees and classified as acute, right, obtuse, straight or reflex.
+- Angles on a straight line sum to 180°; angles at a point sum to 360°; vertically opposite angles are equal.
+- When a transversal crosses parallel lines, corresponding and alternate angles are equal and co-interior angles sum to 180°.
+- The angles of a triangle sum to 180°, and an isosceles triangle has two equal base angles.
+- Three lengths form a triangle exactly when the sum of the two shorter exceeds the longest.
+- Constructions with compasses produce exact figures, justified by equal distances.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 7
+Term | Meaning in this course
+Acute | An angle between 0° and 90°.
+Obtuse | An angle between 90° and 180°.
+Reflex | An angle between 180° and 360°.
+Vertically opposite | Angles opposite each other where two lines cross; equal.
+Transversal | A line crossing two or more lines.
+Corresponding angles | Angles in the same position at each crossing of parallel lines; equal.
+Alternate angles | Angles on opposite sides of a transversal between parallel lines; equal.
+Co-interior angles | Angles on the same side of a transversal between parallel lines; sum to 180°.
+Isosceles | A triangle with two equal sides and two equal base angles.
+Construction | An exact drawing made with compasses and a straight edge.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“The angles of a triangle add to 360°.” ; They add to 180°. ; 60 + 60 + 60 = 180
+“Alternate angles add to 180°.” ; They are equal; co-interior angles add. ; Z against C
+“A diagram proves the angle.” ; Only given information and reasons do. ; Labelled 85° may look 90°
+“3, 4, 7 form a triangle.” ; The sum equals the longest, so flat. ; $3 + 4 = 7$
+“Constructions are approximate.” ; They are exact if the arcs are kept. ; Equal radii fix the points
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+name, measure and classify angles accurately. ;  ;  ; 
+use straight-line, point and vertically opposite angle facts with reasons. ;  ;  ; 
+find angles between parallel lines and justify each step. ;  ;  ; 
+use the angle sum of a triangle and properties of isosceles triangles. ;  ;  ; 
+test whether three lengths can form a triangle. ;  ;  ; 
+carry out compass constructions and explain why they work. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which angle fact do you find easiest to explain to someone else?
+2. Describe a diagram that misled you this chapter and what you did about it.
+3. Write one sentence explaining why the triangle inequality must be true.
+4. In the garden task, which constraint was hardest to satisfy? Why?
+5. Where in the world outside school have you seen a construction used for accuracy?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ7 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–18
+- F | Find the complement of 37°. || 53°
+- F | Two angles on a straight line: one is 128°. Find the other. || 52°
+- F | Two angles of a triangle are 71° and 64°. Find the third. || 45°
+- F | An isosceles triangle has base angles of 65°. Find the vertex angle. || 50°
+- F | Do 5 cm, 6 cm and 11 cm form a triangle? || No, $5 + 6 = 11$, so they lie flat.
+- F | One angle between parallel lines is 73°. State the alternate angle. || 73°
+- R | Explain why a triangle cannot have angles 90°, 90° and 0°. || The sum would be 180° only with a zero angle, which is not an angle of a triangle.
+- R | A quadrilateral is split into two triangles. What is the angle sum of a quadrilateral? || 360°, since two triangles contribute 180° each.
+- R | Explain the difference between a drawing and a construction. || A construction uses only compasses and a straight edge and relies on equal distances.
+- P | The angles of a triangle are in the ratio 1 : 2 : 6. Find the largest. || 120°
+- P | An isosceles triangle has a vertex angle of 30°. Find the base angles. || 75° each
+- P | Two parallel lines are cut by a transversal. Co-interior angles are $2x$ and $3x + 20$. Find $x$. || $5x + 20 = 180$, $x = 32$.
+- C | Explain how to find the exterior angle of a triangle. || It equals the sum of the two interior opposite angles, since it and the adjacent interior angle sum to 180°.
+- C | Explain why the perpendicular bisector passes through the midpoint. || Every point on it is equidistant from the two endpoints.
+- E | The angles of a triangle are $x + 10$, $2x$ and $2x - 30$. Find each. || $5x - 20 = 180$, $x = 40$; 50°, 80°, 50°.
+- E | Can a triangle have sides 8 cm, 8 cm and 16 cm? Explain. || No, the two shorter sides sum exactly to the longest.
+- E | A triangle has two equal sides and a vertex angle of 100°. Sketch it and find the base angles. || 40° each
+- P | A flagpole must be equidistant from two corners of a rectangular field. Describe its possible positions. || Anywhere on the perpendicular bisector of the diagonal joining the corners.
+
+@SEC | Mixed 7 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX7 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find the supplement of 68°. || 112°
+- F | Classify 205°. || reflex
+- F | Two angles at a point are 210° and $x$. Find $x$. || 150°
+- F | Two angles of a triangle are 39° and 58°. Find the third. || 83°
+- F | Are 7 cm, 8 cm and 9 cm possible sides of a triangle? || Yes, $7 + 8 > 9$.
+- R | Explain why the sum of two angles of a triangle must be less than 180°. || The third angle must be positive.
+- R | A student claims a triangle has angles 100°, 60° and 30°. What is wrong? || The sum is 190°, not 180°.
+- P | A straight line is divided into three angles $x$, $2x$ and $3x + 30$. Find the largest angle. || $6x + 30 = 180$, $x = 25$; the angles are 25°, 50° and 105°, so the largest is 105°.
+- P | A ladder makes an angle of 65° with the ground. What angle does it make with the wall? || 25°
+- P | An isosceles triangle has an exterior angle of 110° at the vertex. Find the base angles. || vertex 70°, base angles 55° each
+- C | Explain why the angles of an equilateral triangle are each 60°. || Equal angles summing to 180° must each be one third.
+- C | Explain how to decide whether a triangle is right-angled from its angles. || Check whether one angle is exactly 90°.
+- E | Two parallel lines are cut by two different transversals. Can you conclude anything about the angles formed? || Each transversal gives its own equal pairs, but angles from the two transversals need not be equal.
+- E | A triangle has angles $3x$, $4x$ and $5x$. Find the type of triangle. || $12x = 180$, $x = 15$; angles 45°, 60°, 75°, acute.
+- E | Construct, in writing, the steps needed to draw an angle of 60° without a protractor. || Draw a segment, then arcs of the same radius from both ends to locate an equilateral triangle.
+- P | A triangular plot has sides 13 m, 14 m and 15 m. Is it a valid triangle, and how many 2 m fence panels cover the perimeter? || Valid; perimeter 42 m; 21 panels.
+
+@SEC | Cumulative practice 7 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP7 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Two angles of a triangle are 47° and 63°. Find the third. || 70°
+- F | Two angles on a straight line: one is 96°. Find the other. || 84°
+- R | Explain why alternate angles are equal between parallel lines. || Translation along the transversal maps one crossing to the other.
+- P | An isosceles triangle has a vertex angle of 44°. Find a base angle. || 68°
+- P | Do 6 cm, 7 cm and 14 cm form a triangle? || No: $6 + 7 = 13 < 14$.
+- C | Explain why construction arcs are left visible. || They show that the construction is exact.
+- E | The angles of a triangle are $x$, $x + 20$ and $2x$. Find the largest. || $4x + 20 = 180$, $x = 40$; the largest is 80°.
+- E | Explain why the perpendicular bisector is a line of symmetry. || Reflecting the segment in it maps each endpoint to the other.

@@ -1,0 +1,681 @@
+@MOVE | A | Engage | Half a pizza, or two quarters?
+@LEAD | Two friends order the same size pizza. Ana eats $\\frac{2}{4}$ of hers and Ben eats $\\frac{1}{2}$ of his. Ben says he ate more because “one half sounds bigger than two quarters”. Ana disagrees.
+@P | Both ate the same amount. The fractions look different because they are cut differently, but the quantity is identical. This is the central idea of the chapter: a fraction is a **number**, not a pair of numbers, and it can be written in many equivalent ways.
+@P | The same confusion appears in other clothes. A phone battery at $0.5$ is at $\\frac{1}{2}$; a sale of $50\\%$ is also a half. Decimals, fractions and percentages are three notations for one quantity. Choosing between them is a matter of convenience, not of mathematics.
+@TABLE | Figure 4.1 The same quantity, four notations
+Fraction ; Decimal ; Percentage ; Where it appears
+$\\frac{1}{4}$ ; 0.25 ; 25% ; A quarter of an hour, 15 minutes
+$\\frac{3}{10}$ ; 0.3 ; 30% ; Three tenths of a litre, 300 ml
+$\\frac{2}{5}$ ; 0.4 ; 40% ; Two fifths of a class of 30, 12 students
+$\\frac{5}{8}$ ; 0.625 ; 62.5% ; Five eighths of a metre, 62.5 cm
+@MINI | Notice and wonder
+@LISTU
+- Why does $\\frac{2}{4}$ equal $\\frac{1}{2}$ even though the numbers are different?
+- Which notation would you choose to compare two quantities quickly? Which to calculate exactly?
+- Does a fraction get larger when its denominator gets larger? Explain with an example.
+- What would a fraction larger than 1 mean in the pizza situation?
+@CALLOUT | Keep this question open: why can one number have so many names, and how do we choose the name that helps?
+
+@MOVE | B | Explore | The fraction wall
+@LEAD | Work in pairs. You need a strip of paper the same length as the fraction wall below, a ruler and a pencil.
+@FIG | c04_wall
+@H2 | Your investigation
+@P | **Step 1.** Fold your strip in half, then in quarters, then in eighths. Shade one half.
+@P | **Step 2.** Without unfolding differently, find how many eighths cover the same length as one half. Record the result.
+@P | **Step 3.** Repeat for one third against sixths and ninths, and for one quarter against twelfths.
+@P | **Step 4.** Record every equality you discover in a table like the one below.
+@TABLE | Recording table (copy and complete)
+One fraction ; Equal fractions found ; What was done to the numerator and denominator?
+$\\frac{1}{2}$ ; ; 
+$\\frac{1}{3}$ ; ; 
+$\\frac{1}{4}$ ; ; 
+$\\frac{2}{3}$ ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. In $\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}$, what happens to the top number each time? To the bottom number?
+2. Is $\\frac{1}{2}$ equal to $\\frac{1}{3}$? Use the wall to explain, not the numbers alone.
+3. Which is larger, $\\frac{3}{4}$ or $\\frac{5}{8}$? How does the wall show this?
+4. Find two fractions on the wall that are equal to $\\frac{2}{3}$.
+5. Predict an equivalent fraction for $\\frac{3}{5}$ that is not on the wall, then test it by reasoning.
+@H2 | Making a conjecture
+@CALLOUT | “Multiplying the numerator and denominator by the same number … because … .”
+@H2 | What you should have noticed
+@LISTU
+- Multiplying top and bottom by the same number keeps the fraction equal: $\\frac{1}{2} = \\frac{2}{4} = \\frac{4}{8}$.
+- The pieces get smaller as the denominator grows, but there are more of them, and the total length is unchanged.
+- A larger denominator alone does not mean a larger fraction: $\\frac{1}{8}$ is smaller than $\\frac{1}{3}$.
+@FIG | c04_equiv
+@INVEST | Explore further
+Cut a square of paper into quarters, then shade $\\frac{2}{3}$ of the square as accurately as you can without measuring. Compare your method with a partner's. Can you shade $\\frac{2}{3}$ using a grid of twelfths? What does the grid tell you about $\\frac{2}{3}$ and $\\frac{8}{12}$?
+
+@SEC | 4.1 | What a fraction means | Criterion A · i, ii
+@LEAD | A fraction can be read as a part of a whole, as a division, as an operator on a quantity, or as a position on a number line. Reading it in more than one way prevents most errors.
+@DEF | Fraction, numerator, denominator
+In the fraction $\\frac{a}{b}$ ($b \\neq 0$), $a$ is the **numerator** and $b$ is the **denominator**. The denominator says how many equal parts the whole is divided into; the numerator says how many of those parts are taken.
+A **proper fraction** has numerator smaller than denominator, so its value is less than 1. An **improper fraction** has numerator greater than or equal to the denominator, so its value is at least 1. A **mixed number** is a whole number and a proper fraction written together, such as $2\\frac{3}{5}$.
+@KEY | Four readings of $\\frac{3}{4}$
+@LISTU
+- **Part of a whole:** three of four equal parts.
+- **Division:** $3 \\div 4$.
+- **Operator:** three quarters of a quantity — $\\frac{3}{4}$ of 20 is 15.
+- **Number:** a point on the number line, three quarters of the way from 0 to 1.
+@P | The fourth reading matters most later: $\\frac{3}{4}$ is a single number that can be added, multiplied and placed on a line, not a sum of two numbers.
+@METHOD | Converting between mixed numbers and improper fractions
+@LISTO
+1. Mixed to improper: multiply the whole number by the denominator, add the numerator, and keep the denominator. $2\\frac{3}{5} = \\frac{2 \\times 5 + 3}{5} = \\frac{13}{5}$.
+2. Improper to mixed: divide the numerator by the denominator; the quotient is the whole number, the remainder goes over the denominator. $\\frac{17}{4} = 4\\frac{1}{4}$.
+3. Check by estimating: $\\frac{13}{5}$ is between 2 and 3, which matches $2\\frac{3}{5}$.
+@ERR | Adding the whole numbers to the denominator
+A common error is to write $2\\frac{3}{5} = \\frac{5}{5}$, adding 2 and 3. The whole number 2 means two whole units, each of which is $\\frac{5}{5}$, so the total is $\\frac{10}{5} + \\frac{3}{5} = \\frac{13}{5}$.
+
+@EX | 4.1.1 | Reading a fraction in context
+GIVEN: A 600 ml bottle is $\\frac{3}{5}$ full.
+ASKED: How much liquid is in the bottle? Explain using two readings of the fraction.
+METHOD: Use the fraction as an operator: divide by the denominator, multiply by the numerator.
+STEPS:
+1. Divide 600 ml into 5 equal parts: $600 \\div 5 = 120$ ml per part.
+2. Take 3 parts: $3 \\times 120 = 360$ ml.
+3. Reading it as a multiplication: $\\frac{3}{5} \\times 600 = 360$.
+ANSWER: 360 ml.
+CHECK: $\\frac{3}{5}$ is more than half, and 360 ml is more than 300 ml.
+
+@EX | 4.1.2 | Mixed numbers and improper fractions
+GIVEN: The mixed number $3\\frac{2}{7}$ and the improper fraction $\\frac{23}{6}$.
+ASKED: Write each in the other form.
+METHOD: Apply the two conversion rules and check by estimation.
+STEPS:
+1. $3\\frac{2}{7} = \\frac{3 \\times 7 + 2}{7} = \\frac{23}{7}$.
+2. $23 \\div 6 = 3$ remainder 5, so $\\frac{23}{6} = 3\\frac{5}{6}$.
+ANSWER: $\\frac{23}{7}$ and $3\\frac{5}{6}$.
+CHECK: $\\frac{23}{7}$ is between 3 and 4; $3\\frac{5}{6}$ is between 3 and 4.
+
+@EX | 4.1.3 | A fraction of a quantity with a remainder
+GIVEN: A class of 32 students; $\\frac{5}{8}$ walk to school.
+ASKED: How many walk, and how many do not?
+METHOD: Find one eighth first, then scale.
+STEPS:
+1. One eighth of 32 is $32 \\div 8 = 4$.
+2. Five eighths is $5 \\times 4 = 20$ students.
+3. The remainder is $32 - 20 = 12$, which is $\\frac{3}{8}$ of the class.
+ANSWER: 20 walk; 12 do not.
+CHECK: $\\frac{3}{8} \\times 32 = 12$.
+WATCH: The denominator tells you the number of parts, not the size of the class. Always divide the quantity by the denominator first.
+
+@PRACTICE | 4.1 | What a fraction means | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write $\\frac{4}{9}$ in words and state the numerator and the denominator. || Four ninths; numerator 4, denominator 9.
+- F | Convert to improper fractions: (a) $2\\frac{1}{3}$ (b) $5\\frac{3}{4}$ (c) $1\\frac{7}{8}$ || (a) $\\frac{7}{3}$ (b) $\\frac{23}{4}$ (c) $\\frac{15}{8}$
+- F | Convert to mixed numbers: (a) $\\frac{17}{5}$ (b) $\\frac{29}{9}$ (c) $\\frac{11}{11}$ || (a) $3\\frac{2}{5}$ (b) $3\\frac{2}{9}$ (c) 1
+- F | Find $\\frac{2}{3}$ of 45. || 30
+- R | Explain why $\\frac{5}{4}$ is greater than 1. || The numerator is larger than the denominator, so there are more than four quarters.
+- R | A student says $\\frac{1}{8} > \\frac{1}{3}$ “because 8 is bigger than 3”. Explain the error. || A larger denominator means smaller parts, so eighths are smaller than thirds.
+- P | A tank holds 240 litres and is $\\frac{5}{6}$ full. How many litres are needed to fill it? || $\\frac{5}{6} \\times 240 = 200$; need 40 litres.
+- P | Sam spends $\\frac{3}{7}$ of a 56-page book. How many pages remain? || 24 pages remain ($\\frac{4}{7} \\times 56$).
+- E | Find a fraction of an hour equal to 50 minutes. || $\\frac{50}{60} = \\frac{5}{6}$
+- E | Explain why $\\frac{4}{4}$, $\\frac{7}{7}$ and $\\frac{12}{12}$ are all equal to 1. || Each has all its parts, and all its parts make the whole.
+
+@SEC | 4.2 | Equivalent fractions and simplifying | Criterion A · ii, iii
+@LEAD | Equivalent fractions are different names for the same number. Simplifying chooses the simplest name; expanding chooses a convenient one. Both are done by multiplying or dividing top and bottom by the same number.
+@DEF | Equivalent fractions and simplest form
+Fractions are **equivalent** when they represent the same value, such as $\\frac{2}{3}$ and $\\frac{4}{6}$. Multiplying or dividing the numerator and denominator by the same non-zero whole number produces an equivalent fraction.
+A fraction is in **simplest form** when the numerator and denominator have no common factor other than 1.
+@KEY | Why the value does not change
+$\\frac{2}{3} = \\frac{2 \\times 2}{3 \\times 2} = \\frac{4}{6}$. Multiplying both parts by 2 cuts every third into two sixths: the number of pieces doubles and each piece halves, so the total is unchanged. The same reasoning explains division: $\\frac{6}{9} = \\frac{6 \\div 3}{9 \\div 3} = \\frac{2}{3}$ groups the pieces in threes.
+@METHOD | Simplifying in one step
+@LISTO
+1. Find the highest common factor of the numerator and denominator.
+2. Divide both by it.
+3. Check that the result is in simplest form by testing for a common factor again.
+@P | Using the HCF does the job in one step. Dividing repeatedly by small factors also works and can be safer when the HCF is hard to see.
+@TABLE | Simplifying with the HCF
+Fraction ; HCF of numerator and denominator ; Simplest form ; Check
+$\\frac{18}{24}$ ; 6 ; $\\frac{3}{4}$ ; $3 \\times 6 = 18$, $4 \\times 6 = 24$
+$\\frac{45}{60}$ ; 15 ; $\\frac{3}{4}$ ; both divide by 15
+$\\frac{28}{42}$ ; 14 ; $\\frac{2}{3}$ ; 28 = 14 × 2, 42 = 14 × 3
+$\\frac{51}{68}$ ; 17 ; $\\frac{3}{4}$ ; 51 = 17 × 3, 68 = 17 × 4
+@ERR | Dividing only one part
+$\\frac{8}{12}$ is not $\\frac{2}{12}$: dividing the numerator alone changes the value. Both parts must be divided by the same number. A useful check is to compare the decimal values before and after; they must match.
+
+@EX | 4.2.1 | Simplifying
+GIVEN: The fraction $\\frac{56}{72}$.
+ASKED: Write it in simplest form.
+METHOD: Find the HCF of 56 and 72 and divide both parts.
+STEPS:
+1. $56 = 2^{3} \\times 7$ and $72 = 2^{3} \\times 3^{2}$, so the HCF is $2^{3} = 8$.
+2. $\\frac{56 \\div 8}{72 \\div 8} = \\frac{7}{9}$.
+ANSWER: $\\frac{7}{9}$.
+CHECK: 7 and 9 share no factor other than 1; $56 \\div 72 = 0.777\\dots = 7 \\div 9$.
+
+@EX | 4.2.2 | Finding a missing part
+GIVEN: $\\frac{3}{7} = \\frac{\\square}{42}$.
+ASKED: Find the missing numerator.
+METHOD: Ask what the denominator was multiplied by, then do the same to the numerator.
+STEPS:
+1. $7 \\times 6 = 42$, so the multiplier is 6.
+2. $3 \\times 6 = 18$.
+ANSWER: 18, so $\\frac{3}{7} = \\frac{18}{42}$.
+CHECK: $18 \\div 42 = 0.42857$ and $3 \\div 7 = 0.42857$.
+
+@EX | 4.2.3 | Simplifying in context
+GIVEN: A survey found that 48 out of 120 students walk to school.
+ASKED: Write the proportion as a fraction in simplest form.
+METHOD: Write the fraction, then simplify with the HCF.
+STEPS:
+1. Fraction: $\\frac{48}{120}$.
+2. HCF of 48 and 120 is 24.
+3. $\\frac{48 \\div 24}{120 \\div 24} = \\frac{2}{5}$.
+ANSWER: $\\frac{2}{5}$ of the students.
+CHECK: $\\frac{2}{5} \\times 120 = 48$.
+
+@PRACTICE | 4.2 | Equivalent fractions and simplifying | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Simplify: (a) $\\frac{6}{9}$ (b) $\\frac{10}{25}$ (c) $\\frac{21}{28}$ || (a) $\\frac{2}{3}$ (b) $\\frac{2}{5}$ (c) $\\frac{3}{4}$
+- F | Fill the missing numbers: (a) $\\frac{1}{2} = \\frac{\\square}{10}$ (b) $\\frac{2}{5} = \\frac{8}{\\square}$ || (a) 5 (b) 20
+- F | Write two fractions equivalent to $\\frac{3}{5}$. || $\\frac{6}{10}$ and $\\frac{9}{15}$
+- F | Simplify $\\frac{36}{48}$. || $\\frac{3}{4}$
+- R | Explain why dividing the top and bottom by the same number keeps the fraction equal. || It regroups the pieces; the number of pieces and their size change together so the total is unchanged.
+- R | Is $\\frac{4}{6}$ in simplest form? Justify your answer. || No: both divide by 2, giving $\\frac{2}{3}$.
+- P | A recipe uses 15 g of sugar in 40 g of mixture. Write this as a fraction in simplest form. || $\\frac{3}{8}$
+- P | Write $\\frac{48}{60}$ in simplest form and as a percentage. || $\\frac{4}{5} = 80\\%$
+- E | Find the fraction equal to $\\frac{5}{8}$ whose numerator is 40. || $\\frac{40}{64}$
+- E | Two fractions are equivalent and the first is $\\frac{7}{9}$. The second has denominator 63. Find its numerator and explain. || 49, because $63 \\div 9 = 7$ and $7 \\times 7 = 49$.
+
+@SEC | 4.3 | Comparing and ordering fractions | Criterion C · ii, iii
+@LEAD | Comparing fractions is comparing numbers, and there is more than one reliable method. Choosing the method to suit the numbers is part of the skill.
+@METHOD | Four methods for comparing fractions
+@LISTO
+1. **Common denominator:** rewrite both fractions with the LCM of the denominators, then compare numerators.
+2. **Common numerator:** if the numerators are equal, the fraction with the smaller denominator is larger.
+3. **Benchmark:** compare each fraction with a familiar value such as $\\frac{1}{2}$ or 1.
+4. **Decimal:** divide to compare as decimals when the numbers are awkward.
+@KEY | Choosing a method
+Common denominators give an exact answer and show the size of the difference. Decimals are quick but can require rounding, which risks a wrong conclusion when two fractions are very close — $\\frac{7}{16}$ and $\\frac{11}{25}$ differ by only 0.0025.
+@TABLE | Ordering four fractions
+Fraction ; Decimal ; Comparison with $\\frac{1}{2}$
+$\\frac{5}{8}$ ; 0.625 ; above
+$\\frac{2}{3}$ ; 0.667 ; above
+$\\frac{7}{10}$ ; 0.7 ; above
+$\\frac{3}{4}$ ; 0.75 ; above
+@P | All four are above $\\frac{1}{2}$, so the benchmark alone cannot order them. With a common denominator of 120: $\\frac{75}{120}, \\frac{80}{120}, \\frac{84}{120}, \\frac{90}{120}$, giving $\\frac{5}{8} < \\frac{2}{3} < \\frac{7}{10} < \\frac{3}{4}$.
+@ERR | Comparing numerators only
+$\\frac{3}{8}$ and $\\frac{2}{5}$: the numerators 3 and 2 do not decide which is larger, because the denominators differ. With a common denominator of 40, $\\frac{15}{40}$ and $\\frac{16}{40}$, so $\\frac{2}{5}$ is larger — the opposite of what the numerators suggest.
+
+@EX | 4.3.1 | Comparing two fractions
+GIVEN: $\\frac{5}{8}$ and $\\frac{7}{12}$.
+ASKED: State which is larger and by how much.
+METHOD: Use the LCM of the denominators.
+STEPS:
+1. LCM of 8 and 12 is 24.
+2. $\\frac{5}{8} = \\frac{15}{24}$ and $\\frac{7}{12} = \\frac{14}{24}$.
+3. The difference is $\\frac{1}{24}$.
+ANSWER: $\\frac{5}{8}$ is larger by $\\frac{1}{24}$.
+CHECK: As decimals, 0.625 > 0.583.
+
+@EX | 4.3.2 | Ordering three fractions
+GIVEN: $\\frac{3}{5}$, $\\frac{5}{9}$, $\\frac{7}{12}$.
+ASKED: Write them in ascending order.
+METHOD: Convert to decimals because the denominators are unrelated.
+STEPS:
+1. $\\frac{3}{5} = 0.6$.
+2. $\\frac{5}{9} = 0.555\\dots$
+3. $\\frac{7}{12} = 0.5833\\dots$
+4. Ordering: 0.555 < 0.583 < 0.6.
+ANSWER: $\\frac{5}{9} < \\frac{7}{12} < \\frac{3}{5}$.
+CHECK: With a common denominator of 180: $\\frac{100}{180} < \\frac{105}{180} < \\frac{108}{180}$.
+
+@EX | 4.3.3 | Comparing with a mixed number
+GIVEN: $2\\frac{2}{3}$ and $\\frac{17}{6}$.
+ASKED: Decide which is larger.
+METHOD: Write both as improper fractions over a common denominator.
+STEPS:
+1. $2\\frac{2}{3} = \\frac{8}{3} = \\frac{16}{6}$.
+2. Compare $\\frac{16}{6}$ with $\\frac{17}{6}$.
+ANSWER: $\\frac{17}{6}$ is larger by $\\frac{1}{6}$.
+CHECK: $2\\frac{2}{3} \\approx 2.667$ and $\\frac{17}{6} \\approx 2.833$.
+WATCH: Comparing only the fractional parts (both thirds or sixths) without the whole numbers gives the wrong order.
+
+@PRACTICE | 4.3 | Comparing and ordering fractions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Insert < or >: (a) $\\frac{2}{5} \\square \\frac{3}{5}$ (b) $\\frac{1}{4} \\square \\frac{1}{3}$ (c) $\\frac{3}{4} \\square \\frac{2}{3}$ || (a) < (b) < (c) >
+- F | Write in ascending order: $\\frac{1}{2}, \\frac{1}{4}, \\frac{3}{4}, \\frac{1}{8}$. || $\\frac{1}{8}, \\frac{1}{4}, \\frac{1}{2}, \\frac{3}{4}$
+- F | Write $\\frac{7}{10}$ and $\\frac{2}{3}$ with denominator 30. || $\\frac{21}{30}$ and $\\frac{20}{30}$
+- F | Which is larger: $\\frac{5}{6}$ or $\\frac{6}{7}$? || $\\frac{6}{7}$ (0.857 > 0.833)
+- R | Explain how to compare two fractions with the same numerator. || The smaller denominator gives larger pieces, so that fraction is larger.
+- R | A student compares $\\frac{7}{8}$ and $\\frac{8}{9}$ by saying “8 > 7 so the second is larger”. Is the conclusion right? Is the reasoning sound? || The conclusion is right but the reasoning is not: denominators must never be compared directly.
+- P | Three students read $\\frac{2}{5}$, $\\frac{3}{8}$ and $\\frac{1}{3}$ of the same book. Order the amounts read. || $\\frac{1}{3} < \\frac{3}{8} < \\frac{2}{5}$ (0.333 < 0.375 < 0.4)
+- P | Which is closer to 1: $\\frac{11}{12}$ or $\\frac{13}{14}$? || $\\frac{13}{14}$ (difference $\\frac{1}{14}$ against $\\frac{1}{12}$)
+- E | Find a fraction between $\\frac{2}{5}$ and $\\frac{1}{2}$. || Any of $\\frac{9}{20}, \\frac{19}{40}, \\frac{5}{11}$: e.g. $\\frac{9}{20} = 0.45$
+- E | Explain why there is always another fraction between any two different fractions. || Averaging two fractions gives a value halfway between, and the process can be repeated without limit.
+
+@SEC | 4.4 | Fractions and decimals | Criterion A · ii; Criterion C · ii
+@LEAD | Every fraction can be written as a decimal by division, and every terminating decimal can be written as a fraction over a power of ten. Some fractions produce decimals that never end but repeat.
+@FIG | c04_division
+@DEF | Terminating and recurring decimals
+A **terminating decimal** has a finite number of digits after the point, such as $0.375$. A **recurring decimal** repeats a block of digits for ever, such as $0.333\\dots$ where the 3 never stops. This book writes the repeating block twice and ends with an ellipsis: $0.363636\\dots$ for the block 36.
+A fraction in simplest form gives a terminating decimal exactly when its denominator has no prime factors other than 2 and 5.
+@FIG | c04_grid
+@METHOD | Converting in both directions
+**Fraction to decimal:** divide the numerator by the denominator, continuing past the point until the remainder is 0 or a cycle appears.
+**Terminating decimal to fraction:** write over a power of ten and simplify. $0.45 = \\frac{45}{100} = \\frac{9}{20}$.
+**Recurring decimal to fraction:** use the repeating block. If $x = 0.\\dot{3}$, then $10x = 3.\\dot{3}$, so $9x = 3$ and $x = \\frac{1}{3}$.
+@KEY | Why 2s and 5s matter
+$\\frac{3}{8} = \\frac{3}{2^{3}}$. Multiplying by $\\frac{5^{3}}{5^{3}}$ gives $\\frac{375}{1000} = 0.375$ — a terminating decimal, because 8 divides a power of ten. A denominator with a factor of 3 or 7 never divides a power of ten, so the division must recur.
+@TABLE | Fractions, decimals and the reason
+Fraction ; Decimal ; Terminating?
+$\\frac{3}{8}$ ; 0.375 ; yes, denominator $2^{3}$
+$\\frac{7}{20}$ ; 0.35 ; yes, denominator $2^{2} \\times 5$
+$\\frac{5}{6}$ ; $0.8\\dot{3}$ ; no, denominator has a factor 3
+$\\frac{2}{7}$ ; $0.\\overline{285714}$ ; no, denominator has a factor 7
+@ERR | Rounding too early
+$\\frac{2}{3} \\approx 0.67$ is fine for reporting, but using 0.67 in a later calculation gives slight errors that accumulate. Keep the fraction, or keep more digits than you need, until the final step.
+
+@EX | 4.4.1 | Fraction to terminating decimal
+GIVEN: $\\frac{7}{20}$.
+ASKED: Write it as a decimal and explain why it terminates.
+METHOD: Scale to a denominator of 100, or divide.
+STEPS:
+1. $\\frac{7}{20} = \\frac{7 \\times 5}{20 \\times 5} = \\frac{35}{100}$.
+2. $\\frac{35}{100} = 0.35$.
+3. The denominator $20 = 2^{2} \\times 5$ has only 2s and 5s, so the decimal terminates.
+ANSWER: 0.35.
+CHECK: $7 \\div 20 = 0.35$.
+
+@EX | 4.4.2 | Fraction to recurring decimal
+GIVEN: $\\frac{5}{6}$.
+ASKED: Write it as a decimal, using dot notation for any repeating part.
+METHOD: Divide and watch for the repeating remainder.
+STEPS:
+1. $5 \\div 6 = 0.8$ remainder 2.
+2. The remainder 2 recurs, giving 0.8333…
+3. The digit 3 repeats, so the decimal is $0.8\\dot{3}$.
+ANSWER: $0.8\\dot{3}$.
+CHECK: Multiplying by 6 gives 4.999…, which equals 5.
+
+@EX | 4.4.3 | Decimal to fraction
+GIVEN: 2.6 and $0.\\overline{36}$.
+ASKED: Write each as a fraction in simplest form.
+METHOD: Use a power of ten for terminating decimals; use the repeating block for recurring ones.
+STEPS:
+1. $2.6 = \\frac{26}{10} = \\frac{13}{5} = 2\\frac{3}{5}$.
+2. For $x = 0.\\overline{36}$: $100x = 36.\\overline{36}$, so $99x = 36$ and $x = \\frac{36}{99} = \\frac{4}{11}$.
+ANSWER: $\\frac{13}{5}$ and $\\frac{4}{11}$.
+CHECK: $4 \\div 11 = 0.363636\\dots$
+WATCH: $0.\\overline{36}$ is not $\\frac{36}{100}$; the block repeats for ever, so 99, not 100, is the correct denominator in the subtraction.
+
+@PRACTICE | 4.4 | Fractions and decimals | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write as decimals: (a) $\\frac{1}{4}$ (b) $\\frac{3}{5}$ (c) $\\frac{9}{20}$ || (a) 0.25 (b) 0.6 (c) 0.45
+- F | Write as fractions in simplest form: (a) 0.7 (b) 0.25 (c) 0.6 || (a) $\\frac{7}{10}$ (b) $\\frac{1}{4}$ (c) $\\frac{3}{5}$
+- F | Which of $\\frac{1}{4}, \\frac{1}{3}, \\frac{1}{5}$ give terminating decimals? || $\\frac{1}{4}$ and $\\frac{1}{5}$
+- F | Write $\\frac{5}{9}$ as a recurring decimal. || $0.\\dot{5}$
+- R | Explain why $\\frac{1}{3}$ does not terminate but $\\frac{1}{4}$ does. || One third never divides a power of ten; the denominator 4 has only a factor 2.
+- R | A student writes $0.3$ for $\\frac{1}{3}$. What is the error and why does it matter? || 0.3 is $\\frac{3}{10}$, not one third; the difference matters when multiplying.
+- P | Order $0.65, \\frac{5}{8}, \\frac{3}{5}$ from smallest to largest. || $\\frac{3}{5} = 0.6 < \\frac{5}{8} = 0.625 < 0.65$
+- P | A 1 kg bag is 0.375 full. Write the mass as a fraction in simplest form. || $\\frac{3}{8}$ kg
+- E | Write $0.\\overline{6}$ as a fraction in simplest form. || $\\frac{2}{3}$
+- E | Explain why every terminating decimal can be written as a fraction. || Its digits end, so it equals a whole number divided by a power of ten.
+
+@SEC | 4.5 | Calculating with decimals | Criterion A · i, ii; Criterion C · i
+@LEAD | Decimal calculations follow the same rules as whole-number calculations, with one extra job: keeping track of where the decimal point belongs. Lining up place values, or counting decimal places, or converting to fractions, all do that job.
+@DEF | Aligning place values
+To add or subtract decimals, write the numbers one under the other with the **decimal points in a line**, then fill empty places with zeros. Adding zeros after the last digit does not change a number: $4.5 = 4.50 = 4.500$.
+@METHOD | Four decimal calculations
+**Add or subtract:** line up the points, pad with zeros, then calculate as for whole numbers. $12.4 + 3.75$ becomes $12.40 + 3.75 = 16.15$.
+**Multiply by a whole number:** multiply as if there were no point, then place the point so the answer has the same number of decimal places as the number you started with. $0.6 \times 7 = 4.2$.
+**Multiply two decimals:** multiply as whole numbers and count the total decimal places in both factors. $0.4 \times 0.3 = 0.12$, because 4 tenths of 3 tenths is 12 hundredths.
+**Divide:** make the divisor a whole number by multiplying both numbers by the same power of ten, then divide. $2.4 \div 0.6 = 24 \div 6 = 4$.
+@KEY | Multiplying and dividing by 10, 100, 1000
+Multiplying by 10 moves every digit one place to the left, so the decimal point appears to move one place to the right: $3.47 \times 10 = 34.7$. Dividing by 10 moves it one place to the left: $3.47 \div 10 = 0.347$. The digits never change; only their place values do. Trailing zeros may be dropped, but zeros between digits may not.
+@TABLE | Which operation, which estimate
+Calculation ; Quick estimate ; Why the estimate is safe
+$8.9 + 12.35$ ; $9 + 12 = 21$ ; the answer must be slightly under 21
+$0.7 \times 0.8$ ; about $1 \times 1 = 1$ but under ; two numbers under 1 give a product under 1
+$4.5 \div 0.9$ ; about $4.5 \div 1 = 4.5$ ; dividing by less than 1 makes the answer larger
+$0.36 \div 4$ ; about $0.4 \div 4 = 0.1$ ; the answer is near one tenth
+@ERR | Two decimal-point errors
+**Misaligned points.** Writing $12.4 + 3.75$ as $12.4$ over $3.75$ right-aligned gives $15.65$ — wrong, because the 5 of 3.75 then sits in the tenths column. **Counting places wrongly.** $0.2 \times 0.3$ is not 0.6: two decimal places in total means $0.06$.
+
+@EX | 4.5.1 | Adding and subtracting decimals
+GIVEN: $7.4 - 2.86$.
+ASKED: Calculate, showing the alignment.
+METHOD: Line up the decimal points and pad with a zero.
+STEPS:
+1. Write $7.40$ above $2.86$ with the points in line.
+2. $7.40 - 2.86 = 4.54$.
+ANSWER: $4.54$.
+CHECK: $4.54 + 2.86 = 7.40$.
+
+@EX | 4.5.2 | Multiplying two decimals
+GIVEN: $1.6 \times 0.25$.
+ASKED: Calculate without a calculator and check by estimation.
+METHOD: Multiply as whole numbers, then place the point.
+STEPS:
+1. $16 \times 25 = 400$.
+2. There are $1 + 2 = 3$ decimal places in the factors.
+3. So $400$ with 3 decimal places is $0.400 = 0.4$.
+ANSWER: $0.4$.
+CHECK: A quarter of 1.6 is 0.4, and $0.25$ is a quarter.
+
+@EX | 4.5.3 | Dividing by a decimal
+GIVEN: $3.6 \div 0.04$.
+ASKED: Calculate and explain why the answer is larger than 3.6.
+METHOD: Multiply divisor and dividend by 100 to clear the decimal.
+STEPS:
+1. $3.6 \div 0.04 = 360 \div 4$.
+2. $360 \div 4 = 90$.
+3. Dividing by 0.04 asks how many hundredths fit into 3.6; there are 90 of them.
+ANSWER: $90$.
+CHECK: $90 \times 0.04 = 3.6$.
+WATCH: The answer is larger than the number you started with. Dividing by a number less than 1 always enlarges, and that is a fast check on any decimal division.
+
+@PRACTICE | 4.5 | Calculating with decimals | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Calculate: (a) $3.7 + 1.45$ (b) $9.2 - 4.65$ (c) $0.8 + 12.36$ || (a) 5.15 (b) 4.55 (c) 13.16
+- F | Calculate: (a) $0.7 \times 6$ (b) $0.4 \times 0.5$ (c) $0.25 \times 8$ || (a) 4.2 (b) 0.2 (c) 2
+- F | Calculate: (a) $4.8 \div 6$ (b) $1.2 \div 0.3$ (c) $6 \div 0.5$ || (a) 0.8 (b) 4 (c) 12
+- F | Multiply by 10, 100 and 1000: start with 2.405. || 24.05; 240.5; 2405
+- R | A student writes $5.6 + 0.42 = 0.98$. What did they do, and what is the correct answer? || They added wrongly aligned digits; the correct answer is 6.02.
+- R | Explain why $0.2 \times 0.3 = 0.06$ and not 0.6. || Two tenths of three tenths is six hundredths.
+- P | A bottle holds 1.25 litres and another holds 0.85 litres. How much do they hold together, and how much more is in the larger bottle? || 2.1 litres; 0.4 litres more
+- P | Petrol costs 1.45 per litre. Find the cost of 12.5 litres. || 18.125 ≈ 18.13
+- E | Show that $0.36 \div 0.4$ and $3.6 \div 4$ give the same answer, and explain why. || Both equal 0.9; multiplying divisor and dividend by 10 keeps the quotient.
+- E | Without calculating, decide whether $0.9 \times 0.9$ is larger or smaller than 0.9, and justify. || Smaller, because 0.9 of a number less than 1 is less than the number.
+
+@SEC | 4.6 | Adding and subtracting fractions | Criterion A · i, ii
+@LEAD | Fractions can only be added when the parts are the same size. Finding a common denominator makes the parts comparable; it does not change the quantities.
+@DEF | Adding fractions
+To add or subtract fractions, write them with a common denominator, then add or subtract the numerators and keep the denominator:
+$\\frac{a}{c} + \\frac{b}{c} = \\frac{a + b}{c}$
+@KEY | Why not add the denominators?
+$\\frac{1}{2} + \\frac{1}{3}$ is not $\\frac{2}{5}$: a half plus a third is more than a half, while $\\frac{2}{5}$ is less than a half. With sixths, $\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$, which is close to 1 and passes the estimation check.
+@METHOD | Adding and subtracting mixed numbers
+@LISTO
+1. Convert to improper fractions, or handle whole numbers and fractions separately.
+2. Use the LCM of the denominators.
+3. Add or subtract; simplify the result; convert back to a mixed number if needed.
+4. If subtracting produces a negative fraction, borrow one whole unit from the whole number.
+@TABLE | Worked steps for $3\\frac{1}{4} - 1\\frac{5}{6}$
+Stage ; Work
+Convert ; $\\frac{13}{4} - \\frac{11}{6}$
+Common denominator ; LCM of 4 and 6 is 12: $\\frac{39}{12} - \\frac{22}{12}$
+Subtract ; $\\frac{17}{12}$
+Simplify ; $1\\frac{5}{12}$
+@ERR | Adding numerators and denominators
+“$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$” is the most common fraction error. The check is estimation: the answer must lie between the two fractions. $\\frac{2}{5} = 0.4$ lies below both, so it cannot be right.
+
+@EX | 4.6.1 | Adding fractions with unlike denominators
+GIVEN: $\\frac{2}{3} + \\frac{1}{4}$.
+ASKED: Find the sum in simplest form.
+METHOD: Use the LCM of the denominators.
+STEPS:
+1. LCM of 3 and 4 is 12.
+2. $\\frac{2}{3} = \\frac{8}{12}$ and $\\frac{1}{4} = \\frac{3}{12}$.
+3. $\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$.
+ANSWER: $\\frac{11}{12}$, already in simplest form.
+CHECK: $0.667 + 0.25 = 0.917$, close to $\\frac{11}{12} = 0.917$. The answer is just below 1, as expected.
+
+@EX | 4.6.2 | Subtracting mixed numbers with borrowing
+GIVEN: $4\\frac{1}{5} - 2\\frac{2}{3}$.
+ASKED: Find the difference.
+METHOD: Convert to improper fractions to avoid negative parts.
+STEPS:
+1. $4\\frac{1}{5} = \\frac{21}{5}$ and $2\\frac{2}{3} = \\frac{8}{3}$.
+2. LCM of 5 and 3 is 15: $\\frac{63}{15} - \\frac{40}{15} = \\frac{23}{15}$.
+3. $\\frac{23}{15} = 1\\frac{8}{15}$.
+ANSWER: $1\\frac{8}{15}$.
+CHECK: $4.2 - 2.667 = 1.533$, and $\\frac{23}{15} = 1.533$.
+WATCH: Subtracting the whole numbers and then the fractions gives $2 - \\frac{7}{15}$, which invites the sign error $-\\frac{2}{15}$ appearing out of nowhere. Improper fractions avoid it.
+
+@EX | 4.6.3 | A context with three fractions
+GIVEN: A student spends $\\frac{1}{4}$ of an evening on mathematics, $\\frac{3}{8}$ on a project and $\\frac{1}{6}$ reading.
+ASKED: What fraction of the evening is left?
+METHOD: Add the three fractions, then subtract from 1.
+STEPS:
+1. LCM of 4, 8 and 6 is 24.
+2. $\\frac{6}{24} + \\frac{9}{24} + \\frac{4}{24} = \\frac{19}{24}$.
+3. $1 - \\frac{19}{24} = \\frac{5}{24}$.
+ANSWER: $\\frac{5}{24}$ of the evening.
+CHECK: $0.25 + 0.375 + 0.167 = 0.792$ and $\\frac{19}{24} = 0.792$.
+
+@PRACTICE | 4.6 | Adding and subtracting fractions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Add: (a) $\\frac{1}{5} + \\frac{2}{5}$ (b) $\\frac{3}{8} + \\frac{1}{8}$ (c) $\\frac{5}{9} + \\frac{2}{9}$ || (a) $\\frac{3}{5}$ (b) $\\frac{1}{2}$ (c) $\\frac{7}{9}$
+- F | Add: (a) $\\frac{1}{2} + \\frac{1}{4}$ (b) $\\frac{1}{3} + \\frac{1}{6}$ || (a) $\\frac{3}{4}$ (b) $\\frac{1}{2}$
+- F | Subtract: (a) $\\frac{5}{6} - \\frac{1}{3}$ (b) $\\frac{7}{10} - \\frac{2}{5}$ || (a) $\\frac{1}{2}$ (b) $\\frac{3}{10}$
+- F | Calculate $2\\frac{1}{2} + 1\\frac{1}{3}$. || $3\\frac{5}{6}$
+- R | Explain why $\\frac{1}{2} + \\frac{1}{3} \\neq \\frac{2}{5}$. || The denominators are not parts of the same size; the sum must be greater than $\\frac{1}{2}$.
+- R | A student adds numerators and denominators and gets $\\frac{5}{6}$ for $\\frac{1}{2} + \\frac{1}{3}$. Is the answer right? Is the method? || The answer is right by coincidence; the method happens to work here because 2 + 3 = 5 and 2 × 3 = 6, but it fails in general.
+- P | A recipe needs $\\frac{2}{3}$ cup of flour and $\\frac{3}{4}$ cup of sugar. What is the combined amount? || $\\frac{17}{12} = 1\\frac{5}{12}$ cups
+- P | A tank is $\\frac{5}{8}$ full. After using $\\frac{1}{4}$ of a tank, how full is it? || $\\frac{3}{8}$
+- E | Calculate $\\frac{5}{6} + \\frac{7}{8} - \\frac{1}{2}$ in simplest form. || $\\frac{29}{24} = 1\\frac{5}{24}$
+- E | Explain how to subtract $1\\frac{5}{6}$ from $3\\frac{1}{4}$ without getting a negative fraction. || Convert both to improper fractions over 12, giving $\\frac{39}{12} - \\frac{22}{12}$.
+
+@SEC | 4.7 | Multiplying and dividing fractions | Criterion C · i, iii
+@LEAD | Multiplication of fractions answers “a part of a part”, and division answers “how many of these fit inside that”. Both are easier than addition, because no common denominator is needed.
+@DEF | Multiplying and dividing fractions
+$\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}$
+$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$
+To divide by a fraction, multiply by its **reciprocal** — the fraction turned upside down.
+@KEY | Two pictures that explain the rules
+**Multiplication:** $\\frac{2}{3} \\times \\frac{3}{4}$ means two thirds of three quarters. Take a square, cut it into quarters and shade three, then cut the square into thirds and take two of them. The overlap is 6 of 12 small squares, or $\\frac{1}{2}$.
+**Division:** $\\frac{3}{4} \\div \\frac{1}{8}$ asks how many eighths fit in three quarters. Each quarter contains two eighths, so there are 6.
+@TABLE | Multiplication and division compared
+Expression ; Meaning ; Answer
+$\\frac{2}{3} \\times \\frac{3}{4}$ ; two thirds of three quarters ; $\\frac{1}{2}$
+$\\frac{3}{4} \\div \\frac{1}{8}$ ; how many eighths in three quarters ; 6
+$\\frac{3}{4} \\div \\frac{2}{5}$ ; how many two fifths fit in three quarters ; $\\frac{15}{8} = 1\\frac{7}{8}$
+@ERR | Inverting the wrong fraction
+When dividing, the **second** fraction is inverted: $\\frac{3}{4} \\div \\frac{2}{5} = \\frac{3}{4} \\times \\frac{5}{2}$. Inverting the first fraction gives $\\frac{4}{3} \\times \\frac{2}{5} = \\frac{8}{15}$, which is less than 1 — an impossible answer to “how many $\\frac{2}{5}$ fit in $\\frac{3}{4}$”.
+
+@EX | 4.7.1 | Multiplying fractions
+GIVEN: $\\frac{5}{6} \\times \\frac{3}{10}$.
+ASKED: Multiply and simplify.
+METHOD: Multiply numerators and denominators, then simplify; or cancel common factors first.
+STEPS:
+1. Cancel: $\\frac{5}{6} \\times \\frac{3}{10} = \\frac{1 \\times 1}{2 \\times 2}$ after dividing 5 and 10 by 5, and 3 and 6 by 3.
+2. Result: $\\frac{1}{4}$.
+ANSWER: $\\frac{1}{4}$.
+CHECK: $0.833 \\times 0.3 = 0.25$.
+
+@EX | 4.7.2 | Dividing by a fraction
+GIVEN: $2\\frac{1}{2} \\div 1\\frac{1}{4}$.
+ASKED: Find the quotient and interpret the answer.
+METHOD: Convert to improper fractions, then multiply by the reciprocal.
+STEPS:
+1. $2\\frac{1}{2} = \\frac{5}{2}$ and $1\\frac{1}{4} = \\frac{5}{4}$.
+2. $\\frac{5}{2} \\times \\frac{4}{5} = \\frac{20}{10} = 2$.
+ANSWER: 2, meaning $1\\frac{1}{4}$ fits exactly twice into $2\\frac{1}{2}$.
+CHECK: $1\\frac{1}{4} \\times 2 = 2\\frac{1}{2}$.
+
+@EX | 4.7.3 | A fraction of a fraction in context
+GIVEN: A school has 480 students. Of these, $\\frac{3}{8}$ are in the first year, and $\\frac{2}{5}$ of the first year walk to school.
+ASKED: How many first-year students walk to school?
+METHOD: Multiply the fractions to find the overall part, then apply it to the total.
+STEPS:
+1. $\\frac{3}{8} \\times 480 = 180$ first-year students.
+2. $\\frac{2}{5} \\times 180 = 72$.
+3. As a single calculation: $\\frac{3}{8} \\times \\frac{2}{5} = \\frac{3}{20}$, and $\\frac{3}{20} \\times 480 = 72$.
+ANSWER: 72 students.
+CHECK: $\\frac{3}{20}$ of 480 is $480 \\div 20 \\times 3 = 72$.
+
+@PRACTICE | 4.7 | Multiplying and dividing fractions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Multiply: (a) $\\frac{2}{3} \\times \\frac{3}{5}$ (b) $\\frac{1}{2} \\times \\frac{4}{9}$ || (a) $\\frac{2}{5}$ (b) $\\frac{2}{9}$
+- F | Divide: (a) $\\frac{1}{2} \\div \\frac{1}{4}$ (b) $\\frac{3}{4} \\div \\frac{3}{8}$ || (a) 2 (b) 2
+- F | Find $\\frac{2}{3}$ of $\\frac{9}{10}$. || $\\frac{3}{5}$
+- F | Evaluate $1\\frac{1}{2} \\times \\frac{2}{3}$. || 1
+- R | Explain why dividing by $\\frac{1}{4}$ is the same as multiplying by 4. || Because four quarters fit in one whole, so each division by a quarter multiplies the count by 4.
+- R | A student says “multiplying always makes a number bigger”. Provide a counterexample using fractions. || $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$, which is smaller.
+- P | A tank holds $2\\frac{1}{3}$ litres. Bottles hold $\\frac{1}{6}$ litre. How many bottles can be filled? || $\\frac{7}{3} \\div \\frac{1}{6} = 14$ bottles
+- P | Three fifths of a class of 35 are girls; two thirds of the girls play a sport. How many girls play a sport? || 21 girls; 14 play a sport.
+- E | Calculate $\\frac{3}{4} \\div \\frac{9}{16}$ and explain the result without inverting. || $\\frac{3}{4} = \\frac{12}{16}$, and $\\frac{12}{16} \\div \\frac{9}{16} = 12 \\div 9 = \\frac{4}{3}$.
+- E | Find a fraction that gives $\\frac{5}{6}$ when multiplied by $\\frac{2}{3}$. || $\\frac{5}{4}$, because $\\frac{5}{6} \\div \\frac{2}{3} = \\frac{5}{4}$.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 4 | Which product is larger? | Criterion B · i, ii, iii
+@LEAD | $\\frac{3}{4}$ of $\\frac{2}{3}$ and $\\frac{2}{3}$ of $\\frac{3}{4}$ look like different calculations. Investigate whether they are.
+@INVEST | Investigation brief
+**Question.** Does the order of the fractions in a “fraction of a fraction” calculation change the result?
+**What you need.** Squared paper, two colours, a ruler.
+**What to produce.** Two area diagrams, a table of results for four pairs of fractions, a general statement and a justification.
+@H2 | Part 1 · Draw
+@LISTO
+1. Draw a square 12 cm by 12 cm. Shade $\\frac{2}{3}$ of it with horizontal strips.
+2. Shade $\\frac{3}{4}$ of the same square with vertical strips in a second colour.
+3. Count the squares covered by both colours. Express that count as a fraction of the whole square.
+4. Repeat with the roles reversed. What do you notice?
+@H2 | Part 2 · Record and conjecture
+@TABLE | Copy and complete
+First fraction ; Second fraction ; Product ; Decimal value
+$\\frac{2}{3}$ ; $\\frac{3}{4}$ ; ; 
+$\\frac{3}{5}$ ; $\\frac{1}{2}$ ; ; 
+$\\frac{5}{8}$ ; $\\frac{4}{5}$ ; ; 
+$\\frac{1}{4}$ ; $\\frac{7}{9}$ ; ; 
+@H2 | Part 3 · Justify and test
+@LISTO
+1. Write your conjecture about the order of the fractions.
+2. Explain, using the area diagram, why the order cannot change the number of small squares in the overlap.
+3. Test the conjecture with one pair of mixed numbers.
+4. Would the same be true for division? Test with $\\frac{3}{4} \\div \\frac{1}{2}$ and $\\frac{1}{2} \\div \\frac{3}{4}$.
+@CRIT | Criterion B task · Requirements
+Accurate diagrams; a table with correct values; a conjecture stated generally; a justification that refers to the structure of the calculation; a test that could have refuted the conjecture.
+
+@SEC | Application 4 | Scaling the canteen recipe | Criterion D · i, ii, iii, iv
+@LEAD | A canteen recipe serves 24 students. The school now has 90 students at lunch and must scale the recipe without buying wastefully.
+@APPLY | The brief
+@TABLE | The recipe for 24 servings
+Ingredient ; Amount ; Pack size sold ; Price per pack
+Rice ; $1\\frac{1}{2}$ kg ; 2 kg ; 3.20
+Beans ; $\\frac{3}{4}$ kg ; 1 kg ; 2.10
+Oil ; $\\frac{1}{3}$ litre ; 1 litre ; 4.50
+Tomato ; $\\frac{5}{8}$ kg ; $\\frac{1}{2}$ kg ; 1.40
+@LISTU
+- The recipe must be scaled to 90 servings.
+- Packs are sold only in the sizes shown, so some ingredients will be left over.
+- The budget for these four ingredients is 60 units of currency.
+@H2 | Task 1 · Scale the recipe
+@LISTO
+1. Find the scale factor from 24 to 90 servings as a fraction in simplest form.
+2. Calculate the scaled amount of each ingredient.
+3. Convert each amount to a mixed number or decimal where that makes it easier to read.
+@H2 | Task 2 · Cost the shopping
+@LISTO
+1. Decide how many packs of each ingredient must be bought to cover the scaled amount.
+2. Calculate the total cost.
+3. Compare the total with the budget and state whether it fits.
+@H2 | Task 3 · Evaluate and recommend
+@LISTO
+1. Which ingredient produces the most waste, as a fraction of what is bought?
+2. Suggest one change to the plan that reduces waste without changing the menu.
+3. Write three sentences justifying your recommendation, using your calculations as evidence.
+@CRIT | Criterion D task · Requirements
+The scale factor identified and applied correctly; all four amounts calculated; pack counts justified with reference to the quantities; cost compared with the budget; a recommendation supported by evidence and a limitation stated.
+
+@SEC | Task C | Explaining the rule for dividing | Criterion C · i, ii, iii, iv
+@CRIT | The task
+Write a two-page explanation, for a student who believes that “dividing always makes numbers smaller”, showing why dividing by a fraction can make a number larger.
+@LISTO
+1. A numerical example with a diagram: $\\frac{3}{4} \\div \\frac{1}{8} = 6$.
+2. A statement of the rule using the word reciprocal.
+3. An explanation of why the rule works, using the idea of “how many fit”.
+4. A check that the same rule gives sensible answers when the divisor is a whole number, such as $6 \\div 2$.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct fraction notation, including mixed numbers.
+Representation (ii) ; A diagram that shows the division as fitting parts into a whole.
+Reasoning (iii) ; The explanation shows why inverting works, not only how.
+Organisation (iv) ; The argument moves from example to rule to justification.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 4 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- A fraction is one number with many names; equivalent fractions come from multiplying or dividing both parts by the same number.
+- Simplest form uses the HCF; expanding is useful for comparison and for addition.
+- Fractions can be compared by common denominators, common numerators, benchmarks or decimals.
+- Fractions convert to terminating decimals when the denominator has only factors 2 and 5, and recur otherwise.
+- Addition and subtraction need a common denominator; multiplication and division do not.
+- Dividing by a fraction is multiplying by its reciprocal.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 4
+Term ; Meaning in this course
+Numerator ; The top number of a fraction: how many parts are taken.
+Denominator ; The bottom number: how many equal parts the whole is divided into.
+Proper fraction ; A fraction less than 1, with numerator smaller than denominator.
+Improper fraction ; A fraction at least 1, with numerator not smaller than denominator.
+Mixed number ; A whole number and a proper fraction written together.
+Equivalent fractions ; Fractions with the same value.
+Simplest form ; No common factor other than 1 in numerator and denominator.
+Terminating decimal ; A decimal with a finite number of digits.
+Recurring decimal ; A decimal whose digits repeat for ever.
+Reciprocal ; The fraction turned upside down.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“A bigger denominator means a bigger fraction.” ; The parts are smaller. ; $\\frac{1}{8} < \\frac{1}{3}$
+“Adding means adding tops and bottoms.” ; Parts must be the same size first. ; $\\frac{1}{2}+\\frac{1}{3}=\\frac{5}{6}$
+“Multiplying always enlarges.” ; Multiplying by a fraction below 1 shrinks. ; $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$
+“$0.3$ equals $\\frac{1}{3}$.” ; $0.3 = \\frac{3}{10}$. ; $\\frac{1}{3} = 0.\\dot{3}$
+“Division makes smaller.” ; Dividing by a fraction below 1 enlarges. ; $\\frac{3}{4} \\div \\frac{1}{8} = 6$
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+convert between mixed numbers and improper fractions. ;  ;  ; 
+simplify a fraction using the HCF. ;  ;  ; 
+compare and order fractions using a method I can justify. ;  ;  ; 
+convert between fractions and decimals, including recurring decimals. ;  ;  ; 
+add and subtract fractions and mixed numbers. ;  ;  ; 
+multiply and divide fractions and explain why the rules work. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which comparison method do you now prefer, and for which kinds of numbers?
+2. Describe a mistake you made with fractions this chapter and what you changed.
+3. Write one sentence explaining why $\\frac{2}{4}$ and $\\frac{1}{2}$ are the same number.
+4. In the canteen task, which was harder: scaling the amounts or buying the packs? Why?
+5. Which notation — fraction, decimal or percentage — do you find clearest, and does it depend on the context?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ4 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–20
+- F | Simplify $\\frac{24}{36}$. || $\\frac{2}{3}$
+- F | Convert $3\\frac{4}{5}$ to an improper fraction. || $\\frac{19}{5}$
+- F | Write $\\frac{9}{20}$ as a decimal. || 0.45
+- F | Find $\\frac{3}{4}$ of 60. || 45
+- F | Calculate $\\frac{2}{5} + \\frac{1}{2}$. || $\\frac{9}{10}$
+- F | Calculate $\\frac{3}{4} \\times \\frac{8}{9}$. || $\\frac{2}{3}$
+- R | Explain why $\\frac{6}{8}$ and $\\frac{9}{12}$ are equivalent. || Both simplify to $\\frac{3}{4}$; multiplying $\\frac{3}{4}$ by $\\frac{2}{2}$ and $\\frac{3}{3}$ gives them.
+- R | Which is larger, $\\frac{4}{7}$ or $\\frac{5}{9}$? Justify. || $\\frac{4}{7} = \\frac{36}{63}$ and $\\frac{5}{9} = \\frac{35}{63}$, so $\\frac{4}{7}$ is larger by $\\frac{1}{63}$.
+- R | Explain the difference between $0.\\dot{3}$ and $0.3$. || $0.\\dot{3}$ repeats for ever and equals $\\frac{1}{3}$; $0.3$ terminates and equals $\\frac{3}{10}$.
+- P | A 3 litre bottle is $\\frac{2}{5}$ full. How much is in it? || 1.2 litres
+- P | A worker completes $\\frac{5}{12}$ of a job on Monday and $\\frac{1}{3}$ on Tuesday. What fraction remains? || $\\frac{1}{4}$
+- P | A ribbon $2\\frac{1}{4}$ m long is cut into pieces $\\frac{3}{8}$ m long. How many pieces? || 6 pieces
+- C | Explain how the area model explains $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$. || A 3 by 4 grid has 12 cells; the overlap is 6 cells, which is $\\frac{6}{12} = \\frac{1}{2}$.
+- C | Explain why the product of two proper fractions is always smaller than either fraction. || Each fraction is below 1, and multiplying by a number below 1 shrinks.
+- E | Find two fractions between $\\frac{1}{3}$ and $\\frac{1}{2}$. || $\\frac{2}{5}$ and $\\frac{3}{8}$, among others.
+- E | Write $0.\\overline{27}$ as a fraction in simplest form. || $\\frac{3}{11}$
+- E | Explain why $\\frac{3}{4} \\div \\frac{3}{4} = 1$ using the “how many fit” meaning. || Exactly one three quarters fits in three quarters.
+- P | A recipe for 8 people uses $\\frac{2}{3}$ cup of oil. How much for 20 people? || $\\frac{5}{3} = 1\\frac{2}{3}$ cups
+- C | Two fractions have a product of $\\frac{1}{2}$ and one of them is $\\frac{3}{4}$. Find the other and explain your method. || $\\frac{1}{2} \\div \\frac{3}{4} = \\frac{2}{3}$
+- C | Explain why $\\frac{1}{2} + \\frac{1}{3}$ must be greater than $\\frac{1}{2}$ and less than 1, without calculating the exact answer. || Adding a positive quantity makes it larger than $\\frac{1}{2}$; since $\\frac{1}{3} < \\frac{1}{2}$, the total is less than $\\frac{1}{2} + \\frac{1}{2} = 1$.
+
+@SEC | Mixed 4 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX4 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Order $\\frac{2}{3}, \\frac{3}{5}, \\frac{7}{10}$ from smallest to largest. || $\\frac{3}{5} < \\frac{2}{3} < \\frac{7}{10}$
+- F | Calculate $\\frac{7}{8} - \\frac{1}{4}$. || $\\frac{5}{8}$
+- F | Calculate $\\frac{5}{6} \\div \\frac{10}{9}$. || $\\frac{3}{4}$
+- F | Write 0.85 as a fraction in simplest form. || $\\frac{17}{20}$
+- F | Find $\\frac{2}{7}$ of 42. || 12
+- R | Is $\\frac{4}{5}$ closer to $\\frac{3}{4}$ or to 1? Explain. || $\\frac{4}{5} = 0.8$; it is 0.05 from $\\frac{3}{4}$ and 0.2 from 1, so closer to $\\frac{3}{4}$.
+- R | A student writes $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{6}{7}$. What has gone wrong and what check would catch it? || Numerators and denominators were added rather than multiplied; the answer must be less than $\\frac{2}{3}$, but $\\frac{6}{7}$ is larger.
+- P | A 2.4 kg bag is $\\frac{7}{8}$ full. What mass of contents is in it? || 2.1 kg
+- P | Three quarters of a class of 36 chose football; of those, $\\frac{2}{9}$ chose goalkeeper. How many chose goalkeeper? || 27 chose football; 6 chose goalkeeper.
+- P | A tap fills $\\frac{2}{9}$ of a tank per hour. How long to fill $\\frac{2}{3}$ of the tank? || 3 hours
+- C | Explain why dividing by $\\frac{1}{2}$ doubles a number. || Each whole contains two halves, so the count doubles.
+- C | Show that $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16}$ is less than 1, and say by how much. || Sum is $\\frac{15}{16}$, which is $\\frac{1}{16}$ short of 1.
+- E | Find a fraction greater than $\\frac{5}{8}$ and less than $\\frac{2}{3}$. || $\\frac{16}{25}$, $\\frac{11}{17}$, $\\frac{21}{32}$ among others.
+- E | A fraction equals $\\frac{3}{7}$ and its denominator exceeds its numerator by 24. Find the fraction. || $\\frac{18}{42}$, since $4k = 24$, $k = 6$.
+- E | Explain why $\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{4}{5} = \\frac{1}{5}$ without multiplying all the numerators. || Each numerator cancels the previous denominator, leaving $\\frac{1}{5}$.
+- P | A recipe uses $\\frac{3}{4}$ kg of flour for 12 cakes. How much for 30 cakes, and how many 2 kg bags are needed? || $\\frac{15}{8} = 1\\frac{7}{8}$ kg; one 2 kg bag suffices.
+
+@SEC | Cumulative practice 4 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP4 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Order $\frac{2}{3}$, $\frac{3}{5}$ and $\frac{7}{10}$. || $\frac{3}{5} < \frac{2}{3} < \frac{7}{10}$
+- F | Calculate $\frac{5}{8} + \frac{1}{4}$. || $\frac{7}{8}$
+- F | Calculate $\frac{2}{3} \div \frac{4}{9}$. || $\frac{3}{2} = 1\frac{1}{2}$
+- R | Explain why $\frac{3}{4} \times \frac{4}{3} = 1$. || The numerator and denominator cancel completely.
+- P | A 2 kg bag is $\frac{3}{8}$ full. Find the mass inside. || 0.75 kg
+- P | Three quarters of 48 students walk; one third of those cycle part of the way. How many cycle part of the way? || 12 students
+- C | Explain why $\frac{1}{12}$ is a recurring decimal. || Its denominator has a factor of 3, and $\frac{1}{12} = 0.08\dot{3}$.
+- E | Explain why dividing by $\frac{1}{5}$ multiplies a number by 5. || Five fifths fit in one whole, so the count is five times as large.

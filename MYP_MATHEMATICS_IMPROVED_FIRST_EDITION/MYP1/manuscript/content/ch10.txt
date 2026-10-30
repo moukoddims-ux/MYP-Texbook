@@ -1,0 +1,578 @@
+@MOVE | A | Engage | Two charts, two impressions
+@LEAD | Two newspapers report the same survey of 100 students. The first shows a bar chart with the vertical axis starting at zero. The second shows the same counts with the axis starting at 35. In the second, one category looks three times taller than another.
+@P | Both charts are drawn from accurate numbers and both are misleading, because the second exaggerates the differences by cutting off the bottom of the axis. A reader who glances rather than reads is being persuaded by the drawing, not by the data.
+@P | Data is not self-explanatory. A table has to be organised, a graph has to be chosen, an average has to be selected, and each of those decisions changes what a reader sees. This chapter is about making those decisions honestly and reading them critically.
+@TABLE | Figure 10.1 The same survey, reported three ways
+Representation ; What it shows well ; What it can hide
+Frequency table ; Exact counts ; The overall shape of the data
+Bar chart from zero ; Comparison between categories ; Nothing, if the axis is honest
+Bar chart from 35 ; A dramatic visual difference ; The size of the difference relative to the whole
+@MINI | Notice and wonder
+@LISTU
+- Why does the height of a bar matter only if the axis is honest?
+- Which representation would you trust for a decision, and which for a first impression?
+- What would happen to the picture if one extra student were added to the smallest group?
+- Who benefits when a graph exaggerates a difference?
+@CALLOUT | Keep this question open: when does a representation reveal the story in the data, and when does it invent one?
+
+@MOVE | B | Explore | How should data be grouped?
+@LEAD | Work in groups of three. You need a stopwatch, a corridor or playground, and a tally sheet.
+@H2 | Your investigation
+@P | **Step 1.** Time 30 students walking a fixed 10-metre course. Record each time to the nearest second.
+@P | **Step 2.** Display the raw times as a dot plot.
+@P | **Step 3.** Group the times into intervals — first 5-second intervals, then 2-second intervals — and draw a bar chart for each grouping.
+@P | **Step 4.** Compare the three displays. Which shows the shape of the data most clearly? Which loses the most information?
+@TABLE | Recording table (copy and complete)
+Interval ; Tally ; Frequency
+6–10 s ; ; 
+11–15 s ; ; 
+16–20 s ; ; 
+21–25 s ; ; 
+26–30 s ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. With 5-second intervals, can you tell whether most students took 12 seconds or 14 seconds? Why not?
+2. What happens to the picture when you use 2-second intervals?
+3. Does the number of groups change the total number of students? Should it?
+4. What interval width would you choose to report the results to a teacher? Explain.
+5. Could a different choice of interval make the class look faster than it is?
+@H2 | Making a conjecture
+@CALLOUT | “The choice of interval changes … because … .”
+@H2 | What you should have noticed
+@LISTU
+- Grouping loses detail but reveals shape; the raw values are lost once an interval is chosen.
+- Narrower intervals show more detail and more, smaller bars.
+- The total frequency must stay the same however the data are grouped.
+- The choice of interval is a decision, and it should be stated when results are reported.
+@FIG | c10_hist
+@INVEST | Explore further
+Group the same 30 times in three different ways — 1-second, 3-second and 10-second intervals. For each grouping, find the mean of the grouped data. Compare the three means with the true mean of the raw times, and explain any differences.
+
+@SEC | 10.1 | Collecting and organising data | Criterion A · i, ii; Criterion D · i
+@LEAD | Before any graph is drawn, data must be collected honestly and organised so that it can be checked. A frequency table is the working document of statistics.
+@DEF | Data and frequency
+**Data** are observations, measurements or counts. Data are **qualitative** when they describe a category (favourite sport) and **quantitative** when they are numbers (height in cm). Quantitative data are **discrete** if they can be counted (number of siblings) and **continuous** if they can be measured on a scale (time, mass, length).
+The **frequency** of a value is the number of times it occurs. A **frequency table** lists each value with its frequency.
+@FIG | c10_freq
+@KEY | A good table can be checked
+Three checks catch almost every error in a frequency table: the frequencies must add to the number of observations; every observation must appear exactly once; and the categories must be mutually exclusive and exhaustive, so that no observation is lost or counted twice — the same requirement as a sound classification.
+@METHOD | Building a frequency table
+@LISTO
+1. Decide whether the data are qualitative or quantitative.
+2. For qualitative data, list the categories and use tally marks.
+3. For discrete quantitative data, list the possible values in order.
+4. For continuous data, choose intervals of equal width and state whether boundaries are included.
+5. Total the frequencies and check against the number of observations.
+@TABLE | Tally and frequency
+Number of pets ; Tally ; Frequency
+0 ; |||| ; 4
+1 ; |||| |||| ; 9
+2 ; |||| |||| || ; 12
+3 ; |||| || ; 7
+4 ; ||| ; 3
+Total ; ; 35
+@ERR | Intervals that overlap or leave gaps
+Intervals “0–10, 10–20, 20–30” are ambiguous: a value of exactly 10 belongs to two groups. Write “0 ≤ x < 10, 10 ≤ x < 20” or state the convention once. Unequal interval widths also distort a bar chart, because a wider interval contains more data for the same height.
+
+@EX | 10.1.1 | Classifying data
+GIVEN: Four sets of data: shoe size, favourite colour, time to run 100 m, number of books read.
+ASKED: Classify each as qualitative or quantitative, and quantitative as discrete or continuous.
+METHOD: Ask whether the data are categories or numbers; then whether the numbers are counted or measured.
+STEPS:
+1. Shoe size: quantitative, discrete.
+2. Favourite colour: qualitative.
+3. Time to run 100 m: quantitative, continuous.
+4. Number of books: quantitative, discrete.
+ANSWER: discrete, qualitative, continuous, discrete.
+CHECK: Shoe sizes are counted in half units and can be listed; times can take any value in a range.
+
+@EX | 10.1.2 | Completing a frequency table
+GIVEN: A table of 40 observations with frequencies 7, 12, 9, $x$ and 5 for five categories.
+ASKED: Find $x$.
+METHOD: Use the total.
+STEPS:
+1. $7 + 12 + 9 + 5 = 33$.
+2. $x = 40 - 33 = 7$.
+ANSWER: $x = 7$.
+CHECK: $7 + 12 + 9 + 7 + 5 = 40$.
+
+@EX | 10.1.3 | Choosing intervals
+GIVEN: 60 masses in kilograms ranging from 41.2 to 68.9.
+ASKED: Choose suitable intervals and explain the choice.
+METHOD: Aim for five to eight intervals of equal width covering the range.
+STEPS:
+1. Range: $68.9 - 41.2 = 27.7$ kg.
+2. Five intervals of 6 kg from 40 give 40–, 46–, 52–, 58–, 64–, which covers the data.
+3. State that each interval includes its lower bound and excludes its upper bound.
+ANSWER: Five intervals of width 6 kg starting at 40.
+CHECK: The highest value 68.9 falls in the interval 64–70, so no observation is left out.
+WATCH: Rounding the range down can leave the largest value without an interval. Always check the extremes.
+
+@PRACTICE | 10.1 | Collecting and organising data | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Classify: number of goals scored in a match. || quantitative, discrete
+- F | Classify: type of pet. || qualitative
+- F | A frequency table has frequencies 5, 8, 6 and 4. How many observations in total? || 23
+- F | What interval width would suit data from 12 to 47 in five groups? || 7 (12–, 19–, 26–, 33–, 40–)
+- R | Explain why intervals must not overlap. || A value would be counted twice.
+- R | A table of 50 observations has frequencies summing to 47. What does that suggest? || Three observations are missing or mis-tallied.
+- P | Design a frequency table for the number of letters in students' first names in your class. State the categories. || Categories from 3 to 12 letters, with tallies and frequencies totalling the class size.
+- P | 200 students were asked their preferred sport. 45 chose football, 60 basketball, 35 swimming and the rest chose other. Draw up the table and find the missing frequency. || Other = 60.
+- E | Explain why grouping continuous data always loses information. || Individual values are replaced by an interval.
+- E | A report groups ages as 0–20, 20–40, 40–60, 60–100. Give two problems with the grouping. || Unequal widths and ambiguous boundaries.
+
+@SEC | 10.2 | Displaying data: bar charts, dot plots and pictograms | Criterion C · i, ii, iv
+@LEAD | A good graph answers the question the data were collected to answer. The wrong choice of graph hides the pattern, or invents one.
+@FIG | c10_bar
+@FIG | c10_dot
+@TABLE | Choosing a display
+Display ; Best for ; Avoid when
+Frequency table ; exact values and totals ; the shape matters
+Bar chart ; comparing categories ; the data are continuous measurements
+Dot plot ; small sets of discrete values ; there are hundreds of values
+Histogram ; grouped continuous data ; the categories are labels
+Pictogram ; a general audience, simple comparisons ; precise comparison is needed
+Pie chart ; parts of a single whole ; more than one whole is compared
+@KEY | What every graph must have
+@LISTU
+- A title that says what is being shown.
+- Labelled axes with units, or a key for a pictogram.
+- A vertical axis that starts at zero for bar charts and histograms.
+- Bars of equal width, separated for categories and touching for continuous intervals.
+@METHOD | Drawing a bar chart
+@LISTO
+1. Choose a scale for the vertical axis that starts at zero and fits the largest value.
+2. Draw and label the axes, including units.
+3. Draw bars of equal width with equal gaps.
+4. Add a title and, where useful, the value on each bar.
+5. Check that the tallest bar matches the greatest frequency.
+@ERR | Bars that touch in a bar chart
+In a bar chart the categories are separate, so the bars must not touch. Touching bars signal a histogram, where the horizontal axis is a continuous scale. Mixing the two conventions confuses the reader about whether the data are categories or intervals.
+
+@EX | 10.2.1 | Reading a bar chart
+GIVEN: A bar chart of favourite sports for 120 students: football 40, basketball 30, swimming 20, athletics 15, other 15.
+ASKED: Find the fraction who chose football or basketball, and the angle each would occupy in a pie chart.
+METHOD: Combine the counts, then convert to fractions and to angles of 360°.
+STEPS:
+1. Football or basketball: $40 + 30 = 70$, which is $\\frac{70}{120} = \\frac{7}{12}$.
+2. Football angle: $\\frac{40}{120} \\times 360° = 120°$.
+3. Basketball: $\\frac{30}{120} \\times 360° = 90°$.
+ANSWER: $\\frac{7}{12}$; 120° and 90°.
+CHECK: The five angles total $120 + 90 + 60 + 45 + 45 = 360°$.
+
+@EX | 10.2.2 | Reading a dot plot
+GIVEN: A dot plot of the number of books read by 13 students: 1 (one student), 2 (two), 3 (three), 4 (two), 5 (four), 6 (one).
+ASKED: State the most common number, the range and the number of students who read more than 4 books.
+METHOD: Read the heights of the stacks.
+STEPS:
+1. The tallest stack is at 5, with four students.
+2. Range: $6 - 1 = 5$.
+3. More than 4: the 5 and 6 stacks, $4 + 1 = 5$ students.
+ANSWER: 5 books; range 5; 5 students.
+CHECK: Frequencies sum to $1 + 2 + 3 + 2 + 4 + 1 = 13$.
+
+@EX | 10.2.3 | Criticising a display
+GIVEN: A bar chart with no vertical scale, three-dimensional bars and an axis starting at 80.
+ASKED: Explain three ways it could mislead.
+METHOD: Check each convention in turn.
+STEPS:
+1. No scale: the reader cannot recover the values.
+2. Axis from 80: differences are exaggerated.
+3. Three-dimensional bars: the front face is proportional, but the volume is not, so the eye overestimates large bars.
+ANSWER: Missing scale, truncated axis and misleading perspective.
+CHECK: A correct version would show the axis from zero, a labelled scale and flat bars.
+WATCH: A graph can be accurate in every number and still mislead through its design. Checking the axes is the reader's responsibility.
+
+@PRACTICE | 10.2 | Displaying data | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Which display suits comparing the favourite subjects of 30 students? || bar chart
+- F | Which display suits showing the shape of 200 grouped heights? || histogram
+- F | In a pie chart of 180 students, how many degrees represent 45 students? || 90°
+- F | A bar chart shows counts 8, 12 and 4. What is the total? || 24
+- R | Explain why bar-chart axes should start at zero. || Otherwise differences are exaggerated.
+- R | Why do histogram bars touch while bar-chart bars do not? || Intervals on a continuous scale are adjacent; categories are separate.
+- P | 240 students chose four sports. Football 90, basketball 60, swimming 50, other 40. Find the pie-chart angle for football. || 135°
+- P | A dot plot has stacks of height 3, 5, 4 and 2. How many values in total? || 14
+- E | Explain how a pictogram can mislead even when the numbers are right. || Symbols of different sizes or partial symbols invite wrong comparison.
+- E | A bar chart shows category A at 20 and B at 22 with an axis from 18 to 24. Describe the visual impression and the true difference. || B looks much larger although it is only 2 more.
+
+@SEC | 10.3 | Averages and range | Criterion A · ii, iii; Criterion C · iii
+@LEAD | An average is a single number used to summarise a set of data. There are three common averages, and they answer slightly different questions.
+@DEF | Mean, median, mode and range
+The **mean** is the total divided by the number of values. The **median** is the middle value when the data are in order. The **mode** is the most frequent value. The **range** is the difference between the largest and smallest values and measures spread, not average.
+@KEY | Which average to use
+@LISTU
+- The mean uses every value, so it reflects the whole data set — and is pulled by extreme values.
+- The median ignores the size of extreme values and is more representative when the data are skewed.
+- The mode is the only average that works for qualitative data, such as the most popular colour.
+- The range is easy to compute but depends on only two values.
+@TABLE | Three averages of the same data
+Data: 3, 5, 5, 6, 8, 9, 14 ; Value ; Reason
+Mean ; 7.14 (to 3 s.f.) ; $50 \\div 7$
+Median ; 6 ; fourth of seven ordered values
+Mode ; 5 ; occurs twice
+Range ; 11 ; $14 - 3$
+@METHOD | Calculating each average
+@LISTO
+1. Order the data before finding the median.
+2. For an odd number of values, the median is the middle one; for an even number, it is the mean of the two middle values.
+3. For the mean, add all values and divide by how many there are.
+4. For the mode, count frequencies; a data set may have no mode or several.
+@ERR | Forgetting to order the data
+Finding the median of 7, 2, 9, 4, 5 by taking the middle of the written list gives 9, which is the largest value. In order, 2, 4, 5, 7, 9, the median is 5. Ordering is not a preliminary step that can be skipped.
+
+@EX | 10.3.1 | Finding all three averages
+GIVEN: The data 12, 9, 14, 9, 11, 15, 9, 10.
+ASKED: Find the mean, median, mode and range.
+METHOD: Order the data, then apply each definition.
+STEPS:
+1. Ordered: 9, 9, 9, 10, 11, 12, 14, 15.
+2. Mean: $89 \\div 8 = 11.125$.
+3. Median: mean of the fourth and fifth values, $10$ and $11$, so 10.5.
+4. Mode: 9. Range: $15 - 9 = 6$.
+ANSWER: mean 11.125, median 10.5, mode 9, range 6.
+CHECK: The mean lies between the median and the largest values, as expected with a slight upper tail.
+
+@EX | 10.3.2 | Working backwards from the mean
+GIVEN: Five test scores have a mean of 14. Four of them are 12, 15, 13 and 16.
+ASKED: Find the fifth score.
+METHOD: Use the total implied by the mean.
+STEPS:
+1. Total $= 5 \\times 14 = 70$.
+2. Known total $= 12 + 15 + 13 + 16 = 56$.
+3. Fifth score $= 70 - 56 = 14$.
+ANSWER: 14.
+CHECK: $(12 + 15 + 13 + 16 + 14) \\div 5 = 70 \\div 5 = 14$.
+
+@EX | 10.3.3 | Choosing the better average
+GIVEN: Salaries in a small company: 18,000; 19,000; 19,500; 20,000; 21,000; 22,000; 180,000.
+ASKED: Decide whether the mean or the median better represents a typical salary.
+METHOD: Compare the two and consider the effect of the extreme value.
+STEPS:
+1. Mean: total $= 299{,}500$, divided by 7 is about 42,786.
+2. Median: 20,000.
+3. The mean is more than twice the median because one salary is far larger.
+ANSWER: The median, 20,000, represents a typical salary better; the mean is distorted by the single extreme value.
+CHECK: Six of the seven salaries are below the mean.
+WATCH: An average that most of the data lie below is usually the wrong choice to describe “typical”.
+
+@PRACTICE | 10.3 | Averages and range | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the mean of 4, 7, 9, 10. || 7.5
+- F | Find the median of 3, 8, 5, 6, 9. || 6
+- F | Find the mode of 2, 3, 3, 5, 6, 3. || 3
+- F | Find the range of 12, 5, 9, 20. || 15
+- R | Explain why the range is not an average. || It measures spread, not a central value.
+- R | A data set has two modes. Is that a problem? || No; it is bimodal, and both values are reported.
+- P | The mean of six numbers is 12. Five are 10, 11, 13, 14 and 15. Find the sixth. || 11
+- P | Find the median of 7, 2, 9, 4, 11, 6. || 6.5
+- E | A data set of 9 values has median 20. What is the fifth value in order? || 20
+- E | Adding one value changes the mean from 10 to 11. What can you say about the added value? || It is greater than 10; specifically, if there were $n$ values, the new value is $10 + 11(n+1) - 10n = 11 + n$… explain that the added value exceeds the old mean.
+
+@SEC | 10.4 | Grouped data | Criterion A · iii; Criterion B · ii
+@LEAD | When data are grouped, the individual values are lost, so averages can only be estimated. A histogram shows the shape, and the midpoint of each interval stands in for the values inside it.
+@DEF | Grouped data and the estimated mean
+For grouped data, the **midpoint** of each interval represents its values, and the estimated mean is
+$\\text{mean} \\approx \\frac{\\sum (\\text{midpoint} \\times \\text{frequency})}{\\sum \\text{frequency}}$
+The **modal class** is the interval with the greatest frequency, and the **median class** is the interval containing the middle value.
+@FIG | c10_hist
+@METHOD | Estimating the mean from a grouped table
+@LISTO
+1. Find the midpoint of each interval.
+2. Multiply each midpoint by its frequency.
+3. Add these products, and divide by the total frequency.
+4. State that the answer is an estimate, and say why.
+@TABLE | Estimated mean of grouped times
+Interval ; Midpoint ; Frequency ; Midpoint × frequency
+6–10 ; 8 ; 4 ; 32
+11–15 ; 13 ; 9 ; 117
+16–20 ; 18 ; 14 ; 252
+21–25 ; 23 ; 8 ; 184
+26–30 ; 28 ; 5 ; 140
+Total ; ; 40 ; 725
+@P | Estimated mean $= 725 \\div 40 = 18.125$ seconds. The true mean would need the individual times; using midpoints assumes the values in each interval are evenly spread, which is an assumption, not a fact.
+@ERR | Using the upper boundary as the midpoint
+For the interval 11–15 the midpoint is 13, not 15. Using the boundary overstates every value and inflates the estimated mean. The midpoint is the average of the two boundaries.
+@KEY | What grouping hides
+Two data sets with the same grouped table can have different true means, medians and ranges. Once the raw values are replaced by intervals, the information is lost for ever: this is why the raw data should be kept, and why a grouped mean is always reported as an estimate.
+
+@EX | 10.4.1 | Estimating the mean
+GIVEN: The grouped table above.
+ASKED: Estimate the mean and state the modal class.
+METHOD: Use midpoints and frequencies.
+STEPS:
+1. Products: $8 \\times 4 = 32$, $13 \\times 9 = 117$, $18 \\times 14 = 252$, $23 \\times 8 = 184$, $28 \\times 5 = 140$.
+2. Total $= 725$; frequency total $= 40$.
+3. Estimated mean $= 18.125$.
+4. The greatest frequency is 14, in the interval 16–20.
+ANSWER: about 18.1 seconds; modal class 16–20.
+CHECK: The mean lies inside the modal class, which is usual for a single-peaked distribution.
+
+@EX | 10.4.2 | Finding the median class
+GIVEN: Frequencies 4, 9, 14, 8, 5 for five intervals, with a total of 40.
+ASKED: State the median class.
+METHOD: Find where the 20th and 21st values fall in the cumulative totals.
+STEPS:
+1. Cumulative: 4, 13, 27, 35, 40.
+2. The 20th and 21st values lie in the third interval, since the count reaches 27 there.
+ANSWER: The median class is the third interval, 16–20.
+CHECK: The interval contains values 14 to 27 in order, which includes both middle positions.
+
+@EX | 10.4.3 | Comparing two classes
+GIVEN: Class A: mean 62, range 8. Class B: mean 62, range 30.
+ASKED: Compare the two classes.
+METHOD: Compare both centre and spread.
+STEPS:
+1. The means are equal, so the classes performed similarly on average.
+2. The ranges differ greatly: Class B's results are much more spread out.
+ANSWER: Same average, very different consistency; Class A is more consistent.
+CHECK: Two data sets can share an average and differ entirely in spread — which is why range or another measure of spread should be reported with any average.
+WATCH: Reporting only the mean conceals differences that matter. A mean without a measure of spread is an incomplete summary.
+
+@PRACTICE | 10.4 | Grouped data | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find the midpoint of the interval 20–30. || 25
+- F | Frequencies 3, 7, 5. Which is the modal class? || the second
+- F | Estimate the mean: intervals with midpoints 5, 15, 25 and frequencies 2, 6, 2. || 15
+- F | Total frequency of 4, 9, 14, 8, 5. || 40
+- R | Explain why a grouped mean is an estimate. || Midpoints stand in for unknown individual values.
+- R | Two classes have the same mean but different ranges. What does that tell you? || The spread of results differs.
+- P | Estimate the mean of: 0–10 (f 5), 10–20 (f 12), 20–30 (f 8). || 15.2
+- P | Find the median class for frequencies 6, 10, 9 with a total of 25. || the second interval (positions 13–23)
+- E | Explain why a grouped mean can differ from the true mean even when the grouping is accurate. || The true values within an interval are not all at the midpoint.
+- E | A grouped table gives an estimated mean of 18.1 and the true mean is 17.4. Explain a possible reason. || Many values lie near the lower bound of each interval, so midpoints overstate them.
+
+@SEC | 10.5 | Reading data critically | Criterion C · iii; Criterion D · iii, v
+@LEAD | A statistic is a claim about the world, and claims can be checked. Reading critically means asking what was measured, how it was summarised and what the presentation leaves out.
+@FIG | c10_mislead
+@METHOD | Five questions for any data claim
+@LISTO
+1. **What exactly was measured, and on whom?** A sample of volunteers is not a random sample.
+2. **How many?** A difference of 10% in a sample of 20 may be one person.
+3. **Which average was used, and why?** The mean and median can tell different stories.
+4. **What is the spread?** An average without a range hides how consistent the data are.
+5. **What does the graph do?** Check the axis, the scale, the units and whether the picture is proportional.
+@KEY | Correlation is not cause
+Two quantities can rise together without one causing the other. Ice-cream sales and drowning incidents both rise in hot weather; the cause is the weather, not the ice cream. A data set can show an association; it cannot, by itself, show that one thing caused another.
+@TABLE | Claims and their weaknesses
+Claim ; Question to ask ; Likely problem
+“9 out of 10 prefer our brand” ; How many were asked, and who? ; Small or self-selected sample
+“Average waiting time is 4 minutes” ; Mean or median? ; A few very short waits may pull the mean down
+“Sales up 200%” ; From what base? ; A small base makes a large percentage
+“Results improved” ; Compared with what, and by how much? ; No comparison group or effect size
+@ERR | Reporting a percentage without its base
+“60% more students passed” means one thing if 10 passed last year and quite another if 200 did. The base belongs with the percentage — the same principle as in Chapter 5, where the base determined everything.
+
+@EX | 10.5.1 | Interrogating a survey
+GIVEN: A school newsletter reports: “90% of students say the canteen is good value. 100 students were surveyed during one lunchtime.”
+ASKED: Identify three weaknesses and suggest an improvement.
+METHOD: Apply the five questions.
+STEPS:
+1. Sample: students present at one lunchtime may not represent those who never use the canteen.
+2. Wording: “good value” is not defined, so responses may not be comparable.
+3. Summary: no information on how many students exist overall, so the size of the sample relative to the school is unknown.
+ANSWER: Sampling bias, undefined wording and missing context; a random sample across year groups with a defined question would improve it.
+CHECK: A survey answered only by canteen users cannot measure satisfaction among non-users.
+
+@EX | 10.5.2 | Comparing two summaries
+GIVEN: Two classes take a test. Class A: mean 65, median 66, range 12. Class B: mean 65, median 58, range 40.
+ASKED: Explain what each figure reveals and recommend which summary to report.
+METHOD: Compare centre and spread.
+STEPS:
+1. The means are equal, so the headline figure suggests no difference.
+2. The medians differ by 8, showing Class B has more low scores; its range of 40 confirms a wide spread.
+3. Reporting the mean alone hides the difference.
+ANSWER: Report the median and range as well as the mean; Class A is more consistent and higher in the middle.
+CHECK: A class with several very high scores can have a high mean and a low median.
+
+@EX | 10.5.3 | Detecting a misleading graph
+GIVEN: A bar chart where bars have equal widths but the vertical axis starts at 40, and the shortest bar is cut off entirely.
+ASKED: State what the chart implies and what the data actually show.
+METHOD: Read the axes, not the picture.
+STEPS:
+1. Starting at 40 exaggerates the ratio between bars.
+2. A cut-off bar makes a category look like zero when it may be 39.
+3. The true differences must be read from the labels, not the heights.
+ANSWER: The chart implies large differences; the data may show small ones.
+CHECK: Redrawing with an axis from zero gives a proportional picture.
+WATCH: A graph with a truncated axis is not necessarily dishonest, but it is misleading unless the break is clearly marked.
+
+@PRACTICE | 10.5 | Reading data critically | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | A survey of 20 people reports 60% agree. How many people is that? || 12
+- F | Which average can be distorted by one very large value? || the mean
+- F | What is missing from a graph with no vertical scale? || the values
+- F | Why should a sample be random? || To represent the whole group fairly.
+- R | Explain why a percentage should be reported with its base. || The same percentage of different totals is a very different count.
+- R | Two variables rise together. Does that prove one causes the other? || No; a third factor may cause both.
+- P | A shop reports sales up 50% from 20 units to 30. How many extra units would a 50% rise be from 200? || 100 units
+- P | A class of 30 has a mean of 12 and a median of 14. What does this suggest about the data? || Some low values pull the mean below the median.
+- E | Explain how choosing the interval width can change the impression given by a histogram. || Wide intervals smooth the shape; narrow intervals show detail and can make small groups look important.
+- E | Design a fair way to survey 200 students about homework time, and state one weakness of your design. || Random selection across year groups; weakness: self-reported times may be inaccurate.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 10 | How should data be grouped? | Criterion B · i, ii, iii
+@LEAD | Extend the Explore activity into a general investigation of how the choice of interval changes what a reader can see.
+@INVEST | Investigation brief
+**Question.** How does the choice of interval width change the appearance and the summary of a set of continuous data?
+**What you need.** The 30 times from the Explore activity, graph paper, and a calculator.
+**What to produce.** Three displays of the same data, a table of statistics for each grouping, and a recommendation with a justification.
+@H2 | Part 1 · Display
+@LISTO
+1. Draw a dot plot of all 30 raw times.
+2. Draw a histogram with 5-second intervals.
+3. Draw a histogram with 2-second intervals.
+4. Describe one thing each display shows that the others do not.
+@H2 | Part 2 · Summarise
+@TABLE | Copy and complete
+Grouping ; Modal class ; Estimated mean ; True mean
+Raw data ; not applicable ; ; 
+5-second intervals ; ; ; 
+2-second intervals ; ; ; 
+@H2 | Part 3 · Evaluate
+@LISTO
+1. Which grouping gives an estimated mean closest to the true mean? Why?
+2. Can a grouping change the modal class? Explain with your data.
+3. Write a recommendation for how the class should report its results, with two reasons.
+4. Describe a situation in which wide intervals would be preferable to narrow ones.
+@CRIT | Criterion B task · Requirements
+Three accurate displays; a completed table with estimates; a comparison with the true mean; a justified recommendation; an evaluation of when each grouping is appropriate.
+
+@SEC | Application 10 | The canteen survey | Criterion D · i, ii, iii, iv, v
+@LEAD | The student council must survey the school canteen and report to the head teacher. Decisions about sampling, presentation and summary will shape what the head teacher concludes.
+@APPLY | The brief
+@TABLE | The planned survey
+Item ; Detail
+Students in the school ; 600
+Proposed sample ; 60 students at lunch on Monday
+Questions ; “Do you like the canteen?” and “How long do you wait?”
+Waiting times collected ; 6, 8, 8, 9, 10, 10, 10, 11, 12, 12, 13, 15, 15, 16, 18, 20, 22, 25, 28, 30 minutes
+@LISTU
+- The head teacher wants a figure for average waiting time and a statement about satisfaction.
+- The council has one week and no budget.
+- The report must be honest about its limitations.
+@H2 | Task 1 · Analyse the data
+@LISTO
+1. Find the mean, median, mode and range of the 20 waiting times.
+2. Group the times into intervals of your choice and find the estimated mean.
+3. Compare the mean and median, and explain which better represents a typical wait.
+@H2 | Task 2 · Design a better survey
+@LISTO
+1. Propose a sampling method that reduces bias, and explain why it is better than the Monday lunchtime sample.
+2. Suggest one improved question about satisfaction, and explain what was wrong with the original.
+3. State what additional data the council should collect to support its recommendation.
+@H2 | Task 3 · Report
+@LISTO
+1. Write three sentences reporting the findings, using at least two statistics.
+2. Include one graph or table that presents the waiting times honestly, and state its scale.
+3. State two limitations of the survey and one recommendation, each justified by your analysis.
+@CRIT | Criterion D task · Requirements
+All statistics correct and reported with units; a suitable grouping and estimate; a sampling method justified; a presentation that follows the conventions from §10.2; limitations acknowledged.
+
+@SEC | Task C | Writing the graph-checking guide | Criterion C · i, iii, iv
+@CRIT | The task
+Write a one-page guide called **“Five questions to ask about any graph”**, to be displayed in the mathematics room.
+@LISTO
+1. Five questions, each with a short explanation of why it matters.
+2. Two examples of a graph that misleads, redrawn correctly, with a note on what changed.
+3. A checklist a student can use in ten seconds.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct use of axis, scale, unit and average.
+Reasoning (iii) ; Each question explains the effect of getting it wrong.
+Organisation (iv) ; The guide can be used without further explanation.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 10 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- Data are qualitative or quantitative; quantitative data are discrete or continuous.
+- A frequency table records counts and can be checked by its total.
+- Bar charts suit categories, dot plots suit small discrete sets, histograms suit grouped continuous data.
+- The mean, median and mode summarise the centre in different ways; the range measures spread.
+- Grouped data can only give an estimated mean, using interval midpoints.
+- Graphs and statistics can mislead through sampling, choice of average, truncated axes and missing context.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 10
+Term | Meaning in this course
+Qualitative data | Data describing a category.
+Discrete data | Countable values, usually whole numbers.
+Continuous data | Measurements that can take any value in a range.
+Frequency | The number of times a value occurs.
+Mean | Total divided by the number of values.
+Median | The middle value of ordered data.
+Mode | The most frequent value.
+Range | The difference between the largest and smallest values.
+Histogram | A chart of grouped continuous data with touching bars.
+Modal class | The interval with the greatest frequency.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“The median is the middle of the list as written.” ; Order the data first. ; 9 in 7, 2, 9, 4, 5
+“The range is an average.” ; It measures spread. ; 15 is not a centre
+“The mean is always the best summary.” ; One extreme value can distort it. ; 7 salaries
+“Touching bars are always wrong.” ; Histograms need them. ; continuous intervals
+“A bigger bar means more if the axis is cut.” ; Read the scale. ; axis from 40
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+classify data and build a frequency table. ;  ;  ; 
+choose and draw a suitable display for a data set. ;  ;  ; 
+calculate and interpret the mean, median, mode and range. ;  ;  ; 
+estimate the mean of grouped data and name the modal class. ;  ;  ; 
+criticise a graph or a statistical claim using specific evidence. ;  ;  ; 
+report data honestly, including limitations. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which average do you now use first, and why?
+2. Describe a graph or headline you have seen that this chapter would help you question.
+3. Write one sentence explaining why a grouped mean is an estimate.
+4. In the canteen task, which decision had the largest effect on the conclusion?
+5. What will you check first the next time you see a bar chart?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ10 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–18
+- F | Classify: time to complete a race. || quantitative, continuous
+- F | Find the mean of 6, 9, 12, 13. || 10
+- F | Find the median of 5, 8, 8, 11, 14. || 8
+- F | Find the mode of 4, 6, 6, 7, 9, 6. || 6
+- F | Find the range of 3, 11, 7, 15. || 12
+- F | Find the midpoint of the interval 30–40. || 35
+- R | Explain why the median can be a better summary than the mean. || It is not distorted by extreme values.
+- R | A histogram has bars of unequal width. Why is that a problem? || Heights no longer represent frequency directly.
+- R | Explain why the mode is the only average available for colours. || Colours cannot be added or ordered.
+- P | The mean of 8 values is 15. Find their total. || 120
+- P | Estimate the mean: 0–20 (f 4), 20–40 (f 10), 40–60 (f 6). || 30
+- P | A pie chart of 300 students gives football 120°. How many chose football? || 100
+- C | Explain how to check a frequency table. || Frequencies must sum to the number of observations, with no gaps or overlaps.
+- C | Explain why a 50% increase from 20 to 30 is the same percentage as from 200 to 300. || Both are half of the base.
+- E | A data set of 5 values has mean 10 and median 9. Find a possible set. || For example 4, 7, 9, 11, 19.
+- E | Two data sets have the same range but different means. Illustrate. || 2, 5, 8 and 10, 13, 16 both have range 6.
+- E | Explain how the choice of sample can change a survey's conclusion. || A biased sample over-represents a group.
+- P | 40 students' times are grouped: 10–14 (4), 15–19 (9), 20–24 (14), 25–29 (8), 30–34 (5). Estimate the mean and name the modal class. || Midpoints 12, 17, 22, 27, 32 give $48 + 153 + 308 + 216 + 160 = 885$; mean $= 885 \\div 40 = 22.125$; modal class 20–24.
+- C | Explain why an estimated mean from grouped data may differ from the true mean. || Values within an interval are not all at the midpoint.
+
+@SEC | Mixed 10 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX10 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find the mean of 12, 15, 18, 19. || 16
+- F | Find the median of 2, 7, 9, 10. || 8
+- F | Find the range of 14, 6, 9, 21. || 15
+- F | Total frequency of 5, 8, 12, 3. || 28
+- F | How many degrees in a pie chart represent 25% of the data? || 90°
+- R | Explain why “average” is ambiguous in a newspaper report. || It may mean mean, median or mode.
+- R | A graph shows a rise from 40 to 44 with an axis starting at 39. What impression does it create? || A dramatic rise although the increase is 10%.
+- P | A student scores 60, 72, 68, 80, 60. Find the mean, median and mode. || mean 68, median 68, mode 60
+- P | A class of 25 has a mean height of 160 cm. A new student of 185 cm joins. Find the new mean. || 160.96 cm
+- P | A bar chart of 90 students shows 30 choosing A. What is the pie-chart angle for A? || 120°
+- C | Explain how to decide whether to use a bar chart or a histogram. || Categories need a bar chart; continuous intervals need a histogram.
+- C | Explain why a report should state its sample size. || A percentage means little without knowing how many people it summarises.
+- E | A data set has mean 20 and range 10. Suggest what the effect of adding a value of 60 would be. || The mean rises and the range increases greatly.
+- E | Eight values have a sum of 96. Two of them are removed and the mean of the remaining six is 11. Find the sum of the two removed. || 96 − 66 = 30.
+- E | Explain why two data sets can have identical means and medians but different shapes. || Centre does not describe spread or the position of clusters.
+- P | A survey of 200 students finds 120 walk, 50 cycle and 30 take the bus. Draw a table, find the pie-chart angles and state one conclusion. || 216°, 90°, 54°; walking is the main mode of travel.
+
+@SEC | Cumulative practice 10 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP10 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Find the median of 4, 9, 11, 13, 15. || 11
+- F | Find the mean of 7, 9, 12, 16. || 11
+- F | Find the range of 6, 14, 9, 20. || 14
+- R | Explain why a histogram has no gaps between bars. || The intervals are continuous.
+- P | A pie chart of 180 students shows 60 choosing sport. Find the angle. || 120°
+- P | Estimate the mean of grouped data: 0–10 (f 3), 10–20 (f 9), 20–30 (f 8). || $\frac{15 + 135 + 200}{20} = 17.5$
+- C | Explain why a report should give the range as well as the mean. || The mean alone does not show how spread out the data are.
+- E | A data set of 6 values has mean 12. Five values are 8, 10, 11, 14, 15. Find the sixth. || 14

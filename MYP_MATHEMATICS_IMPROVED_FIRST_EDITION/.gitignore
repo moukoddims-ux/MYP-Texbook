@@ -1,0 +1,9 @@
+# Build artefacts that can be regenerated from the manuscript
+MYP1/working/preview/
+MYP1/working/pass1.pdf
+MYP1/working/fig_*
+__pycache__/
+*.pyc
+
+# stray preview artefacts at the edition root
+working/

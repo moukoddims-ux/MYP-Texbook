@@ -1,0 +1,554 @@
+@MOVE | A | Engage | The matchstick chain that grows by three
+@LEAD | A chain of squares is built from matchsticks. The first stage uses 4 matches, the second 7, the third 10. A student claims the fortieth stage will use 120 matches.
+@P | It will not. The number grows by 3 at each stage, and the rule that produces the chain is $3n + 1$, not $3n$: the first stage uses 4 matches because of the extra match at the start. At stage 40 the count is $3 \\times 40 + 1 = 121$.
+@P | Algebra exists to make that reasoning possible without drawing all forty stages. A **pattern** is described by a **rule**; the rule is written as an **expression**; an unknown in the rule is found by solving an **equation**. Those three moves — describe, express, solve — are what this chapter teaches.
+@TABLE | Figure 6.1 Three stages of the chain
+Stage $n$ ; Squares drawn ; Matches used ; Rule $3n + 1$
+1 ; 1 ; 4 ; 4
+2 ; 2 ; 7 ; 7
+3 ; 3 ; 10 ; 10
+10 ; 10 ; 31 ; 31
+@MINI | Notice and wonder
+@LISTU
+- Why does the count go up by 3 each time rather than 4?
+- Which is easier to extend to stage 100: the drawing or the rule?
+- What would a stage 0 mean, and would the rule still give a sensible answer?
+- If a chain used 100 matches, how many squares would it have?
+@CALLOUT | Keep this question open: when does a pattern become a rule, and what makes a rule trustworthy beyond the cases we have checked?
+
+@MOVE | B | Explore | The matchstick chain
+@LEAD | Work in pairs with matchsticks (or with a pencil and ruler) and a large sheet of paper.
+@FIG | c06_match
+@H2 | Your investigation
+@P | **Step 1.** Build stages 1 to 5 of the chain. Record the number of matches used at each stage in a table.
+@P | **Step 2.** Record the **difference** between successive counts. What do you notice?
+@P | **Step 3.** Predict the number of matches for stage 6, then build it and check.
+@P | **Step 4.** Find a rule that gives the number of matches for any stage $n$.
+@TABLE | Recording table (copy and complete)
+Stage $n$ ; 1 ; 2 ; 3 ; 4 ; 5 ; 6
+Matches ; ; ; ; ; ; 
+Difference from previous ; — ; ; ; ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. What does the constant difference of 3 tell you about the rule?
+2. Why is the rule not simply $3n$? What does the extra 1 represent in the drawing?
+3. Use your rule to predict stage 20, then check it by continuing the table.
+4. A chain uses 61 matches. Write an equation and solve it to find the stage.
+5. Design a different chain — for example, triangles that share a side — and find its rule.
+@H2 | Making a conjecture
+@CALLOUT | “The number of matches at stage $n$ is … because each new square adds … matches, and … .”
+@H2 | What you should have noticed
+@LISTU
+- Each new square adds 3 matches, because one match is shared.
+- A constant difference of 3 means the rule contains $3n$.
+- The first stage uses one more than $3 \\times 1$, so the rule is $3n + 1$.
+- Checking the rule against every recorded stage is a test, not a proof; the justification comes from the structure of the drawing.
+@INVEST | Explore further
+A different chain uses hexagons that share one side. Build the first four stages, record the counts and find a rule. Then compare your rule with a partner's and explain any difference in the constant.
+
+@SEC | 6.1 | Patterns and rules | Criterion B · i, ii
+@LEAD | A sequence of numbers is a pattern; a rule describes it. Two kinds of description matter: how to get from one term to the next, and how to get to any term directly.
+@DEF | Sequences and rules
+A **sequence** is a list of numbers in order, called **terms**. A **term-to-term rule** says how to get from one term to the next. A **position-to-term rule** gives the term from its position $n$.
+For 5, 8, 11, 14, …: the term-to-term rule is “add 3”; the position-to-term rule is $3n + 2$.
+@KEY | Why the difference points to the rule
+If successive terms differ by a constant $d$, the rule contains $dn$. Subtracting $dn$ from each term then shows what must be added to reach the first term. For 5, 8, 11, 14, … the difference is 3, and $5 - 3 \\times 1 = 2$, so the rule is $3n + 2$.
+@TABLE | Two descriptions of the same sequence
+Position $n$ ; 1 ; 2 ; 3 ; 4 ; 5
+Term ; 5 ; 8 ; 11 ; 14 ; 17
+$3n$ ; 3 ; 6 ; 9 ; 12 ; 15
+Term $- 3n$ ; 2 ; 2 ; 2 ; 2 ; 2
+@METHOD | Finding a position-to-term rule
+@LISTO
+1. Write the terms in a table with their positions.
+2. Find the constant difference $d$ between successive terms.
+3. Subtract $dn$ from each term; the constant remainder is the number added to the rule.
+4. Check the rule on at least two positions, including one you did not use.
+@ERR | Assuming the first term is the multiplier
+In the sequence 4, 7, 10, 13, … the first term is 4, but the rule is not $4n$. The constant difference is 3, so the rule is $3n + 1$. The first term is used at the end of the process, not the beginning.
+
+@EX | 6.1.1 | Finding a rule from terms
+GIVEN: The sequence 7, 12, 17, 22, …
+ASKED: Find the position-to-term rule and the 20th term.
+METHOD: Use the constant difference and adjust for the first term.
+STEPS:
+1. The difference is 5, so the rule contains $5n$.
+2. $7 - 5 \\times 1 = 2$, so the rule is $5n + 2$.
+3. 20th term: $5 \\times 20 + 2 = 102$.
+ANSWER: Rule $5n + 2$; 20th term 102.
+CHECK: The 4th term by rule is 22, which matches the sequence.
+
+@EX | 6.1.2 | Using a rule to find a position
+GIVEN: A sequence has rule $4n + 3$. One of its terms is 51.
+ASKED: Find the position of that term.
+METHOD: Form an equation from the rule and solve it.
+STEPS:
+1. $4n + 3 = 51$.
+2. $4n = 48$.
+3. $n = 12$.
+ANSWER: The 12th term.
+CHECK: $4 \\times 12 + 3 = 51$.
+
+@EX | 6.1.3 | A sequence that decreases
+GIVEN: The sequence 30, 26, 22, 18, …
+ASKED: Find the rule, and state whether the sequence ever reaches 0.
+METHOD: Use the constant difference, which is negative.
+STEPS:
+1. The difference is $-4$, so the rule contains $-4n$.
+2. $30 - (-4 \\times 1) = 34$, so the rule is $34 - 4n$.
+3. The 8th term is $34 - 32 = 2$ and the 9th is $-2$, so the sequence passes from 2 to $-2$ and never equals 0.
+ANSWER: Rule $34 - 4n$; the sequence skips 0 because 34 is not a multiple of 4.
+CHECK: The 1st term is $34 - 4 = 30$, and the 4th is $34 - 16 = 18$.
+
+@PRACTICE | 6.1 | Patterns and rules | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write the next two terms: (a) 3, 6, 9, 12, … (b) 20, 17, 14, … || (a) 15, 18 (b) 11, 8
+- F | Find the term-to-term rule: 2, 9, 16, 23, … || add 7
+- F | Find the position-to-term rule for 5, 9, 13, 17, … || $4n + 1$
+- F | Find the 10th term of the sequence with rule $6n - 1$. || 59
+- R | Explain why a constant difference of 4 means the rule contains $4n$. || Each step adds one more group of 4, so the term grows in proportion to the position.
+- R | A student writes the rule for 6, 10, 14, 18 as $6n$. Test the rule and explain the error. || $6 \\times 2 = 12$, not 10; the difference is 4, so the rule is $4n + 2$.
+- P | A pattern of tiles uses 5 tiles in stage 1, 8 in stage 2, 11 in stage 3. How many in stage 12? || $3 \\times 12 + 2 = 38$
+- P | A sequence has rule $5n - 2$. Which term equals 43? || the 9th term
+- E | Find the rule for 100, 91, 82, 73, … || $109 - 9n$
+- E | Two sequences have rules $3n + 4$ and $4n + 1$. Which is larger at the 1st term, and which at the 10th? || First: 7 against 5; tenth: 34 against 41.
+
+@SEC | 6.2 | Expressions and substitution | Criterion A · i, ii
+@LEAD | An expression is a mathematical phrase built from numbers, letters and operations. It has no equals sign: it describes a calculation, and it can be evaluated once the letters are known.
+@DEF | Expression, term, coefficient, substitution
+An **expression** combines numbers and letters with operations, such as $3x + 5$ or $2(a - 4)$. A **term** is a part separated by + or − signs. The **coefficient** is the number multiplying a letter: in $7y$ the coefficient is 7.
+**Substituting** means replacing a letter with a number and calculating the result.
+@KEY | Notation that prevents errors
+@LISTU
+- $3x$ means $3 \\times x$; the multiplication sign is not written.
+- $x^{2}$ means $x \\times x$, not $2x$. If $x = 5$, $x^{2} = 25$ but $2x = 10$.
+- $\\frac{x}{4}$ means $x \\div 4$.
+- Brackets show that the whole bracket is multiplied: $2(x + 3)$ means $2 \\times (x + 3)$.
+@METHOD | Substituting into an expression
+@LISTO
+1. Rewrite the expression with the number in brackets where the letter was.
+2. Follow the order of operations: brackets, indices, multiplication and division, then addition and subtraction.
+3. Include the units if the expression represents a quantity.
+@TABLE | Substituting into $3x^{2} - 2y$
+Value of $x$ ; Value of $y$ ; Working ; Result
+2 ; 1 ; $3 \\times 4 - 2$ ; 10
+3 ; 5 ; $3 \\times 9 - 10$ ; 17
+0 ; 4 ; $0 - 8$ ; $-8$
+-1 ; 2 ; $3 \\times 1 - 4$ ; $-1$
+@ERR | Squaring the coefficient
+In $3x^{2}$ with $x = 4$, the square applies only to $x$: $3 \\times 16 = 48$. Writing $(3 \\times 4)^{2} = 144$ squares the 3 as well, which the notation does not say.
+
+@EX | 6.2.1 | Substituting two values
+GIVEN: The expression $5a - 2b + 7$.
+ASKED: Evaluate it when $a = 4$ and $b = 3$, and when $a = 0$ and $b = 6$.
+METHOD: Substitute in brackets and follow the order of operations.
+STEPS:
+1. $5(4) - 2(3) + 7 = 20 - 6 + 7 = 21$.
+2. $5(0) - 2(6) + 7 = 0 - 12 + 7 = -5$.
+ANSWER: 21 and $-5$.
+CHECK: The first is positive because $5a$ dominates; the second is negative because $-2b$ dominates.
+
+@EX | 6.2.2 | Substituting a negative number
+GIVEN: The expression $x^{2} - 3x + 1$.
+ASKED: Evaluate it when $x = -2$.
+METHOD: Put the negative number in brackets so the signs are visible.
+STEPS:
+1. $(-2)^{2} - 3(-2) + 1$.
+2. $4 + 6 + 1$.
+ANSWER: 11.
+CHECK: Both the square and the product with $-3$ are positive here, so the result exceeds the value at $x = 2$, which is $4 - 6 + 1 = -1$.
+WATCH: $-2^{2}$ without brackets means $-(2^{2}) = -4$. The brackets change the meaning, and they change the answer.
+
+@EX | 6.2.3 | Using an expression in context
+GIVEN: A taxi charges 3 units to start and 2 units for each kilometre. The cost for $k$ kilometres is $2k + 3$.
+ASKED: Find the cost of an 8 km journey, and the distance travelled for 21 units.
+METHOD: Substitute to find the cost; solve an equation to find the distance.
+STEPS:
+1. $2(8) + 3 = 19$ units.
+2. $2k + 3 = 21$, so $2k = 18$ and $k = 9$ km.
+ANSWER: 19 units for 8 km; 9 km for 21 units.
+CHECK: $2 \\times 9 + 3 = 21$.
+
+@PRACTICE | 6.2 | Expressions and substitution | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Evaluate $4x + 3$ when $x = 6$. || 27
+- F | Evaluate $2a - b$ when $a = 5$ and $b = 7$. || 3
+- F | Evaluate $x^{2}$ when (a) $x = 7$ (b) $x = 12$ || (a) 49 (b) 144
+- F | Evaluate $3y^{2}$ when $y = 4$. || 48
+- R | Explain the difference between $2x$ and $x^{2}$ when $x = 6$. || $2x = 12$ but $x^{2} = 36$.
+- R | A student evaluates $2x + 5$ at $x = 3$ as 16. What has gone wrong? || They calculated $2 \\times (3 + 5)$; the multiplication applies only to $x$, giving 11.
+- P | Evaluate $5 - 2n$ for $n = -3$. || 11
+- P | A phone plan costs $0.1m + 5$ for $m$ minutes. Find the cost for 120 minutes. || 17 units
+- E | Evaluate $\\frac{a + b}{2}$ for $a = 7$ and $b = 12$. || 9.5
+- E | Evaluate $2x^{2} - y^{2}$ for $x = 3$ and $y = 5$. || $-7$
+
+@SEC | 6.3 | Simplifying expressions | Criterion A · ii; Criterion C · i
+@LEAD | Simplifying collects like terms and removes brackets. It does not change the value of the expression: it changes how the same value is written.
+@DEF | Like terms and simplifying
+**Like terms** contain exactly the same letters raised to the same powers, such as $4a$ and $-7a$. They can be combined by adding or subtracting their coefficients.
+$4a + 3b - a + 2b = 3a + 5b$
+Terms with different letters, such as $3a$ and $5b$, cannot be combined into one term.
+@KEY | Why collecting works
+$4a - a$ means four lots of $a$ minus one lot of $a$, which leaves three lots: $3a$. This is the distributive idea in disguise, and it is why only like terms combine: $3a + 5b$ cannot collapse, because $a$ and $b$ count different things.
+@METHOD | Simplifying an expression
+@LISTO
+1. Identify the like terms, including their signs.
+2. Collect them, keeping the sign in front of each term with it.
+3. Expand any brackets first, then collect.
+4. Check by substituting a value into the original and the simplified form; the results must agree.
+@TABLE | Expanding brackets
+Expression ; Expanded ; Why
+$3(x + 4)$ ; $3x + 12$ ; every term in the bracket is multiplied by 3
+$5(2a - 1)$ ; $10a - 5$ ; the 5 multiplies both terms
+$2(x + 3) + 4(x - 1)$ ; $6x + 2$ ; expand, then collect like terms
+$-3(y + 2)$ ; $-3y - 6$ ; a negative multiplier changes both signs
+@ERR | Sign errors when collecting
+In $7x - 3 - 2x + 8$, the correct collection is $5x + 5$. Treating the minus as belonging to the 3 but not the 2 gives wrong answers. Circling each sign with its term prevents the error.
+
+@EX | 6.3.1 | Collecting like terms
+GIVEN: $8a + 5 - 3a + 2b - 7$.
+ASKED: Simplify.
+METHOD: Group like terms and combine coefficients.
+STEPS:
+1. $a$ terms: $8a - 3a = 5a$.
+2. $b$ terms: $2b$.
+3. Numbers: $5 - 7 = -2$.
+ANSWER: $5a + 2b - 2$.
+CHECK: At $a = 1, b = 1$: original $8 + 5 - 3 + 2 - 7 = 5$; simplified $5 + 2 - 2 = 5$.
+
+@EX | 6.3.2 | Expanding and simplifying
+GIVEN: $4(2x + 3) - 2(x - 5)$.
+ASKED: Expand and simplify.
+METHOD: Multiply every term in each bracket, then collect.
+STEPS:
+1. $4(2x + 3) = 8x + 12$.
+2. $-2(x - 5) = -2x + 10$.
+3. $8x + 12 - 2x + 10 = 6x + 22$.
+ANSWER: $6x + 22$.
+CHECK: At $x = 2$: original $4(7) - 2(-3) = 28 + 6 = 34$; simplified $12 + 22 = 34$.
+WATCH: The second bracket is multiplied by $-2$, so $-2 \\times -5 = +10$. Losing that sign is the commonest error in this topic.
+
+@EX | 6.3.3 | Forming and simplifying from a context
+GIVEN: A rectangle has width $w$ cm and length 3 cm more than twice the width.
+ASKED: Write and simplify an expression for the perimeter.
+METHOD: Write each side, then add.
+STEPS:
+1. Width $w$; length $2w + 3$.
+2. Perimeter $= 2w + 2(2w + 3)$.
+3. Expand: $2w + 4w + 6 = 6w + 6$.
+ANSWER: $6w + 6$ cm.
+CHECK: If $w = 4$, the rectangle is 4 by 11, perimeter 30; the expression gives 30.
+
+@PRACTICE | 6.3 | Simplifying expressions | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Simplify: (a) $3x + 5x$ (b) $9y - 4y$ (c) $2a + 3a - a$ || (a) $8x$ (b) $5y$ (c) $4a$
+- F | Simplify $4p + 3q + 2p - q$. || $6p + 2q$
+- F | Expand: (a) $3(x + 2)$ (b) $5(2y - 1)$ || (a) $3x + 6$ (b) $10y - 5$
+- F | Simplify $2(x + 4) + 3(x + 1)$. || $5x + 11$
+- R | Explain why $3a + 4b$ cannot be simplified further. || The letters are different, so the terms are not like terms.
+- R | A student simplifies $5x - 2 + 3x$ as $8x - 2$ and another as $6x$. Which is right? || $8x - 2$: the 5 and 3 are like terms, and the $-2$ stays.
+- P | Simplify $3(2a - 1) - 2(a - 4)$. || $4a + 5$
+- P | The perimeter of a square with side $s + 2$ is written as $4(s + 2)$. Expand it. || $4s + 8$
+- E | Simplify $5 - 2(3x - 4) + x$. || $13 - 5x$
+- E | Show that $2(3x + 1)$ and $3(2x + 1)$ are not equal, and find their difference. || $6x + 2$ and $6x + 3$; difference 1.
+
+@SEC | 6.4 | Solving linear equations | Criterion A · iii; Criterion C · iii
+@LEAD | An equation states that two expressions are equal. Solving it means finding the value of the letter that makes the statement true, and inverse operations are the tool.
+@FIG | c06_balance
+@DEF | Equation and solution
+An **equation** contains an equals sign. A **solution** is a value of the letter that makes the equation true. Equations with the letter appearing only to the first power are **linear**.
+$3x + 4 = 19$ has the solution $x = 5$, because $3 \\times 5 + 4 = 19$.
+@KEY | The balance idea
+An equation is a balance. Whatever is done to one side must be done to the other, or the balance is destroyed. Solving means undoing the operations in reverse order: if the expression multiplied by 3 and then added 4, undo the adding first, then the multiplying.
+@FIG | c06_steps
+@METHOD | Solving a linear equation
+@LISTO
+1. Simplify each side if necessary.
+2. Undo addition or subtraction first, then multiplication or division.
+3. Keep the equation balanced by doing the same operation to both sides.
+4. Check by substituting the solution into the original equation.
+@TABLE | Two-step and bracket equations
+Equation ; First step ; Second step ; Solution
+$2x + 7 = 15$ ; subtract 7 ; divide by 2 ; $x = 4$
+$5(x - 2) = 20$ ; divide by 5 ; add 2 ; $x = 6$
+$\\frac{x}{4} + 3 = 7$ ; subtract 3 ; multiply by 4 ; $x = 16$
+$9 - 2x = 1$ ; subtract 9 ; divide by $-2$ ; $x = 4$
+@ERR | Working on one side only
+Subtracting 4 from the left of $3x + 4 = 19$ without subtracting from the right changes the equation into a false statement. A useful habit is to write the operation beside the equation, as in the figure, so the balance is visible.
+
+@EX | 6.4.1 | A two-step equation
+GIVEN: $4x - 7 = 21$.
+ASKED: Solve for $x$.
+METHOD: Undo the subtraction, then the multiplication.
+STEPS:
+1. Add 7 to both sides: $4x = 28$.
+2. Divide both sides by 4: $x = 7$.
+ANSWER: $x = 7$.
+CHECK: $4 \\times 7 - 7 = 21$.
+
+@EX | 6.4.2 | An equation with brackets
+GIVEN: $3(x + 4) = 27$.
+ASKED: Solve for $x$, using two different first steps.
+METHOD: Either divide by 3 first, or expand the bracket.
+STEPS:
+1. Dividing first: $x + 4 = 9$, so $x = 5$.
+2. Expanding first: $3x + 12 = 27$, so $3x = 15$ and $x = 5$.
+ANSWER: $x = 5$.
+CHECK: $3(5 + 4) = 27$.
+WATCH: Both routes are valid; choosing one and finishing it is better than starting both.
+
+@EX | 6.4.3 | An equation with the letter on both sides
+GIVEN: $5x - 3 = 2x + 12$.
+ASKED: Solve for $x$.
+METHOD: Collect the letter terms on one side and the numbers on the other.
+STEPS:
+1. Subtract $2x$ from both sides: $3x - 3 = 12$.
+2. Add 3 to both sides: $3x = 15$.
+3. Divide by 3: $x = 5$.
+ANSWER: $x = 5$.
+CHECK: Left $= 25 - 3 = 22$; right $= 10 + 12 = 22$.
+
+@PRACTICE | 6.4 | Solving linear equations | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Solve (a) $x + 7 = 12$ (b) $x - 4 = 9$ (c) $3x = 21$ || (a) 5 (b) 13 (c) 7
+- F | Solve (a) $2x + 3 = 11$ (b) $5x - 4 = 16$ || (a) 4 (b) 4
+- F | Solve $\\frac{x}{3} = 8$. || 24
+- F | Solve $4(x - 1) = 16$. || 5
+- R | Explain why subtracting 5 from one side of $x + 5 = 12$ is allowed but subtracting 5 from only one term of $2x + 5$ is not. || An equation balances two whole sides; an expression inside one side is not a separate balance.
+- R | A student solves $3x + 2 = 14$ by dividing by 3 first, getting $x + 2 = \\frac{14}{3}$. What has gone wrong? || Dividing by 3 must divide the whole side, including the 2, which was not divided.
+- P | Solve $7 - 2x = 1$. || $x = 3$
+- P | Solve $2(x + 5) = 3x$. || $x = 10$
+- E | Solve $5x + 2 = 3x + 10$. || $x = 4$
+- E | Solve $\\frac{x}{2} + \\frac{x}{3} = 10$. || $x = 12$
+
+@SEC | 6.5 | Forming and using equations | Criterion D · i, ii
+@LEAD | The difficult part of an applied problem is rarely the solving. It is translating the words into an equation, which requires naming the unknown and stating the relationship it satisfies.
+@METHOD | Translating words into equations
+@LISTO
+1. Name the unknown: “let $x$ be the number of …”.
+2. Write the relationship as an equation, checking that both sides measure the same kind of quantity.
+3. Solve, then answer the question that was asked, with units.
+4. Check that the answer is sensible in the context, not merely arithmetically correct.
+@TABLE | Words and their equations
+Statement ; Equation
+A number increased by 8 is 21. ; $x + 8 = 21$
+Three times a number, less 5, is 16. ; $3x - 5 = 16$
+Two consecutive numbers add to 35. ; $x + (x + 1) = 35$
+A taxi costs 3 plus 2 per km; a journey costs 21. ; $2k + 3 = 21$
+The perimeter of a square is 36. ; $4s = 36$
+@ERR | Answering the wrong question
+“A number is tripled and then 4 is added, giving 25” leads to $3x + 4 = 25$ and $x = 7$. If the question then asks for the value after tripling, the answer is 21, not 7. Always return to the question at the end.
+
+@EX | 6.5.1 | A number problem
+GIVEN: Three consecutive whole numbers have a sum of 72.
+ASKED: Find the numbers.
+METHOD: Name the middle number $x$ so the others are $x - 1$ and $x + 1$.
+STEPS:
+1. $(x - 1) + x + (x + 1) = 72$.
+2. $3x = 72$.
+3. $x = 24$, so the numbers are 23, 24 and 25.
+ANSWER: 23, 24, 25.
+CHECK: $23 + 24 + 25 = 72$.
+
+@EX | 6.5.2 | A geometry problem
+GIVEN: A rectangle is twice as long as it is wide, and its perimeter is 54 cm.
+ASKED: Find the dimensions.
+METHOD: Name the width $w$, write the perimeter, and solve.
+STEPS:
+1. Width $w$, length $2w$.
+2. Perimeter: $2w + 2(2w) = 6w$.
+3. $6w = 54$, so $w = 9$ and the length is 18.
+ANSWER: 9 cm by 18 cm.
+CHECK: $2(9) + 2(18) = 54$.
+
+@EX | 6.5.3 | A comparison problem
+GIVEN: A school hires a hall for a fixed 120 units plus 3 units per student. A second hall charges 6 units per student with no fixed charge.
+ASKED: For how many students do the two halls cost the same?
+METHOD: Write both costs as expressions and set them equal.
+STEPS:
+1. First hall: $3n + 120$; second: $6n$.
+2. $3n + 120 = 6n$.
+3. $120 = 3n$, so $n = 40$.
+ANSWER: 40 students, when each costs 240 units.
+CHECK: First hall $3(40) + 120 = 240$; second $6(40) = 240$.
+WATCH: Forming the equation as $6n + 120 = 3n$ inverts the two halls and gives a negative answer, which is a signal that the expressions have been swapped.
+
+@PRACTICE | 6.5 | Forming and using equations | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | A number plus 12 is 30. Write and solve an equation. || $x + 12 = 30$; $x = 18$
+- F | Four times a number is 52. || $4x = 52$; $x = 13$
+- F | The perimeter of a square is 48 cm. Find the side. || $4s = 48$; 12 cm
+- F | Two consecutive numbers sum to 41. Find them. || 20 and 21
+- R | Explain why the equation for “5 less than three times a number is 16” is $3x - 5 = 16$ rather than $5 - 3x = 16$. || The phrase “less than” reverses the order: three times the number, minus 5.
+- R | A student's answer to a length problem is $-4$ cm. What does that tell you? || The equation or the interpretation of the unknown is wrong, since a length cannot be negative.
+- P | A phone costs 20 units plus 0.05 per minute. After how many minutes does the bill reach 32 units? || 240 minutes
+- P | A rectangle has perimeter 40 cm and length 4 cm more than its width. Find its dimensions. || 8 cm by 12 cm
+- E | The sum of three consecutive even numbers is 84. Find them. || 26, 28, 30
+- E | A father is three times as old as his son; in 12 years he will be twice as old. Find their present ages. || son 12, father 36
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 6 | The matchstick chain | Criterion B · i, ii, iii
+@LEAD | Return to the chain from the Explore activity and turn the conjecture into a general result with a justification.
+@INVEST | Investigation brief
+**Question.** How does the number of matches in a chain of squares depend on the number of squares, and can the rule be justified rather than merely observed?
+**What you need.** Matchsticks or a drawing grid, a table, and the four stages you built.
+**What to produce.** A table to stage 8, a general rule, a direct justification from the structure of the drawing, and a test of a prediction.
+@H2 | Part 1 · Extend the evidence
+@TABLE | Copy and complete
+Stage $n$ ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8
+Matches ; 4 ; 7 ; ; ; ; ; ; 
+@H2 | Part 2 · Generalise
+@LISTO
+1. State the term-to-term rule in words.
+2. State the position-to-term rule as an expression in $n$.
+3. Use the rule to predict stage 25, then check by extending the table twice more.
+4. Use an equation to find the stage that uses 100 matches. Is your answer a whole number, and what does that tell you?
+@H2 | Part 3 · Justify
+@LISTO
+1. The first square uses 4 matches. How many does each additional square use, and why?
+2. Write a sentence that derives $3n + 1$ from the drawing rather than from the numbers.
+3. A classmate says “the rule is $4n$ because each square uses 4 matches”. Explain what this rule counts.
+4. Test the rule at stage 0 and interpret the answer in the drawing.
+@CRIT | Criterion B task · Requirements
+Accurate table; a rule stated as an expression; predictions tested at two new stages; a justification that derives the rule from the structure; an evaluation of a rival rule.
+
+@SEC | Application 6 | The school event budget | Criterion D · i, ii, iii, iv, v
+@LEAD | A student council is planning a concert. Costs are partly fixed and partly per ticket, and the ticket price must cover both.
+@APPLY | The brief
+@TABLE | Costs and prices
+Item ; Cost
+Hall hire ; 420 units
+Sound equipment ; 180 units
+Performer ; 300 units
+Programme per ticket ; 1.20 units
+Ticket price under consideration ; 6 units
+@LISTU
+- Fixed costs must be paid whatever the attendance.
+- Each ticket sold adds the programme cost and brings in the ticket price.
+- The council wants to know the break-even attendance and the profit at three possible attendances.
+@H2 | Task 1 · Build the expressions
+@LISTO
+1. Write an expression for the total cost when $n$ tickets are sold.
+2. Write an expression for the income when $n$ tickets are sold.
+3. Write an equation that represents breaking even.
+@H2 | Task 2 · Solve and interpret
+@LISTO
+1. Solve the break-even equation. Round up if necessary and explain why.
+2. Calculate the profit at 200, 300 and 400 tickets.
+3. State the profit as a percentage of income at 300 tickets.
+@H2 | Task 3 · Evaluate the plan
+@LISTO
+1. The council considers raising the ticket price to 8 units. Recalculate the break-even attendance.
+2. Discuss one advantage and one risk of the higher price.
+3. Recommend a price with two pieces of evidence from your calculations.
+@CRIT | Criterion D task · Requirements
+Both expressions correct and interpreted; break-even solved and rounded with justification; profits calculated; a percentage used accurately; a recommendation with evidence and a stated assumption about attendance.
+
+@SEC | Task C | Explaining the balancing method | Criterion C · i, iii, iv
+@CRIT | The task
+Write an explanation, for a student who has missed the lesson, of why an equation can be solved by doing the same operation to both sides.
+@LISTO
+1. Use a balance diagram to explain the idea.
+2. Solve $4x + 5 = 29$ step by step, writing the reason beside each step.
+3. Explain why subtracting 5 from only one side gives a wrong answer.
+4. Show a check that proves your solution is correct.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Equations written with correct symbols and aligned steps.
+Reasoning (iii) ; Each step has a reason, not just a result.
+Organisation (iv) ; The explanation can be followed by someone who was absent.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 6 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- A sequence can be described by a term-to-term rule or by a position-to-term rule.
+- A constant difference $d$ means the rule contains $dn$; the remainder fixes the constant.
+- Expressions are evaluated by substitution, following the order of operations.
+- Like terms can be collected; brackets are removed by multiplying every term inside.
+- Linear equations are solved by inverse operations applied to both sides.
+- Word problems become equations by naming the unknown and stating the relationship.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 6
+Term ; Meaning in this course
+Sequence ; A list of numbers in order, called terms.
+Term ; One number or element of a sequence.
+Position-to-term rule ; A rule giving the term from its position $n$.
+Expression ; Numbers and letters combined with operations, without an equals sign.
+Coefficient ; The number multiplying a letter.
+Substitution ; Replacing letters with numbers.
+Like terms ; Terms with identical letters and powers.
+Equation ; A statement that two expressions are equal.
+Solution ; A value that makes an equation true.
+Linear ; The letter appears only to the first power.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“$x^{2}$ means $2x$.” ; It means $x \\times x$. ; $6^{2} = 36$, $2 \\times 6 = 12$
+“The rule is the first term times $n$.” ; Find the difference first. ; 4, 7, 10 gives $3n + 1$
+“$3a + 4b = 7ab$.” ; Unlike terms do not combine. ; $a$ and $b$ count different quantities
+“Subtract from one side.” ; Both sides must change. ; $3x + 4 = 19$
+“$-2(x - 5) = -2x - 10$.” ; Both signs change. ; $-2 \\times -5 = +10$
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+find the rule for a sequence and the term at any position. ;  ;  ; 
+substitute values, including negatives, into an expression. ;  ;  ; 
+simplify expressions and expand brackets. ;  ;  ; 
+solve linear equations, including those with brackets. ;  ;  ; 
+form an equation from a word problem and interpret the answer. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which is more useful to you: a term-to-term rule or a position-to-term rule? Why?
+2. Describe a mistake you made with signs this chapter and how you now avoid it.
+3. Write one sentence explaining what an equation is.
+4. In the concert task, which unknown was hardest to name? Why?
+5. Where else in mathematics have you seen a rule built from a pattern?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ6 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–20
+- F | Write the next term: 6, 11, 16, … || 21
+- F | Find the rule for 9, 13, 17, 21, … || $4n + 5$
+- F | Evaluate $7x - 4$ when $x = 5$. || 31
+- F | Simplify $6a + 2b - 2a + 3b$. || $4a + 5b$
+- F | Solve $5x + 3 = 28$. || $x = 5$
+- F | Solve $2(x + 3) = 18$. || $x = 6$
+- R | Explain why $4(x + 2)$ is not $4x + 2$. || The 4 multiplies both terms in the bracket.
+- R | A sequence has rule $5n - 3$. Is 47 a term in it? || Yes: $5n = 50$, $n = 10$.
+- R | Explain the difference between an expression and an equation. || An expression has no equals sign; an equation states two expressions are equal.
+- P | A taxi charges 5 plus 1.5 per km. Find the cost of 12 km. || 23 units
+- P | Solve $7x - 2 = 4x + 13$. || $x = 5$
+- P | Three consecutive numbers have a sum of 63. Find them. || 20, 21, 22
+- C | Explain why collecting like terms does not change the value of an expression. || It regroups the same quantities without changing how many there are.
+- C | Explain how to check a solution without solving the equation again. || Substitute the value into the original equation and confirm both sides are equal.
+- E | Solve $3(2x - 1) = 4x + 9$. || $x = 6$
+- E | Solve $\\frac{x}{3} + 4 = \\frac{x}{2}$. || $x = 24$
+- E | Find the rule for a sequence whose 3rd term is 11 and whose difference is 4. || $4n - 1$
+- P | A rectangle has perimeter 48 cm and length twice its width. Find the area. || With width $w$: $2w + 4w = 48$, so $w = 8$ and the length is 16. Area $= 128$ cm².
+- C | Explain why an equation with the letter on both sides can still be solved by balancing. || Subtracting the smaller letter term from both sides leaves letters on one side only.
+- C | A student says “the 100th term is always 100 times the first term”. Refute or support this with two sequences. || False: for $3n + 1$ the 100th term is 301, not 400.
+
+@SEC | Mixed 6 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX6 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find the 12th term of $7n - 2$. || 82
+- F | Evaluate $4a^{2}$ when $a = 3$. || 36
+- F | Simplify $8 - 3(x - 2)$. || $14 - 3x$
+- F | Solve $\\frac{x}{5} = 9$. || 45
+- F | Solve $6x - 5 = 3x + 10$. || $x = 5$
+- R | Is $2(3x + 4)$ equal to $6x + 8$? Justify. || Yes, by expanding: $2 \\times 3x = 6x$ and $2 \\times 4 = 8$.
+- R | Explain why $x = -2$ is not a solution of $3x + 4 = 10$. || $3(-2) + 4 = -2$, not 10.
+- P | A pattern uses 7 tiles in stage 1 and 11 in stage 2. How many in stage 15? || 63
+- P | After how many months does a 30-unit monthly fee equal a 90-unit annual payment? || 3 months
+- P | Solve $4(x - 3) = 2(x + 5)$. || $x = 11$
+- C | Explain how to decide whether an expression can be simplified. || Compare the letters and their powers; only identical terms combine.
+- C | Explain why the answer to a word problem should be checked against the context, not only the equation. || An equation can be solved correctly from a wrong model, and a negative length is still impossible.
+- E | Find two consecutive odd numbers whose sum is 64. || 31 and 33
+- E | Solve $\\frac{2x}{3} - 1 = 5$. || $x = 9$
+- E | A number is multiplied by 4, then 7 is subtracted; the result is the same as multiplying by 3 and adding 5. Find the number. || 12
+- P | A rectangle's length is 5 cm more than its width and its perimeter is 46 cm. Find its area. || 9 cm by 14 cm; 126 cm²
+
+@SEC | Cumulative practice 6 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP6 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Find the rule for 8, 13, 18, 23, … || $5n + 3$
+- F | Simplify $7x + 4 - 3x + 6$. || $4x + 10$
+- F | Solve $3x + 8 = 26$. || $x = 6$
+- R | Explain why an expression has no solution. || It states no equality, so there is nothing to solve.
+- P | A pattern uses 6 tiles in stage 1 and 10 in stage 2. How many in stage 12? || 50
+- P | Solve $5(x - 3) = 2x + 6$. || $x = 7$
+- C | Explain how to check that $x = 4$ solves $3x - 5 = 7$. || Substitute: $12 - 5 = 7$.
+- E | Explain why $4n + 2$ and $4(n + 2)$ are different. || The first is $4n + 2$; the second is $4n + 8$.
