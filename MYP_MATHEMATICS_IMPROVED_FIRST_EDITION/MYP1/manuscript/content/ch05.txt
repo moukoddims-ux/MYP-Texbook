@@ -1,0 +1,580 @@
+@MOVE | A | Engage | Seventy per cent off — off what?
+@LEAD | A shop window carries three signs: “30% off”, “a further 20% off the reduced price”, and “save 50%”. A jacket marked at 200 units of currency is in the window. A customer reads all three signs and expects to pay 0.
+@P | That cannot be right, and the arithmetic explains why. Each percentage is calculated on a different amount: the first on the marked price, the second on what remains. Percentages are comparisons, and a percentage is meaningless until the amount it compares with is identified.
+@P | Advertisers know this. “50% more free” sounds like double, but if the original pack is 400 g and the new pack is 600 g, the increase is 50% of 400 g — a half as much again, not double. The wording is not false; it is a comparison with an unstated base.
+@TABLE | Figure 5.1 The same discount, described three ways
+Statement ; Base of the comparison ; Effect on a 200-unit price
+30% off ; the marked price ; pay 140
+20% off, then a further 20% ; the price after the first reduction ; pay 128
+“Half price” ; the marked price ; pay 100
+@MINI | Notice and wonder
+@LISTU
+- Why do the first two statements give different answers if both mention 20%?
+- What base is being used when a news report says “crime rose by 200%”?
+- Which is more useful to a customer: the percentage saved or the final price?
+- Can a percentage be greater than 100? What would that mean?
+@CALLOUT | Keep this question open: when does a percentage clarify a comparison, and when does it hide the base that makes it meaningful?
+
+@MOVE | B | Explore | Do two discounts add up?
+@LEAD | Work in groups of three. You need a calculator, a sheet of marked prices and three coloured pens.
+@FIG | c05_discount
+@H2 | Your investigation
+@P | **Step 1.** Choose five marked prices between 80 and 400 units. Record them.
+@P | **Step 2.** For each price, calculate the result of a 20% discount followed by a further 10% discount on the reduced price.
+@P | **Step 3.** For each price, calculate the result of a single 30% discount.
+@P | **Step 4.** Compare the two results and record the difference.
+@TABLE | Recording table (copy and complete)
+Marked price ; After 20% off ; After a further 10% ; Single 30% off ; Difference
+100 ; ; ; ; 
+150 ; ; ; ; 
+200 ; ; ; ; 
+250 ; ; ; ; 
+400 ; ; ; ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. Is the difference between the two methods the same for every marked price, or does it grow?
+2. What percentage of the marked price does the double discount actually remove?
+3. Why is the second discount smaller in money terms than the first, even though both are described as percentages?
+4. Would the order of the two discounts matter: 10% then 20%?
+5. How would you explain the result to a customer in one sentence?
+@H2 | Making a conjecture
+@CALLOUT | “Two successive discounts of $a\\%$ and $b\\%$ are equivalent to a single discount of … because … .”
+@H2 | What you should have noticed
+@LISTU
+- The double discount leaves 72% of the price, so it is equivalent to a single 28% discount, not 30%.
+- The second discount applies to a smaller amount, so it removes less money.
+- The order does not matter: $0.8 \\times 0.9 = 0.9 \\times 0.8 = 0.72$.
+- Multiplying the multipliers is the reliable method: $0.8 \\times 0.9 = 0.72$.
+@FIG | c05_discount
+@INVEST | Explore further
+Investigate what single percentage increase is equivalent to a 10% increase followed by a 10% increase. Then test whether “a 10% rise and a 10% fall” returns a price to where it started.
+
+@SEC | 5.1 | What a percentage is | Criterion A · i, ii
+@LEAD | A percentage is a fraction with denominator 100. That single definition explains every conversion, every comparison and every calculation in the chapter.
+@DEF | Percentage
+A **percentage** is a fraction whose denominator is 100. The symbol % means “out of 100”, so $45\\% = \\frac{45}{100} = 0.45$.
+To convert a fraction or decimal to a percentage, multiply by 100. To convert a percentage to a fraction or decimal, divide by 100.
+@FIG | c05_grid
+@FIG | c05_bar
+@KEY | Benchmarks worth knowing by heart
+@LISTU
+- $1\\% = 0.01$; $10\\% = 0.1$; $50\\% = \\frac{1}{2}$; $25\\% = \\frac{1}{4}$; $75\\% = \\frac{3}{4}$.
+- $20\\% = \\frac{1}{5}$; $12.5\\% = \\frac{1}{8}$; $33\\frac{1}{3}\\% = \\frac{1}{3}$; $66\\frac{2}{3}\\% = \\frac{2}{3}$.
+- $100\\%$ is the whole; $200\\%$ is double; $150\\%$ is one and a half times.
+@METHOD | Converting between the three forms
+@LISTO
+1. Percentage to decimal: divide by 100 (move the point two places left). $37\\% = 0.37$.
+2. Decimal to percentage: multiply by 100 (move the point two places right). $0.6 = 60\\%$.
+3. Fraction to percentage: multiply by 100, or scale to a denominator of 100. $\\frac{3}{8} = 37.5\\%$.
+4. Percentage to fraction: write over 100 and simplify. $35\\% = \\frac{35}{100} = \\frac{7}{20}$.
+@ERR | Moving the wrong way
+Multiplying by 100 when converting a percentage to a decimal turns 45% into 4500%, an error of two factors of ten. A useful check: a percentage below 100% must become a decimal below 1.
+
+@EX | 5.1.1 | Converting in both directions
+GIVEN: $\\frac{7}{20}$, 0.08 and $62.5\\%$.
+ASKED: Write each as a percentage, and each percentage as a fraction in simplest form.
+METHOD: Use the definition of percentage as a fraction over 100.
+STEPS:
+1. $\\frac{7}{20} = \\frac{35}{100} = 35\\%$.
+2. $0.08 \\times 100 = 8\\%$.
+3. $62.5\\% = \\frac{62.5}{100} = \\frac{625}{1000} = \\frac{5}{8}$.
+ANSWER: $35\\%$, $8\\%$, $62.5\\% = \\frac{5}{8}$.
+CHECK: $5 \\div 8 = 0.625$, which is $62.5\\%$.
+
+@EX | 5.1.2 | Reading a percentage in context
+GIVEN: A school reports that 92% of its 250 students use the library.
+ASKED: State the number of students who use the library and the number who do not, then write each as a fraction.
+METHOD: Apply the percentage to the total, using the complement for the remainder.
+STEPS:
+1. $92\\%$ of $250 = 0.92 \\times 250 = 230$.
+2. The remainder is $250 - 230 = 20$, which is $8\\%$.
+3. As fractions: $\\frac{230}{250} = \\frac{23}{25}$ use it; $\\frac{20}{250} = \\frac{2}{25}$ do not.
+ANSWER: 230 use the library; 20 do not.
+CHECK: $\\frac{23}{25} + \\frac{2}{25} = 1$, and $230 + 20 = 250$.
+
+@EX | 5.1.3 | A percentage above 100
+GIVEN: A club had 40 members last year and 60 this year.
+ASKED: Express this year's membership as a percentage of last year's, and describe the change.
+METHOD: Divide the new value by the base and multiply by 100.
+STEPS:
+1. $\\frac{60}{40} = 1.5$.
+2. $1.5 \\times 100 = 150\\%$.
+ANSWER: The membership is 150% of last year's, an increase of 50%.
+CHECK: A 50% increase on 40 is $40 \\times 1.5 = 60$.
+
+@PRACTICE | 5.1 | What a percentage is | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Write as percentages: (a) 0.35 (b) 0.7 (c) 1.25 || (a) 35% (b) 70% (c) 125%
+- F | Write as decimals: (a) 6% (b) 45% (c) 120% || (a) 0.06 (b) 0.45 (c) 1.2
+- F | Write as fractions in simplest form: (a) 20% (b) 75% (c) 8% || (a) $\\frac{1}{5}$ (b) $\\frac{3}{4}$ (c) $\\frac{2}{25}$
+- F | Write $\\frac{3}{5}$ as a percentage. || 60%
+- R | Explain why $0.5\\%$ is not the same as 50%. || $0.5\\% = 0.005$, while $50\\% = 0.5$.
+- R | A student says “a percentage larger than 100 is impossible”. Give a counterexample and explain. || 150% of 40 is 60; percentages compare with a base and may exceed one whole.
+- P | A jacket costs 80 units. A sign says “pay 120% of the marked price”. What is the new price and what does the sign mean? || 96 units; a 20% increase.
+- P | 45% of a class of 40 walk to school. How many is that? || 18 students
+- E | A quantity increases from 25 to 40. By what percentage did it increase? || 60% ($\\frac{15}{25}$)
+- E | Write $33\\frac{1}{3}\\%$ as a fraction and explain why it is not exactly $\\frac{1}{3}$ in decimal form. || $\\frac{1}{3}$; $33\\frac{1}{3}$ is a recurring decimal approximation of one third, and the fraction is exact.
+
+@SEC | 5.2 | Finding a percentage of a quantity | Criterion A · i; Criterion C · i, iii
+@LEAD | Finding a percentage of a quantity is a multiplication. Three methods give the same answer; the multiplier method is fastest and the most useful later.
+@METHOD | Three methods, one answer: 15% of 240
+@LISTO
+1. **Fraction method:** $\\frac{15}{100} \\times 240 = \\frac{3600}{100} = 36$.
+2. **Ten-percent method:** $10\\%$ of 240 is 24; $5\\%$ is half of that, 12; so $15\\%$ is $24 + 12 = 36$.
+3. **Multiplier method:** $15\\% = 0.15$, and $0.15 \\times 240 = 36$.
+@KEY | The multiplier is the idea worth keeping
+A percentage of an amount is the amount multiplied by the decimal form of the percentage. This is why $15\\%$ of 240 and $240 \\times 0.15$ are the same calculation, and why calculators can handle any percentage in one step.
+@TABLE | Percentages of 240 by multiplier
+Percentage ; Multiplier ; Calculation ; Result
+1% ; 0.01 ; $240 \\times 0.01$ ; 2.4
+5% ; 0.05 ; $240 \\times 0.05$ ; 12
+10% ; 0.10 ; $240 \\times 0.10$ ; 24
+15% ; 0.15 ; $240 \\times 0.15$ ; 36
+25% ; 0.25 ; $240 \\times 0.25$ ; 60
+@ERR | Dividing by the percentage
+“15% of 240” is not $240 \\div 15$. Dividing by 15 finds how many groups of 15 fit into 240, which is a different question. Estimation catches it: 10% of 240 is about 24, so 15% must be a little over 24, not 16.
+
+@EX | 5.2.1 | Percentage of a quantity
+GIVEN: 12.5% of 96.
+ASKED: Calculate the value using a multiplier.
+METHOD: Convert the percentage to a decimal and multiply.
+STEPS:
+1. $12.5\\% = 0.125$.
+2. $0.125 \\times 96 = 12$.
+ANSWER: 12.
+CHECK: $12.5\\% = \\frac{1}{8}$, and $96 \\div 8 = 12$.
+
+@EX | 5.2.2 | Choosing a method
+GIVEN: A restaurant bill of 84 units; a service charge of 17.5% is added.
+ASKED: Find the total bill.
+METHOD: Find the charge, then add it; or use a single multiplier of 1.175.
+STEPS:
+1. Charge: $0.175 \\times 84 = 14.7$.
+2. Total: $84 + 14.7 = 98.7$.
+3. Single step: $84 \\times 1.175 = 98.7$.
+ANSWER: 98.7 units.
+CHECK: 17.5% is a little under a fifth, and a fifth of 84 is 16.8, so a charge near 15 is reasonable.
+
+@EX | 5.2.3 | Percentage of a percentage problem
+GIVEN: In a school of 600 students, 30% are in the first year. Of the first year, 45% take the bus.
+ASKED: How many first-year students take the bus?
+METHOD: Apply the percentages one at a time, or combine the multipliers.
+STEPS:
+1. First year: $0.3 \\times 600 = 180$.
+2. Bus: $0.45 \\times 180 = 81$.
+3. Combined: $0.3 \\times 0.45 = 0.135$, and $0.135 \\times 600 = 81$.
+ANSWER: 81 students.
+CHECK: 13.5% of 600 is $600 \\times 0.1 + 600 \\times 0.035 = 60 + 21 = 81$.
+WATCH: Adding the percentages gives 75%, which is far too large. A percentage of a percentage multiplies.
+
+@PRACTICE | 5.2 | Finding a percentage of a quantity | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Find 10% of (a) 80 (b) 250 (c) 64 || (a) 8 (b) 25 (c) 6.4
+- F | Find 25% of (a) 60 (b) 44 || (a) 15 (b) 11
+- F | Find 15% of 40. || 6
+- F | Find 12.5% of 200. || 25
+- R | Explain why finding 5% is the same as finding 10% and halving. || 5% is half of 10%, and halving a quantity halves its percentage.
+- R | A student calculates 20% of 50 as $50 \\div 20 = 2.5$. What has been calculated, and what is the correct answer? || The number of groups of 20 in 50; the correct answer is 10.
+- P | A phone costs 320 units and a case costs 18.5% of that. What is the total? || Case 59.2; total 379.2 units
+- P | In a survey of 480 people, 35% chose option A and 22.5% chose option B. How many chose neither? || 204 people
+- E | Find 7.5% of 240 without a calculator, showing your method. || 18 ($10\\% = 24$, $5\\% = 12$, $2.5\\% = 6$, so $24 - 6 = 18$)
+- E | A jacket is reduced by 30% to 63 units. What was the original price? || 90 units, since $63 \\div 0.7 = 90$
+
+@SEC | 5.3 | One quantity as a percentage of another | Criterion C · ii, iii
+@LEAD | “What percentage of the class are girls?” is a different question from “how many girls are in the class?”. The first is a comparison, and the second is a quantity.
+@DEF | Expressing a ratio as a percentage
+To express $a$ as a percentage of $b$: divide $a$ by $b$, then multiply by 100.
+$\\text{percentage} = \\frac{a}{b} \\times 100\\%$
+The amount $b$ is the **base** of the comparison. Changing the base changes the percentage, even when the quantities stay the same.
+@KEY | The base always matters
+20 out of 25 is $\\frac{20}{25} = 80\\%$, but 20 out of 50 is $\\frac{20}{50} = 40\\%$. The numerator is the same; the base has doubled, so the percentage has halved. Every percentage statement should be read as “this, compared with that”.
+@TABLE | The same part, different bases
+Part ; Base ; Fraction ; Percentage
+18 ; 24 ; $\\frac{3}{4}$ ; 75%
+18 ; 36 ; $\\frac{1}{2}$ ; 50%
+18 ; 45 ; $\\frac{2}{5}$ ; 40%
+18 ; 90 ; $\\frac{1}{5}$ ; 20%
+@ERR | Dividing the larger by the smaller
+To express 12 as a percentage of 30, the base is 30, so $\\frac{12}{30} = 40\\%$. Writing $\\frac{30}{12} = 250\\%$ answers a different question — what percentage 30 is of 12 — and the wording is what decides. Look for “as a percentage of”.
+
+@EX | 5.3.1 | Expressing a part as a percentage
+GIVEN: A football team wins 17 of its 25 matches.
+ASKED: Express the wins as a percentage of the matches played.
+METHOD: Divide part by base and multiply by 100.
+STEPS:
+1. $\\frac{17}{25} = 0.68$.
+2. $0.68 \\times 100 = 68\\%$.
+ANSWER: 68%.
+CHECK: $\\frac{17}{25} = \\frac{68}{100}$ by multiplying both parts by 4.
+
+@EX | 5.3.2 | Comparing two percentages
+GIVEN: Class A has 18 girls out of 30 students; Class B has 14 girls out of 20.
+ASKED: Which class has the higher proportion of girls?
+METHOD: Express both as percentages of their own totals.
+STEPS:
+1. Class A: $\\frac{18}{30} = 60\\%$.
+2. Class B: $\\frac{14}{20} = 70\\%$.
+3. The counts (18 and 14) cannot be compared directly because the class sizes differ.
+ANSWER: Class B, with 70% against 60%.
+CHECK: In classes of equal size, the higher count would give the higher percentage.
+
+@EX | 5.3.3 | A percentage change of a percentage
+GIVEN: A shop's sales this month are 40% higher than last month; last month they were 20% higher than the month before.
+ASKED: Describe the sales this month compared with two months ago.
+METHOD: Combine the multipliers in order.
+STEPS:
+1. Two months ago = 100 units.
+2. Last month = $1.2 \\times 100 = 120$.
+3. This month = $1.4 \\times 120 = 168$.
+ANSWER: Sales are 168% of the level two months ago, an increase of 68%.
+CHECK: Adding the percentages gives 60%, but the true figure is 68% because the second increase is calculated on a larger base.
+WATCH: Percentages of different bases cannot be added. Convert to amounts or to multipliers first.
+
+@PRACTICE | 5.3 | One quantity as a percentage of another | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Express 7 out of 20 as a percentage. || 35%
+- F | Express 9 out of 12 as a percentage. || 75%
+- F | Express 45 out of 60 as a percentage. || 75%
+- F | A test has 40 marks and a student scores 34. What percentage is that? || 85%
+- R | Explain why 20 out of 30 is not the same percentage as 30 out of 20. || The base differs; the first is $66\\frac{2}{3}\\%$ and the second 150%.
+- R | Two students say “half the class”. One means 15 of 30, the other 20 of 40. Are they describing the same proportion? || Yes; both are 50%, although the counts differ.
+- P | A shop sells 240 of 300 items in stock. What percentage remains? || 20%
+- P | In a survey, 84 of 120 students walk and 27 of 60 cycle. Which group is the larger proportion? || Walkers 70%, cyclists 45%; walkers.
+- E | A student scores 68% on a test of 50 marks. How many marks did they score? || 34 marks
+- E | A number is increased from 45 to 54. By what percentage did it increase? || 20%
+
+@SEC | 5.4 | Percentage increase and decrease | Criterion A · ii; Criterion D · ii
+@LEAD | A percentage change is always calculated on the original amount. Using multipliers makes increases and decreases a single multiplication, and combining them becomes simple.
+@DEF | Percentage increase and decrease
+An increase of $p\\%$ multiplies the original amount by $1 + \\frac{p}{100}$. A decrease of $p\\%$ multiplies by $1 - \\frac{p}{100}$.
+An increase of 15% is a multiplier of 1.15; a decrease of 15% is a multiplier of 0.85.
+@METHOD | Working with percentage change
+@LISTO
+1. Identify the original amount — the base.
+2. Convert the change to a multiplier.
+3. Multiply once. Do not add the change separately unless you need to show it.
+4. To find the percentage change between two amounts, divide the change by the **original** amount and multiply by 100.
+@TABLE | Multipliers for common changes
+Change ; Multiplier ; Example on 200
++5% ; 1.05 ; 210
++20% ; 1.20 ; 240
+−10% ; 0.90 ; 180
+−25% ; 0.75 ; 150
++100% ; 2.00 ; 400
+−100% ; 0 ; 0
+@ERR | Calculating the change on the new amount
+A 120-unit item increases by 10%. The increase is 12 units, not 12 on 132. When a question reverses direction — “a price rises 10% and then falls 10%” — the fall is calculated on the raised price, so the result is not the original.
+
+@EX | 5.4.1 | A single increase
+GIVEN: A rent of 850 units rises by 6%.
+ASKED: Find the new rent.
+METHOD: Multiply by $1 + 0.06$.
+STEPS:
+1. Multiplier $= 1.06$.
+2. $850 \\times 1.06 = 901$.
+ANSWER: 901 units.
+CHECK: 6% of 850 is 51, and $850 + 51 = 901$.
+
+@EX | 5.4.2 | A decrease in a shop
+GIVEN: A bicycle priced at 280 units is reduced by 15% in a sale, then reduced by a further 20% at the end of the sale.
+ASKED: Find the final price and the overall percentage reduction.
+METHOD: Multiply the multipliers in sequence.
+STEPS:
+1. $280 \\times 0.85 = 238$.
+2. $238 \\times 0.80 = 190.4$.
+3. Combined multiplier: $0.85 \\times 0.8 = 0.68$, so the price is 68% of the original.
+ANSWER: 190.4 units; an overall reduction of 32%.
+CHECK: $280 \\times 0.68 = 190.4$. Adding the percentages would give 35%, which is too much.
+
+@EX | 5.4.3 | Finding the percentage change
+GIVEN: A town's population fell from 12,500 to 11,750.
+ASKED: Find the percentage decrease.
+METHOD: Divide the change by the original, then multiply by 100.
+STEPS:
+1. Change: $12{,}500 - 11{,}750 = 750$.
+2. $\\frac{750}{12{,}500} = 0.06$.
+3. $0.06 \\times 100 = 6\\%$.
+ANSWER: A decrease of 6%.
+CHECK: $12{,}500 \\times 0.94 = 11{,}750$.
+
+@PRACTICE | 5.4 | Percentage increase and decrease | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | Increase 60 by 10%. || 66
+- F | Decrease 80 by 25%. || 60
+- F | Increase 250 by 12%. || 280
+- F | A price falls from 90 to 72. Find the percentage decrease. || 20%
+- R | Explain why a 20% increase followed by a 20% decrease does not return to the original amount. || The decrease is calculated on the larger amount, so the result is $1.2 \\times 0.8 = 0.96$ of the original.
+- R | A student finds a 10% increase on 40 as $40 + 10 = 50$. What has gone wrong? || 10 units was added instead of 10% of 40, which is 4.
+- P | A laptop costs 450 units; a 12% discount is applied and then 8% tax on the reduced price. Find the final price. || $450 \\times 0.88 \\times 1.08 = 427.68$
+- P | A salary rises from 1,800 to 2,070. Find the percentage increase. || 15%
+- E | A price is increased by 25% and then reduced by 20%. Find the overall change. || No change: $1.25 \\times 0.8 = 1$.
+- E | Two successive increases of 10% are equivalent to what single increase? || 21%, since $1.1 \\times 1.1 = 1.21$.
+
+@SEC | 5.5 | Discounts, taxes and budgets | Criterion D · i, iii, iv
+@LEAD | Real problems rarely announce which quantity is the base. Deciding the base, and keeping track of it through several changes, is the mathematical work.
+@KEY | Three questions to ask of any percentage problem
+@LISTO
+1. **What is the base?** The percentage is always of something; find the amount it compares with.
+2. **Is the percentage of the base, or is the base itself unknown?** If the base is unknown, divide by the multiplier rather than multiplying.
+3. **How many changes are there, and on which amount is each calculated?** Multiply the multipliers in order.
+@METHOD | Finding the original amount
+If a price after a 20% increase is 96 units, then $96 = 1.2 \\times \\text{original}$, so the original is $96 \\div 1.2 = 80$. Dividing undoes the multiplication. Estimating the answer before dividing — the original must be less than 96 — prevents most errors.
+@TABLE | Working backwards through a change
+Situation ; Equation ; Original
+After +15% the value is 92 ; $1.15x = 92$ ; 80
+After −25% the value is 45 ; $0.75x = 45$ ; 60
+After +8% the value is 270 ; $1.08x = 270$ ; 250
+After two changes the value is 68 ; $1.7x = 68$ ; 40
+@ERR | Dividing by the percentage change
+“After a 20% increase the price is 96, so the original was $96 \\times 0.8 = 76.8$” is wrong twice over: it applies the change again and applies it in the same direction. Working backwards divides by the multiplier.
+
+@EX | 5.5.1 | Finding the original price
+GIVEN: In a sale, a coat is reduced by 30% and sells for 84 units.
+ASKED: Find the original price.
+METHOD: Write the relationship and divide by the multiplier.
+STEPS:
+1. Sale price $= 0.7 \\times$ original.
+2. Original $= 84 \\div 0.7 = 120$.
+ANSWER: 120 units.
+CHECK: 30% of 120 is 36, and $120 - 36 = 84$.
+
+@EX | 5.5.2 | Comparing two offers
+GIVEN: Offer 1: 25% off a price of 160 units. Offer 2: 20% off a price of 150 units, then a further 10% off the reduced price.
+ASKED: Which offer is cheaper, and by how much?
+METHOD: Calculate both final prices with a single multiplier chain.
+STEPS:
+1. Offer 1: $160 \\times 0.75 = 120$.
+2. Offer 2: $150 \\times 0.8 \\times 0.9 = 108$.
+3. Difference: $120 - 108 = 12$.
+ANSWER: Offer 2 is cheaper by 12 units.
+CHECK: As percentages of the marked prices, offer 1 removes 25% and offer 2 removes 28%.
+
+@EX | 5.5.3 | Interpreting a percentage claim
+GIVEN: A news report says “the number of visitors rose 200% to 900”.
+ASKED: Find the number of visitors before the rise and explain what the percentage means.
+METHOD: Interpret 200% as a multiplier of 3.
+STEPS:
+1. A rise of 200% means the new value is $100\\% + 200\\% = 300\\%$ of the old.
+2. $3x = 900$, so $x = 300$.
+ANSWER: 300 visitors before; the number tripled.
+CHECK: $900 \\div 3 = 300$, and the increase is 600, which is 200% of 300.
+WATCH: “Rose 200%” and “rose to 200%” differ by a factor: the first triples, the second doubles.
+
+@DEF | Discount, tax and budget
+A **discount** is an amount taken off a marked price, usually quoted as a percentage of it. A **tax** — VAT or sales tax in many countries — is an amount added to a price, also a percentage. A **budget** is a plan for spending a fixed total, and percentages let each item be compared with that total.
+@KEY | Adding and removing tax
+**Adding tax:** multiply by $1 + \text{rate}$. At 18% VAT, a price of 250 becomes $250 \times 1.18 = 295$.
+**Removing tax:** divide by $1 + \text{rate}$, never multiply by $1 - \text{rate}$. If a till receipt of 295 includes 18% VAT, the price before tax is $295 \div 1.18 = 250$, and the tax itself is 45.
+Removing tax and taking a discount are different operations: a discount of 18% and a tax of 18% do not cancel, because they are calculated on different amounts.
+@TABLE | One price, three ways of quoting it
+Case ; Working ; Result
+Discount of 20% on 90 ; $90 \times 0.8$ ; 72
+Tax of 18% added to 72 ; $72 \times 1.18$ ; 84.96
+Tax of 18% included in 84.96 ; $84.96 \div 1.18$ ; 72
+
+@EX | 5.5.4 | Reading a receipt with tax
+GIVEN: A receipt shows a total of 236 units, which includes 18% VAT.
+ASKED: Find the price before tax and the amount of VAT.
+METHOD: Divide by the tax multiplier.
+STEPS:
+1. $1.18 \times \text{price} = 236$.
+2. Price $= 236 \div 1.18 = 200$.
+3. VAT $= 236 - 200 = 36$, which is 18% of 200.
+ANSWER: 200 units before tax, 36 units of VAT.
+CHECK: $200 \times 1.18 = 236$.
+WATCH: Taking 18% of 236 gives 42.48, which is too much — the 18% must be taken of the pre-tax price, not of the total.
+
+@EX | 5.5.5 | A budget with percentages
+GIVEN: A family budget of 2,400 units a month: 35% housing, 20% food, 15% transport, 10% school costs, and the rest saved.
+ASKED: Find each amount and the percentage saved.
+METHOD: Convert each percentage to an amount, then check the total.
+STEPS:
+1. Housing $= 0.35 \times 2400 = 840$; food $= 480$; transport $= 360$; school $= 240$.
+2. Spent $= 840 + 480 + 360 + 240 = 1920$.
+3. Saved $= 2400 - 1920 = 480$, which is $480 \div 2400 = 20\%$.
+ANSWER: 840, 480, 360 and 240 units; 480 units saved, 20% of the budget.
+CHECK: $35 + 20 + 15 + 10 + 20 = 100\%$.
+
+@PRACTICE | 5.5 | Discounts, taxes and budgets | SUPPORT 1–3 · CORE 1–7 · EXTENSION 8–10
+- F | After a 10% increase a value is 55. Find the original. || 50
+- F | After a 25% decrease a value is 60. Find the original. || 80
+- F | A price of 240 is reduced by 15%. Find the sale price. || 204
+- F | A population of 800 grows by 5%. Find the new population. || 840
+- R | Explain why “rose 200%” is not the same as “rose to 200%”. || Rising 200% triples the amount; rising to 200% doubles it.
+- R | A shop raises prices 10% and later cuts them 10%. Is the final price the same as the original? Explain. || No; $1.1 \\times 0.9 = 0.99$, so it is 1% lower.
+- P | A bicycle is discounted 20% and now costs 176 units. What was the original price, and how much was saved? || 220 units; saved 44.
+- P | A student's mark improves from 45 to 54; a second student's from 60 to 72. Who improved by the larger percentage? || First 20%, second 20%; the same.
+- E | A price rises 10%, then 10% again. What single percentage increase is equivalent? || 21%
+- E | A shop's sales fall 20% in a bad month, then rise 20% the next month. Is the shop back to its starting level? || No; $0.8 \\times 1.2 = 0.96$, so it is 4% below.
+- P | A television costs 480 units before tax. VAT is 18%. Find the total paid, and the VAT. || 566.40 units; 86.40 units
+- P | A hotel bill of 590 units includes 18% VAT. Find the price before tax. || 500 units
+- P | A monthly budget of 1,800 units allows 25% for rent and 30% for food. How much is left for everything else? || 810 units
+- E | A shop advertises "18% off, VAT included". Explain why the saving is less than 18% of the final price. || The discount is taken from the pre-tax price, which is smaller than the price shown.
+
+@MOVE | F | Investigate and apply | A criterion B investigation and a criterion D application
+@SEC | Investigation 5 | Do two discounts add up? | Criterion B · i, ii, iii
+@LEAD | Extend the Explore activity into a general investigation of successive percentage changes, including rises and falls mixed together.
+@INVEST | Investigation brief
+**Question.** When two percentage changes are applied one after the other, what single change is equivalent to them?
+**What you need.** A calculator, a table of starting values, and the discount diagram.
+**What to produce.** A table of combined results, a rule in words, a formula, and a test on a case where one change is a rise.
+@H2 | Part 1 · Collect results
+@TABLE | Copy and complete (start value 500)
+First change ; Second change ; Value after both ; Single equivalent change
+−20% ; −10% ; ; 
++10% ; +10% ; ; 
++20% ; −20% ; ; 
+−25% ; +25% ; ; 
++50% ; −50% ; ; 
+@H2 | Part 2 · Describe and generalise
+@LISTO
+1. What single multiplier combines a change of $-a\\%$ with a change of $-b\\%$?
+2. Write the single equivalent change for $+a\\%$ followed by $-b\\%$.
+3. Explain why the order of the two changes does not affect the final value.
+4. A shopkeeper claims “20% off, then 20% off, is 40% off”. Calculate the true equivalent and explain the difference.
+@H2 | Part 3 · Test and evaluate
+@LISTO
+1. Test your rule on a change of $+30\\%$ followed by $+30\\%$.
+2. Find a pair of changes that returns a value exactly to its starting point, other than no change at all.
+3. Explain what happens to a value after a 100% decrease.
+4. Write two sentences a shopkeeper could use to describe successive discounts honestly.
+@CRIT | Criterion B task · Requirements
+Complete table with correct values; a general rule stated in words; a formula using multipliers; verification on at least two new cases; a justification that explains why multipliers multiply.
+
+@SEC | Application 5 | Choosing a phone plan | Criterion D · i, ii, iii, iv
+@LEAD | Three companies offer plans with different prices, different data allowances and different percentage discounts. The cheapest sticker price is not always the cheapest plan.
+@APPLY | The brief
+@TABLE | The three offers (monthly)
+Company ; Monthly price ; Data included ; Offer ; Extra data cost per GB
+Alpha ; 24 ; 8 GB ; 20% off for the first year ; 3.50
+Beta ; 30 ; 12 GB ; 15% off, plus 2 GB free ; 3.00
+Gamma ; 20 ; 5 GB ; no discount, but 50% extra data free ; 4.00
+@LISTU
+- The student uses about 11 GB each month.
+- The plan will be kept for 12 months.
+- Discounts apply only to the monthly price, not to extra data.
+@H2 | Task 1 · Calculate the effective price
+@LISTO
+1. Calculate the discounted monthly price for Alpha and for Beta.
+2. Calculate how much extra data each plan needs for 11 GB per month, and its cost.
+3. Find the total monthly cost of each plan for this student.
+@H2 | Task 2 · Compare over a year
+@LISTO
+1. Calculate the total cost of each plan for 12 months.
+2. Rank the plans from cheapest to most expensive.
+3. State how much the cheapest saves compared with the most expensive.
+@H2 | Task 3 · Evaluate the offers
+@LISTO
+1. Describe each offer as a percentage saving on the monthly price, using a common basis where possible.
+2. Which offer looks best in advertising, and which is best in practice? Explain the difference.
+3. Recommend a plan and justify it in three sentences, acknowledging one assumption you have made.
+@CRIT | Criterion D task · Requirements
+Discounts applied correctly; extra data costed with units; totals for 12 months; a ranking supported by figures; a recommendation with an assumption and a limitation stated.
+
+@SEC | Task C | Interrogating an advertisement | Criterion C · i, iii, iv
+@CRIT | The task
+A supermarket advertises: **“Now 50% more free! Was 400 g, now 600 g.”** Write an analysis for a consumer magazine explaining what the claim does and does not say.
+@LISTO
+1. State the base of the 50% comparison and calculate the increase.
+2. Explain why “50% more free” is not the same as “double the amount”.
+3. Calculate the price per 100 g before and after if the old pack cost 1.60 and the new pack costs 2.10, and state whether the customer gains.
+4. Rewrite the advertisement in a form that states the comparison honestly.
+@TABLE | Success criteria
+Criterion C strand ; Evidence
+Notation (i) ; Correct percentage notation and units throughout.
+Reasoning (iii) ; The analysis separates the claim from the comparison it uses.
+Organisation (iv) ; The four parts follow a logical order for a reader.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions and review
+@SEC | Review | Consolidating Chapter 5 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- A percentage is a fraction over 100; it converts to decimals and fractions by dividing or multiplying by 100.
+- A percentage of a quantity is a multiplication by the decimal form.
+- A percentage compares a part with a base; changing the base changes the percentage.
+- An increase of $p\\%$ multiplies by $1 + \\frac{p}{100}$; a decrease multiplies by $1 - \\frac{p}{100}$.
+- Successive percentage changes combine by multiplying multipliers, never by adding percentages.
+- Working backwards from a changed amount divides by the multiplier.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 5
+Term ; Meaning in this course
+Percentage ; A fraction with denominator 100, written with %.
+Base ; The amount a percentage compares with.
+Multiplier ; The decimal form of a percentage change, such as 1.15.
+Percentage increase ; A rise expressed as a percentage of the original amount.
+Percentage decrease ; A fall expressed as a percentage of the original amount.
+Complement ; The part that remains, such as 8% when 92% is taken.
+Reverse percentage ; Finding the original amount from the changed amount.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“Percentages can be added.” ; They apply to different bases. ; $0.8 \\times 0.9 = 0.72$
+“A percentage of a quantity means divide by it.” ; Multiply by the decimal form. ; $15\\%$ of 240 is 36
+“+20% then −20% returns to the start.” ; The base changes. ; $1.2 \\times 0.8 = 0.96$
+“50% more means double.” ; It means half as much again. ; 400 g → 600 g
+“After a 20% rise, divide by 20%.” ; Divide by 1.2. ; $96 \\div 1.2 = 80$
+@H2 | Self-assessment
+@TABLE | How confident are you?
+I can … ; Not yet ; Getting there ; Confident
+convert between percentages, fractions and decimals. ;  ;  ; 
+find a percentage of a quantity using a multiplier. ;  ;  ; 
+express one quantity as a percentage of another. ;  ;  ; 
+increase and decrease amounts by a percentage. ;  ;  ; 
+combine successive percentage changes correctly. ;  ;  ; 
+find an original amount after a percentage change. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which percentage benchmark do you now use most often in mental arithmetic?
+2. Describe a percentage claim you have seen outside school and whether the base was clear.
+3. Write one sentence explaining why percentages cannot simply be added.
+4. In the phone plan task, did the percentage discount or the data allowance matter more? Why?
+5. Which error — using the wrong base or forgetting to convert to a decimal — did you make more often?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ5 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–20
+- F | Write 0.72 as a percentage. || 72%
+- F | Write 35% as a fraction in simplest form. || $\\frac{7}{20}$
+- F | Find 20% of 85. || 17
+- F | Increase 140 by 10%. || 154
+- F | Decrease 90 by 30%. || 63
+- F | Express 16 out of 40 as a percentage. || 40%
+- R | Explain why 25% of 80 is the same as 80% of 25. || Both equal 20, since multiplication is commutative.
+- R | Is a 10% discount followed by a 10% increase the same as no change? || No; $0.9 \\times 1.1 = 0.99$, which is 1% lower.
+- R | Explain what “a 150% increase” means for a quantity of 40. || The increase is 60, so the new value is 100.
+- P | A shirt costs 60 units after a 25% reduction. Find the original price. || 80 units
+- P | A school has 720 students; 45% are boys. How many girls? || 396 girls
+- P | A price rises 5% to 84 units. Find the original price. || 80 units
+- C | Explain why multiplying by 1.15 finds a 15% increase in one step. || It adds 15% of the amount to the amount itself: $x + 0.15x = 1.15x$.
+- C | Explain why successive percentage changes can be combined by multiplying multipliers. || Each change multiplies the current amount by a factor, and the factors are applied in succession.
+- E | Find two successive changes equivalent to a single 44% increase. || $+20\\%$ then $+20\\%$ ($1.2 \\times 1.2 = 1.44$).
+- E | A price is reduced 20%, then increased 20%. Find the overall change. || 4% decrease ($0.8 \\times 1.2 = 0.96$).
+- E | A student scores 45%, then 54%. Describe the change in the score as a percentage of the first score. || 20% rise.
+- P | A shop buys an item for 40 and sells it for 52. Find the profit as a percentage of the cost price. || 30%
+- C | A discount of 30% is followed by a discount of 10%. Explain why the total discount is 37%, not 40%. || The second discount applies to 70% of the original, removing 7% of it: $0.7 \\times 0.9 = 0.63$.
+- C | A country's emissions fall 5% each year for two years. Explain why the total fall is not 10%. || Each fall is calculated on a smaller base: $0.95^{2} = 0.9025$, a fall of 9.75%.
+
+@SEC | Mixed 5 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX5 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Find 12% of 150. || 18
+- F | Write $\\frac{5}{8}$ as a percentage. || 62.5%
+- F | Increase 250 by 24%. || 310
+- F | Decrease 75 by 40%. || 45
+- F | Express 42 out of 56 as a percentage. || 75%
+- R | A price is 25% more than another. Is the second price 25% less than the first? || No; the second is 20% less, because the base changes.
+- R | Explain why “30% off the sale price” is not the same as “30% off the original price”. || The bases differ, so the money saved differs.
+- P | A class of 32 has 12 boys. What percentage are girls? || 62.5%
+- P | A phone is reduced 15% to 340 units. Find the original price. || 400 units
+- P | A town of 4,500 grows by 6%, then by 4%. Find the population. || 4,960.8, so about 4,961
+- C | Explain how to find 15% of an amount using 10% and 5%. || Find 10%, halve it for 5%, then add.
+- C | Two shops offer 20% off and 15% off respectively on prices of 100 and 110. Which is cheaper? || First 80; second 93.5; the first.
+- E | Find the single percentage change equivalent to +50% then −50%. || 25% decrease ($1.5 \\times 0.5 = 0.75$).
+- E | A value increases by 20% and then decreases by 20%. Write the result as a percentage of the original. || 96%
+- E | A price after a 12% rise is 224 units. Find the original. || 200 units
+- P | A shop marks a price up 25% and then offers 20% off. What is the final price as a percentage of the original cost to the shop? || 100%, so no profit and no loss.
+
+@SEC | Cumulative practice 5 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP5 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Write 0.08 as a percentage. || 8%
+- F | Find 35% of 60. || 21
+- F | Decrease 240 by 15%. || 204
+- R | Explain why $0.5\%$ is much smaller than 50%. || $0.5\% = 0.005$ while $50\% = 0.5$.
+- P | A price of 96 follows a 20% increase. Find the original price. || 80
+- P | A shop offers 30% off, then a further 10% off. Find the overall discount. || 37%, since $0.7 \times 0.9 = 0.63$.
+- C | Explain why percentages cannot simply be added when they apply in turn. || Each applies to a different base.
+- E | Two increases of 10% equal what single increase? || 21%

@@ -1,0 +1,599 @@
+@MOVE | A | Engage | A museum label, three ways of writing the same collection
+@LEAD | The county museum has just finished counting its collection. The director needs one sentence for the new label, the cataloguer needs an exact record for the database, and the education officer needs a number a class can actually picture. The same collection produces three different numbers.
+@TABLE | Figure 1.1 Three ways of describing one collection
+Label on the gallery wall ; 12,000 objects
+Catalogue entry ; 11,846 objects
+Education leaflet ; nearly 12 thousand, of which about 4 hundred are on display
+@P | Read the three records carefully. The wall label is short. The catalogue entry is exact. The leaflet adds a second idea: only part of the collection can be seen. All three are about the same museum, yet each answers a different question, and each has been written for a different reader.
+@P | Now look at the numbers themselves. **11,846** contains five digits. Change the position of one digit and the value of the collection changes by thousands. Remove the **8** and the number becomes 1,146: a different museum. Remove the **1** from the front and the number becomes 1,846. Nothing about the shape of the digits has changed; only their positions have.
+@P | The museum's education officer has a further problem. She wants a display board that reads **1,000 objects** beside **10,000 objects**, in the same size of digit.
+@P | Set side by side, the two labels look almost identical: one extra zero, one extra comma. A visitor glancing at the board may not notice the difference, yet the second collection is ten times the size of the first. Somewhere in this chapter is the reason that **1,000** and **10,000** differ by a factor of ten even though they differ by a single character on the page.
+@MINI | Notice and wonder
+@LISTU
+- Which of the three records would you put on the wall, and which would you put in the database? Why?
+- The catalogue says 11,846. If the museum acquires 154 more objects, what would the wall label say?
+- The leaflet says “about 4 hundred are on display”. Could the exact number be 384? Could it be 441?
+- What does the zero in 11,846 contribute? What would happen to the number if that zero were removed?
+@CALLOUT | Keep this question open until the end of the chapter: when a number is reported as “about 12,000”, has information been lost, or has the museum simply told us what we need?
+@H2 | The three numbers behind every digit
+@P | A written number carries three separate pieces of information, and good mathematical reading keeps them apart:
+@LISTO
+1. **The digit itself.** How many of that size of unit are there?
+2. **The position of the digit.** Which size of unit is being counted — ones, tens, tenths?
+3. **The precision of the report.** Has the number been rounded, and to what place?
+@P | Most early mistakes in this chapter come from confusing the first two. The digit 4 is worth four, forty, four hundred or four tenths depending entirely on where it stands. A useful habit is to read a number aloud in place-value language before calculating with it: 11,846 is “eleven thousand, eight hundred and forty-six”, which is one ten-thousand, one thousand, eight hundreds, four tens and six ones.
+@P | The third piece of information is the one adults use most and explain least. When the museum writes “about 12,000”, it is telling us that the exact count is not the point: the label is meant to convey scale. When a nurse records a temperature as 38.4 °C rather than 38.37 °C, the choice of precision is a decision about how much trust the instrument deserves. This chapter ends by asking you to make that decision deliberately.
+
+@MOVE | B | Explore | How many different numbers can three cards make?
+@LEAD | Work in pairs. You need three cards labelled **3**, **0** and **5**, and a table to record what you find. Do not read on until you have made and recorded at least eight numbers.
+@H2 | Your investigation
+@P | **Step 1.** Arrange the three cards in a row to make a three-digit number. Record it. Rearrange them to make a different three-digit number. Continue until you believe you have found every possible three-digit number that uses all three cards exactly once.
+@P | **Step 2.** Now make two-digit numbers using any two of the cards. Record every possibility.
+@P | **Step 3.** Finally, make one-digit numbers. Record them.
+@TABLE | Recording table (copy and complete)
+Cards used ; Number of different numbers ; List them
+1 card ;  ; 
+2 cards ;  ; 
+3 cards ;  ; 
+@H2 | Questions to guide your observation
+@LISTO
+1. Which three-digit numbers did you find? Compare with another pair. Did either pair miss one?
+2. Why can 305 be made but 035 cannot be a three-digit number? What is 035 actually worth?
+3. How many three-digit numbers are possible? Explain how you know you have them all, without simply listing again.
+4. How many two-digit numbers are possible? How does the presence of the zero change the count?
+5. Predict how many three-digit numbers four cards would make, if the cards were 3, 0, 5 and 7. Then test your prediction with a systematic list.
+@H2 | Making a conjecture
+@P | A **conjecture** is a statement you believe is true because of the cases you have tested, but which you have not yet proved. Write one conjecture that begins:
+@CALLOUT | “With $n$ cards, the number of possible three-digit numbers is … because …”
+@P | Test your conjecture on a case you have not used yet. If it fails, revise it. A conjecture that survives a deliberate attempt to break it is worth more than one that has only been checked against friendly examples.
+@H2 | What you should have noticed
+@LISTU
+- Zero cannot take the leading position in a number written in the usual way, because the leading position would then not be doing its job: 035 is simply 35, a two-digit number.
+- The number of arrangements grows quickly, but not without pattern: with three different non-zero digits there are six three-digit numbers, and each of those six appears twice if you also allow a zero in the middle or at the end.
+- The position of a digit, not the digit itself, decides its value. This is the idea the rest of the chapter makes precise.
+@INVEST | Explore further: a fair challenge
+Choose three digits of your own, at least one of which is zero. Without listing, decide how many three-digit numbers they can make, then check by listing systematically. Write one sentence explaining how you decided, and one sentence explaining what you would need to change if leading zeros were allowed.
+@FIG | c01_digits
+
+@SEC | 1.1 | Number systems and the number line | Criterion A · i
+@LEAD | Mathematicians use different number sets for different purposes. Distinguishing them is not a vocabulary game: the classification tells you which operations are always possible and which values count as solutions.
+@DEF | Definitions: the number families
+The **natural numbers** are the counting numbers $1, 2, 3, 4, …$
+The **whole numbers** are the natural numbers together with zero: $0, 1, 2, 3, …$
+The **integers** are the whole numbers and their negatives: $…, -3, -2, -1, 0, 1, 2, 3, …$
+A **rational number** can be written as a fraction $\\frac{a}{b}$, where $a$ and $b$ are integers and $b \\ne 0$.
+Every integer is also rational, because it can be written with denominator 1: $7 = \\frac{7}{1}$ and $-3 = \\frac{-3}{1}$. Terminating decimals are rational too: $0.25 = \\frac{25}{100}$. The families are nested — natural numbers sit inside the whole numbers, which sit inside the integers, which sit inside the rational numbers.
+@VOCAB | Vocabulary you will use
+natural number · whole number · integer · rational number · negative · positive · number line · order · inequality · precision · estimate
+@FIG | c01_numline
+@P | A number line is more than a display device. It gives a shared order to every integer, fraction and decimal. To compare two values, locate both: the one further to the right is greater. This stays true for negative numbers, where a larger digit means a smaller value.
+@FIG | c01_order
+@KEY | Symbols describe position, not magnitude alone
+“$-5 < -2$” is correct because $-5$ lies to the left of $-2$, even though 5 is greater than 2. The symbol always points towards the smaller value, and the smaller value is the one further left. Reversing the symbol reverses the claim: $-5 > -2$ is false.
+@H2 | Reading a negative number line
+@P | Negative numbers are the first place where a number's written size and its position disagree. The digits in $-8$ are larger than the digits in $-3$, yet $-8$ is the smaller number. Two habits prevent the error:
+@LISTU
+- Say “eight below zero” rather than “minus eight”, so the direction is audible.
+- Mark both numbers on a line before comparing. The further-left number is always the smaller one.
+@P | The same logic orders temperatures, floors of a building, bank balances and positions below sea level. In each case zero is a boundary rather than an absence: 0 °C is a temperature, floor 0 is a floor, and 0 metres above sea level is a height.
+
+@EX | 1.1.1 | Classifying with evidence
+GIVEN: The numbers $0$, $7$, $-3$, $2.5$ and $\\frac{3}{4}$.
+ASKED: State whether each number is natural, whole, an integer or rational. A number may belong to more than one family.
+METHOD: Test the families in order from smallest to largest. A number that belongs to a larger family is written with evidence, not just a label.
+STEPS:
+1. $0$ is not natural, because counting begins at 1. It is whole, an integer and rational: $0 = \\frac{0}{1}$.
+2. $7$ is natural, whole, an integer and rational: $7 = \\frac{7}{1}$.
+3. $-3$ is an integer and rational $\\left(-3 = \\frac{-3}{1}\\right)$. It is not natural or whole because it is negative.
+4. $2.5$ is rational because $2.5 = \\frac{5}{2}$. It is not an integer: the point lies between 2 and 3.
+5. $\\frac{3}{4}$ is rational because both 3 and 4 are integers and the denominator is not zero.
+ANSWER: $0$: whole, integer, rational. $7$: natural, whole, integer, rational. $-3$: integer, rational. $2.5$ and $\\frac{3}{4}$: rational.
+CHECK: Every number in the list belongs to at least one family, and the largest family, rational, contains all of them.
+
+@EX | 1.1.2 | A context with negative values
+GIVEN: Overnight temperatures of $-6$ °C, $-3$ °C, $-1$ °C, $0$ °C and $4$ °C.
+ASKED: Order the temperatures from coldest to warmest.
+METHOD: Coldest means the least number, which is the furthest left on a number line.
+STEPS:
+1. Compare the negatives first: $-6 < -3 < -1$.
+2. Zero is warmer than every negative value.
+3. $4$ is warmer than zero.
+ANSWER: $-6$ °C, $-3$ °C, $-1$ °C, $0$ °C, $4$ °C.
+CHECK: Read the list back against the line: each value lies to the right of the one before it.
+WATCH: Reading the absolute size of the numerals gives “$-8$ is bigger than $-3$ because 8 is bigger than 3”. Mark both values on a number line: the further-left number is smaller, so $-8 < -3$.
+
+@EX | 1.1.3 | Placing fractions and decimals on the line
+GIVEN: The values $\\frac{1}{2}$, $0.45$ and $\\frac{3}{5}$.
+ASKED: Place them in order from least to greatest, and explain how the number line supports the order.
+METHOD: Convert to a common form. Decimals to hundredths make the comparison immediate.
+STEPS:
+1. $\\frac{1}{2} = 0.5$ and $\\frac{3}{5} = 0.6$.
+2. Compare in hundredths: $0.45 < 0.50 < 0.60$.
+3. Check the positions on a number line between 0 and 1: 0.45 lies just left of the midpoint, 0.5 at the midpoint, 0.6 to its right.
+ANSWER: $0.45 < \\frac{1}{2} < \\frac{3}{5}$.
+CHECK: The differences are $0.05$ and $0.10$, so the second gap is twice the first. The line shows that too.
+
+@PRACTICE | 1.1 | Number families and order | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+Show enough working or explanation that your classification or order can be checked.
+- F | State whether each number is natural, whole, an integer or rational. Some answers will name more than one family: (a) 12 (b) 0 (c) $\\frac{3}{4}$ (d) $-4$ (e) 1.2 || (a) natural, whole, integer, rational (b) whole, integer, rational (c) rational (d) integer, rational (e) rational
+- F | Write all the integers from $-4$ to 2 inclusive. || $-4, -3, -2, -1, 0, 1, 2$
+- F | Replace each box with $<$, $>$ or $=$: (a) $-7 \\square -2$ (b) $0 \\square -1$ (c) $-5 \\square 5$ || (a) $<$ (b) $>$ (c) $<$
+- F | Order these temperatures from coldest to warmest: 3 °C, $-2$ °C, $-7$ °C, 0 °C, 5 °C. || $-7, -2, 0, 3, 5$ °C
+- R | Maya says, “Zero is a natural number because we can count zero items.” Explain whether Maya is using the mathematical definition of natural numbers correctly. || No. The natural numbers are the counting numbers 1, 2, 3, …, so zero is a whole number but not a natural number. “Counting zero items” describes an empty collection, not a counting number.
+- R | Give an example to show that this statement is false: “If a number is written as a fraction, it must be less than 1.” || $\\frac{7}{4} = 1.75$ (or $\\frac{5}{5} = 1$), which is not less than 1.
+- P | A lift's buttons show floors $-2$, $-1$, 0, 1 and 3. A person enters at floor 1, travels to the lowest floor, then to floor 3. Describe the two movements on a number line and state the final floor relative to the starting floor. || First movement: 3 floors down to $-2$. Second: 5 floors up to 3. The final floor is 2 floors above the starting floor.
+- E | Construct a number line from $-1$ to 5. Mark and label $-0.5$, $\\frac{1}{2}$ and $2.5$. Explain why $2.5$ lies between 2 and 3 even though it is not an integer. || Marks at the correct positions; explanation: 2.5 is halfway between 2 and 3 because it equals $2 + \\frac{1}{2}$.
+- E | A submarine is at $-120$ m, a diver at $-18$ m and a bird at 45 m. Write the three positions in order, then state the vertical distance between the submarine and the bird. || $-120 < -18 < 45$; distance $= 45 - (-120) = 165$ m.
+
+@SEC | 1.2 | Place value and the role of zero | Criterion A · i, ii
+@LEAD | Our number system is called base ten because each position is worth ten times the position to its right. The digit 4 can stand for 4 ones, 4 tens, 4 hundreds or 4 tenths; the position supplies the value.
+@FIG | c01_places
+@DEF | Place value
+A **place value** is the value of a digit determined by its position. In $3{,}048.307$, the digit 4 is in the tens place, so its value is $4 \\times 10 = 40$. The digit 7 is in the thousandths place, so its value is $7 \\times 0.001 = 0.007$.
+@P | Moving one place to the left multiplies the value of a digit by 10. Moving one place to the right divides it by 10. This is why multiplying a number by 10 does not require inventing new digits: every digit shifts one place left. A zero appears at the end of a whole number because there are no units in that position, not because zero is being “added”.
+@KEY | Zero has two jobs
+As a **number**, zero marks the position on the number line between the positive and negative integers. As a **digit**, zero holds an empty place so that the other digits keep their intended values. Without the zero in 3,048, the digits would read 348 and mean a completely different quantity. Without the zero in 3.05, the digit 5 would shift into the tenths place and produce 3.5 — ten times too large.
+@FIG | c01_dec
+@H2 | Shifting the digits
+@P | Multiply by 10 and every digit moves one place left; divide by 10 and every digit moves one place right. The decimal point does not travel as a trick. It marks the boundary between whole-number places and fractional places, and that boundary stays where it is while the digits move across it.
+@TABLE | Multiplying and dividing by powers of ten
+Original number ; Multiply by 10 ; Multiply by 100 ; Divide by 10
+4.06 ; 40.6 ; 406 ; 0.406
+37.5 ; 375 ; 3,750 ; 3.75
+0.8 ; 8 ; 80 ; 0.08
+@ERR | Adding a zero is not the same as multiplying by ten
+Adding a zero to the whole number 4 gives 40, which is ten times as large. Adding a zero after the decimal part of 4.5 gives 4.50, which is the same number. The rule depends on **where** the zero is inserted, not merely that one more zero appears. Insert a zero inside a number and the other digits change place: 4.05 is not 4.5.
+
+@EX | 1.2.1 | Reading place value
+GIVEN: The number $6{,}502.94$.
+ASKED: State the value of each underlined digit: (a) the 5, (b) the 4, (c) the 9.
+METHOD: Name the place first, then multiply the digit by the value of that place. Reading the position before the digit prevents most errors.
+STEPS:
+1. The 5 is in the hundreds place. Its value is $5 \\times 100 = 500$.
+2. The 4 is the second digit after the decimal point, in the hundredths place. Its value is $4 \\times 0.01 = 0.04$.
+3. The 9 is the first digit after the decimal point, in the tenths place. Its value is $9 \\times 0.1 = 0.9$.
+ANSWER: (a) 500 (b) 0.04 (c) 0.9
+CHECK: The three values are very different even though the digits are all single digits. Position, not digit, decides value.
+
+@EX | 1.2.2 | Shifting by powers of ten
+GIVEN: (a) $4.06 \\times 100$ (b) $37.5 \\div 10$ (c) $0.8 \\times 1{,}000$.
+ASKED: Calculate each value and explain the movement of the digits.
+METHOD: Each multiplication by 10 moves every digit one place left; each division by 10 moves every digit one place right. For 100, move two places.
+STEPS:
+1. $4.06 \\times 100 = 406$: every digit moves two places left, so the tenths digit 0 becomes a unit and the hundredths digit 6 becomes a ten.
+2. $37.5 \\div 10 = 3.75$: every digit moves one place right.
+3. $0.8 \\times 1{,}000 = 800$: eight tenths of a thousand is eight hundred.
+ANSWER: (a) 406 (b) 3.75 (c) 800
+CHECK: Estimate first. $4 \\times 100 = 400$, and 406 is close. $37 \\div 10$ is about 3.7. Eight tenths of a thousand is 800, not 8,000.
+
+@EX | 1.2.3 | Which is larger: 3.5 or 3.05?
+GIVEN: Two decimals that look similar when written quickly.
+ASKED: Decide which is larger, using place value rather than the number of digits.
+METHOD: Compare digit by digit from the left, in the same place. Never compare the total number of digits.
+STEPS:
+1. Both numbers have 3 units, so compare the tenths: 3.5 has 5 tenths, 3.05 has 0 tenths.
+2. Since $5 > 0$, the comparison is decided in the tenths place.
+3. Write 3.05 as 3.050 if you need the same number of decimal places: $3.500 > 3.050$.
+ANSWER: $3.5 > 3.05$. The extra digit in 3.05 does not make it larger.
+CHECK: On a number line, 3.05 lies just past 3 and 3.5 lies halfway to 4.
+WATCH: “3.05 has more digits, so it is bigger.” Digits after the decimal point do not add size unless they are in a place that carries value.
+
+@PRACTICE | 1.2 | Place value and the role of zero | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–9
+- F | State the value of the digit 4 in each number: (a) 4,271 (b) 9,403 (c) 0.4 (d) 12.04 || (a) 4,000 (b) 400 (c) 0.4 (d) 0.04
+- F | State the value of the digit 7 in each number: (a) 6,427 (b) 23.85 (c) 0.072 (d) 8,106.7 || (a) 20 (b) no 7 (c) 0.07 (d) 0.7
+- F | Write the number represented by $8{,}000 + 10 + 6$. || 8,016
+- F | Calculate: (a) $36.2 \\times 10$ (b) $5.48 \\times 100$ (c) $920 \\div 10$ (d) $7.3 \\div 100$ || (a) 362 (b) 548 (c) 92 (d) 0.073
+- R | In the number 2.06, what does the zero do? Write what the number would become if the zero were removed and explain the change in value. || The zero holds the tenths place. Removing it gives 2.6, ten times larger in the tenths position: 2.06 means 2 units and 6 hundredths, while 2.6 means 2 units and 6 tenths.
+- R | Which is larger, 3.5 or 3.05? Explain using place value rather than the number of digits. || 3.5, because $3.5 = 3.50$ and 50 hundredths is greater than 5 hundredths.
+- P | A shop prices an item at 12.50. The manager multiplies the price by 100 to work in cents. What is the new number, and what does it mean? || 1,250 cents, which is the same amount expressed in a smaller unit.
+- E | I multiply a number by 10 and then divide the result by 100. The final answer is 0.34. What was the original number? || 3.4 (dividing by 10 overall)
+- E | Amir writes 3,000 + 40 + 5 and says the number is 345. Explain what he has done wrong and write the correct number. || He has written the digits in the wrong places: the 3 is worth 3,000 and the 4 is worth 40, so the number is 3,045. Zero must hold the hundreds place.
+
+@SEC | 1.3 | Expanded form and equivalent representations | Criterion C · i, ii
+@LEAD | Expanded form takes a number apart so that every digit can be seen with the value it contributes. Written both ways, a number becomes something you can check, compare and reconstruct.
+@DEF | Expanded form
+**Expanded form** writes a number as the sum of the values of its digits. For whole numbers each term is a digit multiplied by a power of ten:
+$3{,}048 = 3 \\times 1{,}000 + 0 \\times 100 + 4 \\times 10 + 8 \\times 1$
+For decimals the same idea continues to the right of the decimal point:
+$40.607 = 4 \\times 10 + 0 \\times 1 + 6 \\times 0.1 + 0 \\times 0.01 + 7 \\times 0.001$
+The zero terms may be left out, but writing them makes the structure visible: every place is accounted for, including the empty ones.
+@VOCAB | Vocabulary you will use
+place value · digit · expanded form · standard form · equivalent · tenths · hundredths · thousandths · round · word form
+@H2 | Why expanded form is worth the effort
+@P | Expanded form is the written record of the place-value system. Three things become possible once a number is written this way.
+@LISTU
+- **Checking.** If a digit has been written in the wrong place, the expanded sum will not match the number you meant.
+- **Reconstructing.** Given the expanded sum, you can rebuild the number without guessing where each digit belongs.
+- **Comparing.** Two numbers in expanded form can be compared term by term, starting from the largest place.
+@P | In later chapters expanded form becomes the bridge to index notation: $3 \\times 1{,}000$ is $3 \\times 10^{3}$. The expanded sum you write now is the same idea that will later be compressed into powers.
+@KEY | Equivalent representations of the same quantity
+$0.7$, $0.70$ and $\\frac{7}{10}$ all name the same number. So do $2\\frac{1}{2}$, 2.5 and $\\frac{5}{2}$. Writing zeros after the last decimal digit does not change the value, because those zeros contribute $0 \\times 0.01$ and so on. This is exactly why expanded form can be used as a check: the zero terms add nothing.
+@ERR | Zero terms are not optional in the reasoning
+Leaving out a zero term when you write the number is fine; forgetting that the place exists is not. If 3,048 is expanded as $3 \\times 1{,}000 + 4 \\times 10 + 8$, the reader cannot tell whether the hundreds place is zero or missing. Writing $0 \\times 100$ removes the doubt.
+
+@EX | 1.3.1 | Writing a whole number in expanded form and in words
+GIVEN: The number $5{,}207$.
+ASKED: (a) Write it in expanded form using all four places. (b) Write it in words. (c) Explain which digit is doing the least work.
+METHOD: Read the places from left to right: thousands, hundreds, tens, ones. Write each digit multiplied by its place value.
+STEPS:
+1. Thousands: $5 \times 1{,}000$. Hundreds: $2 \times 100$. Tens: $0 \times 10$. Ones: $7 \times 1$.
+2. Join the terms: $5{,}207 = 5 \times 1{,}000 + 2 \times 100 + 0 \times 10 + 7 \times 1$.
+3. In words: five thousand, two hundred and seven.
+ANSWER: (a) $5 \times 1{,}000 + 2 \times 100 + 0 \times 10 + 7 \times 1$ (b) five thousand, two hundred and seven (c) The zero contributes nothing to the total, but it holds the tens place so that the 2 keeps the value 200 rather than 20.
+CHECK: Add the terms: $5{,}000 + 200 + 0 + 7 = 5{,}207$, which matches the original number.
+WATCH: Reading the digits without their places can produce “five thousand and twenty-seven”, which would be 5,027. Say each place aloud as you expand.
+
+@EX | 1.3.2 | Rebuilding a number from an expanded sum
+GIVEN: $6 \\times 100 + 0 \\times 10 + 3 \\times 1 + 9 \\times 0.01 + 4 \\times 0.001$.
+ASKED: Write the number in standard form and state the value of the 9.
+METHOD: Allocate each term to its column, then read the columns from left to right.
+STEPS:
+1. $6 \\times 100 = 600$ goes in the hundreds column.
+2. $0 \\times 10$ means the tens column is empty, so write 0.
+3. $3 \\times 1 = 3$ goes in the ones column; the decimal point follows.
+4. $9 \\times 0.01$ goes in the hundredths column, so the tenths column needs a 0.
+5. $4 \\times 0.001$ goes in the thousandths column.
+ANSWER: $603.094$. The 9 has value 0.09.
+CHECK: Read the number back: 603.094 has 6 hundreds, 0 tens, 3 ones, 0 tenths, 9 hundredths and 4 thousandths. Every term is accounted for.
+WATCH: Writing 603.94 loses a place. The 9 was hundredths, not tenths, so a zero must be written between the decimal point and the 9.
+
+@EX | 1.3.3 | The same quantity, three ways
+GIVEN: The quantity two and a half litres.
+ASKED: Write it as a mixed number, as a decimal and in expanded form; explain what changes and what does not.
+METHOD: Choose the form that makes the next operation easiest, then check that the value is unchanged.
+STEPS:
+1. As a mixed number: $2\\frac{1}{2}$ litres.
+2. As a decimal: 2.5 litres, because $\\frac{1}{2} = 0.5$.
+3. In expanded form: $2 \\times 1 + 5 \\times 0.1$ litres, which is $2 + 0.5$.
+ANSWER: $2\\frac{1}{2}$ L = 2.5 L = $2 \\times 1 + 5 \\times 0.1$ L. The representation changes; the quantity does not.
+CHECK: Pour 2.5 litres into a 2.5-litre bottle: it fills exactly. The form of the number has no effect on the amount of water.
+
+@PRACTICE | 1.3 | Expanded form and equivalent representations | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–10
+- F | Write in expanded form using all places: (a) 4,706 (b) 90,215 (c) 6.08 || (a) $4 \\times 1{,}000 + 7 \\times 100 + 0 \\times 10 + 6 \\times 1$ (b) $9 \\times 10{,}000 + 0 \\times 1{,}000 + 2 \\times 100 + 1 \\times 10 + 5 \\times 1$ (c) $6 \\times 1 + 0 \\times 0.1 + 8 \\times 0.01$
+- F | Write each as a single number: (a) $8 \\times 1{,}000 + 3 \\times 100 + 0 \\times 10 + 5 \\times 1$ (b) $2 \\times 10 + 7 \\times 1 + 4 \\times 0.1$ (c) $5 \\times 0.01 + 3 \\times 0.001$ || (a) 8,305 (b) 27.4 (c) 0.053
+- F | Write in words: (a) 3,060 (b) 12.5 (c) 0.09 || (a) three thousand and sixty (b) twelve and five tenths (c) nine hundredths
+- F | Write in figures: (a) seven thousand and forty (b) two hundred and six thousandths (c) ninety and nine tenths || (a) 7,040 (b) 0.206 (c) 90.9
+- R | Layla writes 4.5 as $4 \\times 1 + 5 \\times 0.01$. Explain her error and write the correct expansion. || She has put the 5 in the hundredths place. It is in the tenths place, so the correct expansion is $4 \\times 1 + 5 \\times 0.1$.
+- R | Which number is larger: 0.70 or 0.7? Explain using expanded form. || They are equal: $0.70 = 7 \\times 0.1 + 0 \\times 0.01$ and $0.7 = 7 \\times 0.1$. The extra zero contributes nothing.
+- P | A till records 12.5 as 12.05. State how much money has been lost or gained on the record and explain the change in place value. || The record shows 5 hundredths instead of 5 tenths, so 0.45 has been lost: 12.05 is 45 hundredths less than 12.50.
+- P | Write the smallest and the largest four-digit numbers that can be made from the digits 4, 0, 7 and 2 without repetition. || Smallest 2,047; largest 7,420.
+- E | A number is written as $a \\times 100 + b \\times 10 + c \\times 1$ where $a$, $b$ and $c$ are digits and $a \\ne 0$. Explain why the number is always between 100 and 999. || The smallest value is when $a = 1$, $b = 0$, $c = 0$, giving 100; the largest is $a = 9$, $b = 9$, $c = 9$, giving 999.
+- E | A calculator displays 3,050. A finger slips and the 5 becomes a 0. Describe the change in value, and state which place was affected. || The display becomes 3,000: the tens place changed from 5 tens to 0 tens, so the value fell by 50.
+
+@SEC | 1.4 | Comparing, ordering and rounding | Criterion A · i, ii, iii
+@LEAD | Comparing is a place-value skill, not a digit-counting skill. Rounding is a decision about precision: it replaces a number with the nearest value at a chosen place. Both depend on the same system of positions.
+@H2 | Comparing decimals
+@P | Compare from the left, one place at a time, and stop as soon as the digits differ. Never compare the number of digits after the decimal point: 0.8 has fewer digits than 0.75 but is larger.
+@LISTO
+1. Write both numbers with the same number of decimal places, using trailing zeros.
+2. Align the decimal points and compare the digits in each column from left to right.
+3. The first column where the digits differ decides the comparison.
+@METHOD | A reliable comparison routine
+Write 0.8 and 0.75 with the same number of places: 0.80 and 0.75. Compare the tenths: 8 tenths against 7 tenths. Since $8 > 7$, we have $0.80 > 0.75$, so $0.8 > 0.75$. The comparison needed only one column.
+@H2 | Ordering a mixed list
+@P | When a list mixes positive and negative numbers, split it first. Every negative number is less than every positive number, and zero sits between them. Order the negatives by remembering that a larger digit after the minus sign means a smaller value.
+@H2 | Rounding
+@DEF | Rounding to a place
+To **round** a number to a given place, look at the digit immediately to the right of that place. If it is 5 or more, increase the digit in the place by 1; if it is 4 or less, leave it unchanged. Then replace every digit to the right with zeros (before the decimal point) or remove them (after the decimal point).
+@FIG | c01_round
+@P | Rounding is not “making the number bigger” or “making it smaller”. It is choosing the nearest value at the required precision. 3,486 rounded to the nearest hundred is 3,500 because 3,486 is 14 away from 3,500 and 86 away from 3,400. Rounded to the nearest thousand, the same number is 3,000.
+@KEY | Every rounded answer should be readable as a decision
+When you round, say the place aloud: “to the nearest hundred”, “to two decimal places”. A rounded number without its place is a claim without evidence, because 3,500 could be the rounding of anything from 3,450 to 3,549.
+@ERR | Two rounding mistakes to avoid
+**Mistake 1: rounding twice.** Rounding 4.47 to one decimal place by first rounding to 4.5 and then to 5 gives the wrong answer; the correct answer is 4.5, because the digit after the tenths is 7.
+**Mistake 2: dropping the zeros.** 2,958 rounded to the nearest hundred is 3,000, not 30. The zeros record which places are now unknown.
+
+@EX | 1.4.1 | Ordering a mixed list
+GIVEN: $-2.5$, $0.4$, $-2.05$, $3$, $-0.5$.
+ASKED: Order the numbers from least to greatest.
+METHOD: Separate the negatives, order them using place value, then attach zero and the positive numbers.
+STEPS:
+1. Negatives: $-2.5$, $-2.05$ and $-0.5$. Compare the sizes 2.5, 2.05 and 0.5: $2.5 > 2.05 > 0.5$.
+2. For negatives the order reverses: $-2.5 < -2.05 < -0.5$.
+3. The positive values are 0.4 and 3, with $0.4 < 3$.
+ANSWER: $-2.5 < -2.05 < -0.5 < 0.4 < 3$.
+CHECK: Place all five on a number line. Each value should lie to the right of the one before it.
+WATCH: “$-2.05$ is bigger than $-2.5$ because 205 is bigger than 25.” It is bigger in magnitude but further left on the line, so it is smaller: $-2.05 > -2.5$ is correct only as a magnitude statement, and wrong as a value statement.
+
+@EX | 1.4.2 | Rounding a whole number to different places
+GIVEN: The number $3{,}846$.
+ASKED: Round it to (a) the nearest ten (b) the nearest hundred (c) the nearest thousand.
+METHOD: Identify the place, then look at the single digit to its right.
+STEPS:
+1. Nearest ten: look at the ones digit 6, which is 5 or more, so 3,846 becomes 3,850.
+2. Nearest hundred: look at the tens digit 4, which is less than 5, so 3,846 becomes 3,800.
+3. Nearest thousand: look at the hundreds digit 8, which is 5 or more, so 3,846 becomes 4,000.
+ANSWER: (a) 3,850 (b) 3,800 (c) 4,000
+CHECK: Each answer lies within half a unit of the rounding place from 3,846: 4 from 3,850, 46 from 3,800 and 154 from 4,000.
+
+@EX | 1.4.3 | Rounding decimals
+GIVEN: The number $0.4736$.
+ASKED: Round it to (a) two decimal places (b) one decimal place (c) the nearest whole number.
+METHOD: Count decimal places from the point, then use the single digit immediately to the right of the last place you keep.
+STEPS:
+1. Two decimal places: keep 0.47, look at 3, which is less than 5, so the answer is 0.47.
+2. One decimal place: keep 0.4, look at 7, which is 5 or more, so the answer is 0.5.
+3. Nearest whole number: look at the tenths digit 4, which is less than 5, so the answer is 0.
+ANSWER: (a) 0.47 (b) 0.5 (c) 0
+CHECK: Each answer is the nearest value at that precision. 0.4736 is closer to 0.47 than 0.48, closer to 0.5 than 0.4, and closer to 0 than to 1.
+
+@EX | 1.4.4 | Choosing a sensible accuracy
+GIVEN: A school records 1,247 students; a shop sells an item for 12.48; a nurse records a temperature of 37.6 °C.
+ASKED: State a sensible precision for each record and justify it.
+METHOD: Ask what decision the number will support. Extra digits are only useful if they change the decision.
+STEPS:
+1. Student numbers are counted in whole people, so 1,247 is exact; a newsletter may round it to “about 1,250” for readability.
+2. Money is recorded to the nearest cent because that is the smallest unit in use: 12.48, not 12.481.
+3. A clinical thermometer reads to one decimal place, so 37.6 °C records the instrument's precision; writing 37.63 would claim accuracy the instrument does not have.
+ANSWER: 1,247 (or 1,250 in a newsletter) · 12.48 · 37.6 °C. In each case the precision matches the unit that matters.
+CHECK: Would an extra digit change any decision? If not, the extra digit is decoration rather than information.
+
+@PRACTICE | 1.4 | Comparing, ordering and rounding | SUPPORT 1–4 · CORE 1–8 · EXTENSION 9–12
+- F | Replace each box with $<$, $>$ or $=$: (a) 0.6 $\\square$ 0.58 (b) 2.05 $\\square$ 2.5 (c) 3.4 $\\square$ 3.40 (d) $-1.2 \\square -1.02$ || (a) $>$ (b) $<$ (c) $=$ (d) $<$
+- F | Round 7,463 to (a) the nearest ten (b) the nearest hundred (c) the nearest thousand. || (a) 7,460 (b) 7,500 (c) 7,000
+- F | Round 5.278 to (a) two decimal places (b) one decimal place (c) the nearest whole number. || (a) 5.28 (b) 5.3 (c) 5
+- F | Write these in order from least to greatest: 2.4, $-3$, 0.45, $-0.9$, 2.04. || $-3 < -0.9 < 0.45 < 2.04 < 2.4$
+- R | Tom says “0.305 is larger than 0.35 because it has more digits.” Explain why he is wrong using place value. || Compare tenths: 0.305 has 3 tenths and 0.35 has 3 tenths; compare hundredths: 0 vs 5, so 0.305 < 0.35.
+- R | A number rounds to 6.8 when rounded to one decimal place. Write three possible values of the number. || Any value from 6.75 up to but not including 6.85, such as 6.76, 6.8 and 6.849.
+- P | A runner's time is 12.46 s. The results board shows times to one decimal place. What will be displayed, and what information is lost? || 12.5 s; the hundredths digit (0.06 s) is lost, so two runners could appear tied.
+- P | A shop rounds every price up to the next whole unit. What does a customer pay in total for items priced 3.40, 2.65 and 1.20, and how much more than the exact total? || Rounded prices 4 + 3 + 2 = 9; exact total 7.25; the customer pays 1.75 more.
+- E | Find the smallest and largest whole numbers that round to 500 when rounded to the nearest hundred. || 450 and 549.
+- E | A number rounds to 3.0 to one decimal place and to 3 to the nearest whole number. What can you say about the number, and what can you not say? || It lies between 2.95 and 3.05, so it could be 2.98 or 3.02. You cannot tell its exact value, and you cannot tell whether it is above or below 3.
+- E | Explain why rounding to the nearest hundred and then to the nearest thousand can give a different answer from rounding directly to the nearest thousand. Give an example. || Rounding twice can move a value across a boundary: 3,450 to the nearest hundred is 3,500, which then rounds to 4,000 to the nearest thousand, but 3,450 rounds directly to 3,000.
+- P | The population of a town is reported as 24,000 and later as 23,847. Which report is more useful for (a) a road sign (b) a funding application? Justify both choices. || (a) 24,000: a sign needs scale, not precision. (b) 23,847: a funding formula depends on the exact count.
+
+@SEC | 1.5 | Estimation and sensible accuracy | Criterion D · i, ii, iii
+@LEAD | An estimate is a calculation you can do in your head with numbers you can hold. Its purpose is not to replace the exact answer but to tell you whether the exact answer is plausible.
+@DEF | Estimating by rounding
+To **estimate** a calculation, round each number to a convenient place, carry out the simpler calculation, and state the rounding you used. An estimate should be labelled: “about 8,000, using numbers rounded to the nearest hundred”.
+@H2 | Two habits that make estimates useful
+@LISTU
+- **Round in one direction on purpose.** If you round every number up, the estimate is certainly too high; if you round every number down, it is certainly too low. That knowledge is often more valuable than the estimate itself.
+- **Compare, then decide.** An exact answer far from your estimate suggests a keying error, a misplaced decimal point or a wrong operation. An exact answer close to the estimate is evidence that the calculation is sound.
+@KEY | Front-end estimation
+For a sum, add the leading digits first and then adjust: $4{,}876 + 3{,}142$ is about $4{,}000 + 3{,}000 = 7{,}000$, and the remaining parts add roughly $900 + 100 = 1{,}000$, so the total is about 8,000. Front-end estimation keeps the size of the answer in view while you work.
+
+@EX | 1.5.1 | Estimating a sum and judging the estimate
+GIVEN: $4{,}876 + 3{,}142$.
+ASKED: Estimate the sum, then calculate it exactly and compare.
+METHOD: Round each number to the nearest hundred, add, then compare with the exact value.
+STEPS:
+1. $4{,}876 \\approx 4{,}900$ and $3{,}142 \\approx 3{,}100$.
+2. Estimate: $4{,}900 + 3{,}100 = 8{,}000$.
+3. Exact: $4{,}876 + 3{,}142 = 8{,}018$.
+ANSWER: The estimate is 8,000; the exact sum is 8,018, which is 18 more. The estimate is reasonable: it is within 1% of the exact value.
+CHECK: Both numbers were rounded in opposite directions — one up by 24, one down by 42 — so the estimate should be slightly low, and it is.
+
+@EX | 1.5.2 | Estimating a product in a real context
+GIVEN: A class orders 38 workbooks at 21 units each.
+ASKED: Estimate the total cost and say whether the estimate is more likely to be too high or too low.
+METHOD: Round both factors to convenient numbers whose product is easy, then reason about the direction of the rounding.
+STEPS:
+1. $38 \\approx 40$ (rounded up) and $21 \\approx 20$ (rounded down).
+2. Estimate: $40 \\times 20 = 800$ units.
+3. Exact: $38 \\times 21 = 798$ units.
+ANSWER: About 800 units; the exact cost is 798, so the estimate is 2 units too high. Because one factor was rounded up by 2 and the other down by 1, the two errors nearly cancel.
+CHECK: $38 \\times 21 = 38 \\times 20 + 38 = 760 + 38 = 798$.
+
+@EX | 1.5.3 | Choosing the accuracy the decision needs
+GIVEN: A community centre must buy paint for a wall of area 47.6 m². One litre covers 12 m² and paint is sold only in whole litres.
+ASKED: How many litres should be bought, and why is the rounded calculation not simply “round the answer”?
+METHOD: Calculate, then round in the direction that keeps the job possible.
+STEPS:
+1. $47.6 \\div 12 \\approx 3.97$ litres.
+2. Rounding to the nearest whole litre gives 4 litres — but 4 litres cover $48$ m², which is just enough.
+3. Because paint cannot be bought in part-litres and running short would stop the job, round **up** to the next whole litre: 4 litres.
+ANSWER: 4 litres. Rounding up is a decision about risk, not about the nearest number.
+CHECK: $4 \\times 12 = 48$ m², which is greater than 47.6 m². Three litres would cover only 36 m².
+
+@PRACTICE | 1.5 | Estimation and sensible accuracy | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–10
+- F | Estimate by rounding to the nearest hundred: (a) $687 + 214$ (b) $1{,}240 - 380$ || (a) about 900 (b) about 900
+- F | Estimate by rounding to the nearest ten: (a) $38 \\times 21$ (b) $612 \\div 29$ || (a) about 800 (b) about 20
+- F | Estimate: (a) $4{,}912 + 3{,}087$ (b) $19 \\times 41$ (c) $5{,}980 \\div 31$ || (a) about 8,000 (b) about 800 (c) about 200
+- R | Without calculating, decide whether $49 \times 21$ is greater or less than 1,000. Explain your reasoning. || Greater: $49 > 45$, so $49 \times 21 > 45 \times 21 = 945$ is not enough; use $49 > 50 - 1$, giving $49 \times 21 = 1{,}050 - 21 = 1{,}029$. A quicker check: $49 \times 21 > 49 \times 20 = 980$ and $50 \times 21 = 1{,}050$, so the product lies between 980 and 1,050.
+- P | A ticket costs 18.50. Estimate the cost of 24 tickets and state whether your estimate is above or below the exact cost. || $20 \\times 24 = 480$; exact $= 444$; the estimate is above because the price was rounded up.
+- P | A runner completes 12 laps of a 400 m track and says she ran “about 5 km”. Is the claim reasonable? Show your estimate. || $12 \\times 400 = 4{,}800$ m = 4.8 km, so “about 5 km” is reasonable.
+- E | A shop assistant calculates $39 \\times 49$ and writes 191. Use estimation to show the answer must be wrong, then give the correct value. || $40 \\times 50 = 2{,}000$, so 191 is far too small; correct value $39 \\times 49 = 1{,}911$.
+- E | A budget of 2,000 units is shared between 7 clubs. Estimate each share and explain whether the organiser can promise “about 300 each”. || $2{,}000 \\div 7 \\approx 285$, so “about 300” overstates each share by about 15 units; with 7 clubs that is 105 units overspent.
+- E | Give an example where rounding both numbers up gives an estimate that is more than 10% too high, and explain why the error is larger than usual. || e.g. $19 \\times 19$: rounding to $20 \\times 20 = 400$ against an exact 361 is 10.8% high, because both factors were small and each was increased by more than 5%.
+- P | A newspaper reports that “nearly 2,000 people attended”, while the organisers counted 1,614. Is the report acceptable? Justify your answer with an estimate of the error. || 2,000 overstates by 386, about 24%, so “nearly 2,000” is a significant overstatement; “about 1,600” would be accurate.
+
+@MOVE | F | Investigate and apply | Two tasks: a criterion B investigation and a criterion D application
+@SEC | Investigation 1 | How many numbers can a set of digit cards make? | Criterion B · i, ii, iii
+@LEAD | You have met this idea in the Explore activity. Now treat it as a proper investigation: record systematically, look for a pattern, state a rule and test it.
+@INVEST | Investigation brief
+**Question.** Using each of the digit cards 1, 2, 3 and 4 exactly once, how many different numbers can be made? How does the answer change when a zero card is included?
+**What you need.** Four cards numbered 1, 2, 3 and 4; a second set that replaces one card with a 0; paper for systematic lists.
+**What to produce.** A table of results, a clear statement of any pattern, a general rule with a reason, and a test of the rule on a case you have not used.
+@H2 | Part 1 · Record systematically
+@P | Complete this table for sets of cards without a zero. Use a systematic list — for example, fix the first digit and vary the rest — rather than writing numbers at random.
+@TABLE | Numbers made from distinct non-zero digit cards (copy and complete)
+Number of cards ; One-digit numbers ; Two-digit numbers ; Three-digit numbers ; Four-digit numbers
+1 ;  ; – ; – ; –
+2 ;  ;  ; – ; –
+3 ;  ;  ;  ; –
+4 ;  ;  ;  ; 
+@H2 | Part 2 · Look for structure
+@LISTO
+1. How many two-digit numbers can be made from 1, 2 and 3? List them, then count them by fixing the first digit.
+2. How many three-digit numbers can be made from 1, 2, 3 and 4? Explain your count without listing every number.
+3. Describe how the number of arrangements changes as one more card is added. Write the change as a multiplication.
+4. State a rule for the number of arrangements of $n$ different non-zero cards, used all at once.
+@H2 | Part 3 · Bring in the zero
+@P | Now repeat the count with the cards 0, 1, 2 and 3. A number cannot begin with 0, so some arrangements are not numbers at all.
+@TABLE | Numbers made when one card is a zero
+Cards ; All arrangements ; Arrangements beginning with 0 ; Valid numbers
+0 and 1 ; 2 ; 1 ; 1
+0, 1 and 2 ; 6 ; 2 ; 4
+0, 1, 2 and 3 ;  ;  ; 
+0, 1, 2, 3 and 4 ;  ;  ; 
+@H2 | Part 4 · Explain, generalise and test
+@LISTO
+1. Explain why the number of arrangements that begin with zero is the number of arrangements of the remaining cards.
+2. Write a rule for the number of valid numbers made from $n$ cards, one of which is zero.
+3. Test your rule on a set of five cards. Does it give the count you expect? Show your check.
+4. A classmate claims: “Adding a zero card doubles the number of valid numbers.” Test the claim with two cases and decide whether it is true.
+5. Explain in one paragraph why the zero card changes the count in the way it does.
+@CRIT | Criterion B task · What your report must contain
+**Investigating patterns (strands i–iii).** A systematic record of results; a description of the pattern as a general rule; a verification of the rule against at least one further case; a statement of the limits of your rule, for example whether it requires all the cards to be used.
+@TABLE | Formative rubric · Criterion B (classroom use, not an official IB descriptor)
+Level ; What the work shows
+0 ; The report does not record results in a usable way.
+1–2 ; Some arrangements are listed, but the record is incomplete or unsystematic.
+3–4 ; The record is complete for the cases attempted; a pattern is described in words.
+5–6 ; A correct general rule is stated and supported by a reason; the rule is tested on a new case.
+7–8 ; The rule is justified; the effect of the zero is explained; the limits of the rule are stated and verified.
+
+@SEC | Application 1 | The community noticeboard | Criterion D · i, ii, iii, iv
+@LEAD | The Riverside Community Centre is printing a noticeboard for its annual open day. Every number on the board has to survive being read from three metres away — and every number has to remain honest.
+@APPLY | The brief
+@TABLE | Information the centre has collected
+Item ; Exact figure
+Visitors during the year ; 12,487
+Volunteer hours ; 3,842
+Open-day budget ; 950 units
+Cost of printing per poster ; 2.35 units
+Posters needed ; 24
+Refreshment cost per visitor (planned) ; 1.20 units
+@LISTU
+- The board has room for **six numbers only**.
+- The director wants “numbers people can read at a glance”.
+- The treasurer wants “no number on the board that could be challenged as inaccurate”.
+@H2 | Task 1 · Choose and justify
+@LISTO
+1. Choose six figures for the board and write each one in the precision you would print. For each, state the exact value and the rounding you used.
+2. Which figures must stay exact? Explain why.
+3. Which figures may be rounded, and what does the reader lose by the rounding?
+@H2 | Task 2 · Estimate the open-day costs
+@LISTO
+1. Estimate the total printing cost by rounding the price and the number of posters. State whether your estimate is above or below the exact total.
+2. Calculate the exact printing cost and compare it with your estimate.
+3. If 300 visitors attend, estimate the refreshment cost. Round in the direction that protects the budget, and justify the direction.
+4. Is 950 units enough? Show the figures that support your answer.
+@H2 | Task 3 · Evaluate the wording
+@P | The first draft of the board reads: **“Over 13,000 visitors this year — nearly 4,000 volunteer hours.”**
+@LISTO
+1. Are both statements accurate? Use the exact figures to check each one.
+2. Rewrite the two statements so that they are both readable and honest.
+3. A trustee says, “Rounding up makes the centre look better and nobody checks.” Write a two-sentence reply using the idea of precision from this chapter.
+@CRIT | Criterion D task · What your response must contain
+**Applying mathematics (strands i–iv).** The relevant quantities identified; appropriate rounding chosen for each figure; calculations shown with units; the accuracy of each printed figure justified; a recommendation for the board supported by the numbers.
+
+@SEC | Task C | Explaining place value to a younger student | Criterion C · i, ii, iii, iv
+@LEAD | You have been asked to write one page for a Year 5 mathematics display. Your reader is ten years old and has just met decimals.
+@CRIT | The task
+Write a one-page explanation that answers the question: **why does the position of a digit change its value?**
+Your page must contain:
+@LISTO
+1. One worked example using a whole number and one using a decimal, set out so that a reader can follow every step.
+2. One diagram — a place-value table, a number line or an annotated number — that carries part of the explanation.
+3. One correct sentence about what zero does.
+4. One example of a common mistake, with the correction.
+5. No more than 200 words of continuous text, not counting the diagram or the example.
+@TABLE | Success criteria for this task
+Criterion C strand ; Evidence in your page
+Language and notation (i) ; Place-value vocabulary used correctly: digit, place, value, tenths, hundredths.
+Representation (ii) ; A diagram is used and referred to in the text, not merely attached.
+Reasoning (iii) ; The explanation says why the value changes, not only what happens.
+Organisation (iv) ; A reader can move from the example to the rule without extra help.
+
+@MOVE | G | Reflect and consolidate | Summary, vocabulary, misconceptions, self-assessment and review
+@SEC | Review | Consolidating Chapter 1 | Criterion A · i, ii, iii
+@H2 | What this chapter established
+@LISTU
+- Numbers belong to nested families: natural numbers inside whole numbers, inside integers, inside rational numbers.
+- In base ten, each place is worth ten times the place on its right, so a digit's value depends on its position.
+- Zero has two roles: a number on the line and a placeholder in a written number.
+- Expanded form makes the place-value structure visible and allows a number to be checked and reconstructed.
+- Comparing numbers is a left-to-right comparison of places; the number of digits is irrelevant.
+- Rounding replaces a number by the nearest value at a chosen place; the choice of place is a decision about precision.
+- An estimate is a check on plausibility, not a substitute for an exact answer.
+@H2 | Essential vocabulary
+@TABLE | Vocabulary for Chapter 1
+Term ; Meaning in this course
+Natural number ; A counting number: 1, 2, 3, …
+Whole number ; Zero together with the natural numbers.
+Integer ; Any whole number, positive, negative or zero.
+Rational number ; A number that can be written as a fraction of two integers.
+Place value ; The value a digit has because of its position.
+Expanded form ; A number written as the sum of the values of its digits.
+Standard form ; A number written with digits in the usual way.
+Round ; Replace a number by the nearest value at a stated place.
+Estimate ; An approximate value used to judge plausibility.
+Precision ; The place to which a number has been given or rounded.
+@H2 | Common misconceptions
+@TABLE | Misconception, correction and evidence
+Misconception ; Correction ; Evidence
+“A longer decimal is larger.” ; Compare place by place. ; $0.305 < 0.35$
+“Adding a zero always multiplies by 10.” ; It depends where the zero is written. ; $4.5 = 4.50$ but $4 \\to 40$
+“Zero is a natural number.” ; Counting begins at 1; zero is a whole number. ; $0 \\in \\mathbb{W}$, $0 \\notin \\mathbb{N}$
+“$-8 > -3$ because 8 > 3.” ; The further left, the smaller. ; $-8 < -3$
+“Rounding makes an answer exact.” ; Rounding records precision, not exactness. ; 3,500 could be 3,450 to 3,549
+@H2 | Self-assessment
+@TABLE | How confident are you? Tick one column for each statement
+I can … ; Not yet ; Getting there ; Confident
+classify a number as natural, whole, integer or rational. ;  ;  ; 
+state the value of any digit, including after a decimal point. ;  ;  ; 
+write a number in expanded form and rebuild it. ;  ;  ; 
+order integers and decimals and justify the order. ;  ;  ; 
+round to a stated place and choose a sensible accuracy. ;  ;  ; 
+estimate a calculation and judge the estimate. ;  ;  ; 
+@H2 | Reflection
+@LISTO
+1. Which idea in this chapter changed the way you read a number? Give an example of the change.
+2. Where did you make a mistake this chapter, and what was the first line at which your reasoning went wrong?
+3. Write one sentence beginning “A digit's value depends on …” and one beginning “Zero matters because …”.
+4. When would you prefer an exact number to a rounded one? Describe a situation from your own life.
+5. Which question in this chapter would you like to revisit, and what would you do differently?
+
+@SEC | Review questions | Practice across the whole chapter | Criterion A · i, ii, iii
+@PRACTICE | RQ1 | Applying the chapter | SUPPORT 1–6 · CORE 1–14 · EXTENSION 15–20
+- F | Write “nine thousand and seventy” in digits. || 9,070
+- F | State the value of the digit 6 in 4,632.85. || 600
+- F | Round 8,736 to the nearest hundred. || 8,700
+- F | Order from least to greatest: $-3.4$, $2.05$, $-0.8$, 2.5, 0. || $-3.4 < -0.8 < 0 < 2.05 < 2.5$
+- F | Calculate $4.7 \\times 100$. || 470
+- F | Write $0.36$ in expanded form. || $3 \\times 0.1 + 6 \\times 0.01$
+- R | Explain why 4,050 is not the same as 4,005, using place value. || In 4,050 the 5 is in the tens place (value 50); in 4,005 it is in the ones place (value 5).
+- R | A number rounds to 700 to the nearest hundred and to 1,000 to the nearest thousand. What can you conclude? || The number lies between 650 and 749; it rounds to 1,000 only if it is 650 or more.
+- R | Two students round 2,951 to the nearest hundred. One writes 3,000 and one writes 2,900. Who is correct, and why might the other answer appear? || 3,000 is correct: the tens digit is 5, so round up. 2,900 would come from looking at the wrong digit.
+- P | A box holds 24 packs; each pack holds 18 cards. Estimate the number of cards, then calculate exactly. || About $20 \\times 20 = 400$; exact 432.
+- P | A shop's takings are 1,247 units on Monday and 986 units on Tuesday. Estimate the two-day total and state whether the estimate is above or below the exact total. || About $1{,}200 + 1{,}000 = 2{,}200$; exact 2,233, so the estimate is below.
+- P | The temperature at 06:00 is $-4$ °C. It rises 9 degrees by noon and falls 6 degrees by midnight. What is the midnight temperature? || $-1$ °C
+- C | Write a paragraph of no more than 60 words explaining to a younger student why zero is needed in 305. || Sample: In 305 the zero holds the tens place. Without it the digits would move along and give 35, which is a much smaller number. The zero keeps the 3 worth three hundred and the 5 worth five.
+- C | Write 6,084 in words and in expanded form. || Six thousand and eighty-four; $6 \\times 1{,}000 + 0 \\times 100 + 8 \\times 10 + 4 \\times 1$.
+- E | Find a number that is greater than 3.4 but less than 3.5, and explain how you know it lies between them. || Any number such as 3.45: $3.40 < 3.45 < 3.50$.
+- E | How many whole numbers round to 60 when rounded to the nearest ten? || Ten numbers: 55 to 64.
+- E | The digit 4 appears in the number 4,444 four times. State each of its four values and their sum. || 4,000, 400, 40, 4; sum 4,444.
+- E | Explain why the statement “a number with more digits is always larger” is false for decimals but true for whole numbers. || For whole numbers an extra digit means a higher place value. For decimals, extra digits are to the right of the point and represent smaller parts, so 0.305 < 0.35.
+- P | A museum's collection is 11,846 objects, of which 4,096 are on display. Estimate how many are in storage and state whether your estimate is above or below the exact answer. || About $11{,}800 - 4{,}100 = 7{,}700$; exact 7,750, so the estimate is below.
+
+@SEC | Mixed 1 | Fluency, reasoning and problem solving | Criterion A · i, ii, iii
+@PRACTICE | MX1 | End-of-chapter mixed set | SUPPORT 1–5 · CORE 1–12 · EXTENSION 13–16
+- F | Write the number that is 100 more than 9,950. || 10,050
+- F | Calculate: (a) $6.2 \\times 10$ (b) $340 \\div 100$ (c) $0.07 \\times 1{,}000$ || (a) 62 (b) 3.4 (c) 70
+- F | Round 12.478 to two decimal places and to one decimal place. || 12.48 and 12.5
+- F | Put in order: $-2.5$, $1.05$, $-2.05$, 1.5, $-0.25$. || $-2.5 < -2.05 < -0.25 < 1.05 < 1.5$
+- F | Calculate $3{,}000 + 400 + 5 + 0.6 + 0.02$. || 3,405.62
+- R | Sasha says “2.4 × 100 = 2.400”. Identify the error and give the correct answer. || Multiplying by 100 moves digits two places left: 240. Writing 2.400 changes nothing in value.
+- R | Is 0.7 of a litre more or less than 700 ml? Explain. || Neither: they are equal, because 0.7 L = 700 ml.
+- P | A lift starts at floor 4, goes down 7 floors, then up 3. Where does it finish? || Floor 0.
+- P | Three friends share 2,000 units equally. Estimate each share, then calculate exactly to the nearest unit and state the remainder. || About 667 units each; $2{,}000 \div 3 = 666$ remainder 2, so each receives 666 units and 2 units remain.
+- P | A printer produces 68 pages a minute. Estimate how long it takes to print 2,000 pages. || About $2{,}000 \\div 70 \\approx 28$ minutes; exact $\\approx 29.4$ minutes.
+- C | Explain in two sentences why expanded form is useful when checking a written number. || Expanded form shows the value of every digit, so a digit written in the wrong place produces a sum that does not match the intended number.
+- C | Describe one situation in which rounding to the nearest ten would be misleading. || Example: recording a race time of 12.46 s as 10 s makes two different times look equal and loses the result.
+- E | A number rounds to 5.6 to one decimal place. Write the smallest and largest possible values. || 5.55 and 5.649… (any value below 5.65).
+- E | Find two numbers whose rounded values to the nearest hundred are equal but whose difference is 90. || e.g. 451 and 541 (both round to 500).
+- E | Explain what happens to a number's value when a zero is inserted between the decimal point and the first non-zero digit. Use an example. || Every digit moves one place to the right, so the number is divided by 10: 0.5 becomes 0.05.
+- E | A sign says “2,000 m to the summit”. The actual distance is 1,760 m. Estimate the percentage of overstatement and comment on whether the sign is acceptable. || About 240 m, roughly 13.6% too large; the sign overstates the distance noticeably and should read “about 1.8 km”.
+
+@SEC | Cumulative practice 1 | Questions that mix this chapter with earlier ones | Criterion A · i, ii
+@PRACTICE | CP1 | Cumulative practice | SUPPORT 1–3 · CORE 1–6 · EXTENSION 7–8
+- F | Write the value of the digit 7 in 27,405. || 7,000
+- F | Round 6.847 to two decimal places. || 6.85
+- R | Explain why 2.5 and 2.05 are not equal. || 2.5 = 2.50, and 50 hundredths is greater than 5 hundredths.
+- R | Explain why rounding can change the answer to a subtraction. || Rounded values are not the original values, so differences can shift.
+- P | A shop rounds prices to the nearest unit. What is the greatest possible error for a price shown as 40? || 0.5 units
+- P | Write 3,048 in words. || Three thousand and forty-eight
+- C | Explain how zero makes 305 different from 35. || The zero holds the tens place, so the 3 means 300, not 3 tens.
+- E | Find two numbers that round to 60 to the nearest ten. || Any values from 55 to 64, such as 57 and 63.
